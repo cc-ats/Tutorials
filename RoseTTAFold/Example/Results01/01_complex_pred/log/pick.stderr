@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/van/Programs/RoseTTAFold/DAN-msa/pick_final_models.div.py", line 113, in <module>
+    pool = mp.Pool(n_core_pool)
+  File "/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/lib/python3.7/multiprocessing/context.py", line 119, in Pool
+    context=self.get_context())
+  File "/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/lib/python3.7/multiprocessing/pool.py", line 169, in __init__
+    raise ValueError("Number of processes must be at least 1")
+ValueError: Number of processes must be at least 1

@@ -1,0 +1,332 @@
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ date
++ module load CUDA/11.3.1
+++ /opt/oscer/software/lmod/lmod/libexec/lmod bash load CUDA/11.3.1
++ eval '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/oscer/software/CUDA/11.3.1:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/oscer/software/CUDA/11.3.1;' export 'CMAKE_PREFIX_PATH;' '__LMOD_REF_COUNT_CPATH=/opt/oscer/software/CUDA/11.3.1/nvvm/include:1\;/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/include:1\;/opt/oscer/software/CUDA/11.3.1/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/oscer/software/CUDA/11.3.1/nvvm/include:/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/include:/opt/oscer/software/CUDA/11.3.1/include;' export 'CPATH;' 'CUDA_HOME=/opt/oscer/software/CUDA/11.3.1;' export 'CUDA_HOME;' 'CUDA_PATH=/opt/oscer/software/CUDA/11.3.1;' export 'CUDA_PATH;' 'CUDA_ROOT=/opt/oscer/software/CUDA/11.3.1;' export 'CUDA_ROOT;' 'EBDEVELCUDA=/opt/oscer/software/CUDA/11.3.1/easybuild/CUDA-11.3.1-easybuild-devel;' export 'EBDEVELCUDA;' 'EBROOTCUDA=/opt/oscer/software/CUDA/11.3.1;' export 'EBROOTCUDA;' 'EBVERSIONCUDA=11.3.1;' export 'EBVERSIONCUDA;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/lib64:1\;/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/lib64:1\;/opt/oscer/software/CUDA/11.3.1/lib:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/lib64:/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/lib64:/opt/oscer/software/CUDA/11.3.1/lib;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/stubs/lib64:1\;/opt/oscer/software/CUDA/11.3.1/lib:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/stubs/lib64:/opt/oscer/software/CUDA/11.3.1/lib;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=CUDA/11.3.1:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=CUDA/11.3.1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MODULEPATH=/opt/oscer/modulefiles/Linux:1\;/opt/oscer/modulefiles/all:1\;/opt/oscer/software/modulefiles/Linux:1\;/opt/oscer/software/modulefiles/Core:1\;/opt/oscer/software/lmod/lmod/modulefiles/Core:1;' export '__LMOD_REF_COUNT_MODULEPATH;' 'MODULEPATH=/opt/oscer/modulefiles/Linux:/opt/oscer/modulefiles/all:/opt/oscer/software/modulefiles/Linux:/opt/oscer/software/modulefiles/Core:/opt/oscer/software/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/bin:1\;/opt/oscer/software/CUDA/11.3.1/bin:1\;/usr/lib64/qt-3.3/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/TurboVNC/bin:1\;/opt/dell/srvadmin/bin:1\;/home/van/.local/bin:1\;/home/van/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin;' export 'PATH;' '__LMOD_REF_COUNT_XDG_DATA_DIRS=/opt/oscer/software/CUDA/11.3.1/share:1\;/home/van/.local/share/flatpak/exports/share:1\;/var/lib/flatpak/exports/share:1\;/usr/local/share:1\;/usr/share:1;' export '__LMOD_REF_COUNT_XDG_DATA_DIRS;' 'XDG_DATA_DIRS=/opt/oscer/software/CUDA/11.3.1/share:/home/van/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share;' export 'XDG_DATA_DIRS;' '__LMOD_REF_COUNT__LMFILES_=/opt/oscer/modulefiles/all/CUDA/11.3.1.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/oscer/modulefiles/all/CUDA/11.3.1.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtDVURBPXtbImZuIl09Ii9vcHQvb3NjZXIvbW9kdWxlZmlsZXMvYWxsL0NVREEvMTEuMy4xLmx1YSIsWyJmdWxsTmFtZSJdPSJDVURBLzExLjMuMSIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkNVREEvMTEuMy4xIix9LH0sbXBhdGhBPXsiL29wdC9vc2Nlci9tb2R1bGVmaWxlcy9MaW51eCIsIi9vcHQvb3NjZXIvbW9kdWxlZmlsZXMvYWxsIiwiL29wdC9vc2Nlci9zb2Z0d2FyZS9tb2R1bGVmaWxlcy9MaW51;' export '_ModuleTable001_;' '_ModuleTable002_=eCIsIi9vcHQvb3NjZXIvc29mdHdhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi9vcHQvb3NjZXIvc29mdHdhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vc2Nlci9tb2R1bGVmaWxlcy9MaW51eDovb3B0L29zY2VyL21vZHVsZWZpbGVzL2FsbDovb3B0L29zY2VyL3NvZnR3YXJlL21vZHVsZWZpbGVzL0xpbnV4Oi9vcHQvb3NjZXIvc29mdHdhcmUvbW9kdWxlZmlsZXMvQ29yZTovb3B0L29zY2VyL3NvZnR3YXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9;' export '_ModuleTable002_;' '_ModuleTable_Sz_=2;' export '_ModuleTable_Sz_;'
+++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/oscer/software/CUDA/11.3.1:1
+++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
+++ CMAKE_PREFIX_PATH=/opt/oscer/software/CUDA/11.3.1
+++ export CMAKE_PREFIX_PATH
+++ __LMOD_REF_COUNT_CPATH='/opt/oscer/software/CUDA/11.3.1/nvvm/include:1;/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/include:1;/opt/oscer/software/CUDA/11.3.1/include:1'
+++ export __LMOD_REF_COUNT_CPATH
+++ CPATH=/opt/oscer/software/CUDA/11.3.1/nvvm/include:/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/include:/opt/oscer/software/CUDA/11.3.1/include
+++ export CPATH
+++ CUDA_HOME=/opt/oscer/software/CUDA/11.3.1
+++ export CUDA_HOME
+++ CUDA_PATH=/opt/oscer/software/CUDA/11.3.1
+++ export CUDA_PATH
+++ CUDA_ROOT=/opt/oscer/software/CUDA/11.3.1
+++ export CUDA_ROOT
+++ EBDEVELCUDA=/opt/oscer/software/CUDA/11.3.1/easybuild/CUDA-11.3.1-easybuild-devel
+++ export EBDEVELCUDA
+++ EBROOTCUDA=/opt/oscer/software/CUDA/11.3.1
+++ export EBROOTCUDA
+++ EBVERSIONCUDA=11.3.1
+++ export EBVERSIONCUDA
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/oscer/software/CUDA/11.3.1/nvvm/lib64:1;/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/lib64:1;/opt/oscer/software/CUDA/11.3.1/lib:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/lib64:/opt/oscer/software/CUDA/11.3.1/extras/CUPTI/lib64:/opt/oscer/software/CUDA/11.3.1/lib
+++ export LD_LIBRARY_PATH
+++ __LMOD_REF_COUNT_LIBRARY_PATH='/opt/oscer/software/CUDA/11.3.1/stubs/lib64:1;/opt/oscer/software/CUDA/11.3.1/lib:1'
+++ export __LMOD_REF_COUNT_LIBRARY_PATH
+++ LIBRARY_PATH=/opt/oscer/software/CUDA/11.3.1/stubs/lib64:/opt/oscer/software/CUDA/11.3.1/lib
+++ export LIBRARY_PATH
+++ __LMOD_REF_COUNT_LOADEDMODULES=CUDA/11.3.1:1
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=CUDA/11.3.1
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MODULEPATH='/opt/oscer/modulefiles/Linux:1;/opt/oscer/modulefiles/all:1;/opt/oscer/software/modulefiles/Linux:1;/opt/oscer/software/modulefiles/Core:1;/opt/oscer/software/lmod/lmod/modulefiles/Core:1'
+++ export __LMOD_REF_COUNT_MODULEPATH
+++ MODULEPATH=/opt/oscer/modulefiles/Linux:/opt/oscer/modulefiles/all:/opt/oscer/software/modulefiles/Linux:/opt/oscer/software/modulefiles/Core:/opt/oscer/software/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/oscer/software/CUDA/11.3.1/nvvm/bin:1;/opt/oscer/software/CUDA/11.3.1/bin:1;/usr/lib64/qt-3.3/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/TurboVNC/bin:1;/opt/dell/srvadmin/bin:1;/home/van/.local/bin:1;/home/van/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
+++ export PATH
+++ __LMOD_REF_COUNT_XDG_DATA_DIRS='/opt/oscer/software/CUDA/11.3.1/share:1;/home/van/.local/share/flatpak/exports/share:1;/var/lib/flatpak/exports/share:1;/usr/local/share:1;/usr/share:1'
+++ export __LMOD_REF_COUNT_XDG_DATA_DIRS
+++ XDG_DATA_DIRS=/opt/oscer/software/CUDA/11.3.1/share:/home/van/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+++ export XDG_DATA_DIRS
+++ __LMOD_REF_COUNT__LMFILES_=/opt/oscer/modulefiles/all/CUDA/11.3.1.lua:1
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/oscer/modulefiles/all/CUDA/11.3.1.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtDVURBPXtbImZuIl09Ii9vcHQvb3NjZXIvbW9kdWxlZmlsZXMvYWxsL0NVREEvMTEuMy4xLmx1YSIsWyJmdWxsTmFtZSJdPSJDVURBLzExLjMuMSIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkNVREEvMTEuMy4xIix9LH0sbXBhdGhBPXsiL29wdC9vc2Nlci9tb2R1bGVmaWxlcy9MaW51eCIsIi9vcHQvb3NjZXIvbW9kdWxlZmlsZXMvYWxsIiwiL29wdC9vc2Nlci9zb2Z0d2FyZS9tb2R1bGVmaWxlcy9MaW51
+++ export _ModuleTable001_
+++ _ModuleTable002_=eCIsIi9vcHQvb3NjZXIvc29mdHdhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi9vcHQvb3NjZXIvc29mdHdhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vc2Nlci9tb2R1bGVmaWxlcy9MaW51eDovb3B0L29zY2VyL21vZHVsZWZpbGVzL2FsbDovb3B0L29zY2VyL3NvZnR3YXJlL21vZHVsZWZpbGVzL0xpbnV4Oi9vcHQvb3NjZXIvc29mdHdhcmUvbW9kdWxlZmlsZXMvQ29yZTovb3B0L29zY2VyL3NvZnR3YXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9
+++ export _ModuleTable002_
+++ _ModuleTable_Sz_=2
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
+++ /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda shell.bash hook
++ eval 'export CONDA_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
+++ export CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
+++ CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin
+++ PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
+++ conda activate base
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate base
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate base
++++ __add_sys_prefix_to_path
++++ '[' -n '' ']'
+++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
++++ SYSP=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin
+++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin
++++ SYSP=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
++++ '[' -n '' ']'
++++ PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
++++ export PATH
++++ /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda shell.posix activate base
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin'\''
+export CONDA_PREFIX='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin'\''
+export CONDA_PREFIX='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
++++ PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
++++ export CONDA_PREFIX=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
++++ CONDA_PREFIX=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
++++ CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ subunit1=pard
++ subunit2=pare
++ MAKE_MSA=/home/van/Programs/RoseTTAFold/input_prep/make_msa.sh
+++ pwd
++ WDIR=/home/van/MacroMol_Modelling_Tutorial/03_rosettafold/Results01/01_complex_pred
++ PIPEDIR=/home/van/Programs/RoseTTAFold
+++ cat pard.fa
+++ grep -v '>'
+++ wc -c
++ n_1=98
+++ cat pare.fa
+++ grep -v '>'
+++ wc -c
++ n_2=80
++ CPU=8
++ MEM=15
++ conda activate folding
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate folding
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate folding
+++ __add_sys_prefix_to_path
+++ '[' -n '' ']'
++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
+++ SYSP=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin
++++ dirname /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin
+++ SYSP=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
+++ '[' -n '' ']'
+++ PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
+++ export PATH
+++ /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda shell.posix activate folding
++ ask_conda='PS1='\''(folding) '\''
+export PATH='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin'\''
+export CONDA_PREFIX='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''folding'\''
+export CONDA_PROMPT_MODIFIER='\''(folding) '\''
+export CONDA_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3'\'''
++ eval 'PS1='\''(folding) '\''
+export PATH='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin'\''
+export CONDA_PREFIX='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''folding'\''
+export CONDA_PROMPT_MODIFIER='\''(folding) '\''
+export CONDA_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3'\'''
+++ PS1='(folding) '
+++ export PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
+++ PATH=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding/bin:/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/condabin:/opt/oscer/software/CUDA/11.3.1/nvvm/bin:/opt/oscer/software/CUDA/11.3.1/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/TurboVNC/bin:/opt/dell/srvadmin/bin:/home/van/.local/bin:/home/van/bin
+++ export CONDA_PREFIX=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding
+++ CONDA_PREFIX=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=folding
+++ CONDA_DEFAULT_ENV=folding
+++ export 'CONDA_PROMPT_MODIFIER=(folding) '
+++ CONDA_PROMPT_MODIFIER='(folding) '
+++ export CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
+++ CONDA_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/bin/python
+++ export CONDA_PREFIX_1=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
+++ CONDA_PREFIX_1=/ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ echo /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/folding
++ mkdir -p /home/van/MacroMol_Modelling_Tutorial/03_rosettafold/Results01/01_complex_pred/pdb-3track
++ complex=paparde
+++ cat /home/van/MacroMol_Modelling_Tutorial/03_rosettafold/Results01/01_complex_pred/parallel.fold.list
+++ wc -l
++ N=1
++ parallel -j 8

@@ -1,0 +1,1 @@
+python -u /home/van/Programs/RoseTTAFold/folding/RosettaTR.py --roll -r 3 -pd 0.05 -m 0 -sg 7,3 complex.npz paparde.fa pdb-3track/model0_0_0.05.pdb

@@ -1,0 +1,13 @@
+- 10:57:12.332 INFO: Input file = paired.a3m
+
+- 10:57:12.332 INFO: Output file = filtered.a3m
+
+Traceback (most recent call last):
+  File "predict_msa.py", line 102, in <module>
+    pred.predict(args.msa, args.npz, args.L1)
+  File "predict_msa.py", line 67, in predict
+    msa = parse_a3m(a3m_fn)
+  File "/home/van/Programs/RoseTTAFold/network_2track/parsers.py", line 21, in parse_a3m
+    for line in open(filename,"r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'subunit1.a3m'
+Using backend: pytorch

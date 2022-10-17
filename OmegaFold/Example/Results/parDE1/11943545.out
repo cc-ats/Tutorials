@@ -1,0 +1,17 @@
+Tue Sep 20 17:03:44 CDT 2022
+c307.oscer.ou.edu
+INFO:root:Loading weights from /home/van/.cache/omegafold_ckpt/model.pt
+INFO:root:Constructing OmegaFold
+INFO:root:Reading paparde.fasta
+INFO:root:Predicting 1th chain in paparde.fasta
+INFO:root:79 residues in this chain.
+INFO:root:Finished prediction in 38.46 seconds.
+INFO:root:Saving prediction to ./ParE.pdb
+INFO:root:Saved
+INFO:root:Predicting 2th chain in paparde.fasta
+INFO:root:97 residues in this chain.
+INFO:root:Finished prediction in 50.21 seconds.
+INFO:root:Saving prediction to ./ParD.pdb
+INFO:root:Saved
+INFO:root:Done!
+Tue Sep 20 17:09:18 CDT 2022

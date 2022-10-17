@@ -1,0 +1,604 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_A0A1C7BNM5/1-93     DE [subseq from] Uncharacterized protein n=52 Tax=Pseudomonadales TaxID=72274 RepID=A0A1C7BNM5_PSEAI
+#=GS UniRef90_A0A069QL22/1-93     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=16 Tax=Gammaproteobacteria TaxID=1236 RepID=A0A069QL22_PSEAI
+#=GS UniRef90_UPI001049340F/8-93  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas aeruginosa TaxID=287 RepID=UPI001049340F
+#=GS UniRef90_UPI001AB0453D/1-90  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=unknown TaxID=N/A RepID=UPI001AB0453D
+#=GS UniRef90_UPI00106A55C0/1-67  DE [subseq from] type II toxin-antitoxin system toxin ParE n=1 Tax=Pseudomonas aeruginosa TaxID=287 RepID=UPI00106A55C0
+#=GS UniRef90_A0A1H0C5A9/1-89     DE [subseq from] Plasmid stabilization system protein ParE n=1 Tax=Pseudomonas jinjuensis TaxID=198616 RepID=A0A1H0C5A9_9PSED
+#=GS UniRef90_M4WS84/1-90         DE [subseq from] Plasmid stabilization system protein n=19 Tax=Pseudomonas TaxID=286 RepID=M4WS84_9PSED
+#=GS UniRef90_A0A024HAA2/1-90     DE [subseq from] Uncharacterized protein n=11 Tax=Proteobacteria TaxID=1224 RepID=A0A024HAA2_PSEKB
+#=GS UniRef90_A0A1G8LV09/1-90     DE [subseq from] Plasmid stabilization system protein ParE n=1 Tax=Pseudomonas panipatensis TaxID=428992 RepID=A0A1G8LV09_9PSED
+#=GS UniRef90_S6GVL3/2-86         DE [subseq from] Uncharacterized protein n=2 Tax=Pseudomonas TaxID=286 RepID=S6GVL3_9PSED
+#=GS UniRef90_UPI00123FEE8B/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=UPI00123FEE8B
+#=GS UniRef90_UPI000F57F4C2/2-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas chlororaphis TaxID=587753 RepID=UPI000F57F4C2
+#=GS UniRef90_UPI000F02DDBA/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas viridiflava TaxID=33069 RepID=UPI000F02DDBA
+#=GS UniRef90_J2Y8X3/2-85         DE [subseq from] Plasmid stabilization system protein, RelE/ParE family, putative n=3 Tax=Pseudomonas TaxID=286 RepID=J2Y8X3_PSEFL
+#=GS UniRef90_A0A2T4F146/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas baetica TaxID=674054 RepID=A0A2T4F146_9PSED
+#=GS UniRef90_UPI0009EAAFF6/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas TaxID=286 RepID=UPI0009EAAFF6
+#=GS UniRef90_G8QB48/2-85         DE [subseq from] Plasmid stabilization system family protein n=30 Tax=Pseudomonas TaxID=286 RepID=G8QB48_PSEF3
+#=GS UniRef90_A0A7C2BAU2/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas TaxID=286 RepID=A0A7C2BAU2_9PSED
+#=GS UniRef90_UPI0013712341/7-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonadaceae TaxID=135621 RepID=UPI0013712341
+#=GS UniRef90_A0A098SR76/1-85     DE [subseq from] Plasmid stabilization protein ParE n=1 Tax=Pseudomonas lutea TaxID=243924 RepID=A0A098SR76_9PSED
+#=GS UniRef90_UPI0011A22E93/2-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=unclassified Pseudomonas TaxID=196821 RepID=UPI0011A22E93
+#=GS UniRef90_A0A2S3VSF8/3-85     DE [subseq from] Plasmid stabilization protein ParE n=5 Tax=Pseudomonadaceae TaxID=135621 RepID=A0A2S3VSF8_9PSED
+#=GS UniRef90_UPI0009DAEB98/5-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=unclassified Pseudomonas TaxID=196821 RepID=UPI0009DAEB98
+#=GS UniRef90_A0A2K4L2G7/4-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. DP16D-R1 TaxID=2075551 RepID=A0A2K4L2G7_9PSED
+#=GS UniRef90_UPI000D60BF83/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas prosekii TaxID=1148509 RepID=UPI000D60BF83
+#=GS UniRef90_UPI00040D88C5/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas fuscovaginae TaxID=50340 RepID=UPI00040D88C5
+#=GS UniRef90_A0A083UQ76/3-85     DE [subseq from] Plasmid stabilization protein ParE n=6 Tax=Pseudomonas TaxID=286 RepID=A0A083UQ76_PSEPU
+#=GS UniRef90_A0A1I4JBM1/3-85     DE [subseq from] Plasmid stabilization system protein ParE n=1 Tax=Azotobacter beijerinckii TaxID=170623 RepID=A0A1I4JBM1_9GAMM
+#=GS UniRef90_A0A3D4NGR9/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. TaxID=306 RepID=A0A3D4NGR9_PSESP
+#=GS UniRef90_A0A2K9LYE9/2-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=A0A2K9LYE9_PSEFL
+#=GS UniRef90_UPI000A8DD2C6/2-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. NFACC45 TaxID=1566201 RepID=UPI000A8DD2C6
+#=GS UniRef90_A0A0M2RNA6/7-85     DE [subseq from] Plasmid stabilization protein ParE n=2 Tax=Pseudomonas TaxID=286 RepID=A0A0M2RNA6_PSEST
+#=GS UniRef90_A0A0S8Z929/3-85     DE [subseq from] Plasmid stabilization protein ParE n=1 Tax=Pseudomonas sp. Leaf48 TaxID=1736221 RepID=A0A0S8Z929_9PSED
+#=GS UniRef90_UPI000A002867/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas batumici TaxID=226910 RepID=UPI000A002867
+#=GS UniRef90_UPI00139079A9/4-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. TNT3 TaxID=2654097 RepID=UPI00139079A9
+#=GS UniRef90_A0A1P8EXR3/2-85     DE [subseq from] Plasmid stabilization protein ParE n=6 Tax=Pseudomonas TaxID=286 RepID=A0A1P8EXR3_9PSED
+#=GS UniRef90_A0A495MBT8/3-85     DE [subseq from] Plasmid stabilization system protein ParE n=2 Tax=unclassified Pseudomonas TaxID=196821 RepID=A0A495MBT8_9PSED
+#=GS UniRef90_UPI000F031AC4/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas viridiflava TaxID=33069 RepID=UPI000F031AC4
+#=GS UniRef90_A0A6I6SSQ3/5-85     DE [subseq from] Plasmid stabilization protein ParE n=2 Tax=unclassified Pseudomonas TaxID=196821 RepID=A0A6I6SSQ3_9PSED
+#=GS UniRef90_A0A0G3GH05/2-85     DE [subseq from] Plasmid stabilization protein ParE n=3 Tax=Pseudomonas TaxID=286 RepID=A0A0G3GH05_9PSED
+#=GS UniRef90_UPI000BA35231/5-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=Pseudomonas TaxID=286 RepID=UPI000BA35231
+#=GS UniRef90_A0A481QS54/4-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. DTU12.3 TaxID=2073078 RepID=A0A481QS54_9PSED
+#=GS UniRef90_A0A3L0W5C6/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=15 Tax=Proteobacteria TaxID=1224 RepID=A0A3L0W5C6_ECOLX
+#=GS UniRef90_UPI00123FD851/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=UPI00123FD851
+#=GS UniRef90_UPI000BA4A126/2-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. Irchel s3b2 TaxID=2009073 RepID=UPI000BA4A126
+#=GS UniRef90_A0A7G2N276/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=10 Tax=Pseudomonadaceae TaxID=135621 RepID=A0A7G2N276_PSESP
+#=GS UniRef90_A0A1V9UW88/1-85     DE [subseq from] Plasmid stabilization protein ParE n=1 Tax=Pseudomonas sp. Bc-h TaxID=1943632 RepID=A0A1V9UW88_9PSED
+#=GS UniRef90_UPI0018685BA2/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Dickeya dianthicola TaxID=204039 RepID=UPI0018685BA2
+#=GS UniRef90_A0A5E7BVY8/5-85     DE [subseq from] Uncharacterized protein n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=A0A5E7BVY8_PSEFL
+#=GS UniRef90_UPI0003A5F8F3/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=4 Tax=Pectobacteriaceae TaxID=1903410 RepID=UPI0003A5F8F3
+#=GS UniRef90_A0A0Q8D7R2/4-85     DE [subseq from] Plasmid stabilization protein ParE n=4 Tax=Pseudomonas TaxID=286 RepID=A0A0Q8D7R2_9PSED
+#=GS UniRef90_A0A6A7Z371/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas helleri TaxID=1608996 RepID=A0A6A7Z371_9PSED
+#=GS UniRef90_A0A7Y1EIP9/1-87     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas poae TaxID=200451 RepID=A0A7Y1EIP9_9PSED
+#=GS UniRef90_UPI000A1F3FBB/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. R37(2017) TaxID=1981685 RepID=UPI000A1F3FBB
+#=GS UniRef90_A0A7Y7XEB7/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas gingeri TaxID=117681 RepID=A0A7Y7XEB7_9PSED
+#=GS UniRef90_UPI000F580FA7/3-86  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas orientalis TaxID=76758 RepID=UPI000F580FA7
+#=GS UniRef90_A0A2A4AUA6/8-86     DE [subseq from] Plasmid stabilization protein ParE n=1 Tax=Pseudomonas pelagia TaxID=553151 RepID=A0A2A4AUA6_9PSED
+#=GS UniRef90_A0A5C5PU35/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas saxonica TaxID=2600598 RepID=A0A5C5PU35_9PSED
+#=GS UniRef90_UPI000CE68D1F/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pectobacterium brasiliense TaxID=180957 RepID=UPI000CE68D1F
+#=GS UniRef90_UPI0009E38652/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas abietaniphila TaxID=89065 RepID=UPI0009E38652
+#=GS UniRef90_A0A7I7C7I9/2-84     DE [subseq from] Uncharacterized protein n=1 Tax=Pseudomonas monteilii TaxID=76759 RepID=A0A7I7C7I9_9PSED
+#=GS UniRef90_A0A7Y7YFM3/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=7 Tax=Pseudomonas gingeri TaxID=117681 RepID=A0A7Y7YFM3_9PSED
+#=GS UniRef90_UPI0012412097/15-94 DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=UPI0012412097
+#=GS UniRef90_A0A6I7G6R6/5-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=4 Tax=Pseudomonas TaxID=286 RepID=A0A6I7G6R6_PSEFL
+#=GS UniRef90_UPI00192510CA/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Zobellella sp. CGMCC 1.18722 TaxID=2803811 RepID=UPI00192510CA
+#=GS UniRef90_A0A3R8U3H9/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. v388 TaxID=2479849 RepID=A0A3R8U3H9_9PSED
+#=GS UniRef90_A0A3Q9JQ93/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=7 Tax=Pectobacteriaceae TaxID=1903410 RepID=A0A3Q9JQ93_PECPM
+#=GS UniRef90_A0A0F0F188/4-83     DE [subseq from] Plasmid stabilization protein ParE n=5 Tax=Pseudomonas TaxID=286 RepID=A0A0F0F188_9PSED
+#=GS UniRef90_A0A1H0LAG9/4-85     DE [subseq from] Plasmid stabilization protein ParE n=3 Tax=Pseudomonas TaxID=286 RepID=A0A1H0LAG9_9PSED
+#=GS UniRef90_A0A0N0G502/4-85     DE [subseq from] Plasmid stabilization system family protein n=32 Tax=Pseudomonas TaxID=286 RepID=A0A0N0G502_PSEAV
+#=GS UniRef90_A0A2N8BTD0/5-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. FW306-2-11AA TaxID=2070663 RepID=A0A2N8BTD0_9PSED
+#=GS UniRef90_A0A7D5DAM3/4-87     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas TaxID=286 RepID=A0A7D5DAM3_9PSED
+#=GS UniRef90_A0A0Q0BWR6/4-85     DE [subseq from] Plasmid stabilization system family protein n=50 Tax=Pseudomonadaceae TaxID=135621 RepID=A0A0Q0BWR6_PSEAP
+#=GS UniRef90_UPI000F04D4C6/2-81  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas viridiflava TaxID=33069 RepID=UPI000F04D4C6
+#=GS UniRef90_A0A0B5FSE4/1-83     DE [subseq from] Toxin Y4kP n=1 Tax=Geoalkalibacter subterraneus TaxID=483547 RepID=A0A0B5FSE4_9DELT
+#=GS UniRef90_A0A077LPQ3/2-83     DE [subseq from] Uncharacterized protein n=1 Tax=Pseudomonas sp. StFLB209 TaxID=1028989 RepID=A0A077LPQ3_9PSED
+#=GS UniRef90_A0A0X8GRM9/1-85     DE [subseq from] Plasmid stabilization protein n=3 Tax=Betaproteobacteria TaxID=28216 RepID=A0A0X8GRM9_9BURK
+#=GS UniRef90_A0A3A4CHV4/1-84     DE [subseq from] Toxin RelE2 n=38 Tax=Pectobacteriaceae TaxID=1903410 RepID=A0A3A4CHV4_9GAMM
+#=GS UniRef90_A0A6S4VQ08/1-85     DE [subseq from] Plasmid stabilization protein n=6 Tax=Aeromonas TaxID=642 RepID=A0A6S4VQ08_9GAMM
+#=GS UniRef90_A0A4P8TXQ5/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=9 Tax=Yersiniaceae TaxID=1903411 RepID=A0A4P8TXQ5_SERFO
+#=GS UniRef90_UPI000E3C357B/3-86  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonadaceae TaxID=135621 RepID=UPI000E3C357B
+#=GS UniRef90_A0A097SR28/1-86     DE [subseq from] Toxin n=3 Tax=Bacteria TaxID=2 RepID=A0A097SR28_9BACT
+#=GS UniRef90_B9M549/1-84         DE [subseq from] Toxin, RelE family n=1 Tax=Geobacter daltonii (strain DSM 22248 / JCM 15807 / FRC-32) TaxID=316067 RepID=B9M549_GEODF
+#=GS UniRef90_UPI000B793EAE/6-87  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Azotobacter chroococcum TaxID=353 RepID=UPI000B793EAE
+#=GS UniRef90_A0A7W7ZRD1/1-84     DE [subseq from] Plasmid stabilization system protein ParE n=1 Tax=Granulicella mallensis TaxID=940614 RepID=A0A7W7ZRD1_9BACT
+#=GS UniRef90_G7LV35/1-84         DE [subseq from] Plasmid stabilization system n=19 Tax=Pectobacteriaceae TaxID=1903410 RepID=G7LV35_9GAMM
+#=GS UniRef90_UPI001AAF9750/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Brenneria sp. Ir50 TaxID=2722756 RepID=UPI001AAF9750
+#=GS UniRef90_A0A1F4FBA9/2-84     DE [subseq from] Uncharacterized protein n=1 Tax=Betaproteobacteria bacterium RIFCSPLOWO2_12_FULL_68_20 TaxID=1797505 RepID=A0A1F4FBA9_9PROT
+#=GS UniRef90_A0A3S8ZWY7/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Iodobacter sp. H11R3 TaxID=2496266 RepID=A0A3S8ZWY7_9NEIS
+#=GS UniRef90_A0A6S4TAR2/1-84     DE [subseq from] Plasmid stabilization protein n=9 Tax=Gammaproteobacteria TaxID=1236 RepID=A0A6S4TAR2_AERCA
+#=GS UniRef90_A0A7V8ZP50/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Burkholderiales bacterium TaxID=1891238 RepID=A0A7V8ZP50_9BURK
+#=GS UniRef90_UPI000A00F46E/3-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas massiliensis TaxID=522492 RepID=UPI000A00F46E
+#=GS UniRef90_A0A6L9KKY2/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Rhodoferax sp. TaxID=50421 RepID=A0A6L9KKY2_9BURK
+#=GS UniRef90_A0A1W9KQM1/1-85     DE [subseq from] Addiction module antitoxin n=2 Tax=Burkholderiales TaxID=80840 RepID=A0A1W9KQM1_9BURK
+#=GS UniRef90_A0A0P0BUC5/10-94    DE [subseq from] Plasmid stabilization protein n=7 Tax=Shewanella TaxID=22 RepID=A0A0P0BUC5_9GAMM
+#=GS UniRef90_A0A1J5EMU9/1-84     DE [subseq from] Toxin Y4kP n=2 Tax=Deltaproteobacteria TaxID=28221 RepID=A0A1J5EMU9_9DELT
+#=GS UniRef90_A0A089YP73/4-85     DE [subseq from] Plasmid stabilization protein ParE n=6 Tax=Pseudomonas TaxID=286 RepID=A0A089YP73_9PSED
+#=GS UniRef90_A0A2X4TNM4/4-90     DE [subseq from] Plasmid stabilisation system protein n=10 Tax=Serratia TaxID=613 RepID=A0A2X4TNM4_SERPL
+#=GS UniRef90_A0A353CV06/1-84     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Candidatus Andersenbacteria bacterium TaxID=2053502 RepID=A0A353CV06_9BACT
+#=GS UniRef90_A0A177E8X7/4-86     DE [subseq from] Uncharacterized protein n=1 Tax=Thermodesulfatator autotrophicus TaxID=1795632 RepID=A0A177E8X7_9BACT
+#=GS UniRef90_A0A209ALU4/1-84     DE [subseq from] Plasmid stabilization protein n=6 Tax=Yersinia frederiksenii TaxID=29484 RepID=A0A209ALU4_YERFR
+#=GS UniRef90_A0A2C7A8H7/2-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Roseomonas rhizosphaerae TaxID=1335062 RepID=A0A2C7A8H7_9PROT
+#=GS UniRef90_A0A1F6SAI3/1-84     DE [subseq from] Uncharacterized protein n=2 Tax=unclassified Candidatus Melainabacteria TaxID=1897007 RepID=A0A1F6SAI3_9BACT
+#=GS UniRef90_A0A6G7PTX9/4-86     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Thermosulfuriphilus ammonigenes TaxID=1936021 RepID=A0A6G7PTX9_9BACT
+#=GS UniRef90_A0A661QPB7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A661QPB7_9DELT
+#=GS UniRef90_UPI000A1D6DB4/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=unclassified Pseudomonas TaxID=196821 RepID=UPI000A1D6DB4
+#=GS UniRef90_A0A1F4C4S6/3-84     DE [subseq from] Uncharacterized protein n=1 Tax=Betaproteobacteria bacterium RIFCSPLOWO2_12_FULL_64_23 TaxID=1797499 RepID=A0A1F4C4S6_9PROT
+#=GS UniRef90_A0A380TJB2/1-83     DE [subseq from] Putative toxin Y4kP n=1 Tax=metagenome TaxID=256318 RepID=A0A380TJB2_9ZZZZ
+#=GS UniRef90_UPI0013EF2944/1-72  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas syringae TaxID=317 RepID=UPI0013EF2944
+#=GS UniRef90_UPI000D61F14C/1-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Brenneria roseae TaxID=1509241 RepID=UPI000D61F14C
+#=GS UniRef90_A0A1F4E287/1-84     DE [subseq from] Uncharacterized protein n=1 Tax=Betaproteobacteria bacterium RIFCSPLOWO2_12_FULL_62_58 TaxID=1797497 RepID=A0A1F4E287_9PROT
+#=GS UniRef90_UPI0009E2D6D6/2-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfovibrio sp. TomC TaxID=1562888 RepID=UPI0009E2D6D6
+#=GS UniRef90_A0A3N0V6Y3/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomethylobacillus aquaticus TaxID=2676064 RepID=A0A3N0V6Y3_9PROT
+#=GS UniRef90_A0A4R8HY76/1-83     DE [subseq from] Addiction module RelE/StbE family toxin n=3 Tax=unclassified Methylosinus TaxID=2624500 RepID=A0A4R8HY76_9RHIZ
+#=GS UniRef90_D5CQG1/1-83         DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Sideroxydans lithotrophicus (strain ES-1) TaxID=580332 RepID=D5CQG1_SIDLE
+#=GS UniRef90_A0A087L2L5/1-84     DE [subseq from] Plasmid stabilization protein n=1 Tax=Serratia sp. Ag1 TaxID=1524467 RepID=A0A087L2L5_9GAMM
+#=GS UniRef90_A8G7S6/1-85         DE [subseq from] Plasmid stabilization system n=11 Tax=Serratia TaxID=613 RepID=A8G7S6_SERP5
+#=GS UniRef90_UPI0004919A73/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfomicrobium escambiense TaxID=29503 RepID=UPI0004919A73
+#=GS UniRef90_A0A266N677/4-85     DE [subseq from] Plasmid stabilization protein ParE n=6 Tax=Pseudomonas TaxID=286 RepID=A0A266N677_9PSED
+#=GS UniRef90_A0A7Y7NF88/2-82     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfuromonadales bacterium TaxID=2099678 RepID=A0A7Y7NF88_9DELT
+#=GS UniRef90_A0A502ILK6/4-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas caspiana TaxID=1451454 RepID=A0A502ILK6_9PSED
+#=GS UniRef90_UPI000C07D3C6/4-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. ICMP 561 TaxID=1718918 RepID=UPI000C07D3C6
+#=GS UniRef90_D6Z4N0/1-84         DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Desulfurivibrio alkaliphilus (strain DSM 19089 / UNIQEM U267 / AHT2) TaxID=589865 RepID=D6Z4N0_DESAT
+#=GS UniRef90_A5G524/1-84         DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Geobacter uraniireducens (strain Rf4) TaxID=351605 RepID=A5G524_GEOUR
+#=GS UniRef90_A0A1T2YVU0/5-85     DE [subseq from] Plasmid stabilization protein ParE n=13 Tax=Pseudomonas TaxID=286 RepID=A0A1T2YVU0_PSEFL
+#=GS UniRef90_A0A1E4IJ06/1-84     DE [subseq from] Plasmid stabilization protein n=1 Tax=Rubrivivax sp. SCN 71-131 TaxID=1660138 RepID=A0A1E4IJ06_9BURK
+#=GS UniRef90_A0A1F9VAI9/1-83     DE [subseq from] Uncharacterized protein n=1 Tax=Elusimicrobia bacterium RBG_16_66_12 TaxID=1797940 RepID=A0A1F9VAI9_9BACT
+#=GS UniRef90_A0A220ISZ9/1-83     DE [subseq from] ParE n=5 Tax=Vibrio TaxID=662 RepID=A0A220ISZ9_VIBCL
+#=GS UniRef90_UPI000487F964/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Bradyrhizobium sp. Ai1a-2 TaxID=196490 RepID=UPI000487F964
+#=GS UniRef90_A0A094S0R3/6-88     DE [subseq from] Plasmid stabilization protein n=8 Tax=Pectobacterium TaxID=122277 RepID=A0A094S0R3_9GAMM
+#=GS UniRef90_T0YV21/1-84         DE [subseq from] Plasmid stabilization system (Fragment) n=1 Tax=mine drainage metagenome TaxID=410659 RepID=T0YV21_9ZZZZ
+#=GS UniRef90_A0A1I9WJN2/4-85     DE [subseq from] Plasmid stabilization protein ParE n=13 Tax=Pseudomonas TaxID=286 RepID=A0A1I9WJN2_PSEFR
+#=GS UniRef90_A0A3C1FYX0/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Nitrospiraceae bacterium TaxID=2026770 RepID=A0A3C1FYX0_9BACT
+#=GS UniRef90_A0A5E7P4P7/4-85     DE [subseq from] Uncharacterized protein n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=A0A5E7P4P7_PSEFL
+#=GS UniRef90_A0A2V9T161/1-83     DE [subseq from] Uncharacterized protein n=1 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2V9T161_9BACT
+#=GS UniRef90_A0A0D6BE31/1-85     DE [subseq from] Plasmid stabilization system family protein n=9 Tax=Pseudomonas TaxID=286 RepID=A0A0D6BE31_9PSED
+#=GS UniRef90_A0A539EKL8/1-83     DE [subseq from] RelE/StbE family addiction module toxin n=1 Tax=Elusimicrobia bacterium TaxID=2030800 RepID=A0A539EKL8_9BACT
+#=GS UniRef90_A0A2N2G7J4/1-84     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Deltaproteobacteria bacterium HGW-Deltaproteobacteria-23 TaxID=2013751 RepID=A0A2N2G7J4_9DELT
+#=GS UniRef90_UPI0018C26F00/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Methylocystis sp. H62 TaxID=2785789 RepID=UPI0018C26F00
+#=GS UniRef90_D5MH45/1-81         DE [subseq from] Uncharacterized protein n=1 Tax=Candidatus Methylomirabilis oxyfera TaxID=671143 RepID=D5MH45_9BACT
+#=GS UniRef90_A0A7Y7NRM0/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Geobacteraceae bacterium TaxID=2282154 RepID=A0A7Y7NRM0_9DELT
+#=GS UniRef90_A0R864/2-83         DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Pelobacter propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) TaxID=338966 RepID=A0R864_PELPD
+#=GS UniRef90_A0A3M4E271/4-85     DE [subseq from] Uncharacterized protein n=4 Tax=Pseudomonas syringae group TaxID=136849 RepID=A0A3M4E271_PSESS
+#=GS UniRef90_A0A127HY64/1-85     DE [subseq from] Plasmid stabilization protein n=30 Tax=Pseudomonas TaxID=286 RepID=A0A127HY64_PSEAZ
+#=GS UniRef90_A0A537AHF0/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Betaproteobacteria bacterium TaxID=1891241 RepID=A0A537AHF0_9PROT
+#=GS UniRef90_A0A1V3SIT1/1-85     DE [subseq from] Addiction module antitoxin n=1 Tax=Hydrogenophaga sp. A37 TaxID=1945864 RepID=A0A1V3SIT1_9BURK
+#=GS UniRef90_A0A6I1MRE6/7-91     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Duganella sp. FT27W TaxID=2654636 RepID=A0A6I1MRE6_9BURK
+#=GS UniRef90_UPI000970B01B/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Shewanella morhuae TaxID=365591 RepID=UPI000970B01B
+#=GS UniRef90_A0A211ZG47/1-83     DE [subseq from] Addiction module toxin RelE n=1 Tax=Inquilinus limosus TaxID=171674 RepID=A0A211ZG47_9PROT
+#=GS UniRef90_A0A0T9LQQ8/1-84     DE [subseq from] Plasmid stabilisation system protein n=3 Tax=Yersinia kristensenii TaxID=28152 RepID=A0A0T9LQQ8_YERKR
+#=GS UniRef90_UPI0018DB4A7F/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Nostoc sp. CENA67 TaxID=2653702 RepID=UPI0018DB4A7F
+#=GS UniRef90_E6XG05/1-85         DE [subseq from] Plasmid stabilization system n=1 Tax=Shewanella putrefaciens (strain 200) TaxID=399804 RepID=E6XG05_SHEP2
+#=GS UniRef90_UPI0005BADB2C/2-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Belnapia sp. F-4-1 TaxID=1545443 RepID=UPI0005BADB2C
+#=GS UniRef90_C6BVJ5/1-84         DE [subseq from] Plasmid stabilization system n=1 Tax=Desulfovibrio salexigens (strain ATCC 14822 / DSM 2638 / NCIMB 8403 / VKM B-1763) TaxID=526222 RepID=C6BVJ5_DESAD
+#=GS UniRef90_D5MKP3/1-81         DE [subseq from] Uncharacterized protein n=1 Tax=Candidatus Methylomirabilis oxyfera TaxID=671143 RepID=D5MKP3_9BACT
+#=GS UniRef90_A0A3B1D942/13-98    DE [subseq from] Death on curing protein, Doc toxin n=2 Tax=hydrothermal vent metagenome TaxID=652676 RepID=A0A3B1D942_9ZZZZ
+#=GS UniRef90_A0A1F9RSL5/3-83     DE [subseq from] Uncharacterized protein n=2 Tax=unclassified Elusimicrobia TaxID=1797919 RepID=A0A1F9RSL5_9BACT
+#=GS UniRef90_A0A662CB96/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Bacteroidetes bacterium TaxID=1898104 RepID=A0A662CB96_9BACT
+#=GS UniRef90_A0A7X9TTU0/5-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas sp. SWRI 103 TaxID=2725411 RepID=A0A7X9TTU0_9PSED
+#=GS UniRef90_A0A1Q4PBN3/1-84     DE [subseq from] Plasmid stabilization protein n=13 Tax=Enterobacteriaceae TaxID=543 RepID=A0A1Q4PBN3_ECOLX
+#=GS UniRef90_A0A3G7AF49/1-85     DE [subseq from] Death on curing protein, Doc toxin n=5 Tax=Pseudomonas TaxID=286 RepID=A0A3G7AF49_9PSED
+#=GS UniRef90_A0A259FDA8/1-84     DE [subseq from] Plasmid stabilization protein n=2 Tax=Proteobacteria TaxID=1224 RepID=A0A259FDA8_9PROT
+#=GS UniRef90_UPI0015BD5110/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Nostoc sp. TCL26-01 TaxID=2576904 RepID=UPI0015BD5110
+#=GS UniRef90_UPI00145C3DC9/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Aromatoleum bremense TaxID=76115 RepID=UPI00145C3DC9
+#=GS UniRef90_A0A5R8QNB2/2-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylocystis sp. B8 TaxID=544938 RepID=A0A5R8QNB2_9RHIZ
+#=GS UniRef90_A0A7C1TXM9/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A7C1TXM9_9GAMM
+#=GS UniRef90_A0A2N2GP75/1-84     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Deltaproteobacteria bacterium HGW-Deltaproteobacteria-3 TaxID=2013753 RepID=A0A2N2GP75_9DELT
+#=GS UniRef90_A0A2W0BH84/1-84     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2W0BH84_9BACT
+#=GS UniRef90_UPI001A9630EC/2-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Rubritepida sp. SYSU D01096 TaxID=2811429 RepID=UPI001A9630EC
+#=GS UniRef90_A0A7V5KX66/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfobulbaceae bacterium TaxID=2053307 RepID=A0A7V5KX66_9DELT
+#=GS UniRef90_A0A536UI10/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Betaproteobacteria bacterium TaxID=1891241 RepID=A0A536UI10_9PROT
+#=GS UniRef90_A0A0T9V0A7/1-84     DE [subseq from] Plasmid stabilisation system protein n=3 Tax=Yersinia TaxID=629 RepID=A0A0T9V0A7_YERIN
+#=GS UniRef90_UPI001422B328/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Massilia genomosp. 1 TaxID=2609280 RepID=UPI001422B328
+#=GS UniRef90_A0A6P0PC39/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=unclassified Okeania TaxID=2634635 RepID=A0A6P0PC39_9CYAN
+#=GS UniRef90_A0A1E5EME2/1-84     DE [subseq from] Plasmid stabilization protein n=21 Tax=Vibrionaceae TaxID=641 RepID=A0A1E5EME2_9VIBR
+#=GS UniRef90_A0A0N1B2C6/1-83     DE [subseq from] Uncharacterized protein n=1 Tax=Bosea sp. AAP35 TaxID=1523417 RepID=A0A0N1B2C6_9BRAD
+#=GS UniRef90_A0A3C0NSU4/1-85     DE [subseq from] Plasmid stabilization protein n=2 Tax=Methylophilaceae bacterium TaxID=2030816 RepID=A0A3C0NSU4_9PROT
+#=GS UniRef90_A0A4R7B893/1-86     DE [subseq from] Addiction module RelE/StbE family toxin n=1 Tax=Paludibacterium purpuratum TaxID=1144873 RepID=A0A4R7B893_9NEIS
+#=GS UniRef90_A0A521XSH1/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A521XSH1_9GAMM
+#=GS UniRef90_A0A661DC27/2-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A661DC27_9GAMM
+#=GS UniRef90_A0A431K6N3/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Proteobacteria TaxID=1224 RepID=A0A431K6N3_9BURK
+#=GS UniRef90_A0A520FVH8/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Variovorax sp. TaxID=1871043 RepID=A0A520FVH8_9BURK
+#=GS UniRef90_A0A3B1A0C2/1-84     DE [subseq from] Death on curing protein, Doc toxin n=1 Tax=hydrothermal vent metagenome TaxID=652676 RepID=A0A3B1A0C2_9ZZZZ
+#=GS UniRef90_UPI00069504D7/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfovibrio alcoholivorans TaxID=81406 RepID=UPI00069504D7
+#=GS UniRef90_A0A3D3SVX6/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Burkholderiales bacterium TaxID=1891238 RepID=A0A3D3SVX6_9BURK
+#=GS UniRef90_A0A3D2AJ15/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Oceanospirillaceae bacterium TaxID=1899355 RepID=A0A3D2AJ15_9GAMM
+#=GS UniRef90_UPI000E0D3EF8/1-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Rhodoferax sp. OTU1 TaxID=2109322 RepID=UPI000E0D3EF8
+#=GS UniRef90_A0A7V1AHY7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Nitrospirae bacterium TaxID=2026887 RepID=A0A7V1AHY7_9BACT
+#=GS UniRef90_A0A0A1H9Z6/2-85     DE [subseq from] Plasmid stabilization system protein, RelE/ParE family n=1 Tax=Burkholderiales bacterium GJ-E10 TaxID=1469502 RepID=A0A0A1H9Z6_9BURK
+#=GS UniRef90_A0A2N9LFQ6/6-88     DE [subseq from] Putative toxin Y4kP n=1 Tax=Acidobacteriia bacterium SbA2 TaxID=2043162 RepID=A0A2N9LFQ6_9BACT
+#=GS UniRef90_UPI0018C28936/1-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylosinus sp. H3A TaxID=2785786 RepID=UPI0018C28936
+#=GS UniRef90_UPI0011A2DEB9/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Geobacter argillaceus TaxID=345631 RepID=UPI0011A2DEB9
+#=GS UniRef90_A0A149VV95/2-82     DE [subseq from] Toxin RelE4 n=2 Tax=Ferrovum sp. Z-31 TaxID=1789004 RepID=A0A149VV95_9PROT
+#=GS UniRef90_A0A3G7VD68/2-61     DE [subseq from] Plasmid stabilization system family protein n=1 Tax=Pseudomonas synxantha TaxID=47883 RepID=A0A3G7VD68_9PSED
+#=GS UniRef90_A0A6I1WRP6/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=5 Tax=Pseudomonas TaxID=286 RepID=A0A6I1WRP6_9PSED
+#=GS UniRef90_A0A1F9LZY5/1-84     DE [subseq from] Uncharacterized protein n=1 Tax=Deltaproteobacteria bacterium RIFOXYD12_FULL_57_12 TaxID=1797906 RepID=A0A1F9LZY5_9DELT
+#=GS UniRef90_A0A7C8AFD4/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A7C8AFD4_9DELT
+#=GS UniRef90_T0ZH49/1-85         DE [subseq from] Plasmid stabilization system n=1 Tax=mine drainage metagenome TaxID=410659 RepID=T0ZH49_9ZZZZ
+#=GS UniRef90_A0A0J6RFG5/1-85     DE [subseq from] Plasmid stabilization protein n=2 Tax=Chromobacterium TaxID=535 RepID=A0A0J6RFG5_9NEIS
+#=GS UniRef90_UPI0014397828/4-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas sp. LY10J TaxID=2787783 RepID=UPI0014397828
+#=GS UniRef90_A0A444JGW3/1-84     DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Candidatus Electrothrix marina TaxID=1859130 RepID=A0A444JGW3_9DELT
+#=GS UniRef90_A0A1J5IHH4/5-79     DE [subseq from] Uncharacterized protein n=2 Tax=unclassified Syntrophobacteraceae TaxID=869804 RepID=A0A1J5IHH4_9DELT
+#=GS UniRef90_A0A0J6KLG1/2-85     DE [subseq from] Plasmid stabilization protein n=2 Tax=unclassified Chromobacterium TaxID=2641838 RepID=A0A0J6KLG1_9NEIS
+#=GS UniRef90_UPI001567605C/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Aquincola sp. S2 TaxID=2732868 RepID=UPI001567605C
+#=GS UniRef90_A0A1V9V536/1-87     DE [subseq from] Plasmid stabilization protein n=3 Tax=Pseudomonas TaxID=286 RepID=A0A1V9V536_9PSED
+#=GS UniRef90_A0A2V9TJJ4/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2V9TJJ4_9BACT
+#=GS UniRef90_A0A534VQV2/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A534VQV2_9DELT
+#=GS UniRef90_UPI0016727D95/1-86  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Vogesella fluminis TaxID=1069161 RepID=UPI0016727D95
+#=GS UniRef90_N6YQB5/1-85         DE [subseq from] RelE/StbE family addiction module toxin n=1 Tax=Thauera phenylacetica B4P TaxID=1234382 RepID=N6YQB5_9RHOO
+#=GS UniRef90_A0A7C3GRA1/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A7C3GRA1_9GAMM
+#=GS UniRef90_A0A2W1NAN4/2-80     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Pseudomonas TaxID=286 RepID=A0A2W1NAN4_9PSED
+#=GS UniRef90_A0A521Y7H4/2-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A521Y7H4_9GAMM
+#=GS UniRef90_A0A6P0HXB0/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=unclassified Okeania TaxID=2634635 RepID=A0A6P0HXB0_9CYAN
+#=GS UniRef90_A0A6N9SSF3/2-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Ferrovum sp. TaxID=2609467 RepID=A0A6N9SSF3_9PROT
+#=GS UniRef90_UPI000B95116F/1-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Klebsiella pneumoniae TaxID=573 RepID=UPI000B95116F
+#=GS UniRef90_A0A554UAB3/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Mycobacterium sp. KBS0706 TaxID=2578109 RepID=A0A554UAB3_9MYCO
+#=GS UniRef90_UPI001073EB55/2-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Terasakiella sp. SH-1 TaxID=2560057 RepID=UPI001073EB55
+#=GS UniRef90_A0A3E1RFG6/2-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Rhodoferax sp. IMCC26218 TaxID=2184758 RepID=A0A3E1RFG6_9BURK
+#=GS UniRef90_A0A0H5MF66/1-84     DE [subseq from] Plasmid stabilisation system protein n=2 Tax=Yersinia TaxID=629 RepID=A0A0H5MF66_YERIN
+#=GS UniRef90_UPI00048F305F/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Burkholderia sp. UYPR1.413 TaxID=1080179 RepID=UPI00048F305F
+#=GS UniRef90_A0A3N9V9V1/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Geobacter sp. TaxID=46610 RepID=A0A3N9V9V1_9DELT
+#=GS UniRef90_A0A6P0RG11/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Okeania sp. SIO3I5 TaxID=2607805 RepID=A0A6P0RG11_9CYAN
+#=GS UniRef90_UPI000A802F74/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Limnohabitans sp. DM1 TaxID=1597955 RepID=UPI000A802F74
+#=GS UniRef90_A0A7C8EMR0/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A7C8EMR0_9DELT
+#=GS UniRef90_A0A364LHZ5/1-83     DE [subseq from] Toxin Y4kP n=2 Tax=Legionella TaxID=445 RepID=A0A364LHZ5_9GAMM
+#=GS UniRef90_UPI0015A9A917/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=endosymbiont of Lamellibrachia barhami TaxID=205975 RepID=UPI0015A9A917
+#=GS UniRef90_A0A6N6TD07/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Candidatus Contendobacter sp. TaxID=2651161 RepID=A0A6N6TD07_9GAMM
+#=GS UniRef90_A0A371WNK8/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylovirgula sp. 4M-Z18 TaxID=2293567 RepID=A0A371WNK8_9RHIZ
+#=GS UniRef90_B1G6V8/1-83         DE [subseq from] Addiction module toxin, RelE/StbE family n=8 Tax=Burkholderiaceae TaxID=119060 RepID=B1G6V8_PARG4
+#=GS UniRef90_UPI00123F1E30/2-55  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=UPI00123F1E30
+#=GS UniRef90_A0A0Q6NYC0/1-84     DE [subseq from] Plasmid stabilization protein n=1 Tax=Variovorax sp. Root318D1 TaxID=1736513 RepID=A0A0Q6NYC0_9BURK
+#=GS UniRef90_UPI001242D824/1-85  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas fluorescens TaxID=294 RepID=UPI001242D824
+#=GS UniRef90_A0A1G7E039/1-84     DE [subseq from] Plasmid stabilization system protein ParE n=1 Tax=Variovorax sp. CF079 TaxID=1882774 RepID=A0A1G7E039_9BURK
+#=GS UniRef90_A0A2A4VMR1/4-87     DE [subseq from] Plasmid stabilization protein n=2 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A2A4VMR1_9GAMM
+#=GS UniRef90_A0A7V2S9H1/2-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Aeromonadales bacterium TaxID=2268177 RepID=A0A7V2S9H1_9GAMM
+#=GS UniRef90_A0A2W0BV10/2-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=2 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2W0BV10_9BACT
+#=GS UniRef90_A0A2N0V507/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=3 Tax=unclassified Methylomonas TaxID=2608980 RepID=A0A2N0V507_9GAMM
+#=GS UniRef90_A0A1Y6JVI0/1-86     DE [subseq from] Uncharacterized protein n=14 Tax=Pseudomonadaceae TaxID=135621 RepID=A0A1Y6JVI0_PSEVI
+#=GS UniRef90_A0A1M3BZX7/4-83     DE [subseq from] Uncharacterized protein n=2 Tax=Burkholderiales TaxID=80840 RepID=A0A1M3BZX7_9BURK
+#=GS UniRef90_UPI00196884C2/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylococcus sp. EFPC2 TaxID=2812648 RepID=UPI00196884C2
+#=GS UniRef90_UPI000462B4B8/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfotignum balticum TaxID=115781 RepID=UPI000462B4B8
+#=GS UniRef90_A0A258YT84/1-84     DE [subseq from] Uncharacterized protein n=2 Tax=unclassified Hydrogenophilales TaxID=1798413 RepID=A0A258YT84_9PROT
+#=GS UniRef90_A0A350Y884/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Cyanobacteria bacterium UBA11370 TaxID=2055769 RepID=A0A350Y884_9CYAN
+#=GS UniRef90_A0A315DF67/1-83     DE [subseq from] Addiction module antitoxin n=2 Tax=unclassified Limnohabitans TaxID=2626134 RepID=A0A315DF67_9BURK
+#=GS UniRef90_A0A2P5LYV2/1-84     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=4 Tax=unclassified Methylocystis TaxID=2625913 RepID=A0A2P5LYV2_9RHIZ
+#=GS UniRef90_A0A2M7X5Q5/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Xanthomonadales bacterium CG_4_9_14_3_um_filter_62_6 TaxID=1974107 RepID=A0A2M7X5Q5_9GAMM
+#=GS UniRef90_A0A117KHZ8/1-83     DE [subseq from] Addiction module antitoxin n=3 Tax=Halomonas TaxID=2745 RepID=A0A117KHZ8_9GAMM
+#=GS UniRef90_A0A661Q477/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A661Q477_9DELT
+#=GS UniRef90_A0A0Q9I9P4/1-83     DE [subseq from] Uncharacterized protein n=1 Tax=Bosea sp. Root483D1 TaxID=1736544 RepID=A0A0Q9I9P4_9BRAD
+#=GS UniRef90_A0A3P1ZQX4/16-55    DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfovibrio sp. OH1186_COT-070 TaxID=2491045 RepID=A0A3P1ZQX4_9DELT
+#=GS UniRef90_UPI000D759246/1-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Sinimarinibacterium flocculans TaxID=985250 RepID=UPI000D759246
+#=GS UniRef90_A0A522V8G7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylococcaceae bacterium TaxID=1933926 RepID=A0A522V8G7_9GAMM
+#=GS UniRef90_A0A2N2TTZ3/1-84     DE [subseq from] Uncharacterized protein n=1 Tax=Betaproteobacteria bacterium HGW-Betaproteobacteria-17 TaxID=2013708 RepID=A0A2N2TTZ3_9PROT
+#=GS UniRef90_A0A2H0G2Z8/1-84     DE [subseq from] Uncharacterized protein n=1 Tax=Hydrogenophilales bacterium CG18_big_fil_WC_8_21_14_2_50_58_12 TaxID=1974036 RepID=A0A2H0G2Z8_9PROT
+#=GS UniRef90_A0A7C1WM45/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Proteobacteria bacterium TaxID=1977087 RepID=A0A7C1WM45_9PROT
+#=GS UniRef90_UPI001AE8B8FF/1-85  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Rhizobium galegae TaxID=399 RepID=UPI001AE8B8FF
+#=GS UniRef90_A0A503SPN5/2-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Mesorhizobium sp. B2-3-12 TaxID=2589952 RepID=A0A503SPN5_9RHIZ
+#=GS UniRef90_A0A1F9LIF7/1-83     DE [subseq from] Uncharacterized protein n=2 Tax=unclassified Deltaproteobacteria TaxID=122706 RepID=A0A1F9LIF7_9DELT
+#=GS UniRef90_A0A7G6TS25/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Mesorhizobium TaxID=68287 RepID=A0A7G6TS25_RHILI
+#=GS UniRef90_A0A1W2BQP7/1-84     DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Polynucleobacter sp. VK13 TaxID=1938817 RepID=A0A1W2BQP7_9BURK
+#=GS UniRef90_UPI0005A18D94/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=Aromatoleum TaxID=551759 RepID=UPI0005A18D94
+#=GS UniRef90_V4P985/1-83         DE [subseq from] Uncharacterized protein n=1 Tax=Asticcacaulis benevestitus DSM 16100 = ATCC BAA-896 TaxID=1121022 RepID=V4P985_9CAUL
+#=GS UniRef90_UPI0002D98F0B/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Mastigocladopsis repens TaxID=221287 RepID=UPI0002D98F0B
+#=GS UniRef90_A0A346MVY6/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=2 Tax=Solimonas sp. K1W22B-7 TaxID=2303331 RepID=A0A346MVY6_9GAMM
+#=GS UniRef90_A0A3E1SEN0/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=Oxalobacteraceae TaxID=75682 RepID=A0A3E1SEN0_9BURK
+#=GS UniRef90_UPI0018C34FB3/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Methylosinus sp. H3A TaxID=2785786 RepID=UPI0018C34FB3
+#=GS UniRef90_A0A496X0X4/1-86     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A496X0X4_9GAMM
+#=GS UniRef90_A0A3A4VVU3/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A3A4VVU3_9GAMM
+#=GS UniRef90_A0A2T3J6E7/1-87     DE [subseq from] Plasmid stabilization protein n=1 Tax=Photobacterium frigidiphilum TaxID=264736 RepID=A0A2T3J6E7_9GAMM
+#=GS UniRef90_A0A1F9MEE1/2-83     DE [subseq from] Toxin Y4kP n=1 Tax=Deltaproteobacteria bacterium RIFOXYD12_FULL_53_23 TaxID=1797903 RepID=A0A1F9MEE1_9DELT
+#=GS UniRef90_A0A7I8MH61/1-83     DE [subseq from] Death on curing protein, Doc toxin n=1 Tax=Olavius algarvensis associated proteobacterium Delta 3 TaxID=426688 RepID=A0A7I8MH61_9DELT
+#=GS UniRef90_A0A7C8F8X7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfuromonadales bacterium TaxID=2099678 RepID=A0A7C8F8X7_9DELT
+#=GS UniRef90_A0A1R4H9U9/1-83     DE [subseq from] Addiction module toxin, RelE/StbE family n=1 Tax=Crenothrix polyspora TaxID=360316 RepID=A0A1R4H9U9_9GAMM
+#=GS UniRef90_A0A1G0DL78/1-83     DE [subseq from] Uncharacterized protein n=1 Tax=Gallionellales bacterium RIFCSPLOWO2_02_60_31 TaxID=1798253 RepID=A0A1G0DL78_9PROT
+#=GS UniRef90_A0A2M8URQ3/1-85     DE [subseq from] Plasmid stabilization protein n=3 Tax=Pseudomonas TaxID=286 RepID=A0A2M8URQ3_PSESP
+#=GS UniRef90_UPI001AA6A7D6/8-91  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=unknown TaxID=N/A RepID=UPI001AA6A7D6
+#=GS UniRef90_A0A3A0EQD2/2-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Proteobacteria bacterium TaxID=1977087 RepID=A0A3A0EQD2_9PROT
+#=GS UniRef90_A0A432V0C7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudaminobacter arsenicus TaxID=1851146 RepID=A0A432V0C7_9RHIZ
+#=GS UniRef90_A0A7X6AI19/1-83     DE [subseq from] Type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Candidatus Aminicenantes bacterium TaxID=2052149 RepID=A0A7X6AI19_9BACT
+#=GS UniRef90_S6AG89/1-85         DE [subseq from] Uncharacterized protein n=3 Tax=Pseudomonas TaxID=286 RepID=S6AG89_PSERE
+#=GS UniRef90_A0A7K3NLS2/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfovibrio sulfodismutans TaxID=63561 RepID=A0A7K3NLS2_9DELT
+#=GS UniRef90_UPI001491720F/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=2 Tax=unclassified Roseobacter TaxID=196798 RepID=UPI001491720F
+#=GS UniRef90_UPI001459819F/1-84  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Desulfovibrio piger TaxID=901 RepID=UPI001459819F
+#=GS UniRef90_A0A4V4R981/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=Bacteria TaxID=2 RepID=A0A4V4R981_9BACT
+#=GS UniRef90_A0A7Y8AWI1/3-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=6 Tax=Pseudomonas TaxID=286 RepID=A0A7Y8AWI1_9PSED
+#=GS UniRef90_A0A4Q7D684/1-85     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=13 Tax=Pseudomonadaceae TaxID=135621 RepID=A0A4Q7D684_9PSED
+#=GS UniRef90_A0A3B1BEB7/17-102   DE [subseq from] Death on curing protein, Doc toxin n=1 Tax=hydrothermal vent metagenome TaxID=652676 RepID=A0A3B1BEB7_9ZZZZ
+#=GS UniRef90_A0A3A3GAE7/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Noviherbaspirillum sp. K1S02-23 TaxID=2320865 RepID=A0A3A3GAE7_9BURK
+#=GS UniRef90_A0A1J5RAK2/1-84     DE [subseq from] Toxin RelE2 n=1 Tax=mine drainage metagenome TaxID=410659 RepID=A0A1J5RAK2_9ZZZZ
+#=GS UniRef90_A0A557NUK1/1-84     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=3 Tax=Vibrionaceae TaxID=641 RepID=A0A557NUK1_9VIBR
+#=GS UniRef90_A0A521WGD5/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A521WGD5_9GAMM
+#=GS UniRef90_W0BBM0/1-83         DE [subseq from] Addiction module toxin, RelE/StbE family n=3 Tax=Legionella TaxID=445 RepID=W0BBM0_9GAMM
+#=GS UniRef90_A0A522USL4/1-83     DE [subseq from] Type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Nitrospirae bacterium TaxID=2026887 RepID=A0A522USL4_9BACT
+#=GS UniRef90_A0A2V8ZJP4/1-88     DE [subseq from] Uncharacterized protein n=1 Tax=Acidobacteria bacterium TaxID=1978231 RepID=A0A2V8ZJP4_9BACT
+#=GS UniRef90_UPI0011F0ABDC/2-83  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Siccirubricoccus sp. 1-3 TaxID=2595053 RepID=UPI0011F0ABDC
+#=GS UniRef90_UPI0003008D32/1-84  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Granulicella mallensis TaxID=940614 RepID=UPI0003008D32
+#=GS UniRef90_K2C208/2-83         DE [subseq from] Addiction module toxin, RelE/StbE family n=3 Tax=Bacteria TaxID=2 RepID=K2C208_9BACT
+#=GS UniRef90_UPI000F86B2C0/1-86  DE [subseq from] type II toxin-antitoxin system RelE/ParE family toxin n=1 Tax=Pseudomonas aeruginosa group TaxID=136841 RepID=UPI000F86B2C0
+#=GS UniRef90_UPI000424AEDC/1-83  DE [subseq from] type II toxin-antitoxin system mRNA interferase toxin, RelE/StbE family n=1 Tax=Methylobacter luteus TaxID=415 RepID=UPI000424AEDC
+
+chain_A                              GSHMMSLKWTRKAAADLDAIYDHYVVLIGPEKALKAVQDIVEQVK--P-LQQ-V--A--N-Q--GA-GRPS-EVPGVRTLTLERWPFSAPFRVK--GK--E-IQILRIDRVEITP
+UniRef90_A0A1C7BNM5/1-93             ----MSLKWTRKAAADLDAIYDHYVVLIGPEKALKAIQDIVEQVK--P-LQQ-V--A--N-Q--GA-GRPS-EVPGVRTLTLERWPFSAPFRVK--GK--E-IQILRIDRVEITP
+UniRef90_A0A069QL22/1-93             ----MSLKWTRKAAADLDTIYDHYVVLIGPEKALKAVQDIVEQVK--P-LQQ-V--A--N-Q--GA-GRPS-EVPGVRTLTLERWPFSAPFRVK--GK--E-IQILRIDRVEITP
+UniRef90_UPI001049340F/8-93          -----------RIHADLDAIYDHYVVLIGPEKALKAVQDIVEQVK--P-LQQ-V--A--N-Q--GA-GRPS-EVPGVRTLTLERWPFSAPFRVK--GK--E-IQILRIDRVEITP
+UniRef90_UPI001AB0453D/1-90          ----MSLLWTHKAAADLDGIYDHYVVLIGPEKALKAIQDIVGQVR--P-LQD-P--A--L-G--SS-GKPS-EVPGVRELEIERWPFVTAFRVK--GR--N-VEILRVDRVE---
+UniRef90_UPI00106A55C0/1-67          ----MSLKWTRKAAADLDAIYDHYVVLIGPEKALKAVQDIVEQVK--P-LQQ-V--A--N-Q--GA-GRPS-EVPGVRTLTMER-------------------------------
+UniRef90_A0A1H0C5A9/1-89             ----MSLLWSHKAAADLDAIYDHYVVLIGPEKALKAIQDILGQVK--P-LQD-P--A--L-G--SS-GEPS-EVPGVRELPIERWPFVTAYRVK--GR--N-VEILRIDRA----
+UniRef90_M4WS84/1-90                 ----MSLVWTHKAAADLDAIYDHYVVLIGPEKALRAIQDIVEQVR--P-LAN-L--D--Q-S--SS-GVPS-EVPGVREWPVERWPYQAAYRVK--AR--S-VQILRIDRVD---
+UniRef90_A0A024HAA2/1-90             ----MSLQWTHKAAADLDGLYDHYVVLVGPEKALRAIQDMVSQVK--A-LAD-L--S--L-S--SV-GQPS-EVPGVRELLLERWPYQAAYRVK--GR--D-VQILRIDAVE---
+UniRef90_A0A1G8LV09/1-90             ----MSLLWTHKAAADLDGLYDHYVVLIGPEKALKAIQDIVGQVQ--A-LLD-S--T--Q-S--SA-GRPS-EVPGVREWLIERWPYQAAYRVK--GR--D-VQILRIDSVD---
+UniRef90_S6GVL3/2-86                 -----ILRLTRKASSDLDGIYEHYKELLGPDQAKAVVNDVVHEAK--A-LQE-A--G--L-A--ST-GRPT-DVPAVREFIHQRWPFLTSFQVT--AG--S-VEILRF-------
+UniRef90_UPI00123FEE8B/3-85          -----SVVLTEKAESDLDNIHDHYREVVGPSAALEIISTIVQTLR--L-LEQ-F-------P--GA-GRPS-VMPDVRELVLGRYPFIAPYRFA--HG--Q-IQVLRL-------
+UniRef90_UPI000F57F4C2/2-85          ----PSITLTDKADSDLDSIHEYYESRLGTQSASAVVAEIIESLE--Q-LET-F-------T--GL-GRPS-QVPDVRELVLSKFPFIAPYRVV--GG--E-VQILRI-------
+UniRef90_UPI000F02DDBA/3-85          -----KLVLTNKAQSDLDAIHEHYASLVGAEQAAALVVRLLDSLQ--G-LRQ-F--T-------GL-GRPS-QVPGIRELVMSDLPFIAPYRFV--SN--E-VQVLRL-------
+UniRef90_J2Y8X3/2-85                 ----PSIVLTDKAQSDLDSIYEHYQTAIGTEGADNVITTILETLR--Q-LQR-F-------P--GS-GRPS-VVPDIRELVLTRYPFVAPYRLM--HG--Q-LQVLRI-------
+UniRef90_A0A2T4F146/3-85             -----NIALTDKADSDLESIHEYYATRIGAESADGVVAQILESLE--R-LET-F-------T--GL-GRPS-QAPDVRELVLSRFPFIAPYRVV--GN--E-VQILRI-------
+UniRef90_UPI0009EAAFF6/3-85          -----SVVLTEKAESDLDAIYEYYQGVIGTDSALELISTILQSFQ--Q-LER-F-------P--GS-GRPS-VAPDIRELVLGRYPFIAPYRLM--HS--Q-IQVLRV-------
+UniRef90_G8QB48/2-85                 ----PSIVLTDKAQSDLDSIHEHYQSAIGAEGADAVISAILETLR--Q-LQR-F-------P--GS-GRPS-VAPDIRELVLTRYPFVAPYRLK--HG--Q-LQVLRI-------
+UniRef90_A0A7C2BAU2/1-85             ---MLTIALTDKAQSDLEGMHEYYAAMCGSEVANRIVIDVLGQLE--S-LRT-F-------S--GL-GRPS-QSPGVRELVLSRYPYVAPYRVK--DH--Q-VEVLRV-------
+UniRef90_UPI0013712341/7-85          ---------TDPAQSDLDDIFDHYAPLVGESEAEAIVIRILEQLE--L-LET-F--A-------GM-GRPS-PKPGVREVVITRYPFIAPYRLE--QD--E-IQVLRV-------
+UniRef90_A0A098SR76/1-85             ---MLTIALTDKAQSDLEGIHEYYATICGSVVANRIVIDVLGELE--S-LRT-F-------S--GL-GRRS-EFPGVRELVLGRYPYAAPYRVK--GD--Q-VQVLRV-------
+UniRef90_UPI0011A22E93/2-85          ----LRIVLTDKAQSDLDSIHEHYQGAIGTQDATDVITFILEALQ--Q-LQR-F-------P--GC-GRPS-VVPDVRELVLTRYPFVAPYRVV--QD--Q-LQILRI-------
+UniRef90_A0A2S3VSF8/3-85             -----SVVLTEKAESDLDAIHEHYRKVVGVKPALEIISTILQSFE--L-LEQ-F-------P--GS-GRPS-GMPDVRELVLGRFPFIAPYRFS--QG--Q-VQVLRV-------
+UniRef90_UPI0009DAEB98/5-85          -------VLTEKAESDLDNIHEHYLESVGADTAITIISTILQSFQ--Q-LEQ-F-------P--GS-GRPS-VMPDVRELVLDRYPFIAPYRFA--HG--Q-IQVLRV-------
+UniRef90_A0A2K4L2G7/4-85             ------VVLTEKAESDLDNIHDHYRDAIGADTAINIISTILQSFQ--Q-LEL-F-------P--GS-GRPS-VMPDVRELVLDRYPFIAPYRFA--NG--Q-IQVLRV-------
+UniRef90_UPI000D60BF83/3-85          -----SVVLTEKAESDLDTIHEYYQSVAGDKAAIEVITTILHSFH--Q-LER-F-------P--GS-GRPS-TVPGVRELVLGRYPFVAPYRLE--HS--R-VQILRV-------
+UniRef90_UPI00040D88C5/3-85          -----NIALTEKADSDLEAIHEYYETRVGPASADAVIAEMIEALE--R-LET-F-------T--GL-GRPS-QTPDVRELVFARYPFIAPYRLR--YD--E-VQVLRI-------
+UniRef90_A0A083UQ76/3-85             -----SVVLTEKAESDLDAIHEHYREIVGAGTAIEIISTMLQCFR--Q-LEQ-F-------P--GS-GRPS-IMPDVRELVLGRYPFIAPYRFA--NG--Q-VQVLRV-------
+UniRef90_A0A1I4JBM1/3-85             -----KLEITDPAQSDLDDIFEHYAPLVGEAEAEQIVIRLLEKLE--P-LET-F-------P--GM-GRPS-QKPSVRELVFTRYPFLAQYRVK--DD--T-VQILRV-------
+UniRef90_A0A3D4NGR9/3-85             -----SVVLTEKAESDLDAIHEYYQGAIGVEAAVQIISTILQSFR--Q-LER-F-------P--GS-GRPS-VMPDVRELVLGQYPFIAPYRLM--NG--Q-IQVLRV-------
+UniRef90_A0A2K9LYE9/2-85             ----PSIVLTDKAQSDLDSIHEHYQSAIGTQGADDVIIAILETLR--Q-LQR-F-------P--GS-GRPS-VVPDIRELVLTRYPFVAPYRLV--RG--Q-LQILRV-------
+UniRef90_UPI000A8DD2C6/2-85          ----PSIVLTDKAQSDLESIHEHYQGVIGTPGATQVIATILETLQ--Q-LQR-F-------P--GS-GRPS-VAPDIRELVLTRYPFVAPYRFM--HG--Q-IQILRI-------
+UniRef90_A0A0M2RNA6/7-85             ---------TDPADSDLDAIFDYYGPLVGEDHANAIIVQILEQLE--L-LE-----A--F-P--GM-GRPS-LKPDVREVVITRYPFLAPYRVV--ND--E-IQILRV-------
+UniRef90_A0A0S8Z929/3-85             -----SVVLTEKAESDLDNIHEHYLGIAGAQAALEIIATILQSFE--L-LEH-F-------P--GS-GRPS-VVPDVRELVLGRYPFIAPYRFV--EG--Q-VQVLRV-------
+UniRef90_UPI000A002867/3-85          -----NIALTGKAESDLDSIHEYYASRLGAGSADAVIAQIFESLE--K-LEM-F-------T--GL-GRPS-QTPDIRELVLSKFPFIAPYRLV--GD--E-VQILRI-------
+UniRef90_UPI00139079A9/4-85          ------VVLTQKAESDLDAIHEYYQGVVGDDAAIEIVTTILHSFH--Q-LEQ-F-------P--GS-GRPS-VMPDVRELVINSYPFIAPYRLM--NG--Q-IQILRL-------
+UniRef90_A0A1P8EXR3/2-85             ----PSVALTEKAESDLDSIHEYYQGILGADAALEVIAIFLQSFH--Q-LEQ-F-------P--GS-GRPS-VVPDVRELVFGRYPFIAPYRLM--HG--Q-IQVLRV-------
+UniRef90_A0A495MBT8/3-85             -----SVVLTEKAESDLDNIHEHYREVVGAGAAIEIISTILQSFQ--L-LEQ-F-------P--GS-GRPS-VMPDVRELILGRYPFIAPYRFA--HG--Q-IQVLRV-------
+UniRef90_UPI000F031AC4/3-85          -----KLVLTNKAESDLQAIHDHYEPIVGAAHADALVVRLLDSLH--C-LQR-F-------N--GL-GRPS-QAPGIRELVLNELPFIAPYRFV--KN--E-IQVLRL-------
+UniRef90_A0A6I6SSQ3/5-85             -------ALTEKAESDLQAIHEHYSGLVGVAGADDVVADIFDRLE--Q-LQR-F-------P--GS-GRPS-QVPDVRELVLNQIPFVVPYRLA--LG--Q-VQVLRI-------
+UniRef90_A0A0G3GH05/2-85             ----PSIVLTNKAQSDLDSIHEHYQAALGKNGADAAIITILETLQ--R-LQR-F-------P--GS-GRPS-IAPDIRELVLTRYPFVIPYRMV--HA--Q-VQILRI-------
+UniRef90_UPI000BA35231/5-85          -------ALTEKAESDLDAIHEHYRGLIGANAASHVVASILDTFD--Q-LER-F-------P--GS-GRAS-QVPDVRELVLNRIPFVVPYRVT--QG--Q-VQVLRI-------
+UniRef90_A0A481QS54/4-85             ------VVLTKRAENDLDVIHEYYQGLLGSEGSLEIINSILKTFR--Q-LEQ-F-------P--GS-GRPS-VAPDIRELVMTRYPFIAPYRLM--HG--R-IQILRV-------
+UniRef90_A0A3L0W5C6/1-85             ----MQVKWLRKAALNLEDAHDHL----AKENSRVAQEFVLEVYR--L-VHL-L--V--D-Q--PAMGRPG-RVPGTRELVLQPYPFLIPYRVK--GE--E-IQILRVFH-----
+UniRef90_UPI00123FD851/3-85          -----SVVLTEKAESDLEAIHEYYQGVMGAEAATEIISSILQSFH--Q-LEQ-F-------P--GS-GRPS-VMPDVRELVLGQYPFIAPYRLM--HG--Q-IQVLRV-------
+UniRef90_UPI000BA4A126/2-85          ----PSIVLTQKAESDLDAIHECYQDLLGVDAAFEVISSILQSFH--Q-LEQ-F-------P--GS-GRPS-VAPDVRELVLGRYPFIAPYRFI--HG--Q-IQMLRV-------
+UniRef90_A0A7G2N276/3-85             -----NIALTDKASSDLDSIHEYYESRLGAAAADAVLGQIIETLE--Q-LQT-F-------T--GL-GRPS-QTPDVRELILGKFPFIAPYRLM--NS--E-VQVLRI-------
+UniRef90_A0A1V9UW88/1-85             ---MLKITLTSKAQSDLEALHERYSIHAGSRAANRVVLEILESLE--P-LRT-F-------S--GL-GRPS-QSPDIREFVFTRYPYVAPYRVA--NG--Q-LQILRV-------
+UniRef90_UPI0018685BA2/1-84          ----MEIKWLRKAAANLEAEY-HYIAQDDPQATSQFVSEIKQLTQ--R-LPE-Q-------P--SM-GRPG-RVPGTRELVLPHYPYIIPYRVR--NN--T-IQILRIF------
+UniRef90_A0A5E7BVY8/5-85             -------ALTEKAESDLEAIHEYYCGLIGFGAANDVMADILELFR--Q-LEL-F-------P--GC-GRPS-VVPDVRELVLSHYPFIAPYRLM--HG--Q-IQVLRI-------
+UniRef90_UPI0003A5F8F3/1-84          ----MEIKWLRKAAANLEAEYH-HIAQDDPQAAGQFVSE----VR--R-LTQ-L--LPEQ-P--SL-GRPG-RVPGTRELVLSHYPYIIPYRVK--NN--T-IQILRIF------
+UniRef90_A0A0Q8D7R2/4-85             ------IALTEKANSDLESIYEYYESRLGAEAAEGVVAQIIEALE--Q-LET-F-------T--GL-GRPS-QIPDVRELILSGFPFIAPYRLA--HG--I-IQILRI-------
+UniRef90_A0A6A7Z371/3-85             -----NIALTDKASSDLDSIHEYYESRLGSAAANAALLQIIEALE--Q-LGT-------F-T--GL-GRPS-QTPDVRELILAKFPFIAPYRLM--HN--E-VQVLRI-------
+UniRef90_A0A7Y1EIP9/1-87             ---MVNIALTDKADSDLESIHEYYESRVGSEAADNVVAQIIEALE--Q-LET-F-------T--GL-GRPS-QRPDVRELVLSKFPFIVPYRLA--YG--E-VQILRIVH-----
+UniRef90_UPI000A1F3FBB/3-85          -----SVVLTEKADSDLETIHEHYRKVVGAQAALDIISTMLQSFD--Q-LKQ-F-------P--GS-GRPS-GLPDVRELVLGHYPFIAPYRFS--QG--Q-VQILRV-------
+UniRef90_A0A7Y7XEB7/3-85             -----NIALTDKADSDLEAIHEHYESRLGAACADDVVAQIFESLE--Q-LET-F-------T--GL-GRPS-QQPDVRELILSKFPFIAPYRVI--HG--E-VQILRI-------
+UniRef90_UPI000F580FA7/3-86          -----NIALTDKADSDLESIHEYYESRMGAEAADGVVAQIIEALE--Q-LET-F-------T--GL-GRPS-QSPDVRELILSKFPFIAPYRLA--HG--E-VQILRIL------
+UniRef90_A0A2A4AUA6/8-86             ---------TDPAQADLEDIFTYYAPLIGERKAHDLILSLLSQLD--P-L---L--A--Q-P--GL-GRPS-QSPGVRELVFLQPPYVAPYRVV--GN--A-VQVLRF-------
+UniRef90_A0A5C5PU35/3-85             -----NIALTDKASSDLDSIYEYYESRLGSVAADAVLFQIIEALE--Q-LET-F-------T--GL-GRPS-QTPDVRELILGKFPFIAPYRLM--HG--E-VQVLRI-------
+UniRef90_UPI000CE68D1F/1-85          ----MEIKWLRKAAANLEAEYI-YIVQDDPQAASQFVDEVQRLTE--L-LPQ-------Q-P--AM-GRPG-RVPGTRELVLTHYPYIIPYRVK--DN--M-LQILRVFH-----
+UniRef90_UPI0009E38652/1-85          ---MLKITLTDKAKSDLEAIHEYCTTRSGLKNANQIVMDILESLE--R-LST-F-------S--GL-GRPS-QLPDVRELVFPHAPYLAPYRVK--NN--Q-VQILRV-------
+UniRef90_A0A7I7C7I9/2-84             ------LKLTRKASADLDDIYEHYKERLGAEQAQAIVHDVVAESR--I-LEH-K-------P--AA-AKPSAESSGIGELALKRWPFLTTFHVT--PE--S-VQILRF-------
+UniRef90_A0A7Y7YFM3/3-85             -----NIALTDKADSDLEAIHEYYASRLGAAFADGVVAQIFEALE--Q-LET-F-------T--GL-GRAS-QQPGVRELVLSRFPFIAPYRVI--HG--E-VQILRV-------
+UniRef90_UPI0012412097/15-94         --------LTEKAESDLDNIYEHYRETAGADAAVKIVSTILQSFK--Q-LEV-------F-P--GS-GRPS-VMPDVRELVLDLYPCIVPYRFS--QG--N-IQVLRV-------
+UniRef90_A0A6I7G6R6/5-85             -------VLTERAENDLETIFEYYQGILGANPAFGVVNSILGAFD--Q-LKQ-F-------P--GS-GRPS-VVPDIRELVLTRYPFIAPYRLE--DG--Q-IQVLRI-------
+UniRef90_UPI00192510CA/1-84          ----MRIKWLRTALDNMDQAYD-YLASENPAAAIGFAAEIQQVME--Q-LQQ-F--P--S-----S-GRPG-RVPGTRELIIPRYHFLIPYRVQ--GN--E-IQILRVF------
+UniRef90_A0A3R8U3H9/1-85             ---MLRIELSEKADSDLEAIHEHYAGLMGYERADAAIGAILESIE--Q-LAT-------F-T--GM-GRPS-QTPDVRELVLTRYPFVVSYVVR--AQ--I-VFIVRI-------
+UniRef90_A0A3Q9JQ93/1-84             ----MEIKWLRKAAANLEAEY-LYIAQDDPQAASQFVDEVQRLTE--L-LPQ-------Q-P--AM-GRPG-RVPGTRELVLTHYPYIIPYRVK--DN--M-LQILRVF------
+UniRef90_A0A0F0F188/4-83             --------LTAKAESDLDSIFEHYQLKAGSKTAFAMVQGILSSLE--I-LER-F-------P--GA-GRPS-PVPDVRELVLAHIAFIAPYRLL--DG--R-VQVLRF-------
+UniRef90_A0A1H0LAG9/4-85             ------VVLTEKAESDLDNIHEHSRETAVADAAMKIISTILQSFK--Q-LEV-------F-P--GS-GRPS-VMPDVRELVLDRYPFIAPYRFS--QG--T-IQVLRV-------
+UniRef90_A0A0N0G502/4-85             ------IELSEKADSDLEAIHEHYAGLMGHQRADEVVSTILESIE--Q-LAT-------F-T--GM-GRPS-QAPDVRELALTRYPFLVSYVVR--SQ--V-VFIVRV-------
+UniRef90_A0A2N8BTD0/5-85             -------ALTEKAESDLDAIHEHYCGLIGTSATNDVVTSILNTFG--Q-LEL-------F-P--GS-GRPS-LVPDIREFVLNQLPFVAPYRLV--LG--Q-VQILRI-------
+UniRef90_A0A7D5DAM3/4-87             ------IALTSKAESDLDGIFEHYARLIGNERAEAVAFSVLEALS--T-LDA-F--P-------QL-GRPS-DIPDCRELLFSKYPYRAVYTVK--GN--K-LLIYRILR-----
+UniRef90_A0A0Q0BWR6/4-85             ------IELSEKADSDLEAIHEHYAGLMGHQRADEVVNTILESIE--Q-LAT-------F-T--GM-GRPS-QTPDVRELVLTRYPFVVSYVVR--TQ--V-VFIVRV-------
+UniRef90_UPI000F04D4C6/2-81          ---------TEKARSDLLSIHEYYVANAGPKVATGIILHLLEKLD--P-LTI-F--S--S-----M-GRPA-LRPGVRELVFARYPFLALYRIN--DQ--E-IQVIRIR------
+UniRef90_A0A0B5FSE4/1-83             ----MRIRWLRRAVRDLDAA-EEFIAQDNPEAAAKIALTIVKAVS--Q-LKD-------Q-P--GA-GRAG-RVPGTRELVIAETPYIVPYRVK--ND--V-VEILRV-------
+UniRef90_A0A077LPQ3/2-83             ------LKLTRKASADLDDIFEHYKERLGAEQAQAIVHDVVAESR--A-LER-S--A--S-----A-KEAC-KASKVGELALKRWPFLTTFQVT--PE--S-VQILRF-------
+UniRef90_A0A0X8GRM9/1-85             ----MRLRWLRKAIANLDAEA-EYIAQESPQVAAEMFAYVKAKVE--G-LAN-F-------P--AS-GRPG-RVPGTRELIIDRYPLLVPYRVV--GN--E-LHVLRVFH-----
+UniRef90_A0A3A4CHV4/1-84             ----MEIKWLRKAATNLEAEY-RYIAQDDPQAASQFVDEVQKVTE--L-LPQ-------Q-P--AM-GRSG-RVPGTRELVLTHYPYIIPYRVK--DN--M-IQILRVF------
+UniRef90_A0A6S4VQ08/1-85             ----MQVKWLRKAALNLEDAHD-YLAKENPRVAQEFAHEVYRLVN--L-LVE-------Q-P--SM-GRSG-RVPGTRELVVQPYPFLIPYRVK--GE--E-IHILRVFH-----
+UniRef90_A0A4P8TXQ5/1-84             ----MKIKWLRKAATNFDDEYE-WLYQEDPQVATKFAKEVVRSVN--L-L---V--T--Q-P--AL-GRPG-RVMGTREIVMQTFPYLIPYRIK--NK--E-IHILRVF------
+UniRef90_UPI000E3C357B/3-86          -----TIALTEKAQSDLLTIHEHYVSHSGIQAANEVIFHILARLE--Q-LT-----V--F-S--AT-GRPT-QYSQVRELVFTRYPFIAPYQIK--GD--Q-IQVLRVR------
+UniRef90_A0A097SR28/1-86             ----MQVKWLRTAALNLDDAHD-YLAKENPRVAQEFAFEVCRLVN--L-L---V--D--Q-P--AM-GRPG-RVPGTRELVVQPYPFIIPYRVK--GD--E-VHILRVFHT----
+UniRef90_B9M549/1-84                 ----MRIKWLRQALLDLDEV-ESYIARDNPVAAIGVVTKIVKMVS--V-LEK-------Q-P--GL-GRPG-RVPGSKELVIPDTPFIVPYRVK--DG--L-VQVLRVY------
+UniRef90_UPI000B793EAE/6-87          --------LTDPAQSDLDDIFNHYAPIVGDDEAEQIVIRLLEQLE--H-LET-F-------P--GM-GRPS-LKPDVREVVFTRYPFLAPYRFDADAD--Q-IQVLRV-------
+UniRef90_A0A7W7ZRD1/1-84             ----MKIIWTPRAASDLDGVVD-FIAAGSPDAAIRVANRIYKEVM--Q-LA-----A--M-P--NV-GKPG-ELPGTRELLFHPWPYIAVYKVT--SD--A-VRIIRIR------
+UniRef90_G7LV35/1-84                 ----MEIKWLRKAAANLETEYL-YIEQDDPLAASQ----FVDEVQ--R-LTE-L--L--P-QQPAM-GRPG-RVPGTRELVLTHYPYIIPYRVK--DN--M-IQIMRVF------
+UniRef90_UPI001AAF9750/1-84          ----MEIKWLRKAAANLEAEY-RYIAQDDPQAASQFVNEVQRLTE--L-LPQ-------Q-P--AI-GKPG-RVLGTRELVLTHYPYIIPYRVK--DN--M-IQILRVF------
+UniRef90_A0A1F4FBA9/2-84             -----RRRWTRRAERDLDAIAE-YIGAENPAAAATVVLEIIGQVE--A-LLP----A--Y-P--AI-GRPG-RVGGTRELVIRGLPYIVPYRLR--GD--D-VELLRV-------
+UniRef90_A0A3S8ZWY7/3-85             ------PRWLRQAIANLDAEA-EYIAQEKPQAAAEMFAYVKAKVE--S-LAH-F-------P--AA-GRPG-RVPGTRELVIERYPLLVPYRVV--GN--E-LHVLRVFH-----
+UniRef90_A0A6S4TAR2/1-84             ----MRVKWLRKAALNLEDAHDF-LSRENPIVAQEFVREVYRLVS--L-LS-----T--Q-P--AM-GRPG-RVPGTRELVVQPYPFLLPYRVQ--GD--E-IHILRVF------
+UniRef90_A0A7V8ZP50/1-83             ----MRLRWTKRAERDLDEIA-AYIGIDSPPAAARVILELIEQTE--A-LS-----I--Q-P--AI-GRPG-RVAGTREFIMAGLPYILPYRVR--GS--D-VEILRV-------
+UniRef90_UPI000A00F46E/3-85          -----KLYLTPKAESDLEAIHEHYSLKIGAKRAAVVLLDMIETLE--M-LRA-F--S--H-----V-GRAG-RVPDTRELIFSDYPFLAAYRVK--ED--R-VEVFRI-------
+UniRef90_A0A6L9KKY2/1-85             ----MEIRWTRQALQNLDAVA-AYIALDNPSRAASFISEIKDKTQ--L-LAQ-F--P-------AI-GRPG-RVPGTRELVVHE-NYVLPYRVK--GD--M-VQIIRVHHV----
+UniRef90_A0A1W9KQM1/1-85             ----MALRWTRKALENLDQIA-AYIAQDNPTRASSFVGEIKEKTE--L-L---V--A--F-P--AL-GRPG-RVPGTRELVVHE-NYVVPYRVK--GD--T-VQIIRVQHV----
+UniRef90_A0A0P0BUC5/10-94            ----MRVKWLRNAAQNLEDAYD-YLAKDNPKVAQAFVQDVYRLVN--L-LP-----A--Q-P--AM-GRAG-RVAGTRELVVQDYPFIIPYRVK--QD--E-IHILRVFH-----
+UniRef90_A0A1J5EMU9/1-84             ----MRVKWLRQALLDLDEIA-TYINADSPAIAAKVVVNIITAVS--L-LRE-------Q-Q--GI-GRAG-RVPGTKELLVTGLPYIVPYRVK--DE--T-VQILRVY------
+UniRef90_A0A089YP73/4-85             ------VALTSKAASDLDGIYEHHEALRGPQKAEETIFQMLDSLS--Q-LEV-F--P-------QL-GKAS-GIPDCRELIFARYPYRAIYSLK--GN--V-ILVYRI-------
+UniRef90_A0A2X4TNM4/4-90             ----LKIKWLRKAASNFDDEYE-WLYLESPQVATEFAREVFRLVS--L-L---V--T--N-P--AL-GRAG-RVMGTREIVMQTFPYLIPYRVK--SN--E-IHILRIFHIR---
+UniRef90_A0A353CV06/1-84             ----MHVKWLKRALLDLDEV-DAYIAQDNPSAADDVVLKILKAVS--L-LKE-------Q-P--GL-GRVG-RVPGTKELVIPKIPYIVPYRVK--GD--F-LQILRVY------
+UniRef90_A0A177E8X7/4-86             ----ASLKWLRLALRDLDKIA-SYIAKDNPTAAQKVVQRIYEVAL--N-LRD-Y-------P--AL-GRLG-RVPGTRELIISGFPFILVYRVK--GR--R-VEILRV-------
+UniRef90_A0A209ALU4/1-84             ----MNVRWLRKAAANLEREYQ-WLYERSPTAAQNFATEVYELTS--L-L---A--A--Q-P--AM-GRPG-RVMGTRELILHNFPYLLPYRVK--NN--E-VQILRVF------
+UniRef90_A0A2C7A8H7/2-83             -----IVRYTRQALADLDAARD-YIALDNPRAAAALAARLREAID--G-LRQ-F--P--E-R-----GRAG-RVPGTRELVVPSTPFVVPYRVA--GR--E-IHVLAV-------
+UniRef90_A0A1F6SAI3/1-84             ----MQIRWTKLAEQDLESV-EEYIATDNPKAAINIILYIINQIE--E-LL--P--R--N-P--AI-GRAG-RVTGTRELIIPDYPYIVPYRVK--DN--N-IEILRV-------
+UniRef90_A0A6G7PTX9/4-86             ----ASLKWLRLALRDLDEIS-SYIAKDNPTAAQKVVQRVYEVAL--N-LRD-------H-P--AM-GRLD-RVPGTRELAISGLPFILVYRVK--GR--R-VEILRV-------
+UniRef90_A0A661QPB7/1-83             ----MNVRWLKLADKDLDKI-ENYIMRDNSSAATRVVLRIVKAVE--M-LAE-------H-P--GI-GRPG-RVEGTKELVIPNMPYIVPYRIK--NK--T-VQILRV-------
+UniRef90_UPI000A1D6DB4/1-85          ---MLNVALTERAENDLDVVHEYDQRQSGANAAFAAVDAILQSLD--R-LSR-F-------P--GS-GRPS-VLPDIRELVVSRYPFVAPYRFV--QG--Q-VQVLRI-------
+UniRef90_A0A1F4C4S6/3-84             ------QRWTRLAERDLDEIA-AYIGQDNPAAAARVVLELIDQVE--N-LL--P--A--H-P--AI-GRPG-RVVGTRELVIGELPYVIAYRVR--GQ--D-LEILRV-------
+UniRef90_A0A380TJB2/1-83             ----MEVRWSARALADLEAIQD-YLLERSPAAALRMVTILRAAGE--K-LST-M--A--Q-R-----GRPG-RWPGTRELIVSNTPYLIPYRVR--GE--V-VEILRV-------
+UniRef90_UPI0013EF2944/1-72          ----------------MEAIHEHYAGLMGHQRADEAVNTILESIE--Q-LAT-------F-T--GM-GRPS-QTPDVRELVLTRYPFVVSYVVR--TQ--V-VFIVRV-------
+UniRef90_UPI000D61F14C/1-83          ----MEVKWLRKAAANLEAEYL-YIA----QDDLQAASQFVNEVQ--R-LAG-L--L--P-QQPAM-GRPG-RVPETRELVLTHYPYIIPYRVR--DN--I-IQILRV-------
+UniRef90_A0A1F4E287/1-84             ----MRLRWTRLAERDLDDIA-AYIGLDSPAAAARVVLELIEQTE--I-LL--T--R--H-V--AL-GRPG-RVLGTRELVIQGLPYVIAYRVR--DN--D-IEILRV-------
+UniRef90_UPI0009E2D6D6/2-84          -----IVKWLRTALHNLDEEI-SYISREDEELAFKIYQHILERVN--S-LQN-T--P--N-----I-GRPG-RVFGTRELVLDHYPYIIPYRVS--RE--S-IEILRVF------
+UniRef90_A0A3N0V6Y3/1-85             ----MQVKWLRAALNNLDEIA-AYIALENPQAAAMVVARIMSAVQ--Q-LKT-L-------P--AS-GRPG-RVLGTRELLVTGLPYLLPYRIR--GQ--Q-IEILRVFH-----
+UniRef90_A0A4R8HY76/1-83             ----MKVRWTRPALRDLEQIGD-YVSRDNPAAAAKLIARIWERVD--A-LAQ-Q--P--H-----L-GRPG-RVPQTRELAIAGTPFLAPYRVR--AE--A-VEILAI-------
+UniRef90_D5CQG1/1-83                 ----MNLRYTPQARSDLAEIHD-YIAQENPAAARRVVQLVRDSAK--A-LPD-------N-P--LV-GRPG-RVPGTRELAIGRFPFVLAYRVS--SD--E-VQILSV-------
+UniRef90_A0A087L2L5/1-84             ----MEIKWLRKAAINFDDEYDWFC-QESPQVATEFAREVFRLVN--L-L---I--A--N-P--AL-GRAG-RVMGTREIVMQTFPYLIPYRIK--NH--E-IHILRVL------
+UniRef90_A8G7S6/1-85                 ----MKIKWLRKAASNFDDAYDWFY-QESPQVATQFAREVFRLVN--L-L---A--T--N-P--AL-GRAG-RVMGTREIVMKTFPYLIPYRIK--NN--E-IHILRVFH-----
+UniRef90_UPI0004919A73/1-85          ----MRVRWLRKALANLNAEA-EYIAADDPDSAANMFDCVVTKVA--T-LTD-F--P-------SL-GRPG-RVPGTRELVIERYDLLIPYRVL--AD--E-VHILRVFH-----
+UniRef90_A0A266N677/4-85             ------IALTSKADSDLEGIYEHYAPLLGADASEGVVFHLIEALT--M-LET-F--P--Q-M-----GKAS-DIPDCRELIISKYPYRAIYTLK--GE--T-IRIYRI-------
+UniRef90_A0A7Y7NF88/2-82             ------LKWLKRAERDLDHVQ-AYIAQDNPQASVEMVLTIIAAVE--Q-LD-----A--F-P--GI-GRPG-RVQGTKELVVAGTPYIVPYRKK--GE--R-IEILRV-------
+UniRef90_A0A502ILK6/4-85             ------IALTSKADSDLEGIYEHYAPRLGAEKAEAVVFQVLEALY--R-LES-F--P--Q-----L-GKAS-DIPDCRELIIAKFPYRAVYTLK--GA--T-VLVFRI-------
+UniRef90_UPI000C07D3C6/4-85          ------IALTSKAESDLDGIYDHYEPLIGAEGSEDIIFRILEAIS--M-LES-F--P--Q-----L-GKAS-VIPDCRELIISKYPYLAVYTLH--GD--T-VKIYRI-------
+UniRef90_D6Z4N0/1-84                 ----MRVKWLQQALLDLREV-EAYIYQDNPTAAAEVALKIIEAVS--L-LRE-------Q-Q--GI-GRTG-RVPGTRELVVSGLPYIVPYRVI--GE--T-VQILRVY------
+UniRef90_A5G524/1-84                 ----MHVKWTSKARRDLYSV-DGYISQDNPTAAAETVLKIIAAVE--S-LSQ-H--A--E-M-----GRPG-RVPDTRELVIPGLPFIVPYRIS--SS--T-IVILRVY------
+UniRef90_A0A1T2YVU0/5-85             -------ALSSKAESDLDGVYEHYEGLVGAELGEAAVFHILNCLE--M-LER-F--P--N-----A-GKAS-PVPDCRELIITTYPYRATYSLR--GD--R-VMVFRV-------
+UniRef90_A0A1E4IJ06/1-84             ----MRVRWLRKALHNLDREA-SYIAEESPMAAQRVVQRVLDAVA------Q-M--A--E-Q-PAL-GRPG-RVPGIRELVVLKTRYLVPYRIR--AR--Q-IEILRVF------
+UniRef90_A0A1F9VAI9/1-83             ----MKFAWTRLALSDLGSAYDY----VAEEDASAAVRMIERIEK--A-LEA-V--G--R-H-PKI-GRPG-RVEGTRELVVSGTPFIVPYRVK--AK--R-IEVLAL-------
+UniRef90_A0A220ISZ9/1-83             ----MQIKWLKKALINLEHSA-EYLQEQNPQSARDFVKEVHELTE--L-LK-----A--N-P--AM-GRPG-RVFGTRELILQKFPYIIPYRVK--DN--R-IEILRV-------
+UniRef90_UPI000487F964/1-84          ----MSAVWSPEAVEDLIAIR-AYIEQSSPAAAKRIVLHVMHNVE--M-LLS----D--N-P--EM-GRPG-RVPGTRELVIPKTPYIVPYRVA--GQ--T-VQVLRV-------
+UniRef90_A0A094S0R3/6-88             -----EIKWLRKAAANLEAEYL-YIAQDDPLAASQ----LVDEVQ--R-LTE-L--L--P-QQLAM-GRSG-RIPGTCELVLTYYPYIIPYRMK--NN--T-LQILRVF------
+UniRef90_T0YV21/1-84                 ----MRIRWLRKALRNLDEEA-TYIATDDAAAARLVVRRIFEAVE--Q-LN-----V--H-P--GA-GRPG-RVPGTRELVVRNTRYIVPYRVR--GD--A-IEILRVF------
+UniRef90_A0A1I9WJN2/4-85             ------IALTSKADSDLEGIYEHYEPRLGAEKAEEVISQVLEAIT--R-LET-F--P--Q-----L-GKAS-DIPDCRELIISNYPYRSIYTRK--GD--T-ILIYRI-------
+UniRef90_A0A3C1FYX0/1-83             ----MRIRWASKAERQLDDI-ENYIARDNPAAATRVIIDIIESAR--Q-LIQ-F--P--K-----S-GRPG-KKKGTRELVLVGTPYILVYRTK--GD--E-IQILSV-------
+UniRef90_A0A5E7P4P7/4-85             ------IALTSKADSDLSGIYEHYEPRLGAEKAEEVIVQVLEALA--R-LET-F--L--Q-----L-GKAS-DIPDCRELIISKYPYRAVYTLK--GY--T-ILIYRI-------
+UniRef90_A0A2V9T161/1-83             ----MEVRWLRAALANLDAEA-EYVARDNAAVAARLVERIYETVE--Q-LKQ-Y--P--S-----L-GRAG-RVPGTRELVVSHTPYIVPYRVH--GT--V-VEILRV-------
+UniRef90_A0A0D6BE31/1-85             ----MGIEWLRSALNNLDAEARH-IAQDDPRAAAEFVRTLLASIE--Q-LAR-L--P--S-----S-GREG-RLPGTREWVVPGWPYLIPYRVR--GD--R-LQILRIFH-----
+UniRef90_A0A539EKL8/1-83             ----MRVRWTRLALADLAAAHD-YIAKAAPEAAGRVVDRIEGAVR--N-LGR-------H-P--GL-GRPG-RVEGTRELVVPGTPFFVPYRVC--DD--S-IEVLAL-------
+UniRef90_A0A2N2G7J4/1-84             ----MRVKWLRLAIADLDEL-EAWIVRDNPTAAAAMLLKIARTVS--L-L---A--A--H-P--GI-GRAG-RIPGTKELVIPDAPYIVPYRVK--GN--V-VEVLRVY------
+UniRef90_UPI0018C26F00/1-83          ----MRLRWTSPALRDLEAIGD-YIARDNPAAAARTVTRILDQAE--M-L---A--A--H-P--HS-GHAG-RVPDTRELVVSDTPFILPYRVR--GD--D-VEILAV-------
+UniRef90_D5MH45/1-81                 ----MRIRWLSRAVEDLAHLH-AYIAQDNPEAAASEVDKVVEAVK--R-LED-------H-P--AS-GRPG-RVPGTRELVLARYI--VAYRVK--EQ--V-VQILRI-------
+UniRef90_A0A7Y7NRM0/1-84             ----MRVRWLRRALLDLDAA-ETFIAQDDPDAAAGVVLKVVRAVS--L-LKE-------Q-P--GI-GRSG-RLPDTKELVIPNTPYIVPYRVK--GD--T-VQILRVY------
+UniRef90_A0R864/2-83                 ------IRWLRRAERDLVHV-EAYIAQDNPRAAVAMVLTIIEAVE--Q-LD-----A--H-P--GM-GRAG-RVEGTRELVVAGTPYVVPYRQK--GK--W-IEILRVY------
+UniRef90_A0A3M4E271/4-85             ------IALTSKADSDLDGIYEHYEPRRGAVKAEEVVFQILEAMS--R-LET-F--P--Q-----L-GKAS-DVPDCRELIFSKFPYRAVYTLK--GD--R-ILIYRI-------
+UniRef90_A0A127HY64/1-85             ----MQVEWLRAALRNLDDE-AAYIAEENPKAAHEFVQAIL---T--G-LQQ-I--A--E-F-PAM-GKEG-RVPGTREWVVPRWPYIVPYRIR--GG--R-LQVMRIFH-----
+UniRef90_A0A537AHF0/1-85             ----MHVRWLRKALRNLDEEA-TYIAADD-EEAARLV--VARILK--A-VAQ-L--A--E-Q--PAIGHPG-RVPGTRELVILNTRYIVPYRVR--GE--E-VQILRVFH-----
+UniRef90_A0A1V3SIT1/1-85             ----MDIRWTRTALANLDAIAD-YIARDNPGRANSFVGEMKAKTE--R-LAE-F-------P--AM-GRPG-RVPGTRELVVH-DNYVVPYRVK--DG--M-VQILRVQHV----
+UniRef90_A0A6I1MRE6/7-91             ----TAVRWTRTALANLVAIVE-YIEQDSPERAKSFASEIRAQTN--K-LAD-F--P--E-----L-GRPG-RVPGTRELVVHP-HYIIPYRVR--GN--T-IEILRVQHV----
+UniRef90_UPI000970B01B/1-85          ----MQVRWLRKAAQNLEDAHDYFA-KDNPMIAQAFVQDVYRLVN--L-LT-----I--Q-P--AM-GRAG-RVTGTRELVVQDYPFIIPYRVQ--QD--E-IHILRVFH-----
+UniRef90_A0A211ZG47/1-83             ----MRLSWRPAAEADRLAIYDHI-EASNPRAAERVDERISARVS--S-LRQ-M--P--Q-----S-GRPG-RVEGTRELTVSRTPYVVIYRIE--ED--T-VQILRI-------
+UniRef90_A0A0T9LQQ8/1-84             ----MNVKWLRKAAANLQHEYQW-LYERNP----IAAQNFVNEIH--K-LTS-LLTT--Q-P--SM-GRVG-RVMGTRELVLHNFPYLLPYRVK--SG--E-IQILRIF------
+UniRef90_UPI0018DB4A7F/1-83          ----MKIVWTQLALADLDAAYN-YIAASNPNAAIDIIDHIE---K--A-LDQLI--K--Y-P--EI-GQFC-RFPGTRELIITRTPFIIPYRVQ--AD--Q-IEILAI-------
+UniRef90_E6XG05/1-85                 ----MRVKWLRNVAQHLEDAYD-YLEKDNPEVAQAFVQDVYRLVN--L-LP-----V--Q-P--AM-GRAG-RVVGTREQIIQDYPFIIPYRVK--QD--E-IHILRIFH-----
+UniRef90_UPI0005BADB2C/2-83          -----IVRYTRQAIADLDAARD-YIALDNPTAAAAMAARLRAAID--G-LKQ-F--P--E-R-----GRLG-RVTGTRELVVPRTPFVVPYRIA--GH--E-IQVLAV-------
+UniRef90_C6BVJ5/1-84                 ----MRVKWLRGALKDLDAEA-SYLATEDVDLAQKTYSHIRDRGD--L-LGN-F--P--Q-----K-GRPG-RVPGTRELVLDRYPYIIPYRVK--ND--V-VEILRVF------
+UniRef90_D5MKP3/1-81                 ----MKVRWLSRAADDLEYLYE-YIAQDNPEAAASEAGKVLEAVK--H-LAD-Y-------P--AS-GRPG-RVPGTRELVISRYI--VAYRVK--DG--V-VQILRV-------
+UniRef90_A0A3B1D942/13-98            -ASGMQVRWFADAVLDLIGIRD-YIAKERPKTANDIAQLILENIN--V-LKR-------N-P--GI-GRPG-RIPNTKELIIAGTPYIVPYRVK--GG--I-IEILRV-------
+UniRef90_A0A1F9RSL5/3-83             ------PAWTRLALADLDNAY-RYIAEENPSAALRVIARIEKAVA--A-LRR-H-------P--EL-GRPG-RVGGTRELIIPGTPFIAAYRIK--DK--R-LEVLAV-------
+UniRef90_A0A662CB96/1-83             ----MRLRWLNLALDDLDEIAE-YISRDNPDAARRMVRRLWKSAH--V-LTS-------Q-P--DM-GRPG-RVHGTRELVVVKTPFVVPYRVV--GS--E-IQILRV-------
+UniRef90_A0A7X9TTU0/5-85             -------ALSSKAESDLDGIYEHYDGLAGPELGEAAVFHILGCLE--M-LER-F--P--N-----A-GKVS-ASPDCRELVITTYPYRATYSLQ--GD--R-VMVFRI-------
+UniRef90_A0A1Q4PBN3/1-84             ----MEIKWLRKAIANLEAEF-RYIAEDDPQAAERFVNEVWRLTQ--L-LKE-------Q-P--AM-GREG-RVPETRELILHNYPYIIPYRVR--NN--I-IQVLRVF------
+UniRef90_A0A3G7AF49/1-85             ----MHIEWLRTALKNLDDE-ARYIAQDNPEAAREFVQTLLTGIG--H-LAR-F-------P--AS-GREG-RLPGTREWVVPGWPYLIPYRVR--GS--R-LQILRIFH-----
+UniRef90_A0A259FDA8/1-84             ----MRVRWLRKALRNLDDE-ASFIAADSPEAAQLVVQRVLDAVA--M-LPE-------Q-P--GM-GRPG-RVAGTRELVVLKTRYIVPYRVR--GQ--T-IEILRVF------
+UniRef90_UPI0015BD5110/1-83          ----MKIVWTRLALADLDAAYD-YIAASDPNAATDTIDRIEKALD--A-LLK-Y--P-------QI-GKVG-RILGTRELTITRTPFIIPYRLE--AD--Q-ITILAI-------
+UniRef90_UPI00145C3DC9/1-83          ----MALRWHRQALDDLRGIHD-YIAAENPVAARHVVSHLRERAA--L-LLQ-------H-P--RS-GRPG-RLPGTRELVVARFPYILAYRER--GS--D-IEILLV-------
+UniRef90_A0A5R8QNB2/2-84             -----KIIWAPEAIDDLAALR-AYISQDNPAAARRLALHILELVE--T-VL--A--E--N-P--HI-GRPG-RVPGTREFVVDKTPYVVPYRVK--DK--A-VQILRV-------
+UniRef90_A0A7C1TXM9/1-83             ----MKLIWTKPAAAALERIQD-YIVKENPYVAWEGVQRIKQAVT--L-LSE-------H-P--KL-GRPG-RVRGTWELVIVGLPYIVPYRIK--EK--Q-IQILSV-------
+UniRef90_A0A2N2GP75/1-84             ----MRIKWLGAALLDLDEIE-AYI---AEDRSAVAVDVVVKIIK--A-VSL-L-EA--Q-Q--GI-GRAG-RVPGTKELIVPGLPYIVPYRVK--DQ--V-VQVLRVY------
+UniRef90_A0A2W0BH84/1-84             ----MKVLWTSRATQQLHAAYDYWSAEHSPQAGDRMLERILSAVQ--M-LEK-Y--P-------DA-GRHG-RIPGTREIVIPRTPFLIPYRLQ--HD--K-VQILAI-------
+UniRef90_UPI001A9630EC/2-83          -----IVRYARQAAADLNAARD-YIALDNPRAAAEVAKRLREAID--G-LRQ-F--P--E-R-----GRTG-RVASARELVIPGTPFVVPYRVI--GR--E-IQVLAV-------
+UniRef90_A0A7V5KX66/1-83             ----MKIRWLKLAARDLEQV-EAYIARENPAAAVGVVLRVIEAVE--L-LAE-------Q-P--GI-GRPG-RIEGTRELVINDTPFLVPYRQK--DG--Y-IEILRV-------
+UniRef90_A0A536UI10/1-84             ----MRVRWLRKALRNLDEE-ATYIAADDPAAARLVVARVLDAVA--L-LAQ-------H-P--GM-GRPG-RVPGTRELVVLKTRYLVPYRVR--GE--T-VEILRVF------
+UniRef90_A0A0T9V0A7/1-84             ----MNVKWLRTAAVNLQSEYQ-WLYERNPTAAQNFANE-VHQLT--S-LL--A--T--N-P--SM-GRAG-RVMGARELVLQNFPYLLPYRVK--SG--E-IQILRVF------
+UniRef90_UPI001422B328/1-84          ----MAVKWTKSALADLVAIVE-YIERDNAERARSFALEIQEKAN--S-LV-----E--F-P--GI-GRPG-RVRGTRELVIHP-NYIIPYRVR--GD--D-VEILRVQH-----
+UniRef90_A0A6P0PC39/1-83             ----MKIVWTRLALNDINSAYE-YIVTNNQDAALDTIERIEEAIN--R-LLQ-Y--P--Q-----M-GRVG-QISGTRELVISRTPFIVPYRVR--DD--T-LEILGV-------
+UniRef90_A0A1E5EME2/1-84             ----MQIKWLKKALVNLEQSA-EYLHEHNPQSSREFVQEVYDLTS--L-LK-----T--N-P--AM-GRPG-RVFGTRELALNKFPYLIPYRVK--NN--C-IEILRVF------
+UniRef90_A0A0N1B2C6/1-83             ----MRLVWTRRALTDIDGIFA-YVAAENPDSAERLTREIEARVQ--T-LAD-------H-P--EA-GRPG-RVEGTREFVVTGTPYILPYRVR--EG--R-VEILAV-------
+UniRef90_A0A3C0NSU4/1-85             ----MQIVWLKTALKNLDEIAE-YIAQENPRVARKVVSIVIEQVN--L-LA-----T--Q-P--AL-GRPG-RVVGTRELVISNTHYLVPYRIK--NN--Q-VEILRVFH-----
+UniRef90_A0A4R7B893/1-86             ----MQVRWLKQAIRNLAKEVDHI-AAENPSAARSLTKAIRESTN--N-LMT-F--P--A-Q-----GRPG-RVPGTRELVVDGTPYLIPYRVK--GD--V-VQILRVFHI----
+UniRef90_A0A521XSH1/1-85             ----MIIKWLDDAIDDLQALR-QYIAQDKPSAANRVAKRILSAVN--L-LPQ-------Q-P--GI-GRPG-RIPGTRELIVANTPYIIPYRIR--NQ--S-IEILRVLH-----
+UniRef90_A0A661DC27/2-85             -----VVKWLKKALSNLNKQ-AEYIAQDNPQAAIIVVQRIKESVN--L-LKE-------N-P--SL-GRPG-RIEGTRELVIDKTSYIVPYRVC--NN--R-VEILRVFH-----
+UniRef90_A0A431K6N3/1-83             ----MMLVWLRRAIADRDAQLD-YIAQDNPRAAIEQGDRIAHQVG--Q-LVQ-H-------P--EM-GRAG-RKQGTRELVISRTPFIVVYRIK--GQ--R-IELLRL-------
+UniRef90_A0A520FVH8/1-85             ----MRVRWLSKALRNLEDE-ATYVAMDDPNAARVVVERVLNAVA--M-LAH-------Q-P--GM-GRPG-RVPGTRELVVPKTRYVGPYRVR--GE--N-IEILRVFH-----
+UniRef90_A0A3B1A0C2/1-84             ---MMKVVWFKMAVRDLEWVKD-YIIQDNPEAAQKLVLRIKDAVS--L-LSE-------Q-P--GM-GRLG-RVPNTKELVIDHTPYILPYRVR--DN--R-IEILRV-------
+UniRef90_UPI00069504D7/1-84          ----MRIRWLRKALQNLDAELE-FIAQEDQDLAHKIYLHLMERIE--T-LKE-F--P--N-H--G---RNG-RVFGTRELVIERYPYIIPYRVR--EN--T-VEILRVF------
+UniRef90_A0A3D3SVX6/1-83             ----MRVRWLRRALKALMSAHD-LIAKDNPEDARRFFQHALASVE--Q-L---V--H--H-P--ER-GRAG-RVPGTRELVLLNYPYVIPYRVK--GG--E-LQILHV-------
+UniRef90_A0A3D2AJ15/1-83             ----MKLLWFRTAIEDLRSVR-RYVAQDNPAAA-RLLVDLIK-VK--A-ELL-L--T--F-H--DI-GRPG-RVPSTRELVIDGTPYILPYRVS--GH--E-IQILRV-------
+UniRef90_UPI000E0D3EF8/1-83          ----MLIKWTNTALASVDEIA-GYIAKDNPTRATTFVRELQDAVT--K-LQD-------H-P--GV-GRAG-RVPGTRELVLHK-NYIAIYRVR--GD--D-VEILRLH------
+UniRef90_A0A7V1AHY7/1-83             ----MQIKWFKDAVADIVSIRD-YIARDKPDAAGNVARRIKSEVD--R-LRE-Y-------P--GM-GKPG-RVEGTRELIISGFPYIIPYRVK--NN--V-IEILRV-------
+UniRef90_A0A0A1H9Z6/2-85             -----RVSWLRAALRNLDEEA-TYIA-ADDEAAARVV--VARVLD--A-VAQ-L--A--E-Q--PAMGRPG-RVPGTRELVVQNTRYIVPYRVR--GD--E-IQILRVFH-----
+UniRef90_A0A2N9LFQ6/6-88             ----LGIRWLKRALANLDAE-AAFIALDDPAAAGRVVDTIARTVE--L-LAQ-------H-P--GL-GRPG-RVEGTRELVVANTPYLVPYRVG--NN--V-VEILRV-------
+UniRef90_UPI0018C28936/1-83          ----MKVLWTRPALRDLEQIGD-YVWRDNPAAAAKLIARICERVD--A-LAQ-P--P--R-----L-GRPG-RVPQTRELVIAGTPFLAPYRVR--AE--V-VEILAI-------
+UniRef90_UPI0011A2DEB9/1-84          ----MHVKWTSRARRDLYSV-EAYISQDNPTAAAETVLKIIAAVE--S-LSG-F--T--D-----M-GRPG-RVPDTRELVIPGLPFIVPYRVT--GS--T-IIILRVY------
+UniRef90_A0A149VV95/2-82             ------LVWLRRAITDRDAQLD-YIAQDNPRAAIEQGDRIVHQVG--R-LIQ-H--P-------EM-GRAG-RKQGTRELVISRTPFIVIYRIK--GK--R-IELLRV-------
+UniRef90_A0A3G7VD68/2-61             ----------------------------GAEAAEGVVAQIIEALE--Q-LEM-F-------T--GL-GRPS-QIPDVRELILSKFPFIAPYRLA--HG--I-VQILRI-------
+UniRef90_A0A6I1WRP6/1-85             ----MRVEWLRTALKNLDDE-ATYIAVENPQAAIEFVKAIRASVE--Q-LSQ-F--P--S-----I-GREG-RLPGTREWPLPNWPYVIPYRIR--LG--K-LQVLRIFH-----
+UniRef90_A0A1F9LZY5/1-84             ----MQVKWTAKAVADLQAIRRH----IEQDKALAARKLVLRIIR--L-IEEDL--T--H-Q-PGM-GRPG-RKQGTRELVISGTPYFVPYLVR--GS--Q-LVIIRV-------
+UniRef90_A0A7C8AFD4/1-84             ----MQVKWSRKALLNLDDAVE-FIAADNPVKAAEVAQRIWNGA------QR-L--A--D-Q-PGM-GRPG-RVAGTRELVIPGLPYILPYVEK--GK--T-VIILRVM------
+UniRef90_T0ZH49/1-85                 ----MRIRWLRQALRTLDEEA-TYIAADDKTAARLVVGRILEAVE--R-LSE-------Q-P--GA-GRPG-RVPGTRELVVRNTRYILPYRVR--GD--T-IEILRVFH-----
+UniRef90_A0A0J6RFG5/1-85             ----MRLVWLRSALQNLQQE-TEYLAEENPAAAVALVKAVRVATN--H-LMD-F-------P--ST-GRPG-RVPGTRELVLEGFPYLIPYRVK--DD--Q-VQILRIFH-----
+UniRef90_UPI0014397828/4-83          ------IALTSKADSDLEGIYEHYKTRLGAEKAEDFVFQVLEALS--R-LES-F--P--Q-----L-GKAS-DIPDCRELIFSKFPYRAVYTLK--VK--S-GTIL---------
+UniRef90_A0A444JGW3/1-84             ----MRIRWTTKALENLDAAVE-YIAVDNPAAAQKVAQTIRESVE--L-LAD-------Q-P--GI-GRPG-RVTGTRELVITGLPYIIPYLEQ--NS--A-VIILRIL------
+UniRef90_A0A1J5IHH4/5-79             -------------LKNLEAE-AEYIARDNPAAAAAVVTKIMESVS--N-L---V--R--H-P--SL-GRPG-RVPETRELVIPETPYIVPYRVK--GK--S-VEILRVF------
+UniRef90_A0A0J6KLG1/2-85             -----RLVWLRSALQNLQQEA-EFIAEENPAAAAALVRAVRAATK--H-LAD-F--P-------ET-GRPG-RVPGTRELVLEGYPYLIPYRVK--DD--Q-VQILRIFH-----
+UniRef90_UPI001567605C/1-84          ----MRVRWLRTALRNLDDE-ALYIATDDPQAARLVVERVLSAVA--T-LAE-------Q-P--GI-GRPG-RVPGMRELVVLNTRFIVPYRVR--GD--S-VEVLRVF------
+UniRef90_A0A1V9V536/1-87             ----MRIEWLRNALRNLDTE-ASYIAQDNPAAARAFVSAVLTDVA--L-L---A--A--N-P--AA-GREG-RVPGTREWAMSSHPYLIPYRIR--GG--R-LQVLRIFHIR---
+UniRef90_A0A2V9TJJ4/1-83             ----MEVRWLRTALANLDAEA-EYVARDNATAAKQLVERIYEAVE--Q-LKQ-Y--P--S-----L-GRVG-RVPGTRELVVPHTPYLVPYRVR--ED--V-VEILRV-------
+UniRef90_A0A534VQV2/1-83             ----MTIVWTRAAVSDLDAVRR----FIG-ERNARAVRNVAARIR--A-ATR-V--L--K-EHPAV-GRPG-RVAGTRELLVTGTPYILPYRVA--GD--V-LEVLRV-------
+UniRef90_UPI0016727D95/1-86          ----MQVRWLRKAIQNLNAEAE-CVAQENPTTAAEMFEYVKAKVD--A-LAD-F-------P--AA-GRAG-RVPGTRELVIDHYPYLVPYRVA--GD--E-LHVLRVFHT----
+UniRef90_N6YQB5/1-85                 ----MRIRWLRAALRNLDEE-ASYIATDDPVAAAKVVERVLGAVA--L-LAE-------H-P--AI-GRPG-RLPGTRELVVPGTRYLVPYRVE--GA--E-VQILRVFH-----
+UniRef90_A0A7C3GRA1/1-84             ----MHIKWLDFARTDLDSI-EEYVAMENPDAAVRVVL--RRGIT--T-VEI-L--A--D-Q-PGV-GRLG-RVEGTRELVLTDIPYTVTYRIK--NK--T-IEVLRV-------
+UniRef90_A0A2W1NAN4/2-80             ---------TELADSDLTKIYEFYEPRTGAASAEEIVASVISALE--Q-L---L--L--F-P--GS-GRPS-RAPDMRDLIFRFIPFYAAYRVV--GD--E-VQVVRI-------
+UniRef90_A0A521Y7H4/2-83             -----HILWTRGAKRNLEQV-EEYIAKDNPQAAIDVVLKIIKSVE--A-LA-----D--N-P--AM-GRVG-RVFSTRELIISRTPYIVPYRVK--AG--H-IEILRV-------
+UniRef90_A0A6P0HXB0/1-83             ----MKIVWTRLALEDINNAYE-YIAANNPDSALDTIERVENSIN--R-LLQ-Y--P--E-M-----GRLG-QVVGTRELVVTGTPFIVPYRVR--GD--R-LEILAV-------
+UniRef90_A0A6N9SSF3/2-83             -----ILVWLRRAIVDRDAQLE-YIAQDSPRVAIEQGDRMVHQVG--Q-LVQ-Y--P--E-M-----GRAG-RKQGTRELVISRTPFIVIYRIK--GK--R-IELLRV-------
+UniRef90_UPI000B95116F/1-83          ----MEIKWLRKAIANIEAEF-RYIAEEHPQAAERFINEVWRLTQ--L-LKE-Q-------P--AM-GQEG-RVPETRELILHNYPYIIPYRVR--NN--T-IQVLRV-------
+UniRef90_A0A554UAB3/1-83             ----MRLSWRPAAEADRLAIYDHI-EADNPQAAELVDERILARVL--T-LLQ-L--P--Q-----S-GRPG-RVEGTRELTIRRTPYFVIYRIE--DD--T-VRILRI-------
+UniRef90_UPI001073EB55/2-83          -----RVLWLEGAESDLKSIYE-YIAAENPSAAVFVVQTIYEKGS--N-LEQ-F--P--E-M-----GKVG-KVEGTRELIIADLPYMIPYRIM--GE--T-VEILRV-------
+UniRef90_A0A3E1RFG6/2-83             -----ILLWLQRAIDDRDAQLD-YIADDNPTAAISQGDRIAQQVE--M-LLQ-------H-P--KI-GRPG-RVKGTRELVISHTPFLVIYRIK--GN--R-IEILRL-------
+UniRef90_A0A0H5MF66/1-84             ----MNLIWLRRASTNLEREYQ-WLHERNPTAALNFANEVYELTS--L-L---I--T--Q-P--AM-GRAG-RVMGTRELVLHNFPYLLPYRVK--NN--E-IQILRVF------
+UniRef90_UPI00048F305F/1-83          ----MRLEWSAFALEDREGIFD-YIEEDNPRAAVDVDDRIRTQVR--Q-LLQ-F--P-------EA-GRPG-RIEGTRELVISRTPYIAAYRIT--GD--T-VRILRV-------
+UniRef90_A0A3N9V9V1/1-83             ----MRIRWLKRALLDLGEA-ESYISRDNPVAAAEVVLKVVKAVS--F-LEQ-Q-------P--GL-GRHG-RVPGTKELVVSGTPYVVPYRVK--ED--T-IQVLRV-------
+UniRef90_A0A6P0RG11/1-83             ----MKIVWTRLALEDLNHAYE-YIATNNPDAALDTIERIENAIN--R-LLQ-Y--P--E-M-----GRLG-KVAGTRELVVIDTPFIVPYRVR--GD--R-LEILAV-------
+UniRef90_UPI000A802F74/1-85          ----MSIKWTKTAFRSADEIA-SYIAKDNPTRASSFVIELQDAVT--K-LQL-------H-P--GM-GRAG-RVPGTRELVLHK-NYIAIYRVR--GD--D-VEILRLHHV----
+UniRef90_A0A7C8EMR0/1-83             ----MHLKWTRPALGDLKEA-GIFIASDNPEAAERMAERVREAVE--Y-LME-L--P--N-M-----GRPG-RVSGTRELVVSGTPFIVVYRVA--AP--A-VQILRV-------
+UniRef90_A0A364LHZ5/1-83             ----MRIKWTKGAQSNLNQIED-YIAQNNPKAAVDIVIKIIKTVG--M-LSE-------N-P--TM-GRTG-RIFGTRELIINGTPFIIPYRIN--SE--Q-IEILRV-------
+UniRef90_UPI0015A9A917/1-83          ----MKVEWSHKARTDLDEIFD-YILLENPQAAVDVLERIEQSTA-----RL-A--D--H-P--GM-GRPG-RVKSTRELIIPGIPYILPYLTG--TK--A-ITIVRV-------
+UniRef90_A0A6N6TD07/1-83             ----MKILWTRPAARDLAAIQD-YIARDNPTAAYRLATAIRRQVR--Q-LAD-------H-P--QI-GRPG-RLDGTRELVISDTPYLVPYRIS--DH--R-VEILAV-------
+UniRef90_A0A371WNK8/1-84             ----MNIVWSDEALDDIEQLR-TYIAQDNPHAARRVAIAIVDAVT--K-ML--P--S--N-P--EI-GRPG-RVSGTRELVIPRLPYIVPYRVR--NE--T-IQVLRV-------
+UniRef90_B1G6V8/1-83                 ----MRLEWAAFAVENRDAIFD-YIEQDSPYAAVVVDDRIRVQVR--Q-LLQ-F--P--E-----T-GRPR-RIEGTRELVISRTPYIAAYRIM--GE--T-VRILRV-------
+UniRef90_UPI00123F1E30/2-55          ----------------------------------KIISTILQSFK--Q-LEV-------F-P--GS-GRPS-VMPDVRELVLDRYPFIAPYRFS--QG--T-IQVLRV-------
+UniRef90_A0A0Q6NYC0/1-84             ----MRIKWLRTALRNLDEEA-TYIATDDAA-AARLVVDRI--FR--S-VAQ-L--A-LQ-P--GL-GRPG-RVPGTRELIVPRTRYIVPYRVR--GD--V-VEILRVF------
+UniRef90_UPI001242D824/1-85          ----MRVEWLRKALKNLDDE-AAYIALENPKAASEFVQDILTRVD--H-LAR-F-------P--AS-GREG-RLAGTREWALPDLPYLIPYRVR--QG--K-VQVLRIFH-----
+UniRef90_A0A1G7E039/1-84             ----MRVRWLRKALHNLDEEA-AYIATDDAAAARLVVGRILDS------AAQ-L--A--H-Q-PGL-GRPG-RVPGTRELIVQKTRYIVPYRVR--GD--A-VEILRVF------
+UniRef90_A0A2A4VMR1/4-87             ----LQISWLNKALKNLDDE-AQYIATDSPSAAKKMVQKIRITVE--L-LA-----N--N-P--SL-GRSG-RIVGTRELVIEHFPYIIPYRVH--NR--T-IEILRVF------
+UniRef90_A0A7V2S9H1/2-83             -----KVIWFRNAILDLKSA-NKYIAQENPQAAQKIVHRIKKKVS--L-LSE-------Q-P--GI-GRLG-RVPNTKELVVDKTSFILPYRVR--GN--K-IEILRV-------
+UniRef90_A0A2W0BV10/2-83             ------IEWTEQATQQLDAAHDYISLSNGEDIAVRITSRIVSSVL-----QL-D--A--F-P--IS-GRPG-RVPGTRELVISKTPFIAVYVME--KS--R-IVILAI-------
+UniRef90_A0A2N0V507/1-83             ----MRLRYTRRAKTDLSEIYD-FVAQDNRNAATRIITKIHDTLN--S-L---L--A--N-P--FM-GRPG-RIDGTRELIITHFPFIVVYRVQ--DK--D-IHVLAI-------
+UniRef90_A0A1Y6JVI0/1-86             ---MLKIALTSKAESDLYGIYEHYEPLLGAEASEGVVFHIISAIE--M-LGT-F--P--Q-----L-GKAS-DLPDCRELIISKYPYRAVYSLI--DK--T-IRIYRIL------
+UniRef90_A0A1M3BZX7/4-83             -----DIRWTRLALARLDEIA-AWIAKDNPVRATSFVQELRQK------LQA-L--R--E-H--EL-GRPG-RVYGTRELVLHRH-YLAVYRVR--GN--E-VQVLTI-------
+UniRef90_UPI00196884C2/1-84          ----MRVKWLRKALFNLDSAAE-YIAQ---NNRMAAQAMVAEAFR--L-TGL-L--A-DN-P--DL-GRPG-RVPGTRELVMAHYPYVIPYRIR--NG--S-VEVLRVF------
+UniRef90_UPI000462B4B8/1-84          ----MSVKWTRTALLNLDNAIE-YIAEDRPIAAKEVGQQIWDSAK--L-LA-----D--H-P--GM-GRPG-RVPGTRELVVSGLPFILPYVEK--AD--C-IYILRVM------
+UniRef90_A0A258YT84/1-84             ----MQVKWLRRALRNLDQEAAHIA----QDN-RRAAAELIAQAN--Q-VTR-LLAM--H-P--GL-GRPG-RIPGTREIVLAGFPYLIPYRVK--DK--C-VETLRVF------
+UniRef90_A0A350Y884/1-83             ----MSVKWLRKALQNLAQAH-AYIAKDDPTAAVRTMSTIQQAVA--Q-LAE-F--P--N-M-----GRIG-RVEGTRELVIPSTPYFVVYRVK--GN--T-VQILRV-------
+UniRef90_A0A315DF67/1-83             ----MLIKWTRGALASVDDIA-GFIAKDNPARATSFVLELQAAVA--K-LQ-----A--H-P--GM-GRAG-RVPGTRELVLHK-NYIAIYRVR--GD--N-VEILRLH------
+UniRef90_A0A2P5LYV2/1-84             ----MKIIWSPEAIDDLAALR-AYISRDNPAAARRVALHLLEMVE--T-T-L-A--E--N-P--PI-GRPG-RVPGTREFIVDKTPYVVPYRVK--DN--A-LQIVRI-------
+UniRef90_A0A2M7X5Q5/1-83             ----MMLVWLRRALADRDAQLD-YIAQDSPRAAIEQGDRIAHQVG--Q-LVQ-H-------P--EM-GRAG-RKLGTRELVISHTPFIMIYRIK--GK--R-IDLLRV-------
+UniRef90_A0A117KHZ8/1-83             ----MQIKWLRRALNDLESIAD-YIALDNPIAALAMV-DTIESVT--DGLSD-------H-P--KR-GRDG-RVPGTRELVIPDTAYISVYRLK--AR--R-VEILRV-------
+UniRef90_A0A661Q477/1-83             ----MHINWLSLALVDLDSI-EAYIAQESLDAAVRVVLQVIESVE--L-LQN-Q--P--N-----L-GRIG-RVDGTRELILTDTPYTVAYRVK--NS--S-LEILRI-------
+UniRef90_A0A0Q9I9P4/1-83             ----MKLRWTKRALAEIDAIFA-YVSTDSPTAAERLALLIETKVQ--S-LL-----D--H-P--NL-GRPG-RVDGTREFVVTGTPYILPYRVR--NG--R-VEILAV-------
+UniRef90_A0A3P1ZQX4/16-55            -------------------------------------------------------------P--EM-GRPG-RVFGTRELVIERYPYIVPYRIR--GR--E-VQIIRVFH-----
+UniRef90_UPI000D759246/1-83          ----MQVRWLSRALRNLGEEAD-YIAQDDPAAAARMVALIEDAVA--L-L---A--D--H-P--GL-GRPG-RVPGTRELVVPGTPYLVPYRVR--GQ--H-VDILRV-------
+UniRef90_A0A522V8G7/1-83             ----MKVEWTTAAKRDHDALIDHI-AQDQPLAAVEQGDEITQQIA--R-LGE-F--P--N-M--G---RAG-RLCDTRELVINRTPYVVAYRIK--GE--T-IHILRI-------
+UniRef90_A0A2N2TTZ3/1-84             ----MQVKWLRRALLNLEQEA-ASIARDNPRAAAALVLEADQSTR--L-L---T--R--H-P--GM-GRPG-RVPGTRELVLPNFPYIIPYRLK--EQ--R-VEILRVF------
+UniRef90_A0A2H0G2Z8/1-84             ----MQVKWLRKALLNLDREAAH-IARENPKSATEFVTHLRQSAS--V-LSM-------H-P--HV-GRQG-RVPGTRELVIAQFPYILPYRVR--EN--R-IEILRVF------
+UniRef90_A0A7C1WM45/1-83             ----MRLKWLGDAVNDLIEIR-KYIATDNPGAARNVAERIKKEVG--H-LKE-------H-S--GL-GRPG-RVEGTRELIISGFPYIIPYRVK--ND--V-VEILRV-------
+UniRef90_UPI001AE8B8FF/1-85          ----MQVVWTRRSIGELTAIGD-YIAQHNPSAAARVVKDIHRRTV--R-LL--S--A--N-P--FL-GRRG-EIEGTRELVLPNLPYIVAYRVR--ED--Q-VEVLFVQ------
+UniRef90_A0A503SPN5/2-84             -----RIVWTRRYLTELEAIGD-YISEHNPRAAARIVKEIHGKTS--R-LL--S--A--N-P--FI-GRTG-EINGTRELVIPSTPYIVAYRVR--DK--E-IEILFV-------
+UniRef90_A0A1F9LIF7/1-83             ----MRIRLTRSATRDLDAIEAH-IAEDNPKAAVRTVLRVLEAIE--G-LSE-F--P--N-----V-GRPG-RVPGTRELVVGGTPFITVYKVE--TN--T-LWVARV-------
+UniRef90_A0A7G6TS25/1-83             ----MRLKWSAFALADRDDIFTHIE-AESPRA-AAAVDEHIAQA---V-LRL-V--E--F-P--ES-GRPG-RVPGTRELVISRTPYIAAYVLT--HD--A-IRILRV-------
+UniRef90_A0A1W2BQP7/1-84             ----MQVKWLRNAAKNLNDAT-EYIADDNPKVAREFFIHTIESVN--K-LAQ-Y--P--E-----L-GRAG-RVPGTRELVIFGYPYIVPYRIK--DG--N-VEILRVF------
+UniRef90_UPI0005A18D94/1-84          ----MPVKWLRRALENLDDE-AAYIAEDNPRVAAEFVRHMRNSAA--M-LAD-H--P--N-----R-GRPG-RITGTRELVVTRFPYILPYRVR--GG--T-VEVLRVF------
+UniRef90_V4P985/1-83                 ----MKLEWTGFALADRDAIFD-FIEVDSPRSAVFVDDAVKEQVQ--Q-V---L--L--F-P--ES-GRPG-RVIGTRELVVRNLPYVIAYRVS--DG--V-VRILRV-------
+UniRef90_UPI0002D98F0B/1-83          ----MQVRWLKKALRNLEQMH-QYISEDSPEAAVQIIQKIQVGVD--Q-LAS-F--P--N-M-----GRVG-RVEGTRELVIPNTPYFLVYRVK--GT--T-VEILRI-------
+UniRef90_A0A346MVY6/1-84             ----MRVRWLQRALRNLQEE-AEYIAADNPQAAVATVIHIQRTVA--L-L---A--D--N-P--GL-GRAG-RVAGTRELIVPDTPYIVPYRVR--GK--D-IDILRVF------
+UniRef90_A0A3E1SEN0/1-85             ----MAVKWTKTALANLVAIVE-YIEQDNAERAKSFVLEIQAKTN--S-LAE-F--P--N-M-----GRPG-RVTGTRELVIHP-NYIIPYRVR--GD--V-VEILRVQHV----
+UniRef90_UPI0018C34FB3/1-84          ----MKIVWSRKALGDLAAIR-AYIARDNPGAARRVASHLVEAIE--T-TLP-S--A----P--HI-GRPG-RVFGAREFVVVGTPFIIPYRAQ--NE--A-IQILRI-------
+UniRef90_A0A496X0X4/1-86             ----MQLKWTEPASQDLDKIEEYISRDNSPAVAIDIVLEVIETVE--M-V-L-P--A--H-P--RA-GRMG-RVTGTRELIVEGVPFIVIYRQI--GS-DQ-LQIIRV-------
+UniRef90_A0A3A4VVU3/1-83             ----MRLEWTRLAVKDIQEA-GHFIASDNPSAARRMAQRVREAVE--H-LVD-Q--P-------NI-GRPG-RVQGTRELVISGTPFIAIYWVR--GD--A-VTILRL-------
+UniRef90_A0A2T3J6E7/1-87             ----MEIKWLENALKNLDSAAE-YLNEHNPQAAQNFMQEVHSFTT--L-LK-----E--N-P--SM-GRTG-RVFGTRELVLQQFPYLIPYRVK--NN--R-IEILRVFPTR---
+UniRef90_A0A1F9MEE1/2-83             -----RVSWLEAALLDLDEI-EAYVA---ADRSAVAVEVVLKIIR--A-VSL-I--G--E-Q-PGI-GRVG-RVPGTKELVVSGLPYIVPYRVK--DE--V-VQVLRV-------
+UniRef90_A0A7I8MH61/1-83             ----MRLRWLNLALDDLDEIAE-YISRDNPDAARRVVKRLWKAAQ--D-LT-----G--Q-P--EM-GRLG-RVYGTRELVVVNTPFVVPYRVV--GS--E-IQILRV-------
+UniRef90_A0A7C8F8X7/1-83             ----MKLEWLPQAQNDFDEIID-YIAEDNPFAAIEQGDEIESQVA--G-LL-----D--N-R--HQ-GRPG-RVKGTREPVIVRTPYIAAYRIK--KE--S-IHILRL-------
+UniRef90_A0A1R4H9U9/1-83             ----MKIVWTEPARQDLRTIFE-YISEESPKAARSLLSDIKERVI--P-LQD-------N-P--LI-GRMG-RVDGTRELVMTGTHYILPYRVQ--AN--Q-IQILAV-------
+UniRef90_A0A1G0DL78/1-83             ----MRVRWLRGALRNLDQE-ASYIAQDNPKAAAELVRHLRNRAL--L-LGE-Q--P--N-----L-GRPG-RIPGTRELVLSNLPYILPYRVR--ND--T-VEILRV-------
+UniRef90_A0A2M8URQ3/1-85             ----MRIEWLRTALRNLDAEAD-YIAQDNPAAARAFVSAVLADVE--L-L---A--T--N-P--AS-GREG-RVPGTREWVMSSHPYLIPYRIR--AG--R-LQVLRIFH-----
+UniRef90_UPI001AA6A7D6/8-91          -----IIHWTEAAAKDMGGITDY---LFGEGLAFDAVEDYVKRIYSAP-HHL-A--T--L-P--GA-GKPG-RVPSTREWLVKDTPYALIYRVL--AD--R-VQILRV-------
+UniRef90_A0A3A0EQD2/2-83             -----IIVWSRTAVADLEEVR-RYIADDDPKAAQDIARRILEAVE--Q-L---A--A--F-P--MS-GRAG-RVPDTRELVVTGTPFVIPYTVR--GK--R-IEIIAV-------
+UniRef90_A0A432V0C7/1-83             ----MRLTWSAFALADRDDIFTHIE-AENPR-AAVAVDEHIEQA---V-LRL-V--E--F-P--ES-GRPG-RVPGTRELVIHRTPYIAAYVLA--PD--R-IRVLRV-------
+UniRef90_A0A7X6AI19/1-83             ----MRVRWLLKAVNDLEDLQ-EYIAFDNPYAASRQVEIILEAAA--R-LEE-------N-P--YI-GRDG-RVKGTRELVIPKTPFIAAYRIK--DD--V-VEILRV-------
+UniRef90_S6AG89/1-85                 ----MRIEWLRTALQNLDDE-AAYIAQDNPQAAADVVKAIVADIE--Q-LAR-L--P--S-----M-GREG-RVTGTREWAMPNLPYLIPYRVR--GD--R-LQILRIFH-----
+UniRef90_A0A7K3NLS2/1-85             ----MRVRWLRAARRNLDAELD-YIAREDRDAARTLYAHIMDRVA--L-LGK-------H-P--QA-GRPG-RVFGTRELVIDHYPYILPYRVS--GD--C-VEILRVFH-----
+UniRef90_UPI001491720F/1-84          ----MALMWTNQAARDLEDIHS-FLEPRDPQAAARIIQRLARIAK--D-VLE-V--A--P----DA-GRPG-RVEGTRELVVTRTPYIIAYEVD--RD--D-VRIVSV-------
+UniRef90_UPI001459819F/1-84          ----MRIRWLRAALRDLDSEM-NYVAERDREAAVHMYALIREKTS--L-LAR-L--P--E-----L-GRPG-RVFGTRELVLEQHPYIIPYRVK--NG--V-VEILRIF------
+UniRef90_A0A4V4R981/3-85             -----RIKWLERATLDLDSIYE-YIRQDDPKSAKKVASAILKNVK--K-LEQ-H--P-------QI-GRAG-RVPGTRELIVLKGAYLVAYCC---NE--E-VEILRVLR-----
+UniRef90_A0A7Y8AWI1/3-85             ------VEWLKAALKNLDDE-AAFIAQENPK----AAYEFVQAIR-TG-LEH-V--A--EFP--AM-GREG-RVPGTREWVMPRWPYLVPYRIR--EG--R-LQVLRIFH-----
+UniRef90_A0A4Q7D684/1-85             ----MQVEWLRAALRNLDDE-AAFIAEENPKAASEFVQAMLT-----G-LEH-I--A--QFP--AL-GRMG-RVPGTREWVVPRWPYIVPYRIR--DG--R-LQVMRIFH-----
+UniRef90_A0A3B1BEB7/17-102           ---SMDVKWLRKALLNLDQEA-EYIAKDDPEAAKLVVQRIYHTVS--L-LKE-------N-P--SL-GHPG-RLPGTHELVIPKTRYIVPYRVR--PRLQQ-IEILRV-------
+UniRef90_A0A3A3GAE7/1-83             ----MKLEWSQCALDDRDKIFD-YIEQDNPHAAIAVDNRISEQVK--L-LAQ-F--P--E-----G-GRTG-RVEGTRELVISRTSYIVAYRIS--GN--V-VHILRV-------
+UniRef90_A0A1J5RAK2/1-84             ----MQVKWLRTALTNLIDEAD-YIAEENPKAANEFVGQIMGSIE--Q-L---A--A--Y-P--SL-GRPG-RIFGTRELVVSGYPYIIPYRVK--NE--T-VEILRIF------
+UniRef90_A0A557NUK1/1-84             ----MQVKWLKQALINLEHS-ANYLNDQNPQAARDFVREVYDLIE--L-LKE-------N-P--AM-GRAG-RVFGTRELILQRFPYLIPYRVK--DN--C-IEILRIF------
+UniRef90_A0A521WGD5/1-83             ----MRVRWLSKALHNLADEAD-FIAIDDPKAAGLVVSPVLDAVQ--S-LAQ-------Q-P--GI-GRPG-RMPGTRELVVPRTRYIVPYRVR--SD--T-VEILRL-------
+UniRef90_W0BBM0/1-83                 ----MRIKWTKGAKNNLNQIED-YIAQDNPKAAVDIIIKIITAVG--M-LSE-------N-P--AL-GRTG-RIFDTRELIINGTPFIVPYRIK--SE--Q-IEILRV-------
+UniRef90_A0A522USL4/1-83             ----MRIAWLREAVQDLVEIR-RFIATDNPDAAMQVAKRILDTVT--Y-LRD-H-------P--EI-GRIG-RIPGTRELVIPGLPYIVPYRVK--GA--S-IEILGV-------
+UniRef90_A0A2V8ZJP4/1-88             ----MEVRWLKRALANLEAEAE-YISRDSHAAAQRVVLAI-ER----A-VQL-L--A-SH-P--AM-GRPG-RIEGTRELVVMRTPYIIPYRVR--ED--K-VEVLRVFHTEV--
+UniRef90_UPI0011F0ABDC/2-83          -----RIVWTEPAIRDLQAAR-AYIARDKPGAAAEQMELVLGAVA--G-LIE-F--P--H-----L-GRPG-RRPGTRELVVSRTPFVVPYRLR--GD--A-IEILRV-------
+UniRef90_UPI0003008D32/1-84          ----MAVIWSEAAVQDLQGIFD-YVVEDSPQNALLVDTRICEQTD--E-LVR-------F-P--AL-GRPG-QFEGTRELIIQRTPYIAIYRVE--ED--DTIRVVRI-------
+UniRef90_K2C208/2-83                 -----IIKWLDDAIYDLRSS-RPYIAQDKPSAANHVAKRILHSVN--L-L---L--A--H-S--GI-GKPG-RVPGTRELVVSNTPYIIPYRVR--KN--S-IEILRV-------
+UniRef90_UPI000F86B2C0/1-86          ----MQVKWLRRALSNLDEAVGR-ISKDNPKAALDFVTAVINTVD--R-ISD-F-------P--GL-GKTG-RVLGVREITVQGYPCIIPYRVA--GD--D-WQILRVLHV----
+UniRef90_UPI000424AEDC/1-83          ----MKIVWTEPARQDLRDIFE-YIAEENPHAAHALLNEIKDRVL--L-LQ-----S--N-P--QI-GRPG-RVEGTRELVLTGTRYILPYRIK--EQ--Q-IQILAV-------
+#=GC RF                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..x.xxx.x..x..x.x..xx.xxxx.xxxxxxxxxxxxxxxxxxxxxx..xx..x.xxxxxxxxxxxxx
+//

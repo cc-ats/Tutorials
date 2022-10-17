@@ -1,0 +1,2511 @@
+Query         bax 
+Match_columns 192
+No_of_seqs    161 out of 2332
+Neff          6.81909
+Searched_HMMs 80799
+Date          Wed Sep  7 07:45:48 2022
+Command       /ourdisk/hpc/ccats/dont_archive/van/.Programs/miniconda3/envs/af2.2.0/bin/hhsearch -i /tmp/tmpjhqt0880/query.a3m -o /tmp/tmpjhqt0880/output.hhr -maxseq 1000000 -d /opt/oscer/software/alphafold/2.0.0/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EB6_A Apoptosis regulator BAX 100.0 8.6E-47 1.1E-51  308.5   0.0  192    1-192     1-192 (192)
+  2 5W60_A Apoptosis regulator BAX 100.0 3.1E-46 3.9E-51  305.6   0.0  192    1-192     1-192 (194)
+  3 2LR1_A Apoptosis regulator BAX 100.0 6.1E-46 7.6E-51  303.3   0.0  192    1-192     1-192 (192)
+  4 4ZII_A Apoptosis Regulator Bax 100.0 2.1E-41 2.6E-46  271.5   0.0  170    1-170     1-170 (170)
+  5 4ZIE_A Apoptosis Regulator Bax 100.0 1.2E-40 1.4E-45  266.6   0.0  167    1-167     1-167 (168)
+  6 4ZIG_A Apoptosis Regulator Bax 100.0 2.3E-40 2.8E-45  264.9   0.0  167    1-167     1-167 (168)
+  7 5W63_A Apoptosis regulator bax 100.0 1.1E-38 1.4E-43  259.7   0.0  180   10-190     6-189 (189)
+  8 5W5Z_A 3C10 Fab' light chain,  100.0 2.1E-37 2.6E-42  247.4   0.0  160   33-192     2-161 (163)
+  9 5VX1_B Bcl-2 homologous antago  99.9 3.6E-32 4.5E-37  217.6   0.0  155   11-166     3-169 (170)
+ 10 5WDD_B Bcl-2-related ovarian k  99.9 7.4E-32 9.2E-37  215.2   0.0  155   11-166     6-167 (168)
+ 11 6GL8_A Bcl-2-like protein 1,Ap  99.9 7.6E-32 9.4E-37  216.9   0.0  149   19-168    14-171 (172)
+ 12 5VWV_A Bcl-2 homologous antago  99.9 1.6E-31 1.9E-36  214.0   0.0  155   11-166     3-169 (170)
+ 13 6CKV_A Bcl-2-related ovarian k  99.9 5.9E-31 7.3E-36  208.1   0.0  150   13-164     2-158 (158)
+ 14 1O0L_A Apoptosis regulator Bcl  99.9 6.4E-31   8E-36  214.3   0.0  154   11-169     3-160 (188)
+ 15 2MHS_A Induced myeloid leukemi  99.9 7.7E-31 9.6E-36  209.2   0.0  151   15-170     1-155 (164)
+ 16 1YSW_A Apoptosis regulator Bcl  99.9   8E-31 9.8E-36  209.1   0.0  152   18-170     4-164 (164)
+ 17 6FBX_A BCL2-like 10, BCL2-anta  99.9 1.3E-30 1.6E-35  204.8   0.0  144   11-168     1-150 (152)
+ 18 3PK1_A Induced myeloid leukemi  99.9 1.7E-30 2.1E-35  212.4   0.0  152   14-170    32-187 (189)
+ 19 5JSB_A Induced myeloid leukemi  99.9 1.7E-30 2.2E-35  209.8   0.0  161   17-182     1-169 (179)
+ 20 5C3F_A Induced myeloid leukemi  99.9 1.9E-30 2.3E-35  204.9   0.0  149   17-170     1-153 (156)
+ 21 5FMI_A BCL-2 HOMOLOGOUS ANTAGO  99.9 2.2E-30 2.7E-35  205.5   0.0  150   15-165     1-162 (162)
+ 22 2KUA_A Bcl-2-like protein 10;   99.9 2.3E-30 2.8E-35  208.4   0.0  151    8-170     2-168 (170)
+ 23 4K5A_A Bcl-2-like protein 2, D  99.9 2.9E-30 3.6E-35  210.1   0.0  152   13-169    11-166 (184)
+ 24 5WOS_A CNPV058 bcl-2 like prot  99.9 3.2E-30 3.9E-35  202.6   0.0  145    5-162     1-147 (148)
+ 25 6UDV_A Induced myeloid leukemi  99.9 3.7E-30 4.5E-35  203.4   0.0  150   16-170     1-154 (157)
+ 26 2W3L_A APOPTOSIS REGULATOR BCL  99.9 8.2E-30   1E-34  199.1   0.0  138   22-168     2-143 (144)
+ 27 2O2F_A Solution structure of t  99.9   1E-29 1.3E-34  197.2   0.0  133   21-167     2-138 (138)
+ 28 3IHD_A Bcl-2-like protein 1; A  99.9 1.4E-29 1.7E-34  208.6   0.0  146   20-166     3-197 (197)
+ 29 3ILC_A Bcl-2-like protein 1; A  99.9 1.4E-29 1.7E-34  208.6   0.0  146   20-166     3-197 (197)
+ 30 3QBR_A SJCHGC06286 protein, Bc  99.9 1.4E-29 1.7E-34  205.4   0.0  156   10-167     8-179 (179)
+ 31 3QBR_X SJCHGC06286 protein, Bc  99.9 1.4E-29 1.7E-34  205.4   0.0  156   10-167     8-179 (179)
+ 32 6QGG_A Induced myeloid leukemi  99.9 1.5E-29 1.9E-34  204.5   0.0  149   20-169     2-158 (177)
+ 33 6QGH_A Induced myeloid leukemi  99.9 1.5E-29 1.9E-34  204.5   0.0  149   20-169     2-158 (177)
+ 34 5JSN_C Apoptosis regulator Bcl  99.9 1.7E-29 2.1E-34  210.8   0.0  152   17-169     5-206 (215)
+ 35 2PON_B Beclin-1/Apoptosis regu  99.9   2E-29 2.5E-34  198.8   0.0  146   20-166     2-156 (156)
+ 36 1YSN_A Apoptosis regulator Bcl  99.9   2E-29 2.5E-34  204.4   0.0  153   16-169     2-163 (181)
+ 37 6BF2_A Bcl-2-like protein 1; A  99.9 2.3E-29 2.8E-34  209.6   0.0  150   19-169     4-202 (212)
+ 38 4CIM_A BCL-2-LIKE PROTEIN 2; A  99.9 2.3E-29 2.8E-34  200.4   0.0  150   16-170     3-156 (163)
+ 39 4CIM_B BCL-2-LIKE PROTEIN 2; A  99.9 2.3E-29 2.8E-34  200.4   0.0  150   16-170     3-156 (163)
+ 40 5UUK_A Bcl-2-related protein A  99.9 3.3E-29 4.1E-34  197.2   0.0  141   15-167     2-151 (152)
+ 41 5UUL_A Bcl-2-related protein A  99.9 3.3E-29 4.1E-34  197.2   0.0  141   15-167     2-151 (152)
+ 42 5UUP_A Bcl-2-related protein A  99.9 3.3E-29 4.1E-34  197.2   0.0  141   15-167     2-151 (152)
+ 43 2A5Y_A Apoptosis regulator ced  99.9 3.4E-29 4.2E-34  207.3   0.0  155   10-169    20-185 (204)
+ 44 1R2D_A Apoptosis regulator Bcl  99.9 3.7E-29 4.6E-34  209.2   0.0  148   21-169     3-199 (218)
+ 45 1LXL_A BCL-XL; APOPTOSIS, PROG  99.9 3.9E-29 4.8E-34  209.4   0.0  151   18-169     4-203 (221)
+ 46 6HJL_E Bcl-2-like protein 1, A  99.9 4.2E-29 5.2E-34  193.2   0.0  133   21-165     2-138 (138)
+ 47 3SP7_A Bcl-2-like protein 1; B  99.9 4.4E-29 5.5E-34  200.6   0.0  151   18-169     3-162 (172)
+ 48 1TY4_B Apoptosis regulator ced  99.9 1.8E-28 2.3E-33  196.7   0.0  152   14-169     4-165 (170)
+ 49 4OYD_A Bcl-2, HBRF1; Inhibitor  99.9 2.7E-28 3.3E-33  194.5   0.0  140   24-166    10-158 (158)
+ 50 4OYD_C Bcl-2, HBRF1; Inhibitor  99.9 2.7E-28 3.3E-33  194.5   0.0  140   24-166    10-158 (158)
+ 51 2WH6_A EARLY ANTIGEN PROTEIN R  99.9 3.3E-28   4E-33  196.9   0.0  142   23-167    22-172 (173)
+ 52 4B4S_A BCL-2-LIKE PROTEIN 10,   99.9 3.9E-28 4.9E-33  196.5   0.0  144   14-169     2-166 (175)
+ 53 1OHU_A APOPTOSIS REGULATOR CED  99.9 4.9E-28 6.1E-33  195.5   0.0  151   14-169     4-165 (175)
+ 54 5TWA_A Bcl-x homologous protei  99.9 1.4E-27 1.8E-32  195.5   0.0  147   21-170    19-183 (187)
+ 55 5TWA_B Bcl-x homologous protei  99.9 1.4E-27 1.8E-32  195.5   0.0  147   21-170    19-183 (187)
+ 56 5TZP_A Bcl-2-like protein FPV0  99.9 1.9E-27 2.4E-32  187.4   0.0  141   12-165     4-147 (148)
+ 57 6TZC_B Maltose/maltodextrin-bi  99.9   1E-26 1.3E-31  184.7   0.0  136   22-170    11-146 (154)
+ 58 5UA5_A 5-HL, Uncharacterized p  99.9 1.6E-26   2E-31  183.4   0.0  146   12-170     4-151 (153)
+ 59 4WMU_A MBP-MCL1; Apoptosis, pr  99.8   1E-25 1.2E-30  203.6   0.0  142   20-166   372-517 (518)
+ 60 1K3K_A functional anti-apoptot  99.8 4.5E-25 5.6E-30  175.9   0.0  114   55-170    28-146 (158)
+ 61 5VMN_A Bak protein; Apoptosis,  99.8 2.7E-24 3.3E-29  167.3   0.0  111   56-169    13-128 (132)
+ 62 5VMO_A Bak protein, Bcl-2 inte  99.8 2.7E-24 3.3E-29  167.3   0.0  111   56-169    13-128 (132)
+ 63 2M5I_A BH3-interacting domain   99.7 3.9E-22 4.8E-27  155.8   0.0  105   52-157    19-131 (135)
+ 64 5KTG_B Green fluorescent prote  99.2 1.7E-14 2.1E-19  127.1   0.0   74   54-128   232-309 (309)
+ 65 2BID_A HUMAN PRO-APOPTOTIC PRO  99.0 4.3E-13 5.3E-18  111.1   0.0  101   50-157    79-193 (197)
+ 66 3PK1_B Induced myeloid leukemi  97.0 8.6E-06 1.1E-10   49.5   0.0   30   51-80      4-33  (34)
+ 67 2XA0_D APOPTOSIS REGULATOR BCL  96.7 3.3E-05 4.1E-10   46.1   0.0   28   54-81      3-30  (31)
+ 68 1DDB_A PRO-APOPTOTIC MOLECULE   96.0 0.00032   4E-09   58.9   0.0  104   53-157    80-191 (195)
+ 69 4MI8_B Bcl-2 homolog (Gene 16?  85.6    0.45 5.6E-06   37.3   0.0   54   92-146    72-126 (143)
+ 70 5FMK_B BCL-XL, BCL-2 HOMOLOGOU  85.3    0.48 5.9E-06   29.1   0.0   26   54-79      7-34  (34)
+ 71 3BL2_B V-bcl-2, Beclin-1; prot  85.0    0.51 6.3E-06   36.6   0.0   54   92-146    67-121 (131)
+ 72 5FMJ_B BCL-2-LIKE PROTEIN 1, B  83.4    0.68 8.4E-06   28.5   0.0   26   54-79      7-34  (34)
+ 73 1PQ1_B Apoptosis regulator Bcl  73.1     2.5 3.1E-05   25.6   0.0   18   58-75      7-24  (33)
+ 74 2JZ2_A Ssl0352 protein; SH3-li  53.7      11 0.00013   26.8   0.0   13   99-113    35-47  (66)
+ 75 3C4S_B Ssl0352 protein; P74795  53.7      11 0.00013   26.8   0.0   13   99-113    35-47  (66)
+ 76 6A7K_A Tlr0636 protein; NADH d  49.7      14 0.00017   26.8   0.0   13   99-113    42-54  (74)
+ 77 6L7O_S NAD(P)H-quinone oxidore  37.6      28 0.00034   27.0   0.0   13   99-113    78-90  (110)
+ 78 6NBQ_S PROTEIN; photosynthesis  37.6      28 0.00034   27.0   0.0   13   99-113    78-90  (110)
+ 79 3C9P_A Uncharacterized protein  37.0      29 0.00036   27.8   0.0   53  129-183    30-82  (123)
+ 80 3ZPV_Z PROTEIN BCL9 HOMOLOG, P  33.1      37 0.00045   21.5   0.0   26  113-138     7-32  (37)
+ 81 2XOL_B CHAPERONE PROTEIN TTRD;  32.6      38 0.00047   27.9   0.0   47  108-154    91-140 (176)
+ 82 2VPG_B PYGOPUS HOMOLOG 1, B-CE  31.4      41  0.0005   20.7   0.0   25  113-137     4-28  (32)
+ 83 2KBW_B Induced myeloid leukemi  30.6      43 0.00053   20.9   0.0   21   53-73      9-29  (35)
+ 84 5UA4_B 5-HL, BH3-interacting d  28.9      48 0.00059   20.5   0.0   21   54-74      6-26  (34)
+ 85 4BD2_C APOPTOSIS REGULATOR BAX  28.6      49  0.0006   20.5   0.0   21   54-74      6-26  (34)
+ 86 3A8E_C The structure of AxCesD  28.5      49 0.00061   27.8   0.0   92   57-159    28-123 (162)
+ 87 3AJ1_H Cellulose synthase oper  27.7      52 0.00064   27.8   0.0   91   58-159    40-134 (167)
+ 88 5J0J_B designed protein 2L6HC3  26.2      58 0.00071   23.2   0.0    8   76-83     31-38  (79)
+ 89 5J0J_C designed protein 2L6HC3  26.2      58 0.00071   23.2   0.0    8   76-83     31-38  (79)
+ 90 2VPB_B PYGOPUS HOMOLOG 1, B-CE  24.6      65  0.0008   20.2   0.0   15  113-127     7-21  (35)
+ 91 2V4I_B GLUTAMATE N-ACETYLTRANS  23.0      72  0.0009   28.0   0.0   18  100-118   117-134 (213)
+ 92 2YEP_H GLUTAMATE N-ACETYLTRANS  23.0      72  0.0009   28.0   0.0   18  100-118   117-134 (213)
+ 93 2VZK_B GLUTAMATE N-ACETYLTRANS  22.4      76 0.00093   27.9   0.0   15  104-118   120-134 (213)
+ 94 2MPK_A Chitin synthase 1 (E.C.  21.7      80 0.00099   23.1   0.0   10  146-155    65-74  (74)
+ 95 2V0E_A CHROMODOMAIN-HELICASE-D  21.6      80 0.00099   21.4   0.0   22  145-166    29-50  (55)
+ 96 3IT4_B Arginine biosynthesis b  21.4      82   0.001   27.5   0.0   15  104-118   121-135 (205)
+ 97 3IT6_B Arginine biosynthesis b  21.4      82   0.001   27.5   0.0   15  104-118   121-135 (205)
+ 98 1VRA_B Arginine biosynthesis b  20.2      90  0.0011   27.5   0.0   18  100-118   124-141 (215)
+
+No 1
+>6EB6_A Apoptosis regulator BAX; BAX, inactive monomer, APOPTOSIS; HET: FMT; 2.023A {Homo sapiens}
+Probab=100.00  E-value=8.6e-47  Score=308.46  Aligned_cols=192  Identities=99%  Similarity=1.516  Sum_probs=168.9  Template_Neff=7.800
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.+|++.|+++||+++++++|..+|.....|.++++..+++++.||++||+|++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~v~~~~~~L~~~yI~~~l~~~~~~~~~~~~~~~~~~~~~~~v~~~Lr~igdel~~~~~~~~~~   80 (192)
+T 6EB6_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+T ss_dssp             ------------CCSHHHHHHHHHHHHHHHHHHHHHHHHTTCSCCCSCCCCCCHHHHHHHHHHHHHHHHHHTCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHhcCCCCchhccCCCCCChhHHHHHHHHHHHHHHHHhchHHHHHH
+Confidence            79999999999999999999999999999999999999988877666666666678899999999999999999999999
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++.++.++.|.++++++|+||.+||||||+||+||+.||++|.++++++.+.+|++|+++|+.+++.+||++||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~eiF~dg~inWgRIvalf~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (192)
+T 6EB6_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGATLDFLRERLLGWIQDQGGWDG  160 (192)
+T ss_dssp             HTCCCSCHHHHHHHHHHHHTTTCCCCHHHHHHHHHHHHHHHHHHHTTTCTHHHHHHHHHHHHHCCCCCHHHHHHTTSTHH
+T ss_pred             HhCCCCCHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHhccchHH
+Confidence            99888888999999999999998899999999999999999999999999999999999999999999999999999999
+
+
+Q bax             161 LLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+Q Consensus       161 ~~~~f~~~~~~~~~~~~~gvl~~~~~~wk~~~  192 (192)
+                      ++++|.+++|++++++++|++++++++||+|+
+T Consensus       161 ~~~~~~~~~~~~~~~~~~gv~~~~~~~~k~~~  192 (192)
+T 6EB6_A          161 LLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+T ss_dssp             HHHHHCSTTHHHHHHHHHHHHHHHHHHHHTC-
+T ss_pred             HHHhhCCCcHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            99999999988788999999999999999986
+
+
+No 2
+>5W60_A Apoptosis regulator BAX; BAX, inactive monomer, APOPTOSIS; 1.803A {Homo sapiens}
+Probab=100.00  E-value=3.1e-46  Score=305.63  Aligned_cols=192  Identities=98%  Similarity=1.492  Sum_probs=165.4  Template_Neff=7.800
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.+|++.|+++||.++++++|..+|.....|.++++..+++++.||++||++++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~d~v~~q~~~L~~~yv~~~l~~~g~~~~~~~~~~~~~~~~~~~v~~~Lr~igdel~~~~~~~~~~   80 (194)
+T 5W60_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSESLKRIGDELDSNMELQRMI   80 (194)
+T ss_dssp             ---------C-CTTSHHHHHHHHHHHHHHHHHHHSCTTSSSCGGGCCCCCCCCHHHHHHHHHHHHHHHHHHTCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHcCCCCccccCCCCCCCCcHHHHHHHHHHHHHHHHhhHHHHHHH
+Confidence            79999999999999999999999999999999999999988877666666666678899999999999999999999999
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++.+..++.|.++++++|+||++||||||+||+||+.+|++|.++++++.+.+|++|+++||.+++.+||.+||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~~lf~dg~inWgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (194)
+T 5W60_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALSTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (194)
+T ss_dssp             HTSCSSSCHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHTH----HHHHHHHHHHHHHHCCCCCHHHHHHTTSGGG
+T ss_pred             HhCCcccHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHcCHHHHHHcCCHHH
+Confidence            98887788899999999999998899999999999999999999998899999999999999999999999999999999
+
+
+Q bax             161 LLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+Q Consensus       161 ~~~~f~~~~~~~~~~~~~gvl~~~~~~wk~~~  192 (192)
+                      ++++|.++++++++++++|+++++++++|+|+
+T Consensus       161 ~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~  192 (194)
+T 5W60_A          161 LLSYFGTGTWQTVTIFVAGVLTASLTIWKKMG  192 (194)
+T ss_dssp             HHHHHCTTTHHHHHHHHHHHHHHHHHHTC---
+T ss_pred             HHHHhcCCcHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            99999999999899999999999999999986
+
+
+No 3
+>2LR1_A Apoptosis regulator BAX, Immediate early; APOPTOSIS-SIGNALING PROTEIN complex; NMR {Homo sapiens}
+Probab=100.00  E-value=6.1e-46  Score=303.31  Aligned_cols=192  Identities=100%  Similarity=1.547  Sum_probs=180.6  Template_Neff=7.900
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.++++.|+++||.++++++|..+|.....|.++++..+++++.||++||+|++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~v~~~~~~L~~~yI~~~l~~~~~~~~~~~~~~~~~~~~~~~v~~~Lr~~gdel~~~~~~~~~~   80 (192)
+T 2LR1_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+T ss_dssp             CCTTCSSCCCSCSSCSHHHHHHHHHHHHHHHHHHSCCTTCCSCSCCSCSSCSSHHHHHHHHHHHHHHHHHTTCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHcCCCCchhhcCCCCCChhHHHHHHHHHHHHHHHHhcHHHHHHH
+Confidence            79999999999999999999999999999999999999988877665666666677899999999999999999999999
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++.++.++.|.++++++|+||.+||||||+||+||+.||++|.++++++.+.+|++|+++|+.+++.+||++||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~~lf~dg~inWgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (192)
+T 2LR1_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+T ss_dssp             HHSCCSCHHHHHHHHHHHHTSSSCSCSTHHHHHHHHHHHHHHHHHHHTCHHHHHHHHHHHHHHHHHTTHHHHHHTTTTHH
+T ss_pred             HhCCCCCHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHhccchHH
+Confidence            98887888899999999999998899999999999999999999999999999999999999999999999999999999
+
+
+Q bax             161 LLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+Q Consensus       161 ~~~~f~~~~~~~~~~~~~gvl~~~~~~wk~~~  192 (192)
+                      ++++|.++++++++++++|++++++++||+++
+T Consensus       161 ~~~~~~~~~~~~~~~~~~gv~~~~~~~~~~~~  192 (192)
+T 2LR1_A          161 LLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+T ss_dssp             HHHHSCCSCGGGTTTHHHHHHHHHHHHHCCCC
+T ss_pred             HHHhhCCChHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            99999999988888999999999999999985
+
+
+No 4
+>4ZII_A Apoptosis Regulator Bax, BH3-interacting domain; Bax, Apoptosis, BH3 domain, Structural; HET: EDO; 2.191A {Homo sapiens}
+Probab=100.00  E-value=2.1e-41  Score=271.49  Aligned_cols=170  Identities=99%  Similarity=1.524  Sum_probs=143.2  Template_Neff=8.100
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.++++.|+++||.++++++|..+|.....|.++++..+++++.||++||+|++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~d~v~~~~~~L~~~yi~~~l~~~g~~~~~~~~~~~~~~~~~~~v~~~Lr~~gdel~~~~~~~~~~   80 (170)
+T 4ZII_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSESLKRIGDELDSNMELQRMI   80 (170)
+T ss_dssp             ---------CCCTTSHHHHHHHHHHHHHHHHHHHHHC------CCCCCCCCCCHHHHHHHHHHHHHHHHHHTCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHcCCCCchhhcCCCCCChhHHHHHHHHHHHHHHHHhcHHHHHHH
+Confidence            79999999999999999999999999999999999999988877655565666677899999999999999999999999
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++.+..++.|..+++++|+||.+|||||++||+||+.||++|.++++++.+.+|++|+++||.+++.+||++||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~~lf~dg~i~WgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (170)
+T 4ZII_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALSTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (170)
+T ss_dssp             HHSCCSSHHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHTTTTHH
+T ss_pred             HhCCCCCHHHHHHHHHHHHccCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHcChHHH
+Confidence            98887788899999999999998899999999999999999999999899999999999999999999999999999999
+
+
+Q bax             161 LLSYFGTPTW  170 (192)
+Q Consensus       161 ~~~~f~~~~~  170 (192)
+                      ++++|.+++|
+T Consensus       161 ~~~~~~~~~~  170 (170)
+T 4ZII_A          161 LLSYFGTPTW  170 (170)
+T ss_dssp             HHHHHTC---
+T ss_pred             HHHhhCCCCC
+Confidence            9999998664
+
+
+No 5
+>4ZIE_A Apoptosis Regulator Bax, Bcl-2-like protein; Bax, Apoptosis, BH3 domain, Structural; HET: EDO; 1.797A {Homo sapiens}
+Probab=100.00  E-value=1.2e-40  Score=266.60  Aligned_cols=167  Identities=98%  Similarity=1.501  Sum_probs=138.5  Template_Neff=8.200
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.++++.|+++||.++++++|..+|.....|.++++..+++++.||++|++|++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~d~i~~~~~~L~~~yI~~~l~~~~~~~~~~~~~~~~~~~~~~~v~~~Lr~igdel~~~~~~~~~~   80 (168)
+T 4ZIE_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSESLKRIGDELDSNMELQRMI   80 (168)
+T ss_dssp             ---------CCCTTSHHHHHHHHHHHHHHHHHHHC-----------CCCCCCCHHHHHHHHHHHHHHHHHHTCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHhcCCCCcccccCCCCCCchHHHHHHHHHHHHHHHHhcHHHHHHH
+Confidence            79999999999999999999999999999999999999988776655565556677899999999999999999999998
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++++..++.|..+++++|+||.+|||||++||+||+.+|++|.++++++.+..|++|+++||.+++.+||++||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~~lf~dg~inWgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (168)
+T 4ZIE_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALSTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (168)
+T ss_dssp             HHSCCSCHHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHTTTTHH
+T ss_pred             HhCCCCCHHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHcChHHH
+Confidence            88887788899999999999998899999999999999999999999899999999999999999999999999999999
+
+
+Q bax             161 LLSYFGT  167 (192)
+Q Consensus       161 ~~~~f~~  167 (192)
+                      |+++|.+
+T Consensus       161 ~~~~f~~  167 (168)
+T 4ZIE_A          161 LLSYFGS  167 (168)
+T ss_dssp             HHHHTTC
+T ss_pred             HHHhhCC
+Confidence            9999975
+
+
+No 6
+>4ZIG_A Apoptosis Regulator Bax, BH3-interacting domain; Bax, Apoptosis, BH3 domain, Structural; 2.2A {Homo sapiens}
+Probab=100.00  E-value=2.3e-40  Score=264.93  Aligned_cols=167  Identities=98%  Similarity=1.501  Sum_probs=128.6  Template_Neff=8.200
+
+Q bax               1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus         1 ~~~~g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      |||+|++|++++|+++|++.++++.|+++||.++++++|..+|.....|.++++..+++++.||++|++|++++++++++
+T Consensus         1 ~~~~~~~~~~~~~~~~d~i~~~~~~L~~~yI~~~l~~~g~~~~~~~~~~~~~~~~~~~v~~~Lr~~gdel~~~~~~~~~~   80 (168)
+T 4ZIG_A            1 MDGSGEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSESLKRIGDELDSNMELQRMI   80 (168)
+T ss_dssp             ---------CCCTTSHHHHHHHHTT-------------C--CGGGCCCCCCCCHHHHHHHHHHHHHHHHHHHCHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHcCCCCccccCCCCCCCchHHHHHHHHHHHHHHHHhhHHHHHHH
+Confidence            79999999999999999999999999999999999999988776655565556677899999999999999999999998
+
+
+Q bax              81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (192)
+Q Consensus        81 ~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~  160 (192)
+                      ++++.+..++.|..+++++|+||.+|||||++||+||+.+|++|.+++.++.+..|++|+++||.+++.+||++||||++
+T Consensus        81 ~~l~~~~~~~~f~~v~~~lf~dg~inWgRIval~~f~~~la~~~~~~~~~~~~~~I~~~~~~fl~~~l~~WI~~~GGW~~  160 (168)
+T 4ZIG_A           81 AAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALSTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDG  160 (168)
+T ss_dssp             HHSCCSSHHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHH----HHHHHHHHHHHHHHCCCCCHHHHHHTTTTHH
+T ss_pred             HhcCcCcHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHcCHHHHHHcCchHH
+Confidence            88887788899999999999998899999999999999999999998889999999999999999999999999999999
+
+
+Q bax             161 LLSYFGT  167 (192)
+Q Consensus       161 ~~~~f~~  167 (192)
+                      ++++|.+
+T Consensus       161 ~~~~~~~  167 (168)
+T 4ZIG_A          161 LLSYFGS  167 (168)
+T ss_dssp             HHHHHC-
+T ss_pred             HHHhhCC
+Confidence            9999975
+
+
+No 7
+>5W63_A Apoptosis regulator bax; BAX, monomer, catfish, APOPTOSIS; HET: EDO, SO4; 2.436A {Ictalurus punctatus}
+Probab=100.00  E-value=1.1e-38  Score=259.74  Aligned_cols=180  Identities=54%  Similarity=1.011  Sum_probs=152.7  Template_Neff=8.100
+
+Q bax              10 GGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDP----VPQDASTKKLSECLKRIGDELDSNMELQRMIAAVDT   85 (192)
+Q Consensus        10 ~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~----~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i~~~~~   85 (192)
+                      +.+ +++|++.++++.|+.|||.++++++|..++.....+    ..+++.+++++..||++||+|++++++++++++++.
+T Consensus         6 ~~~-~s~~~i~~~~~~L~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~v~~~Lr~igdele~~~~~~~~~~~l~~   84 (189)
+T 5W63_A            6 GDG-TSNDQILEVGAVLLKDFIYERVHRHGDSGTVVSRHELGGSELSDPTHKKLAQYLQQIGDELDNNVDLQRMLADSAL   84 (189)
+T ss_dssp             ----CCHHHHHHHHHHHHHHHHHHHHHTC----CCCCHHHHTCCCCCCHHHHHHHHHHHHHHHHHHTCHHHHHHHTSTTC
+T ss_pred             CCC-CcHHHHHHHHHHHHHHHHHHHHHHcCCCCcccchhhcCCCCCCCHHHHHHHHHHHHHHHHHhccHHHHHHHHhCCC
+Confidence            344 899999999999999999999999998764432111    112445678899999999999998889998887776
+
+
+Q bax              86 DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYF  165 (192)
+Q Consensus        86 ~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f  165 (192)
+                      +..++.|.++++++|+||++|||||++||+||+.+|.+|.++++++.+..|++|+++|+.+++.+||++||||++++++|
+T Consensus        85 ~~~~~~f~~v~~~if~dg~inWgRIvalf~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~  164 (189)
+T 5W63_A           85 QPTKEVFVKVAREIFSDGKFNWGRVVALFYFASRLVIEALLTKIPDIIRTIINWTLDYLREHVINWIREQGGWEGIQTYF  164 (189)
+T ss_dssp             CSSHHHHHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHCCCCCHHHHHHTTSSCSHHHHH
+T ss_pred             CchHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHccHHHHHHCChhHHHHHHh
+Confidence            66889999999999999879999999999999999999999999999999999999999999999999999999999999
+
+
+Q bax             166 GTPTWQTVTIFVAGVLTASLTIWKK  190 (192)
+Q Consensus       166 ~~~~~~~~~~~~~gvl~~~~~~wk~  190 (192)
+                      .++++++.+++++|++++++++||+
+T Consensus       165 ~~~~~~~~~~~~~gv~~~~~~~~~~  189 (189)
+T 5W63_A          165 GTPTWKTVGVFLAGVLTTVLVMRKM  189 (189)
+T ss_dssp             HHHHHHHHHHHHHHHHCCCCCC---
+T ss_pred             CCChHHHHHHHHHHHHHHHHHHHhC
+Confidence            9999888888899999999998874
+
+
+No 8
+>5W5Z_A 3C10 Fab' light chain, 3C10; Fab, BAX activation, unfolding, APOPTOSIS; HET: PG4, PGE, EDO, MES; 1.997A {Rattus norvegicus}
+Probab=100.00  E-value=2.1e-37  Score=247.44  Aligned_cols=160  Identities=98%  Similarity=1.495  Sum_probs=147.7  Template_Neff=7.700
+
+Q bax              33 DRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVA  112 (192)
+Q Consensus        33 ~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~~~f~~Va~elF~dG~inWGRIVa  112 (192)
+                      +++++++.+.|..+..|.|+++..+++++.||++||++++++++++++++++.+..++.|.++++++|+||.+|||||++
+T Consensus         2 ~~~~~~~~~~p~~~~~~~~~~~~~~~v~~~Lr~igdel~~~~~~~~~~~~l~~~~~~~~f~~v~~~lf~dg~inWgRIva   81 (163)
+T 5W5Z_A            2 DRAGRMGGEAPELALDPVPQDASTKKLSESLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVA   81 (163)
+T ss_pred             chhHhcCCCCCCCCCCCCCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHhCCcccHHHHHHHHHHHHccCCCCCHHHHHH
+Confidence            46677777777777778777778899999999999999999999999888887788899999999999998899999999
+
+
+Q bax             113 LFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTWQTVTIFVAGVLTASLTIWKKMG  192 (192)
+Q Consensus       113 Lf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~~~~~~~~~gvl~~~~~~wk~~~  192 (192)
+                      +|+||+.+|.+|.++++.+.+.+|++|+++|+.+++.+||.+||||++++++|.++++++++++++|++++++++||+++
+T Consensus        82 l~~f~~~la~~~~~~~~~~~~~~I~~~~~~~l~~~l~~WI~~~GGW~~~~~~~~~~~~~~~~~~~~~v~~~~~~~~~~~~  161 (163)
+T 5W5Z_A           82 LFYFASKLVLKALSTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTGTWQTVTIFVAGVLTASLTIWKKMG  161 (163)
+T ss_pred             HHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHcCHHHHHHcCcHHHHHHHhCCCcHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            99999999999999888899999999999999999999999999999999999999988888999999999999999875
+
+
+No 9
+>5VX1_B Bcl-2 homologous antagonist/killer; Apoptosis, Bcl-2 Family, Mutant; 1.224A {Homo sapiens}
+Probab=99.94  E-value=3.6e-32  Score=217.58  Aligned_cols=155  Identities=25%  Similarity=0.488  Sum_probs=133.5  Template_Neff=8.500
+
+Q bax              11 GGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALD-------PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIA   81 (192)
+Q Consensus        11 ~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-------~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~   81 (192)
+                      .+|+++|++.++++.|+.+||.++++++|..++.....       |.++++..+++++.||++||++++++  .++++++
+T Consensus         3 ~~~~~~d~v~~~~~~l~~~yi~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~igdel~~~~~~~~~~~~~   82 (170)
+T 5VX1_B            3 LGSMSEEQVAQDTEEVFRSYVFYRHQQEQEAEGVAAPADPEMVTLPLQPSSTMGQVGRQLAIIGDDINRRYDSEFQTMLQ   82 (170)
+T ss_dssp             -CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHCCSSCCCHHHHSCCSSTTSHHHHHHHHHHTCCCHHHHHHHHHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHHHHHHHHHHHHHHhhHhcCCCCCCChhhcCCCCCCCChHHHHHHHHHHHHHHHHHHCHHHHHHHHH
+Confidence            46789999999999999999999999999876543211       22234567899999999999999976  5888888
+
+
+Q bax              82 AVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRE-RLLGWIQDQGGW  158 (192)
+Q Consensus        82 ~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~-~l~~WI~~~GGW  158 (192)
+                      +++  .+..++.|.++++++|+|| +|||||++||+||+.+|++|.++++++.+..|++|+++||.+ ++.+||.+||||
+T Consensus        83 ~l~~~~~~~~~~f~~v~~~lf~~g-i~WgrIval~~f~~~la~~~~~~~~~~~~~~i~~~~~~~i~~~~l~~WI~~~GGW  161 (170)
+T 5VX1_B           83 HAQPTAENAYEYFTKIATSLFESG-INWGRVVALLGFGYRLALHVYQHGLTGFLGQVTRFVVDFMLHHSIARWIAQRGGW  161 (170)
+T ss_dssp             HHCCCTTTHHHHHHHHHHHHHTTC-CCHHHHHHHHHHHHHHHHHHHHHHSCCCHHHHHHHHHHHHHHTTHHHHHHHTTSG
+T ss_pred             HhCCChhHHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHhccHHHHHHHCCCH
+Confidence            765  3468899999999999998 999999999999999999999999899999999999999998 899999999999
+
+
+Q bax             159 DGLLSYFG  166 (192)
+Q Consensus       159 ~~~~~~f~  166 (192)
+                      +++++++.
+T Consensus       162 ~~~~~~~~  169 (170)
+T 5VX1_B          162 VAALNLGN  169 (170)
+T ss_dssp             GGGGC---
+T ss_pred             HHHHcccC
+Confidence            99999874
+
+
+No 10
+>5WDD_B Bcl-2-related ovarian killer protein; Bcl-2, Apoptosis, Pro-apoptotic, Cell death; HET: EDO; 1.799A {Gallus gallus}
+Probab=99.94  E-value=7.4e-32  Score=215.24  Aligned_cols=155  Identities=23%  Similarity=0.467  Sum_probs=132.7  Template_Neff=8.600
+
+Q bax              11 GGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT---   85 (192)
+Q Consensus        11 ~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~---   85 (192)
+                      .++.++|++.++++.|+.+||.++++++|..++.....+..+.+....+++.||++|+++++++  .+++++++++.   
+T Consensus         6 ~~~~~~~~i~~~~~~l~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~i~~~Lr~~gdel~~~~~~~~~~~~~~l~~~~~   85 (168)
+T 5WDD_B            6 DRSPTDKELVSQAKALCRDYINSRLIRAGVSWSKPEHNTPVPGGKLAEVSAILLRLGDELEYIRPNVYRNIARQLNISLH   85 (168)
+T ss_dssp             ---CCHHHHHHHHHHHHHHHHHHHHHHTTSCCCCCCSSSCCTTSHHHHHHHHHHHHHTTHHHHSHHHHHHHHHHTCCCCS
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHHHcCCCCCCCCCCCCCCCccHHHHHHHHHHHHHHHHHHCHHHHHHHHHHcCCCCC
+Confidence            4577899999999999999999999999987644211111123456789999999999999987  48888877652   
+
+
+Q bax              86 --DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLS  163 (192)
+Q Consensus        86 --~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~  163 (192)
+                        +..++.|.++++++|+|+ +|||||++||+|++.||++|.++++++.+..|++|+++|+.+++.+||.+||||+++++
+T Consensus        86 ~~~~~~~~f~~v~~~if~~~-i~WgRIv~l~~f~~~la~~~~~~~~~~~v~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~  164 (168)
+T 5WDD_B           86 SETVVTDAFLAVAAQIFTAG-ITWGKVVSLYAVAAGLAVDCVRHAQPAMVHTIVDCLGEFVRKTLVTWLKRRGGWADITK  164 (168)
+T ss_dssp             SHHHHHHHHHHHHHHHCSSC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHCCCCCHHHHHHHTSGGGGGG
+T ss_pred             ChHHHHHHHHHHHHHHHhCC-CCHHHHHHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHchHHHHHHCCcHHHHHH
+Confidence              457899999999999998 99999999999999999999998889999999999999999999999999999999999
+
+
+Q bax             164 YFG  166 (192)
+Q Consensus       164 ~f~  166 (192)
+                      +|.
+T Consensus       165 ~~~  167 (168)
+T 5WDD_B          165 CVV  167 (168)
+T ss_dssp             GCC
+T ss_pred             hhc
+Confidence            986
+
+
+No 11
+>6GL8_A Bcl-2-like protein 1,Apoptosis regulator Bcl-2; APOPTOSIS-INHIBITOR COMPLEX, BCL-2, BH3-mimetics, APOPTOSIS; HET: F3Q; 1.4A {Homo sapiens}
+Probab=99.94  E-value=7.6e-32  Score=216.91  Aligned_cols=149  Identities=25%  Similarity=0.541  Sum_probs=126.9  Template_Neff=8.000
+
+Q bax              19 IMKTGALLLQGFIQDRAGRMGGEAPELAL----D-PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPR   89 (192)
+Q Consensus        19 i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~----~-~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~   89 (192)
+                      ...+++.|+.|||.++++++|..++....    . ..|+.+..+++++.||++||++++++  .+++++++++  +++.+
+T Consensus        14 ~~~~~~~l~~dyI~~rl~~~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~lgdele~~~~~~~~~~~~~l~~~~~~~~   93 (172)
+T 6GL8_A           14 GSYDNREIVMKYIHYKLSQRGYEWDAGADVEENRTEAPEGTESEVVHKTLREAGDDFSRRYRRDFAEMSSQLHLTPFTAR   93 (172)
+T ss_dssp             CCCCHHHHHHHHHHHHHHHTTCCCGGGCC------------CHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHCCCTTTHH
+T ss_pred             CcccHHHHHHHHHHHHHHhcCCccccccccccccCCCCCCCCHHHHHHHHHHHHHHHHHHcHHHHHHHHHhcCCCcccHH
+Confidence            46789999999999999999987653211    0 12233456789999999999999987  5888888775  46778
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTP  168 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~  168 (192)
+                      +.|.+|++++|+|| +||||||+||+||+.+|++|.++++++.+..|++|+++|+.+++.+||.+||||++|+++|.++
+T Consensus        94 ~~f~~v~~elf~~g-inWgRIval~~F~~~la~~~~~~~~~~~v~~I~~~~~~fi~~~l~~WI~~~GGW~~~~~~~~~~  171 (172)
+T 6GL8_A           94 GRFATVVEELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGPS  171 (172)
+T ss_dssp             HHHHHHHHHHHTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHC--
+T ss_pred             HHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHCCChHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHHhCCC
+Confidence            99999999999998 9999999999999999999999999999999999999999999999999999999999999864
+
+
+No 12
+>5VWV_A Bcl-2 homologous antagonist/killer, Bcl-2-like protein; Apoptosis, Bcl-2 Family, Activator; HET: GOL, EDO; 1.897A {Homo sapiens}
+Probab=99.94  E-value=1.6e-31  Score=213.96  Aligned_cols=155  Identities=25%  Similarity=0.492  Sum_probs=135.7  Template_Neff=8.500
+
+Q bax              11 GGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALD-------PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIA   81 (192)
+Q Consensus        11 ~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-------~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~   81 (192)
+                      .+++++|++.++++.|+.+||.++++++|..++.....       +.++++.++++++.||++||++++++  .++++++
+T Consensus         3 ~~~~~~~~v~~~~~~l~~~yi~~rl~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~igd~l~~~~~~~~~~~~~   82 (170)
+T 5VWV_A            3 LGSMSEEQVAQDTEEVFRSYVFYRHQQEQEAEGVAAPADPEMVTLPLQPSSTMGQVGRQLAIIGDDINRRYDSEFQTMLQ   82 (170)
+T ss_dssp             CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGSCCCGGGSCCCSCTTSHHHHHHHHHHHHHHHHHHTTHHHHHHHHH
+T ss_pred             CCCccHHHHHHHHHHHHHHHHHHHHHHhhHhcCCCCCCChhhcCCCCCCCChHHHHHHHHHHHHHHHHHHCHHHHHHHHH
+Confidence            46789999999999999999999999999877543211       12234567899999999999999976  5888888
+
+
+Q bax              82 AVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRE-RLLGWIQDQGGW  158 (192)
+Q Consensus        82 ~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~-~l~~WI~~~GGW  158 (192)
+                      +++  .+..++.|.++++++|+|+ +|||||++||+||+.+|++|.++++++.+..|++|+++|+.+ ++.+||.+||||
+T Consensus        83 ~l~~~~~~~~~~f~~v~~~lf~dg-i~WgrIv~l~~f~~~la~~~~~~~~~~~v~~i~~~~~~fi~~~~l~~WI~~~GGW  161 (170)
+T 5VWV_A           83 HLQPTAENAYEYFTKIATSLFESG-INWGRVVALLGFGYRLALHVYQHGLTGFLGQVTRFVVDFMLHHSIARWIAQRGGW  161 (170)
+T ss_dssp             HHCCCTTTHHHHHHHHHHHHHTTC-CCHHHHHHHHHHHHHHHHHHHHTTCSCHHHHHHHHHHHHHHHTTHHHHHHHTTCG
+T ss_pred             HhCCChHHHHHHHHHHHHHHHcCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHccHHHHHHHCCCH
+Confidence            765  3478899999999999998 999999999999999999999998899999999999999998 899999999999
+
+
+Q bax             159 DGLLSYFG  166 (192)
+Q Consensus       159 ~~~~~~f~  166 (192)
+                      +++++++.
+T Consensus       162 ~~~~~~~~  169 (170)
+T 5VWV_A          162 VAALNLGN  169 (170)
+T ss_dssp             GGGGGTTC
+T ss_pred             HHHHcccC
+Confidence            99999873
+
+
+No 13
+>6CKV_A Bcl-2-related ovarian killer protein; APOPTOSIS; NMR {Homo sapiens}
+Probab=99.93  E-value=5.9e-31  Score=208.15  Aligned_cols=150  Identities=23%  Similarity=0.474  Sum_probs=130.1  Template_Neff=8.600
+
+Q bax              13 PTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT-----   85 (192)
+Q Consensus        13 p~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~-----   85 (192)
+                      |+++|++.++++.|+.+||.++++++|..++..... .+..+....++..||++|+++++++  .+++++++++.     
+T Consensus         2 ~~~~~~~~~~~~~l~~~yi~~~l~~~g~~~~~~~~~-~~~~~~~~~i~~~Lr~~gd~l~~~~~~~~~~~~~~l~~~~~~~   80 (158)
+T 6CKV_A            2 SPTDKELVAQAKALGREYVHARLLRAGLSWSAPERA-APVPGRLAEVAAVLLRLGDELEMIRPSVYRNVARQLHISLQSE   80 (158)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHSCCCCCCCCC-CCCCHHHHHHHHHHHHHHHHHHHHCCSSTTTHHHHTTCCTTSS
+T ss_pred             CccHHHHHHHHHHHHHHHHHHHHHHcCCCCCCcCcc-CCCCccHHHHHHHHHHHHHHHHHHCHHHHHHHHHHhCCCCCch
+Confidence            678999999999999999999999999876543111 1223456789999999999999987  47788776642     
+
+
+Q bax              86 DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSY  164 (192)
+Q Consensus        86 ~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~  164 (192)
+                      +..++.|.++++++|+|+ +|||||+++|+|++.+|++|.+++.++.+..|++|+++||.+++.+||.+||||++++++
+T Consensus        81 ~~~~~~f~~v~~~if~d~-inWgRIv~l~~f~~~la~~~~~~~~~~~i~~i~~~~~~~l~~~l~~WI~~~GGW~~~~~~  158 (158)
+T 6CKV_A           81 RVVTDAFLAVAGHIFSAG-ITWGKVVSLYAVAAGLAVDAVRQAQPAMVHALVDALGEFVRKTLATWLRRRGGWTDVLKC  158 (158)
+T ss_dssp             HHHHHHHHHHHHHHHHTC-CCHHHHHHHHHHHHHHHHHHHHTTCTHHHHHHHHHHHHHHHHTSHHHHHHHCSGGGGGGC
+T ss_pred             HHHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHchHHHHHHCCchHHHhcC
+Confidence            457899999999999998 999999999999999999999998999999999999999999999999999999999864
+
+
+No 14
+>1O0L_A Apoptosis regulator Bcl-W; APOPTOSIS, BCL-2, HELICAL BUNDLE, BINDING; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=99.93  E-value=6.4e-31  Score=214.30  Aligned_cols=154  Identities=22%  Similarity=0.518  Sum_probs=136.0  Template_Neff=8.000
+
+Q bax              11 GGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TD   86 (192)
+Q Consensus        11 ~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~   86 (192)
+                      .|.++.+++.++++.|+.+||.++++++|..++...   . ..+...++++.||++|+++++++  .+++++++++  ++
+T Consensus         3 ~~~~~~~~~~~~~~~l~~dyI~~~l~~~g~~~~~~~---~-~~~~~~~i~~~Lr~igdel~~~~~~~~~~~~~~l~~~~~   78 (188)
+T 1O0L_A            3 LGSMATPASAPDTRALVADFVGYKLRQKGYVCGAGP---G-EGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPG   78 (188)
+T ss_dssp             SSTTCCCCSCSSHHHHHHHHHHHHHHHTTTTTTCSG---G-GSCSCSTTHHHHHHHHHHHHHHCSCSHHHHHHHTTTCSS
+T ss_pred             CcccCCCCchHHHHHHHHHHHHHHHHHcCCCCCCCC---C-CCCCchHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCc
+Confidence            467889999999999999999999999998764421   1 12345688999999999999987  4888888765  45
+
+
+Q bax              87 SPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        87 ~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +.++.|.++++++|+|+ +|||||++||+|++.+|++|.++++++.+..|++|+++|+.+++.+||++||||++++++|.
+T Consensus        79 ~~~~~f~~v~~~if~d~-inWgRIval~~F~~~la~~~~~~~~~~~i~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~  157 (188)
+T 1O0L_A           79 SAQQRFTQVSDELFQGG-PNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYG  157 (188)
+T ss_dssp             TTHHHHHHHHHHHSSSC-CCHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHHHHHHCCCCCHHHHHHHTCHHHHHHHSS
+T ss_pred             cHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHcCCcHHHHHHHHHHHHHHHHchHHHHHHCCCHHHHHHHhc
+Confidence            67889999999999998 99999999999999999999999999999999999999999999999999999999999998
+
+
+Q bax             167 TPT  169 (192)
+Q Consensus       167 ~~~  169 (192)
+                      +..
+T Consensus       158 ~~~  160 (188)
+T 1O0L_A          158 DGA  160 (188)
+T ss_dssp             TTC
+T ss_pred             cch
+Confidence            743
+
+
+No 15
+>2MHS_A Induced myeloid leukemia cell differentiation; Mcl-1, Bcl-2 family, BH domain; NMR {Homo sapiens}
+Probab=99.93  E-value=7.7e-31  Score=209.16  Aligned_cols=151  Identities=24%  Similarity=0.454  Sum_probs=130.0  Template_Neff=8.300
+
+Q bax              15 SSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIAAVDT--DSPRE   90 (192)
+Q Consensus        15 ~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~~~~~--~~~~~   90 (192)
+                      ++|++.++++.|++|||.+++...+..  .   .+.++.+..+++++.||++|++++++++  +++++++++.  ++.++
+T Consensus         1 ~~~~~~~~t~~l~~dyi~~~l~~~~~~--~---~~~~~~~~~~~i~~~Lr~~gd~~~~~~~~~~~~~~~~l~~~~~~~~~   75 (164)
+T 2MHS_A            1 MEDELYRQSLEIISRYLREQATGAKDT--K---PMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVK   75 (164)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHTSCCC--C---CCSSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCSHHHHH
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHcCCCCC--C---CCCCCChHHHHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCChHHHH
+Confidence            468999999999999999999544321  1   1122234567899999999999999874  8888887753  56788
+
+
+Q bax              91 VFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus        91 ~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      .|.++++++|+||.+|||||++||+||+.+|++|.++++++.+..|++|+++|+.+++.+||++||||++|+++|.+...
+T Consensus        76 ~f~~v~~~lf~dg~inWgRIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~~~  155 (164)
+T 2MHS_A           76 SLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESSIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDL  155 (164)
+T ss_dssp             HHHHHHHHTTTTCSCCHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHHHSHHHHHHTCHHHHHHHHTTSSCS
+T ss_pred             HHHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHHHHcCChhhHHHHHHHHHHHHHHchHHHHHHCCCchHHHHhcccccc
+Confidence            99999999999987999999999999999999999988888999999999999999999999999999999999987654
+
+
+No 16
+>1YSW_A Apoptosis regulator Bcl-2; COMPLEX, APOPTOSIS; HET: 43B; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=99.93  E-value=8e-31  Score=209.09  Aligned_cols=152  Identities=24%  Similarity=0.515  Sum_probs=131.1  Template_Neff=8.300
+
+Q bax              18 QIMKTGALLLQGFIQDRAGRMGGEAPELALD-----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSP   88 (192)
+Q Consensus        18 ~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~   88 (192)
+                      -..++++.|+++||+++++++|..++.....     ..|+.+.+..++..||++||++++++  .+++++++++  .++.
+T Consensus         4 ~~~~~~~~l~~dyi~~rl~~~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~lgdel~~~~~~~~~~~~~~l~~~~~~~   83 (164)
+T 1YSW_A            4 RTGYDNREIVMKYIHYKLSQRGYEWDAGDDVEENRTEAPEGTESEVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTA   83 (164)
+T ss_dssp             SSCCCHHHHHHHHHHHHHHTTTCCCCCCCCCSCCCSSCSCCHHHHHHHHHHHHHHHHHHHHCSSSHHHHHHHHCSCHHHH
+T ss_pred             CCccchHHHHHHHHHHHHHHCCCccccCCcccccccCCCCCCcHHHHHHHHHHHHHHHHHHcHHHHHHHHHhcCCCchhH
+Confidence            3567899999999999999999887553211     11223445678999999999999987  4888888775  4567
+
+
+Q bax              89 REVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTP  168 (192)
+Q Consensus        89 ~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~  168 (192)
+                      ++.|..+++++|+|+ +|||||++||+||+.+|++|.++++++.+..|++|+++|+.+++.+||.+||||++++++|.++
+T Consensus        84 ~~~f~~v~~~if~~~-i~WgRIvalf~f~~~la~~~~~~~~~~~v~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~  162 (164)
+T 1YSW_A           84 RGRFATVVEELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGPS  162 (164)
+T ss_dssp             HHHHHHHHHHHTSSC-CCHHHHHHHHHHHHHHHHHHHHHTCTTHHHHHHHHHHHHCCCCCHHHHHHSSCHHHHHHHTCCS
+T ss_pred             HHHHHHHHHHHHcCC-CChHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHHhCcC
+Confidence            899999999999998 9999999999999999999999988899999999999999999999999999999999999876
+
+
+Q bax             169 TW  170 (192)
+Q Consensus       169 ~~  170 (192)
+                      .+
+T Consensus       163 ~~  164 (164)
+T 1YSW_A          163 MR  164 (164)
+T ss_dssp             CC
+T ss_pred             CC
+Confidence            53
+
+
+No 17
+>6FBX_A BCL2-like 10, BCL2-antagonist of cell; Bcl-2 family, pro-survival protein, APOPTOSIS; 1.639A {Danio rerio}
+Probab=99.93  E-value=1.3e-30  Score=204.76  Aligned_cols=144  Identities=22%  Similarity=0.450  Sum_probs=128.6  Template_Neff=8.700
+
+Q bax              11 GGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT---   85 (192)
+Q Consensus        11 ~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~---   85 (192)
+                      +++.++|++.++++.|+++||.+++++++.              ++.++++.||++|+++++++  .++++++++..   
+T Consensus         1 ~~~~~~~~~~~~t~~l~~~~i~~~~~~~~~--------------~~~~i~~~Lr~~gde~~~~~~~~~~~~~~~l~~~~~   66 (152)
+T 6FBX_A            1 GPLSMSCWLREQTLLLAEDYISFCSGIQQT--------------PPSESAEAMRYLAKEMEQQHRTKFRSLSQEFLDTCG   66 (152)
+T ss_pred             CCCcchHHHHHHHHHHHHHHHHHHHhcCCC--------------CHHHHHHHHHHHHHHHHHHhHHHHHHHHHHhCCCCc
+Confidence            467899999999999999999999988742              12478889999999999988  48888777642   
+
+
+Q bax              86 DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKV-PELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSY  164 (192)
+Q Consensus        86 ~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~-~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~  164 (192)
+                      +..++.|..+++++|+||++|||||++||+||+.+|++|.+++. ++.+..|++|+++||.+++.+||.+||||++++++
+T Consensus        67 ~~~~~~f~~v~~~lf~dg~i~WgrIv~l~~f~~~la~~~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~  146 (152)
+T 6FBX_A           67 ADPSKCLQSVMRELVGDGKMNWGRVVSIFTFTGVLASELLSRGENSEGSRRLAETIADYLGGEKQDWLVENGGWEGFCRF  146 (152)
+T ss_pred             chHHHHHHHHHHHHccCCCCCHHHHHHHHHHHHHHHHHHHHCCCChHHHHHHHHHHHHHHHHccHHHHHHcCCHHHHHHH
+Confidence            46788999999999999889999999999999999999998876 68899999999999999999999999999999999
+
+
+Q bax             165 FGTP  168 (192)
+Q Consensus       165 f~~~  168 (192)
+                      |.+.
+T Consensus       147 ~~~~  150 (152)
+T 6FBX_A          147 FHNA  150 (152)
+T ss_pred             hhcc
+Confidence            9864
+
+
+No 18
+>3PK1_A Induced myeloid leukemia cell differentiation; Bcl-2 family fold, Regulation of; HET: CD; 2.486A {Homo sapiens}
+Probab=99.93  E-value=1.7e-30  Score=212.36  Aligned_cols=152  Identities=24%  Similarity=0.466  Sum_probs=130.1  Template_Neff=7.700
+
+Q bax              14 TSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIAAVD--TDSPR   89 (192)
+Q Consensus        14 ~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~~~~--~~~~~   89 (192)
+                      .+++.+.++++.|+.+||.+++.  |..++..   +.++.+...+++..||++|++++++++  |++++++++  ++..+
+T Consensus        32 ~d~e~~~~~~~~L~~dyI~~~l~--~~~~~~~---~~~~~~~~~~v~~~Lr~lgde~e~~~~~~f~~~~~~l~~~~~~~~  106 (189)
+T 3PK1_A           32 ADIGSLYRQSLEIISRYLREQAT--GAKDTKP---MGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDV  106 (189)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHc--CCCCCCC---CCCCCCCHHHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCChhHHH
+Confidence            34677999999999999999994  3333221   122234456889999999999999874  888888875  35678
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      +.|.++++++|+||.+|||||++||+||+.||++|.++++++.+..|++|+++|+.+++.+||.+||||++|+++|.+.+
+T Consensus       107 ~~f~~v~~elf~dg~inWgRIval~aF~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~~  186 (189)
+T 3PK1_A          107 KSLSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVED  186 (189)
+T ss_pred             HHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHhcCchh
+Confidence            89999999999998899999999999999999999999888999999999999999999999999999999999998765
+
+
+Q bax             170 W  170 (192)
+Q Consensus       170 ~  170 (192)
+                      .
+T Consensus       187 ~  187 (189)
+T 3PK1_A          187 L  187 (189)
+T ss_pred             c
+Confidence            4
+
+
+No 19
+>5JSB_A Induced myeloid leukemia cell differentiation; McL-1, antiMcl1, complex, Viral Protein-Inhibitor; 2.74A {Homo sapiens}
+Probab=99.93  E-value=1.7e-30  Score=209.83  Aligned_cols=161  Identities=25%  Similarity=0.472  Sum_probs=127.1  Template_Neff=8.300
+
+Q bax              17 EQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVF   92 (192)
+Q Consensus        17 e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f   92 (192)
+                      |++.++++.|+++||.+++.  |..++..   ..++.+.++++++.||++|+++++++  ++++++++++  ++..++.|
+T Consensus         1 ~~~~~~t~~l~~~yi~~~l~--~~~~~~~---~~~~~~~~~~v~~~Lr~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~f   75 (179)
+T 5JSB_A            1 DELYRQSLEIISRYLREQAT--GAKDTKP---MGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSL   75 (179)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHH--SCCCCSC---CSSSSSHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHTCCSSHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHhc--CCCCCCC---CCCCChHHHHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCChHHHHHH
+Confidence            67899999999999999993  3333221   11224446789999999999999987  4888888865  35678899
+
+
+Q bax              93 FRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT---  169 (192)
+Q Consensus        93 ~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~---  169 (192)
+                      .++++++|+||.+|||||++||+|++.+|++|.++++++.+..|++|+++|+.+++.+||++||||+++++++.+.+   
+T Consensus        76 ~~v~~~if~dg~inWgRIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~~~~~  155 (179)
+T 5JSB_A           76 SRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDLEG  155 (179)
+T ss_dssp             HHHHHHHHTTSCCCHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHHHHCCC----
+T ss_pred             HHHHHHHhhcCCCCHHHHHHHHHHHHHHHHHHHHCCChHhHHHHHHHHHHHHHHchHHHHHHCCChHHHHHhcchhhccc
+Confidence            99999999998899999999999999999999998888999999999999999999999999999999999998754   
+
+
+Q bax             170 -WQTVTIFVAGVLT  182 (192)
+Q Consensus       170 -~~~~~~~~~gvl~  182 (192)
+                       .+..+++++++++
+T Consensus       156 ~~~~~~~~~~~~~~  169 (179)
+T 5JSB_A          156 GIRNVLLAFAGVAG  169 (179)
+T ss_dssp             --------------
+T ss_pred             cHHHHHHHHHHHHH
+Confidence             2334444444433
+
+
+No 20
+>5C3F_A Induced myeloid leukemia cell differentiation; Complex, Bcl-2 Family, BH3, Stapled; HET: NLE, GOL; 1.43A {Homo sapiens}
+Probab=99.93  E-value=1.9e-30  Score=204.88  Aligned_cols=149  Identities=25%  Similarity=0.486  Sum_probs=127.5  Template_Neff=8.600
+
+Q bax              17 EQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIAAVD--TDSPREVF   92 (192)
+Q Consensus        17 e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~~~~--~~~~~~~f   92 (192)
+                      |++.++++.|+++||.+++.  |..++.   .+.++++..+++++.||++|++++++++  +++++++++  ++..++.|
+T Consensus         1 ~~~~~~~~~l~~~yi~~~l~--~~~~~~---~~~~~~~~~~~i~~~Lr~~gd~~~~~~~~~~~~~~~~l~~~~~~~~~~f   75 (156)
+T 5C3F_A            1 SELYRQSLEIISRYLREQAT--GAKDTK---PMGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSL   75 (156)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHH--SCCCCS---CCCTTHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHTCCSGGGTHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHhc--CCCCCC---CCCCCChhHHHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCchHHHHH
+Confidence            57899999999999999994  433322   1122345568999999999999999874  888888775  35678899
+
+
+Q bax              93 FRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus        93 ~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      .++++++|+||.+|||||++||+|++.+|++|.++++++.+..|++|+++|+.+++.+||.+||||++|+++|.+.+.
+T Consensus        76 ~~v~~~if~dg~inWgrIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~fi~~~l~~WI~~~GGW~~~~~~~~~~~~  153 (156)
+T 5C3F_A           76 SRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDL  153 (156)
+T ss_dssp             HHHHHHHGGGSCCCHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHHHHCCC--
+T ss_pred             HHHHHHHhhcCCCCHHHHHHHHHHHHHHHHHHHHcCChHhHHHHHHHHHHHHHHchHHHHHHCCChHHHHHhccchhc
+Confidence            999999999988999999999999999999999988888999999999999999999999999999999999987664
+
+
+No 21
+>5FMI_A BCL-2 HOMOLOGOUS ANTAGONIST/KILLER; BAK, APOPTOSIS, BCL-2 FAMILY; 1.491A {HOMO SAPIENS}
+Probab=99.92  E-value=2.2e-30  Score=205.49  Aligned_cols=150  Identities=25%  Similarity=0.516  Sum_probs=130.5  Template_Neff=8.700
+
+Q bax              15 SSEQIMKTGALLLQGFIQDRAGRMGGEAPELAL-D------PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD-   84 (192)
+Q Consensus        15 ~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~-~------~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~-   84 (192)
+                      ++|++.++++.|+++||.++++++|..++.... +      |.++.+.+..+++.||++|+++++++  .|++++++++ 
+T Consensus         1 ~~~~v~~~~~~l~~~yi~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~~gd~l~~~~~~~~~~~~~~l~~   80 (162)
+T 5FMI_A            1 SEEQVAQDTEEVFRSYVFYRHQQEQEAEGVAAPADPEMVTLPLQPSSTMGQVGRLLAIIGDDINRRYDSEFQTMLQHLQP   80 (162)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGSCCCTHHHHSCCCTTSHHHHHHHHHHHHHTTTSHHHHHHHHHHHTTCCS
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHhhHhcCCCCCCCccccCCCCCCCChHHHHHHHHHHHHHHHHHHCHHHHHHHHHHhCC
+Confidence            468999999999999999999999987644321 1      12224456789999999999999976  4888888765 
+
+
+Q bax              85 -TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRE-RLLGWIQDQGGWDGLL  162 (192)
+Q Consensus        85 -~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~-~l~~WI~~~GGW~~~~  162 (192)
+                       ++..++.|.++++++|+|+ +|||||+++|+||+.+|++|.++++++.+..|++|+++|+.+ ++.+||++||||++++
+T Consensus        81 ~~~~~~~~f~~v~~~if~d~-i~WgrIv~l~~f~~~la~~~~~~~~~~~~~~i~~~~~~fi~~~~l~~WI~~~GGW~~~~  159 (162)
+T 5FMI_A           81 TAENAYEYFTKIATSLFESG-INWGRVVALLGFGYRLALHVYQHGLTGFLGQVTRFVVDFMLHHSIARWIAQRGGWVAAL  159 (162)
+T ss_dssp             SHHHHHHHHHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCCSCHHHHHHHHHHHHHHTTHHHHHHHTTCGGGGG
+T ss_pred             ChHHHHHHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHhhcHHHHHHHCCCHHHHH
+Confidence             3578899999999999998 999999999999999999999998899999999999999998 8999999999999999
+
+
+Q bax             163 SYF  165 (192)
+Q Consensus       163 ~~f  165 (192)
+                      +++
+T Consensus       160 ~~~  162 (162)
+T 5FMI_A          160 NLG  162 (162)
+T ss_dssp             GGC
+T ss_pred             ccC
+Confidence            874
+
+
+No 22
+>2KUA_A Bcl-2-like protein 10; Boo, Diva, Bcl-2, apoptosis, BH3-only; NMR {Mus musculus}
+Probab=99.92  E-value=2.3e-30  Score=208.38  Aligned_cols=151  Identities=20%  Similarity=0.326  Sum_probs=132.9  Template_Neff=7.700
+
+Q bax               8 PRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT   85 (192)
+Q Consensus         8 ~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~   85 (192)
+                      |.+.-|.++|++.++++.|+++||.+++++++..          +.+...++++.||++|+++++++  .|++++++++ 
+T Consensus         2 ~~~~~~~~~~~~~~~~~~L~~dyv~~~l~~~~~~----------~~~~~~~v~~~Lr~igde~~~~~~~~f~~~~~~l~-   70 (170)
+T 2KUA_A            2 PLGSMADSQDPLHERTRRLLSDYIFFCAREPDTP----------EPPPTSVEAALLRSVTRQIQQEHQEFFSSFCESRG-   70 (170)
+T ss_dssp             CCCCSCSSSCSSHHHHHHHHHHHHHHHHCCTTSC----------CCCCSSHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-
+T ss_pred             CCcccCCCccHHHHHHHHHHHHHHHHHhhCCCCC----------CCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHhhh-
+Confidence            6677899999999999999999999999988641          12345688999999999999987  4888877665 
+
+
+Q bax              86 DSPREVFFRVAADMFSDGN-FNWGRVVALFYFASKLV-------LKALCTKV-----PELIRTIMGWTLDFLR-ERLLGW  151 (192)
+Q Consensus        86 ~~~~~~f~~Va~elF~dG~-inWGRIVaLf~F~~~La-------~~~~~~~~-----~~~v~~I~~w~~~fi~-~~l~~W  151 (192)
+                       +.++.|.+|++++|+|+. +||||||+||+||+.+|       ++|.+++.     ++.+..|++|+++|+. +++.+|
+T Consensus        71 -~~~~~f~~v~~~lf~d~~~inWgRIval~aF~~~la~~~~~~~~~~~~~~~~~~~~~~~~~~I~~~~~~~l~~~~l~~W  149 (170)
+T 2KUA_A           71 -NRLELVKQMADKLLSKDQDFSWSQLVMLLAFAGTLMNQGPYMAVKQKRDLGNRVIVTRDCCLIVNFLYNLLMGRRHRAR  149 (170)
+T ss_dssp             -CHHHHHHHHHHHSCCSSSCCCHHHHHHHHHHHHHHCCCCCSCTTSCCSSCCSCTHHHHHHHHHHHHHHHHHSSHHHHHH
+T ss_pred             -hHHHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHhcCchHHHHHHHhcCCccccHHHHHHHHHHHHHHHccccHHHH
+Confidence             778899999999999875 99999999999999999       66787776     7889999999999999 999999
+
+
+Q bax             152 IQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus       152 I~~~GGW~~~~~~f~~~~~  170 (192)
+                      |.+||||++++++|.++++
+T Consensus       150 I~~~GGW~~~~~~~~~~~~  168 (170)
+T 2KUA_A          150 LEALGGWDGFCRFFKNPLP  168 (170)
+T ss_dssp             HHHTTHHHHHHHHTTCSSS
+T ss_pred             HHHcCcHHHHHHHccCCCC
+Confidence            9999999999999998764
+
+
+No 23
+>4K5A_A Bcl-2-like protein 2, Designed Ankyrin; APOPTOSIS, anti-apoptotic BCL-2 family, BCL-W; 1.5A {Bos taurus}
+Probab=99.92  E-value=2.9e-30  Score=210.08  Aligned_cols=152  Identities=22%  Similarity=0.531  Sum_probs=134.0  Template_Neff=7.800
+
+Q bax              13 PTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSP   88 (192)
+Q Consensus        13 p~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~   88 (192)
+                      ..+++++.++++.|+.+||.++++++|..++..   + +..+...++++.||++||+|++++  .+++++++++  +++.
+T Consensus        11 ~~~~~~~~~~t~~L~~dyI~~~l~~~g~~~~~~---~-~~~~~~~~i~~~Lr~igdel~~~~~~~~~~~~~~l~~~~~~~   86 (184)
+T 4K5A_A           11 GSATPASAPDTRALVADFVGYKLRQKGYVCGAG---P-GEGPAADPLHQAMRAAGDEFETRFRRTFSDLAAQLHVTPGSA   86 (184)
+T ss_dssp             CCCCTTCCHHHHHHHHHHHHHHHHHTTSCCSSS---T-TSSSCSSHHHHHHHHHHHHHHHHSTTHHHHHHHHSCCCTTTH
+T ss_pred             CCCCccchHHHHHHHHHHHHHHHHHcCCCCCCC---C-CCCCCchHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCccH
+Confidence            457899999999999999999999999765432   1 123345688999999999999986  4888888764  4568
+
+
+Q bax              89 REVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTP  168 (192)
+Q Consensus        89 ~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~  168 (192)
+                      ++.|.+|++++|+|+ +|||||++||+|++.||++|.++++++.+..|++|+++||.+++.+||.+||||++++++|.+.
+T Consensus        87 ~~~f~~v~~~if~dg-inWgRIvalf~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~  165 (184)
+T 4K5A_A           87 QQRFTQVSDELFQGG-PNWGRLVAFFVFGAALCAESVNKEMEVLVGQVQEWMVAYLETRLADWIHSSGGWAEFTALYGDG  165 (184)
+T ss_dssp             HHHHHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTHHHHHHHHHHHHHHHHTSHHHHHHTTHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHchHHHHHHCCCHHHHHHHhccC
+Confidence            899999999999998 9999999999999999999999988999999999999999999999999999999999999875
+
+
+Q bax             169 T  169 (192)
+Q Consensus       169 ~  169 (192)
+                      +
+T Consensus       166 ~  166 (184)
+T 4K5A_A          166 A  166 (184)
+T ss_dssp             S
+T ss_pred             c
+Confidence            4
+
+
+No 24
+>5WOS_A CNPV058 bcl-2 like protein, Bcl-2-like; Avipoxvirus, apoptosis, Bcl-2, Bim, VIRAL; 2.45A {Canarypox virus}
+Probab=99.92  E-value=3.2e-30  Score=202.63  Aligned_cols=145  Identities=17%  Similarity=0.245  Sum_probs=120.2  Template_Neff=8.200
+
+Q bax               5 GEQPRGGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAA   82 (192)
+Q Consensus         5 g~~~~~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~   82 (192)
+                      |..++..+|+++|++.++++.|+++||.+++.+++.          +..+....++..||++|+++++++  .++++++.
+T Consensus         1 ~~~~~~~~~~~~d~~~~~~~~l~~~yi~~~~~~~~~----------~~~~~~~~~~~~Lr~igd~~~~~~~~~~~~~~~~   70 (148)
+T 5WOS_A            1 GPLGSMDPSVKKDEIYYTILNIIQNYFIEYCTGKNR----------NFHVEDENTYIIVKNMCDIILRDNIVEFRKDIDR   70 (148)
+T ss_dssp             ---------CCCSHHHHHHHHHHHHHHHHHHHCCCC----------TTTSSCHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CCCCCCCCCchhHHHHHHHHHHHHHHHHHHHhcCCC----------CCCCCChHHHHHHHHHHHHHHHHCHHHHHHHHhc
+Confidence            346778889999999999999999999999988864          112234578889999999999987  48888776
+
+
+Q bax              83 VDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLL  162 (192)
+Q Consensus        83 ~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~  162 (192)
+                      ++  ...+.|.++++++|+|| +|||||++||+||+.+|++|.++++++.+..|++|+++|+.+++.+||.+||||++++
+T Consensus        71 ~~--~~~~~f~~v~~~lf~dg-i~WgRIval~~f~~~la~~~~~~~~~~~~~~i~~~~~~~i~~~l~~WI~~~GGW~~~~  147 (148)
+T 5WOS_A           71 CS--DIENEIPEIVYDTIHDK-ITWGRVISIIAFGAYVTKVFKEKGRDNVVDLMPDIITESLLSRCRSWLSDQNCWDGLK  147 (148)
+T ss_dssp             CS--SCGGGHHHHHHHHHSSC-CCHHHHHHHHHHHHHHHHHHHHHTCTTTTTTHHHHHHHHHHHHHHHHHHTTTGGGGGC
+T ss_pred             cc--cHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHCCChhHHHHHHHHHHHHHHHchHHHHHHCCCCcccc
+Confidence            52  23456999999999999 9999999999999999999999998999999999999999999999999999999986
+
+
+No 25
+>6UDV_A Induced myeloid leukemia cell differentiation; protein-protein interaction, apoptosis, inhibitor, APOPTOSIS-INHIBITOR; HET: Q51; 1.35A {Homo sapiens}
+Probab=99.92  E-value=3.7e-30  Score=203.45  Aligned_cols=150  Identities=24%  Similarity=0.465  Sum_probs=128.1  Template_Neff=8.600
+
+Q bax              16 SEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIAAVD--TDSPREV   91 (192)
+Q Consensus        16 ~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~~~~--~~~~~~~   91 (192)
+                      +|++.++++.|+++||.+++...  .++..   ..++.+....+++.||++|++++++++  +++++++++  ++..++.
+T Consensus         1 ~~~~~~~~~~l~~~yi~~~l~~~--~~~~~---~~~~~~~~~~i~~~Lr~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~   75 (157)
+T 6UDV_A            1 EDELYRQSLEIISRYLREQATGA--KDTKP---MGRSGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKS   75 (157)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHSC--CCCSC---CSTTHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHTCCSHHHHHT
+T ss_pred             CcHHHHHHHHHHHHHHHHHhcCC--CCCCC---CCCCChhHHHHHHHHHHHHHHHHHHhHHHHHHHHhhCCCCChHHHHH
+Confidence            47899999999999999999433  22211   112234467889999999999999874  888888775  3567889
+
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      |.++++++|.||.+|||||++||+|++.+|++|.++++++.+..|++|+++|+.+++.+||++||||++|+++|.+.+.
+T Consensus        76 f~~v~~~lf~dg~inWgRIval~~f~~~l~~~~~~~~~~~~v~~i~~~~~~~i~~~l~~WI~~~GGW~~~~~~~~~~~~  154 (157)
+T 6UDV_A           76 LSRVMIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFHVEDL  154 (157)
+T ss_dssp             HHHHHCCCCCSSCCCHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHHHHCCCCC
+T ss_pred             HHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHHHHcCChHhHHHHHHHHHHHHHHchHHHHHHCCCchhHHHhccchhc
+Confidence            9999999999987999999999999999999999988888999999999999999999999999999999999997664
+
+
+No 26
+>2W3L_A APOPTOSIS REGULATOR BCL-2; APOPTOSIS; HET: DRO; 2.1A {HOMO SAPIENS}
+Probab=99.92  E-value=8.2e-30  Score=199.15  Aligned_cols=138  Identities=26%  Similarity=0.603  Sum_probs=122.5  Template_Neff=8.400
+
+Q bax              22 TGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAA   97 (192)
+Q Consensus        22 ~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~   97 (192)
+                      +++.|++|||+++++++|..++.        ++...++++.|+++||++++++  .+++++++++  +++.++.|.++++
+T Consensus         2 ~~~~l~~dyi~~~l~~~g~~~~~--------~~~~~~~~~~L~~igd~l~~~~~~~~~~~~~~l~~~~~~~~~~f~~v~~   73 (144)
+T 2W3L_A            2 DNREIVMKYIHYKLSQRGYEWDA--------GADSEVVHKTLREAGDDFSRRYRRDFAEMSSGLHLTPFTARGRFATVVE   73 (144)
+T ss_dssp             CHHHHHHHHHHHHHHHTTCCCCC-----------CHHHHHHHHHHHHHHHHHTHHHHHHHHTTCCCCTTTHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHhCCCCCCC--------CCCHHHHHHHHHHHHHHHHHHcHHHHHHHHHhCCCChhhHHHHHHHHHH
+Confidence            68899999999999999987633        1234678899999999999987  4888887765  3567899999999
+
+
+Q bax              98 DMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTP  168 (192)
+Q Consensus        98 elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~  168 (192)
+                      ++|+|+ +|||||++||+||+.+|++|.+++.++.+..|++|+++|+.+++.+||.+||||++++++|.++
+T Consensus        74 ~if~~~-i~WgrIval~~f~~~la~~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~  143 (144)
+T 2W3L_A           74 ELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGPS  143 (144)
+T ss_dssp             HHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHCCCCCHHHHHHTTSHHHHHHHTSTT
+T ss_pred             HHhcCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHccHHHHHHCCcHHHHHHHHCCC
+Confidence            999998 9999999999999999999999988899999999999999999999999999999999998764
+
+
+No 27
+>2O2F_A Solution structure of the anti-apoptotic; apoptosis, complex, bcl; HET: LI0; NMR {Homo sapiens}
+Probab=99.92  E-value=1e-29  Score=197.15  Aligned_cols=133  Identities=26%  Similarity=0.600  Sum_probs=120.1  Template_Neff=8.500
+
+Q bax              21 KTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVA   96 (192)
+Q Consensus        21 ~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va   96 (192)
+                      ++++.|++|||+++++++|..+|             ..+++.||++||++++++  .+++++++++  +++.++.|.+++
+T Consensus         2 ~~~~~l~~dyi~~~l~~~g~~~~-------------~~v~~~Lr~lgdel~~~~~~~~~~~~~~l~~~~~~~~~~f~~v~   68 (138)
+T 2O2F_A            2 YDNREIVMKYIHYKLSQRGYEWD-------------EVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGRFATVV   68 (138)
+T ss_pred             cchHHHHHHHHHHHHHhCCCCCh-------------HHHHHHHHHHHHHHHHHhHHHHHHHHHHcCCCcchHHHHHHHHH
+Confidence            57899999999999999886542             267888999999999987  4888888775  456789999999
+
+
+Q bax              97 ADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGT  167 (192)
+Q Consensus        97 ~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~  167 (192)
+                      +++|+|+ +|||||+++|+||+.+|++|.+++.++.+..|++|+++|+.+++.+||.+||||++++++|.+
+T Consensus        69 ~~if~~~-i~WgrIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~  138 (138)
+T 2O2F_A           69 EELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGP  138 (138)
+T ss_pred             HHHHccC-CCHHHHHHHHHHHHHHHHHHHHhcChHHHHHHHHHHHHHHHHchHHHHHHCCcHHHHHHhccC
+Confidence            9999998 999999999999999999999988889999999999999999999999999999999999863
+
+
+No 28
+>3IHD_A Bcl-2-like protein 1; Apoptosis, BH3 domain, Bcl-2, Membrane; 1.88A {Mus musculus}
+Probab=99.91  E-value=1.4e-29  Score=208.56  Aligned_cols=146  Identities=24%  Similarity=0.565  Sum_probs=124.4  Template_Neff=7.300
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALD--------------------------------PV-------------PQDA   54 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~--------------------------------~~-------------p~~~   54 (192)
+                      ..+++.|+.|||.++|.+.|+.|......                                |.             +..+
+T Consensus         3 ~~~~r~lv~dyi~ykL~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (197)
+T 3IHD_A            3 SQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEETEAERETPSAINGNPSWHLADSPAVNGATGHSSSLDAREVI   82 (197)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTCCCTTC------------------------------------------------------
+T ss_pred             ccchHHHHHHHHHHHHHhcCCCchhccccccccCCCcchhhhhhcCCcccCCCCcccccCCCCcCCCcCCCcccccccCC
+Confidence            46789999999999999999987543211                                00             0012
+
+
+Q bax              55 STKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP  130 (192)
+Q Consensus        55 ~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~  130 (192)
+                      ...+++..||++||+|++++  .|++++++++  +++.++.|..|++++|.|+ +||||||+||+||+.||++|.+++++
+T Consensus        83 ~~~~i~~~LR~igdele~~~~~~f~~~~~~L~~~~~~~~~~f~~V~~elf~dg-inWGRIvalf~F~g~la~~~~~~~~~  161 (197)
+T 3IHD_A           83 PMAAVKQALREAGDEFELRARRAFSDLTSQLHITPGTAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQ  161 (197)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHCCCTTCCHHHHHHHHGGGGTTC-CCHHHHHHHHHHHHHHHHHHHHTTCT
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHHHHHHHHHHHhccC-CCHHHHHHHHHHHHHHHHHHHHhccH
+Confidence            24688899999999999987  4888888875  4568889999999999998 99999999999999999999999999
+
+
+Q bax             131 ELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus       131 ~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +.+..|++|+++||.+++.+||++||||++|+++|.
+T Consensus       162 ~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~f~  197 (197)
+T 3IHD_A          162 VLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLYG  197 (197)
+T ss_dssp             THHHHHHHHHHHHCCCCCHHHHHHTTCHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHhhC
+Confidence            999999999999999999999999999999999874
+
+
+No 29
+>3ILC_A Bcl-2-like protein 1; Apoptosis, BH3 domain, Bcl-2, Membrane; 1.64A {Mus musculus}
+Probab=99.91  E-value=1.4e-29  Score=208.56  Aligned_cols=146  Identities=24%  Similarity=0.565  Sum_probs=124.6  Template_Neff=7.300
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALD--------------------------------PV-------------PQDA   54 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~--------------------------------~~-------------p~~~   54 (192)
+                      ..+++.|+.|||.++|.+.|+.|......                                |.             +..+
+T Consensus         3 ~~~~r~lv~dyi~ykL~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (197)
+T 3ILC_A            3 SQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEETEAERETPSAINGNPSWHLADSPAVNGATGHSSSLDAREVI   82 (197)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTCCCTTCC-----------------------------------------------------
+T ss_pred             ccchHHHHHHHHHHHHHhcCCCchhccccccccCCCcchhhhhhcCCcccCCCCcccccCCCCcCCCcCCCcccccccCC
+Confidence            46789999999999999999987543211                                00             0012
+
+
+Q bax              55 STKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP  130 (192)
+Q Consensus        55 ~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~  130 (192)
+                      ...+++..||++||+|++++  .|++++++++  +++.++.|..|++++|.|+ +||||||+||+||+.||++|.+++++
+T Consensus        83 ~~~~i~~~LR~igdele~~~~~~f~~~~~~L~~~~~~~~~~f~~V~~elf~dg-inWGRIvalf~F~g~la~~~~~~~~~  161 (197)
+T 3ILC_A           83 PMAAVKQALREAGDEFELRARRAFSDLTSQLHITPGTAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQ  161 (197)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHCCCTTCCHHHHHHHHGGGGTTC-CCHHHHHHHHHHHHHHHHHHHHTTCT
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHHHHHHHHHHHhccC-CCHHHHHHHHHHHHHHHHHHHHhccH
+Confidence            24688899999999999987  4888888875  4568889999999999998 99999999999999999999999999
+
+
+Q bax             131 ELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus       131 ~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +.+..|++|+++||.+++.+||++||||++|+++|.
+T Consensus       162 ~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~f~  197 (197)
+T 3ILC_A          162 VLVSRIASWMATYLNDHLEPWIQENGGWDTFVDLYG  197 (197)
+T ss_dssp             THHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHhhC
+Confidence            999999999999999999999999999999999874
+
+
+No 30
+>3QBR_A SJCHGC06286 protein, Bcl-2 homologous antagonist/killer; helical bundle, Bcl-2-like fold, APOPTOSIS; HET: NHE; 2.601A {Schistosoma japonicum}
+Probab=99.91  E-value=1.4e-29  Score=205.45  Aligned_cols=156  Identities=19%  Similarity=0.403  Sum_probs=122.4  Template_Neff=7.600
+
+Q bax              10 GGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELAL----DPVPQDASTKKLSECLKRIGDELDSNME----LQRMIA   81 (192)
+Q Consensus        10 ~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~----~~~p~~~~~~~v~~~Lr~i~del~~~~~----l~~~i~   81 (192)
+                      ..+|.+.+++.+||+.|++.|+.+++++.+.....+..    .+.+.++.+.+++..|+++|++|+++++    ++++++
+T Consensus         8 ~~~~~~~~~v~~qt~~l~~~f~~~~~~~~~~dyi~~~l~~~g~~~~~~~~~~~~~~~L~~~~d~le~~~~~~~~~~~~~~   87 (179)
+T 3QBR_A            8 QDPMSNTADFRLQTSTLCHSFLLASANKQDTDYLTDLLDNTNIDLTCVPNGQEIIHSLLQLVGDFNQRFSQTHEIEPVAQ   87 (179)
+T ss_dssp             --------CHHHHHHHHHHHHHHHSSCHHHHHHHHHHHHHHTCCCCCCTTHHHHHHHHHHHHHHHHHHHHHHCCSHHHHH
+T ss_pred             CCCCCCHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhhcCCCCccCCCcHHHHHHHHHHHHHHHHHHhccccchHHHHH
+Confidence            45678999999999999999999888877543211110    0111223456788899999999999873    788887
+
+
+Q bax              82 AVDT--D-----SPREV-FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQ  153 (192)
+Q Consensus        82 ~~~~--~-----~~~~~-f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~  153 (192)
+                      +++.  +     ++++. |.+|++++|+ + +||||||+||+||+.+|++|.++++++++..|++|+++|+.+++.+||.
+T Consensus        88 ~l~~~~~~~~~~~~~~~ff~~v~~~lF~-~-inWGRIvalfaF~~~la~~~~~~~~~~~v~~I~~~~~~fi~~~l~~WI~  165 (179)
+T 3QBR_A           88 SLGIDSDKPVDKTALEIFYLEILNGLFE-K-LNWGRIVAMFAFLRILVLRLSKHGHSDAIQMLIKTTSQYSDEKLKNWIN  165 (179)
+T ss_dssp             HHTCSSSSCCCHHHHHHHHHHHHHHHTS-S-CCHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHHHHHHHHHHTHHHHH
+T ss_pred             HcCCCCCCCCCHHHHHHHHHHHHHHHhC-C-CCHHHHHHHHHHHHHHHHHHHHCCChHHHHHHHHHHHHHHHHchHHHHH
+Confidence            7653  2     47788 6999999997 5 9999999999999999999999999999999999999999999999999
+
+
+Q bax             154 DQGGWDGLLSYFGT  167 (192)
+Q Consensus       154 ~~GGW~~~~~~f~~  167 (192)
+                      +||||++++++|.+
+T Consensus       166 ~~GGW~~~~~~f~~  179 (179)
+T 3QBR_A          166 LHDGWSGLIEFSGR  179 (179)
+T ss_dssp             TTTGGGHHHHHTC-
+T ss_pred             HCCcHHHHHHhhcC
+Confidence            99999999999863
+
+
+No 31
+>3QBR_X SJCHGC06286 protein, Bcl-2 homologous antagonist/killer; helical bundle, Bcl-2-like fold, APOPTOSIS; HET: NHE; 2.601A {Schistosoma japonicum}
+Probab=99.91  E-value=1.4e-29  Score=205.45  Aligned_cols=156  Identities=19%  Similarity=0.403  Sum_probs=122.7  Template_Neff=7.600
+
+Q bax              10 GGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELAL----DPVPQDASTKKLSECLKRIGDELDSNME----LQRMIA   81 (192)
+Q Consensus        10 ~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~----~~~p~~~~~~~v~~~Lr~i~del~~~~~----l~~~i~   81 (192)
+                      ..+|.+.+++.+||+.|++.|+.+++++.+.....+..    .+.+.++.+.+++..|+++|++|+++++    ++++++
+T Consensus         8 ~~~~~~~~~v~~qt~~l~~~f~~~~~~~~~~dyi~~~l~~~g~~~~~~~~~~~~~~~L~~~~d~le~~~~~~~~~~~~~~   87 (179)
+T 3QBR_X            8 QDPMSNTADFRLQTSTLCHSFLLASANKQDTDYLTDLLDNTNIDLTCVPNGQEIIHSLLQLVGDFNQRFSQTHEIEPVAQ   87 (179)
+T ss_dssp             --------CHHHHHHHHHHHHHHHSSCHHHHHHHHHHHHHHTCCCCCCTTHHHHHHHHHHHHHHHHHHHHHHCCSHHHHH
+T ss_pred             CCCCCCHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhhcCCCCccCCCcHHHHHHHHHHHHHHHHHHhccccchHHHHH
+Confidence            45678999999999999999999888877543211110    0111223456788899999999999873    788887
+
+
+Q bax              82 AVDT--D-----SPREV-FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQ  153 (192)
+Q Consensus        82 ~~~~--~-----~~~~~-f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~  153 (192)
+                      +++.  +     ++++. |.+|++++|+ + +||||||+||+||+.+|++|.++++++++..|++|+++|+.+++.+||.
+T Consensus        88 ~l~~~~~~~~~~~~~~~ff~~v~~~lF~-~-inWGRIvalfaF~~~la~~~~~~~~~~~v~~I~~~~~~fi~~~l~~WI~  165 (179)
+T 3QBR_X           88 SLGIDSDKPVDKTALEIFYLEILNGLFE-K-LNWGRIVAMFAFLRILVLRLSKHGHSDAIQMLIKTTSQYSDEKLKNWIN  165 (179)
+T ss_dssp             HHTCSSSSCCCHHHHHHHHHHHHHHHTS-S-CCHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHHHHHHHHHHTHHHHH
+T ss_pred             HcCCCCCCCCCHHHHHHHHHHHHHHHhC-C-CCHHHHHHHHHHHHHHHHHHHHCCChHHHHHHHHHHHHHHHHchHHHHH
+Confidence            7653  2     47788 6999999997 5 9999999999999999999999999999999999999999999999999
+
+
+Q bax             154 DQGGWDGLLSYFGT  167 (192)
+Q Consensus       154 ~~GGW~~~~~~f~~  167 (192)
+                      +||||++++++|.+
+T Consensus       166 ~~GGW~~~~~~f~~  179 (179)
+T 3QBR_X          166 LHDGWSGLIEFSGR  179 (179)
+T ss_dssp             TTTGGGHHHHHTCH
+T ss_pred             HCCcHHHHHHhhcC
+Confidence            99999999999863
+
+
+No 32
+>6QGG_A Induced myeloid leukemia cell differentiation; APOPTOSIS, BCL2, ABT-737; HET: J1H; 1.5A {Homo sapiens}
+Probab=99.91  E-value=1.5e-29  Score=204.54  Aligned_cols=149  Identities=23%  Similarity=0.576  Sum_probs=115.5  Template_Neff=7.900
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALD----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREV   91 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~   91 (192)
+                      .++++.|+++||.++++++|+.++.....    ..|..+..+.++..||++||++++++  .++++++.++  .++.++.
+T Consensus         2 ~~~~~~l~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~lgdel~~~~~~~~~~~~~~l~~~~~~~~~~   81 (177)
+T 6QGG_A            2 SQDNREIVMKYISYKLSQRGYEWDAGDVEENRTEAPEGTESEVVHQTLRQAGDDFSLRYRRDFAEMSSQLHLTPGTAYAS   81 (177)
+T ss_dssp             -CCCHHHHHHHHHHHHHHTTCCC---CCC------------CHHHHHHHHHHHHHHHHSHHHHHHHHHHCCCCTTTHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHCCCCcccCCcccCCCCCCCCCChHHHHHHHHHHHHHHHHHCHHHHHHHHHhCCCCchhHHHH
+Confidence            46899999999999999999887653211    11223445788999999999999987  4888888775  4567899
+
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      |.++++++|+|+ +|||||++||+||+.+|++|.+++.++.+..|++|+++||.+++.+||.+||||++++++|.+.+
+T Consensus        82 f~~v~~~if~~~-inWgRIvalf~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~l~~~~~~~~  158 (177)
+T 6QGG_A           82 FATVVEELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSVLVDNIAAWMATYLNDHLHTWIQDNGGWDAFVELYGNNA  158 (177)
+T ss_dssp             HHHHHHHHTTTC-CCHHHHHHHHHHHH---HHHH-----HHHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHC---
+T ss_pred             HHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHcCcHHHHHHHhcCch
+Confidence            999999999998 99999999999999999999998888999999999999999999999999999999999998744
+
+
+No 33
+>6QGH_A Induced myeloid leukemia cell differentiation; APOPTOSIS, BCL2, ABT-263, drug design; HET: 1XJ; 2.0A {Homo sapiens}
+Probab=99.91  E-value=1.5e-29  Score=204.54  Aligned_cols=149  Identities=23%  Similarity=0.576  Sum_probs=112.5  Template_Neff=7.900
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALD----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREV   91 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~   91 (192)
+                      .++++.|+++||.++++++|+.++.....    ..|..+..+.++..||++||++++++  .++++++.++  .++.++.
+T Consensus         2 ~~~~~~l~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~lgdel~~~~~~~~~~~~~~l~~~~~~~~~~   81 (177)
+T 6QGH_A            2 SQDNREIVMKYISYKLSQRGYEWDAGDVEENRTEAPEGTESEVVHQTLRQAGDDFSLRYRRDFAEMSSQLHLTPGTAYAS   81 (177)
+T ss_dssp             --CCHHHHHHHHHHHHHTTTCCC----------------------CCHHHHHHHHHHHTHHHHHHHHHHCCCCTTTHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHCCCCcccCCcccCCCCCCCCCChHHHHHHHHHHHHHHHHHCHHHHHHHHHhCCCCchhHHHH
+Confidence            46899999999999999999887653211    11223445788999999999999987  4888888775  4567899
+
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      |.++++++|+|+ +|||||++||+||+.+|++|.+++.++.+..|++|+++||.+++.+||.+||||++++++|.+.+
+T Consensus        82 f~~v~~~if~~~-inWgRIvalf~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~l~~~~~~~~  158 (177)
+T 6QGH_A           82 FATVVEELFRDG-VNWGRIVAFFEFGGVMCVESVNREMSVLVDNIAAWMATYLNDHLHTWIQDNGGWDAFVELYGNNA  158 (177)
+T ss_dssp             HHHHHHHHHTTC-CCHHHHHHHHHHHH---HHHH-----HHHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHHSCH
+T ss_pred             HHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHcCcHHHHHHHhcCch
+Confidence            999999999998 99999999999999999999998888999999999999999999999999999999999998744
+
+
+No 34
+>5JSN_C Apoptosis regulator Bcl-2, Bcl2 inhibitor; Bcl-2, antiBcl2, complex, Viral Protein-Inhibitor; 2.1A {Homo sapiens}
+Probab=99.91  E-value=1.7e-29  Score=210.76  Aligned_cols=152  Identities=23%  Similarity=0.505  Sum_probs=128.9  Template_Neff=6.700
+
+Q bax              17 EQIMKTGALLLQGFIQDRAGRMGGEAPELALDP--------------------------------------V--------   50 (192)
+Q Consensus        17 e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~--------------------------------------~--------   50 (192)
+                      .....+++.|+.|||.++|.+.|+.|......+                                      .        
+T Consensus         5 ~~~~~~~r~lv~dyi~ykL~~~G~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   84 (215)
+T 5JSN_C            5 GRTGYDNREIVMKYIHYKLSQRGYEWDAGDVGAAPPGAAPAPGIFSSQPGHTPHPAASRDPVARTSPLQTPAAPGAAAGP   84 (215)
+T ss_dssp             --CCCCHHHHHHHHHHHHHHTTTCCCCC----------------------------------------------------
+T ss_pred             CCCcccHHHHHHHHHHHHHHhCCCCcccCCCCCCCCCCCCCCCccCCCCCCCCCCcccCCccccCCCCCCCCCCCccCCC
+Confidence            345677899999999999999999875531100                                      0        
+
+
+Q bax              51 PQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALC  126 (192)
+Q Consensus        51 p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~  126 (192)
+                      +..+.+.+++..||++||+|++++  .|++++++++  +++.++.|.+|++++|+|| +||||||+||+||+.||++|.+
+T Consensus        85 ~~~~~~~~v~~~LR~lgde~e~~~~~~f~~~~~~L~i~~~~a~~~F~~V~~elF~dg-inWGRIValf~F~g~la~~~~~  163 (215)
+T 5JSN_C           85 ALSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLHLTPFTARGRFATVVEELFRDG-VNWGRIVAFFEFGGVMCVESVN  163 (215)
+T ss_dssp             --CCSCHHHHHHHHHHHHHHHHHTHHHHHHHHHTCCCCTTHHHHHHHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCChHHHHHHHHHHHHHHHHHcHHHHHHHHHHhCCCcccHHHHHHHHHHHHhcCC-CChhHHHHHHHHHHHHHHHHHH
+Confidence            012345688899999999999987  4888888875  4577899999999999999 9999999999999999999999
+
+
+Q bax             127 TKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       127 ~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      +++++.+.+|++|+++||.+++.+||++||||++|+++|.+..
+T Consensus       164 ~~~~~~v~~I~~~~~~yl~~~l~~WI~~~GGW~gf~~~~~~~~  206 (215)
+T 5JSN_C          164 REMSPLVDNIALWMTEYLNRHLHTWIQDNGGWDAFVELYGPSM  206 (215)
+T ss_dssp             TTCTTHHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHHHHH
+T ss_pred             CCChHHHHHHHHHHHHHHHHhcHHHHHHCCcHHHHHHHhcccc
+Confidence            9999999999999999999999999999999999999998754
+
+
+No 35
+>2PON_B Beclin-1/Apoptosis regulator Bcl-X; Apoptosis  Autophagy  Bcl-2; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=99.91  E-value=2e-29  Score=198.84  Aligned_cols=146  Identities=24%  Similarity=0.585  Sum_probs=126.3  Template_Neff=8.700
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALD-----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPRE   90 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~   90 (192)
+                      .++++.|+.|||+++++++|+.++.....     ..|+.+..+.+++.||++||++++++  .+++++++++  .++.++
+T Consensus         2 ~~~~~~l~~d~I~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~igdel~~~~~~~~~~~~~~l~~~~~~~~~   81 (156)
+T 2PON_B            2 SQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQ   81 (156)
+T ss_dssp             CSCHHHHHHHHHHHHHHHHTCCTTTSCGGGSCSCCCCSSCHHHHHHHHHHHHHHHHHHHHHHHSCCSTTTCCCCTTTHHH
+T ss_pred             CcchHHHHHHHHHHHHHHcCCCccccccccccCCCCCCCCCHHHHHHHHHHHHHHHHHHhHHHHHHHHHhCCCCCChHHH
+Confidence            46899999999999999999887554211     11234456789999999999999887  4888887764  356788
+
+
+Q bax              91 VFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        91 ~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      .|.++++++|+|| +|||||++||+||+.+|++|.+++.++.+..|++|+++|+.+++.+||.+||||++++++|.
+T Consensus        82 ~f~~v~~~if~~g-i~WgrIval~~f~~~l~~~~~~~~~~~~~~~i~~~~~~~l~~~l~~WI~~~GGW~~~~~~~~  156 (156)
+T 2PON_B           82 SFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYG  156 (156)
+T ss_dssp             HHHHHHHHHHHSC-CCHHHHHHHHHHHHHHHHHHHHHTCTTHHHHHHHHHHHHCCCCCHHHHHHTTTHHHHHHHHC
+T ss_pred             HHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHccHHHHHHCCcHHHHHHhhC
+Confidence            9999999999998 99999999999999999999988888899999999999999999999999999999999874
+
+
+No 36
+>1YSN_A Apoptosis regulator Bcl-X; Complex, APOPTOSIS; HET: 43B; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=99.91  E-value=2e-29  Score=204.38  Aligned_cols=153  Identities=24%  Similarity=0.564  Sum_probs=132.2  Template_Neff=8.000
+
+Q bax              16 SEQIMKTGALLLQGFIQDRAGRMGGEAPELALD-----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TD   86 (192)
+Q Consensus        16 ~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~   86 (192)
+                      ...+.++++.|+.|||.++++++|..++..+..     ..|+.+.++.+++.||++||++++++  .+++++++++  .+
+T Consensus         2 ~~~~~~~~~~l~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~igdel~~~~~~~~~~~~~~l~~~~~   81 (181)
+T 1YSN_A            2 SMAMSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEAVKQALREAGDEFELRYRRAFSDLTSQLHITPG   81 (181)
+T ss_dssp             CCCCCSHHHHHHHHHHHHHHHTTTCCCCCCCCCCCCCCSCCCCCCCCSHHHHHHHHHHHHHHHTHHHHHHHHTSCCCCTT
+T ss_pred             ChhhhhhhHHHHHHHHHHHHHhcCCCccccccccccCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCC
+Confidence            356788999999999999999999877543211     12234456789999999999999887  4888887764  34
+
+
+Q bax              87 SPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        87 ~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +.++.|.++++++|+|+ +|||||++||+||+.+|++|.+++.++.+..|++|+++|+.+++.+||.+||||++|+++|.
+T Consensus        82 ~~~~~f~~v~~~if~~g-inWgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fi~~~l~~WI~~~GGW~~~~~~~~  160 (181)
+T 1YSN_A           82 TAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYG  160 (181)
+T ss_dssp             CCHHHHHHHHHHTTTSC-CCHHHHHHHHHHHHHHHHHHHHTTCTHHHHHHHHHHHHHTTTTTHHHHTTTTHHHHHTTTSS
+T ss_pred             cHHHhHHHHHHHHhccC-CCHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHHhc
+Confidence            67889999999999998 99999999999999999999998888899999999999999999999999999999999998
+
+
+Q bax             167 TPT  169 (192)
+Q Consensus       167 ~~~  169 (192)
+                      +.+
+T Consensus       161 ~~~  163 (181)
+T 1YSN_A          161 NNA  163 (181)
+T ss_dssp             HHH
+T ss_pred             chh
+Confidence            754
+
+
+No 37
+>6BF2_A Bcl-2-like protein 1; APOPTOSIS; NMR {Homo sapiens}
+Probab=99.91  E-value=2.3e-29  Score=209.59  Aligned_cols=150  Identities=23%  Similarity=0.557  Sum_probs=128.6  Template_Neff=7.000
+
+Q bax              19 IMKTGALLLQGFIQDRAGRMGGEAPELALD--------------------------------PV-------------PQD   53 (192)
+Q Consensus        19 i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~--------------------------------~~-------------p~~   53 (192)
+                      ...+++.|+.|||.++|.+.|+.|......                                |.             +..
+T Consensus         4 ~~~~~r~lv~dyi~ykL~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   83 (212)
+T 6BF2_A            4 MSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEMETPSAINGNPSWHLADEPAVNGATGHSSSLDAREV   83 (212)
+T ss_dssp             STTHHHHHHHHHHHHHHHHHTCCTHHHHHCCSTTTTCSSCCSSSCSCTTTTTCCTTSCCSSSSSCCCCSCSCCSCCTTSC
+T ss_pred             cchhHHHHHHHHHHHHHHhCCCCchhccccccccCCCCCCCcccccCCcccCCCCccccCCCCccCCCCCCccccccccC
+Confidence            456789999999999999999887553210                                00             001
+
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKV  129 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~  129 (192)
+                      ....+++..||++||+|++++  .|+++++++.  ++..++.|.+|++++|+|| +||||||+||+||+.||++|.++++
+T Consensus        84 ~~~~~v~~~LR~igdele~~~~~~f~~~~~~L~i~~~~~~~~F~~V~~elF~dg-inWGRIVaLfaF~g~la~~~~~~~~  162 (212)
+T 6BF2_A           84 IPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEM  162 (212)
+T ss_dssp             STTTSSTTTTTTTTTTHHHHSCCCCSTTHHHHTCSSTTHHHHHHHHGGGSCTTT-TSTTTTHHHHHHTTSTTSSTTTTTC
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhHHhHHHHHHHHhccC-CChHHHHHHHHHHHHHHHHHHHcCc
+Confidence            223578899999999999987  4888888765  4567889999999999998 9999999999999999999999999
+
+
+Q bax             130 PELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       130 ~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      ++.+..|++|+++||.+++.+||++||||++|+++|.+..
+T Consensus       163 ~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~f~~~~~~~~  202 (212)
+T 6BF2_A          163 QVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNA  202 (212)
+T ss_dssp             TTTTTTTTTHHHHHHHHTCCSSHHHHTTTSTTTTTTCTTT
+T ss_pred             HHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHHhcchh
+Confidence            9999999999999999999999999999999999998753
+
+
+No 38
+>4CIM_A BCL-2-LIKE PROTEIN 2; APOPTOSIS, CELL DEATH; HET: EDO; 1.5A {HOMO SAPIENS}
+Probab=99.91  E-value=2.3e-29  Score=200.38  Aligned_cols=150  Identities=23%  Similarity=0.543  Sum_probs=126.2  Template_Neff=8.400
+
+Q bax              16 SEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREV   91 (192)
+Q Consensus        16 ~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~   91 (192)
+                      .+.+.++++.|+.+||.++++++|..++...    +.++...+++..||++|+++++++  .+++++++++  .++.++.
+T Consensus         3 ~~~~~~~~~~l~~~yi~~~l~~~g~~~~~~~----~~~~~~~~i~~~Lr~igd~~~~~~~~~~~~~~~~l~~~~~~~~~~   78 (163)
+T 4CIM_A            3 TPASAPDTRALVADFVGYKLRQKGYVSGAGP----GEGPAADPLGQALRAIGDEFETRFRRTFSDLAAQLHVTPGSAQQR   78 (163)
+T ss_dssp             ----CCCHHHHHHHHHHHHHHHTTSCCSSST----TSSSCSSHHHHHHHHHHHHHHHHHHHHSCCSGGGCCCCTTTHHHH
+T ss_pred             CCcchHHHHHHHHHHHHHHHHHcCCCCCCCC----CCCCCchHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCccHHHH
+Confidence            4678899999999999999999987654321    113345689999999999999987  4888887764  3568889
+
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      |..+++++|+|+ +|||||+++|+|++.||++|.++++++.+..|++|+++|+.+++.+||.+||||++|+++|.+.+.
+T Consensus        79 f~~v~~~lf~d~-inWgrIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~~l~~~l~~WI~~~GGW~~~~~~~~~~~~  156 (163)
+T 4CIM_A           79 FTQVSDELFQGG-PNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYGDGAL  156 (163)
+T ss_dssp             HHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTHHHHHHHHHHHHHCCCCCHHHHHHTTCHHHHHHHHC----
+T ss_pred             HHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHcHHHHHHHcCcHHHHHHHhccchH
+Confidence            999999999998 999999999999999999999988888999999999999999999999999999999999998654
+
+
+No 39
+>4CIM_B BCL-2-LIKE PROTEIN 2; APOPTOSIS, CELL DEATH; HET: EDO; 1.5A {HOMO SAPIENS}
+Probab=99.91  E-value=2.3e-29  Score=200.38  Aligned_cols=150  Identities=23%  Similarity=0.543  Sum_probs=125.3  Template_Neff=8.400
+
+Q bax              16 SEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREV   91 (192)
+Q Consensus        16 ~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~   91 (192)
+                      .+.+.++++.|+.+||.++++++|..++...    +.++...+++..||++|+++++++  .+++++++++  .++.++.
+T Consensus         3 ~~~~~~~~~~l~~~yi~~~l~~~g~~~~~~~----~~~~~~~~i~~~Lr~igd~~~~~~~~~~~~~~~~l~~~~~~~~~~   78 (163)
+T 4CIM_B            3 TPASAPDTRALVADFVGYKLRQKGYVSGAGP----GEGPAADPLGQALRAIGDEFETRFRRTFSDLAAQLHVTPGSAQQR   78 (163)
+T ss_dssp             -----CCHHHHHHHHHHHHHHHTTSCCSSST----TSSSCSSHHHHHHHHHHHHHHHHHHHHSCCGGGSCCCCTTTHHHH
+T ss_pred             CCcchHHHHHHHHHHHHHHHHHcCCCCCCCC----CCCCCchHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCccHHHH
+Confidence            4678899999999999999999987654321    113345689999999999999987  4888887764  3568889
+
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      |..+++++|+|+ +|||||+++|+|++.||++|.++++++.+..|++|+++|+.+++.+||.+||||++|+++|.+.+.
+T Consensus        79 f~~v~~~lf~d~-inWgrIval~~f~~~la~~~~~~~~~~~v~~i~~~~~~~l~~~l~~WI~~~GGW~~~~~~~~~~~~  156 (163)
+T 4CIM_B           79 FTQVSDELFQGG-PNWGRLVAFFVFGAALCAESVNKEMEPLVGQVQEWMVEYLETRLADWIHSSGGWAEFTALYGDGAL  156 (163)
+T ss_dssp             HHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTHHHHHHHHHHHHHCCCCCHHHHHHTTCHHHHHHHHC----
+T ss_pred             HHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHcHHHHHHHcCcHHHHHHHhccchH
+Confidence            999999999998 999999999999999999999988888999999999999999999999999999999999998654
+
+
+No 40
+>5UUK_A Bcl-2-related protein A1, Bfl-1-specific selected; Apoptosis Regulatory Proteins, Peptide Library; HET: SO4; 1.199A {Homo sapiens}
+Probab=99.91  E-value=3.3e-29  Score=197.20  Aligned_cols=141  Identities=24%  Similarity=0.459  Sum_probs=124.5  Template_Neff=8.500
+
+Q bax              15 SSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT---DSPR   89 (192)
+Q Consensus        15 ~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~---~~~~   89 (192)
+                      +.|++.++++.|+.|||.+++++++.            .+.+.+++..||++|+++++++  .+++++++++.   +..+
+T Consensus         2 ~~d~~~~~~~~l~~dyi~~~l~~~~~------------~~~~~~v~~~L~~~~d~l~~~~~~~~~~~~~~l~~~~~~~~~   69 (152)
+T 5UUK_A            2 MTDCEFGYIYRLAQDYLQCVLQIPQP------------GSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDNVNVVSVDTAR   69 (152)
+T ss_dssp             GGGGSHHHHHHHHHHHHHHHHTCCCS------------TTCSCHHHHHHHHHHHHHHHHHHHHTHHHHTTCCCCSHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHhcCCCC------------CCCccHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHH
+Confidence            56899999999999999999998732            1123678899999999999887  48888887653   5678
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP---ELIRTIMGWTLDFLRERLLGWIQDQGGWD-GLLSYF  165 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~---~~v~~I~~w~~~fi~~~l~~WI~~~GGW~-~~~~~f  165 (192)
+                      +.|.++++++|+||++|||||+++|+||+.+|++|.+++..   +.+..|++|+++|+.+++.+||.+||||+ +|+++|
+T Consensus        70 ~~f~~v~~~lf~~~~inWgRIval~~F~~~la~~~~~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~  149 (152)
+T 5UUK_A           70 TLFNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNTGEWIRQNGGWENGFVKKF  149 (152)
+T ss_dssp             HHHHHHHHHHTTTCCCCHHHHHHHHHHHHHHHHHHHHHCSSCCTTHHHHHHHHHHHHHHHHHHHHHHHTTCCCCCCHHHH
+T ss_pred             HHHHHHHHHHhhCCCCCHHHHHHHHHHHHHHHHHHHHCCCCCChHHHHHHHHHHHHHHHHchHHHHHHCCccccchhhhc
+Confidence            89999999999998899999999999999999999988764   68899999999999999999999999999 999998
+
+
+Q bax             166 GT  167 (192)
+Q Consensus       166 ~~  167 (192)
+                      .+
+T Consensus       150 ~~  151 (152)
+T 5UUK_A          150 EP  151 (152)
+T ss_dssp             SC
+T ss_pred             CC
+Confidence            65
+
+
+No 41
+>5UUL_A Bcl-2-related protein A1, Bcl-2-binding component; Apoptosis Regulatory Proteins, Protein Binding; 1.33A {Homo sapiens}
+Probab=99.91  E-value=3.3e-29  Score=197.20  Aligned_cols=141  Identities=24%  Similarity=0.459  Sum_probs=124.5  Template_Neff=8.500
+
+Q bax              15 SSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT---DSPR   89 (192)
+Q Consensus        15 ~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~---~~~~   89 (192)
+                      +.|++.++++.|+.|||.+++++++.            .+.+.+++..||++|+++++++  .+++++++++.   +..+
+T Consensus         2 ~~d~~~~~~~~l~~dyi~~~l~~~~~------------~~~~~~v~~~L~~~~d~l~~~~~~~~~~~~~~l~~~~~~~~~   69 (152)
+T 5UUL_A            2 MTDCEFGYIYRLAQDYLQCVLQIPQP------------GSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDNVNVVSVDTAR   69 (152)
+T ss_dssp             TTTTSHHHHHHHHHHHHHHHHTCCCC------------SSCSCHHHHHHHHHHHHHHHHHHHHTHHHHHTCCCCSHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHhcCCCC------------CCCccHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHH
+Confidence            56899999999999999999998732            1123678899999999999887  48888887653   5678
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP---ELIRTIMGWTLDFLRERLLGWIQDQGGWD-GLLSYF  165 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~---~~v~~I~~w~~~fi~~~l~~WI~~~GGW~-~~~~~f  165 (192)
+                      +.|.++++++|+||++|||||+++|+||+.+|++|.+++..   +.+..|++|+++|+.+++.+||.+||||+ +|+++|
+T Consensus        70 ~~f~~v~~~lf~~~~inWgRIval~~F~~~la~~~~~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~  149 (152)
+T 5UUL_A           70 TLFNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNTGEWIRQNGGWENGFVKKF  149 (152)
+T ss_dssp             HHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHHHHCSSCCTTHHHHHHHHHHHHHHHHHHHHHHHTTCCCCCCHHHH
+T ss_pred             HHHHHHHHHHhhCCCCCHHHHHHHHHHHHHHHHHHHHCCCCCChHHHHHHHHHHHHHHHHchHHHHHHCCccccchhhhc
+Confidence            89999999999998899999999999999999999988764   68899999999999999999999999999 999998
+
+
+Q bax             166 GT  167 (192)
+Q Consensus       166 ~~  167 (192)
+                      .+
+T Consensus       150 ~~  151 (152)
+T 5UUL_A          150 EP  151 (152)
+T ss_dssp             SC
+T ss_pred             CC
+Confidence            65
+
+
+No 42
+>5UUP_A Bcl-2-related protein A1, Bfl-1-specific selected; Apoptosis Regulatory Proteins, Electrophile, Protein; HET: SO4; 1.726A {Homo sapiens}
+Probab=99.91  E-value=3.3e-29  Score=197.20  Aligned_cols=141  Identities=24%  Similarity=0.459  Sum_probs=124.5  Template_Neff=8.500
+
+Q bax              15 SSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT---DSPR   89 (192)
+Q Consensus        15 ~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~---~~~~   89 (192)
+                      +.|++.++++.|+.|||.+++++++.            .+.+.+++..||++|+++++++  .+++++++++.   +..+
+T Consensus         2 ~~d~~~~~~~~l~~dyi~~~l~~~~~------------~~~~~~v~~~L~~~~d~l~~~~~~~~~~~~~~l~~~~~~~~~   69 (152)
+T 5UUP_A            2 MTDCEFGYIYRLAQDYLQCVLQIPQP------------GSGPSKTSRVLQNVAFSVQKEVEKNLKSCLDNVNVVSVDTAR   69 (152)
+T ss_dssp             GGGGSHHHHHHHHHHHHHHHTTCCCC------------SSCCCHHHHHHHHHHHHHHHHHHHHTHHHHHTCCCCSHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHhcCCCC------------CCCccHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHH
+Confidence            56899999999999999999998732            1123678899999999999887  48888887653   5678
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP---ELIRTIMGWTLDFLRERLLGWIQDQGGWD-GLLSYF  165 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~---~~v~~I~~w~~~fi~~~l~~WI~~~GGW~-~~~~~f  165 (192)
+                      +.|.++++++|+||++|||||+++|+||+.+|++|.+++..   +.+..|++|+++|+.+++.+||.+||||+ +|+++|
+T Consensus        70 ~~f~~v~~~lf~~~~inWgRIval~~F~~~la~~~~~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~  149 (152)
+T 5UUP_A           70 TLFNQVMEKEFEDGIINWGRIVTIFAFEGILIKKLLRQQIAPDVDTYKEISYFVAEFIMNNTGEWIRQNGGWENGFVKKF  149 (152)
+T ss_dssp             HHHHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHHHHHHCSSCCTTHHHHHHHHHHHHHHHHHHHHHHHTTCCCCCCHHHH
+T ss_pred             HHHHHHHHHHhhCCCCCHHHHHHHHHHHHHHHHHHHHCCCCCChHHHHHHHHHHHHHHHHchHHHHHHCCccccchhhhc
+Confidence            89999999999998899999999999999999999988764   68899999999999999999999999999 999998
+
+
+Q bax             166 GT  167 (192)
+Q Consensus       166 ~~  167 (192)
+                      .+
+T Consensus       150 ~~  151 (152)
+T 5UUP_A          150 EP  151 (152)
+T ss_dssp             SC
+T ss_pred             CC
+Confidence            65
+
+
+No 43
+>2A5Y_A Apoptosis regulator ced-9, ced-4; CED-4, CED-9, CED-3 activation, apoptosis; HET: ATP; 2.6A {Caenorhabditis elegans} SCOP: f.1.4.1
+Probab=99.91  E-value=3.4e-29  Score=207.28  Aligned_cols=155  Identities=13%  Similarity=0.220  Sum_probs=134.6  Template_Neff=7.300
+
+Q bax              10 GGGPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--T   85 (192)
+Q Consensus        10 ~~gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~   85 (192)
+                      ...+.+.|+...+++.|+.+||.++++++|..++...   ..+ +....++..||++|+++++++  .|++++++++  +
+T Consensus        20 ~~~~~d~e~~~~~~~~l~~dyI~~rl~~~g~~~~~~~---~~~-~~~~~v~~~Lr~lgde~e~~~~~~f~~~~~~l~~~~   95 (204)
+T 2A5Y_A           20 DGKINDWEEPRLDIEGFVVDYFTHRIRQNGMEWFGAP---GLP-SGVQPEHEMMRVMGTIFEKKHAENFETFSEQLLAVP   95 (204)
+T ss_pred             cCCCCCCCChHHHHHHHHHHHHHHHHHHcCCCcccCC---CCC-CChHHHHHHHHHHHHHHHHHCHHHHHHHHHhCCCCC
+Confidence            4456688899999999999999999999998875532   111 456789999999999999987  4888888775  3
+
+
+Q bax              86 DSPREVFF----RVAADMF-SDGNFNWGRVVALFYFASKLVLKALCTK-VPELIRTIMGWTLDFLRERL-LGWIQDQGGW  158 (192)
+Q Consensus        86 ~~~~~~f~----~Va~elF-~dG~inWGRIVaLf~F~~~La~~~~~~~-~~~~v~~I~~w~~~fi~~~l-~~WI~~~GGW  158 (192)
+                      +..++.|.    .+++++| .|| +||||||+||+||+.||++|.+++ +++.+..|+.|+++||.+++ .+||++||||
+T Consensus        96 ~~~~~~f~~v~~~v~~~iF~~dg-inWGRIVal~aF~~~la~~~~~~~~~~~~v~~I~~~~~~fl~~~l~~~WI~~~GGW  174 (204)
+T 2A5Y_A           96 RISFSLYQDVVRTVGNAQTDQSP-MSYGRLIGLISFGGFVAAKMMESVELQGQVRNLFVYTSLFIKTRIRNNWKEHNRSW  174 (204)
+T ss_pred             ccHHHHHHHHHHHHHHHHhcCCC-CCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHhccHHHHHHcCCH
+Confidence            46788899    9999999 888 999999999999999999999984 48999999999999999999 9999999999
+
+
+Q bax             159 DGLLSYFGTPT  169 (192)
+Q Consensus       159 ~~~~~~f~~~~  169 (192)
+                      ++|+.+|....
+T Consensus       175 ~~~~~~~~~~~  185 (204)
+T 2A5Y_A          175 DDFMTLGKQMK  185 (204)
+T ss_pred             HHHHHHhHHHH
+Confidence            99999998643
+
+
+No 44
+>1R2D_A Apoptosis regulator Bcl-X; Apoptosis, monomeric, alpha-helical; 1.95A {Homo sapiens} SCOP: f.1.4.1
+Probab=99.91  E-value=3.7e-29  Score=209.15  Aligned_cols=148  Identities=24%  Similarity=0.562  Sum_probs=122.3  Template_Neff=6.900
+
+Q bax              21 KTGALLLQGFIQDRAGRMGGEAPELALD--------------------------------PV-------------PQDAS   55 (192)
+Q Consensus        21 ~~~~~Ll~~fi~~r~~~~g~~~p~~~~~--------------------------------~~-------------p~~~~   55 (192)
+                      .+++.|+.|||.++|.+.|+.|......                                |.             +....
+T Consensus         3 ~~~r~lv~dyi~ykL~~~G~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (218)
+T 1R2D_A            3 QSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEMETPSAINGNPSWHLADSPAVNGATGHSSSLDAREVIP   82 (218)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTCCCTTC--------------------------------------CHHH-------------
+T ss_pred             cchHHHHHHHHHHHHHhCCCChhhcCcccCCCCCCCCCCchhccCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            5688999999999999999887553110                                00             00122
+
+
+Q bax              56 TKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPE  131 (192)
+Q Consensus        56 ~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~  131 (192)
+                      ..+++..||++||+|++++  .|++++++++  ++..++.|..|++++|+|| +||||||+||+||+.||++|.++++++
+T Consensus        83 ~~~v~~~LR~lgdele~~~~~~f~~~~~~L~i~~~~~~~~F~~V~~elF~dg-inWGRIValfaF~g~la~~~~~~~~~~  161 (218)
+T 1R2D_A           83 MAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQV  161 (218)
+T ss_dssp             ---HHHHHHHHHHHHHHHCCSTTHHHHHHHCCCTTCCHHHHHHHHGGGGTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTT
+T ss_pred             HHHHHHHHHHHHHHHHHHCHHHHHHHHHhcCCCcchHHHHHHHHHHHHhcCC-CChHHHHHHHHHHHHHHHHHHHcCCHH
+Confidence            3578899999999999987  4888888765  4567889999999999999 999999999999999999999999999
+
+
+Q bax             132 LIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       132 ~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      .+..|++|+++||.+++.+||++||||++|+++|.+..
+T Consensus       162 ~v~~I~~~~~~fl~~~l~~WI~~~GGW~~f~~~~~~~~  199 (218)
+T 1R2D_A          162 LVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNA  199 (218)
+T ss_dssp             HHHHHHHHHHHHCCCCCHHHHHHTTTHHHHHHHHC---
+T ss_pred             HHHHHHHHHHHHHHHccHHHHHHcCChhhHHHhhcCch
+Confidence            99999999999999999999999999999999998753
+
+
+No 45
+>1LXL_A BCL-XL; APOPTOSIS, PROGRAMMED CELL DEATH, BCL-2; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=99.91  E-value=3.9e-29  Score=209.42  Aligned_cols=151  Identities=23%  Similarity=0.553  Sum_probs=129.1  Template_Neff=6.800
+
+Q bax              18 QIMKTGALLLQGFIQDRAGRMGGEAPELALD--------------------------------PV-------------PQ   52 (192)
+Q Consensus        18 ~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~--------------------------------~~-------------p~   52 (192)
+                      ....+++.|+.|||.++|.+.|+.|......                                |.             +.
+T Consensus         4 ~~~~~~r~lv~dyi~ykL~~~g~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   83 (221)
+T 1LXL_A            4 AMSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEMETPSAINGNPSWHLADSPAVNGATGHSSSLDARE   83 (221)
+T ss_dssp             CCSTTTHHHHHHHHHHHHHHHTCCSTTTCSSSSSSSSCCSCSSSSCSCCSCCSSCSSCSCCCCCSTTTTSTTTTCSCCTT
+T ss_pred             cccccHHHHHHHHHHHHHHhCCCChhhCCcccCCCCCCCCCCchhccCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            4567889999999999999999887553110                                00             00
+
+
+Q bax              53 DASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTK  128 (192)
+Q Consensus        53 ~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~  128 (192)
+                      .....+++..||++||+|++++  .|++++++++  ++..++.|..|++++|+|| +||||||+||+||+.||++|.+++
+T Consensus        84 ~~~~~~v~~~LR~lgdele~~~~~~f~~~~~qL~i~~~~~~~~F~~V~~elF~dg-inWGRIValfaF~g~la~~~~~~~  162 (221)
+T 1LXL_A           84 VIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKE  162 (221)
+T ss_dssp             CCCSTHHHHHHHHHHHTTSSSCCSSHHHHHHTTCCCTTCCHHHHHHHHHHHHTTT-CCHHHHHHHHHHHHHHHHHHHTTT
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHCHHHHHHHHHhcCCCcchHHHHHHHHHHHHhcCC-CChHHHHHHHHHHHHHHHHHHHcC
+Confidence            1123578899999999999987  4888888765  4567889999999999998 999999999999999999999999
+
+
+Q bax             129 VPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       129 ~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      +++.+..|++|+++||.+++.+||++||||++|+++|.+..
+T Consensus       163 ~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~~  203 (221)
+T 1LXL_A          163 MQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNA  203 (221)
+T ss_dssp             CHHHHHHHHHHHHHHHHTTHHHHHHHTSCHHHHHHHTCCCC
+T ss_pred             CHHHHHHHHHHHHHHHHHccHHHHHHcCChhhHHHhhcChh
+Confidence            99999999999999999999999999999999999998753
+
+
+No 46
+>6HJL_E Bcl-2-like protein 1, Affimer ADB13; Affimer, PROTEIN BINDING; 2.2A {Homo sapiens}
+Probab=99.91  E-value=4.2e-29  Score=193.18  Aligned_cols=133  Identities=25%  Similarity=0.604  Sum_probs=118.8  Template_Neff=8.800
+
+Q bax              21 KTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVA   96 (192)
+Q Consensus        21 ~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va   96 (192)
+                      .+++.|+.|||.++++++|..++.           .+.+++.||++||++++++  .+++++++++  +++.++.|.+++
+T Consensus         2 ~~~~~l~~dyi~~~l~~~g~~~~~-----------~~~i~~~Lr~~gd~~~~~~~~~~~~~~~~l~~~~~~~~~~f~~v~   70 (138)
+T 6HJL_E            2 QSNRELVVDFLSYKLSQKGYSWSQ-----------MAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVV   70 (138)
+T ss_dssp             CHHHHHHHHHHHHHHHHTTCCSSH-----------HHHHHHHHHHHHHHHHHHTHHHHHHHHTTCCCCTTCCHHHHHHHH
+T ss_pred             cchHHHHHHHHHHHhhhCCCChhH-----------HHHHHHHHHHHHHHHHHHhHHHHHHHHHhCCCCCchHHHHHHHHH
+Confidence            478999999999999998864422           2477889999999999987  4788877764  456889999999
+
+
+Q bax              97 ADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYF  165 (192)
+Q Consensus        97 ~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f  165 (192)
+                      +++|+++ +|||||++||+|++.+|++|.++++++.+..|++|+++|+.+++.+||.+||||++++++|
+T Consensus        71 ~~lf~~~-i~Wgrival~~f~~~la~~~~~~~~~~~~~~i~~~~~~~l~~~~~~WI~~~GGW~~~~~~~  138 (138)
+T 6HJL_E           71 NELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELY  138 (138)
+T ss_dssp             HHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHC
+T ss_pred             HHHHhcC-CCHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHccHHHHHHCCchHHHHhcC
+Confidence            9999998 9999999999999999999998888889999999999999999999999999999999886
+
+
+No 47
+>3SP7_A Bcl-2-like protein 1; Bcl-2-like protein, APOPTOSIS REGULATOR-INHIBITOR complex; HET: 03B, ACT; 1.4A {Homo sapiens}
+Probab=99.91  E-value=4.4e-29  Score=200.64  Aligned_cols=151  Identities=23%  Similarity=0.566  Sum_probs=128.5  Template_Neff=8.200
+
+Q bax              18 QIMKTGALLLQGFIQDRAGRMGGEAPELALD-----PVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSP   88 (192)
+Q Consensus        18 ~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~-----~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~   88 (192)
+                      ...++++.|+.|||.+++++.|+.++.....     ..|+.+.++.+++.||++||++++++  .+++++++++  .++.
+T Consensus         3 ~~~~~~~~l~~dyI~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~Lr~lgd~~e~~~~~~~~~~~~~l~~~~~~~   82 (172)
+T 3SP7_A            3 FMSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTA   82 (172)
+T ss_dssp             SSCHHHHHHHHHHHHHHHHTTTCCGGGTCC------------CHHHHHHHHHHHHHHHHHHHGGGCSCHHHHTTCCTTCC
+T ss_pred             ccchhhHHHHHHHHHHHHHHcCCCccccccccccCCCCCCCCCHHHHHHHHHHHHHHHHHHhHHHHHHHHHhCCCCCCcH
+Confidence            3467899999999999999999887554211     11234456789999999999999987  4888888764  3567
+
+
+Q bax              89 REVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTP  168 (192)
+Q Consensus        89 ~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~  168 (192)
+                      ++.|.++++++|.|+ +|||||++||+||+.+|++|.+++.++.+..|++|+++||.+++.+||.+||||++++++|.+.
+T Consensus        83 ~~~f~~v~~~if~~g-inWgRIval~~f~~~la~~~~~~~~~~~v~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~  161 (172)
+T 3SP7_A           83 YQSFEQVVNELFRDG-VNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNN  161 (172)
+T ss_dssp             HHHHHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHCCCCCHHHHHHTTCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHccHHHHHHCCCHHHHHHHhcch
+Confidence            889999999999998 9999999999999999999999888889999999999999999999999999999999999875
+
+
+Q bax             169 T  169 (192)
+Q Consensus       169 ~  169 (192)
+                      .
+T Consensus       162 ~  162 (172)
+T 3SP7_A          162 A  162 (172)
+T ss_dssp             C
+T ss_pred             h
+Confidence            4
+
+
+No 48
+>1TY4_B Apoptosis regulator ced-9, EGg Laying; Apoptosis, CED-9, EGL-1, Bcl-2 family; 2.2A {Caenorhabditis elegans} SCOP: f.1.4.1
+Probab=99.90  E-value=1.8e-28  Score=196.73  Aligned_cols=152  Identities=14%  Similarity=0.240  Sum_probs=127.4  Template_Neff=8.200
+
+Q bax              14 TSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT--DSP-   88 (192)
+Q Consensus        14 ~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~--~~~-   88 (192)
+                      .+.|+...+++.|+.|||+++++++|..+...   |.+ .+...++++.||++|+++++++  .+++++++++.  ++. 
+T Consensus         4 ~~~e~~~~~~~~l~~dyI~~~l~~~g~~~~~~---~~~-~~~~~~~~~~Lr~lgd~~e~~~~~~~~~~~~~l~~~~~~~~   79 (170)
+T 1TY4_B            4 NDWEEPRLDIEGFVVDYFTHRIRQNGMEWFGA---PGL-PCGVQPEHEMMRVMGTIFEKKHAENFETFCEQLLAVPRISF   79 (170)
+T ss_dssp             CGGGSGGGCHHHHHHHHHHHHHHHTTCCCTTC---CCC-TTCCCHHHHHHHHHHHHHHHHTHHHHHHHHHHHHTSGGGCS
+T ss_pred             CcccCCHHhHHHHHHHHHHHHHHHCCCCcCCC---CCC-CCCChHHHHHHHHHHHHHHHHcHHHHHHHHHHhcCCCCCcc
+Confidence            45678888999999999999999999876543   211 1346789999999999999986  48888887653  333 
+
+
+Q bax              89 ---REVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTK-VPELIRTIMGWTLDFLRERL-LGWIQDQGGWDGLLS  163 (192)
+Q Consensus        89 ---~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~-~~~~v~~I~~w~~~fi~~~l-~~WI~~~GGW~~~~~  163 (192)
+                         .+.|.++++++|+|+++|||||++||+||+.+|++|.+++ +++.+..|++|+++|+.+++ .+||.+||||++|++
+T Consensus        80 ~~f~~~~~~i~~~if~d~~inWgRIval~~F~~~la~~~~~~~~~~~~v~~i~~~~~~fl~~~l~~~WI~~~GGW~~~~~  159 (170)
+T 1TY4_B           80 SPYQDVVRTVGNAQTDQCPMSYGRLIGLISFGGFVAAKMMESVELQGQVRNLFVYTSLFIKTRIRNNWKEHNRSWDDFMT  159 (170)
+T ss_dssp             HHHHHHHHHHHHSCCSSCTTCHHHHHHHHHHHHHHHHHHTTCHHHHTTHHHHHHHHHHHHHHHHHTTTTTTTCCHHHHHH
+T ss_pred             HHHHHHHHHHHHhcccCCCCChHHHHHHHHHHHHHHHHHHHcccchHHHHHHHHHHHHHHHHhccccHHHhCCCHHHHHH
+Confidence               3556677777899845999999999999999999999986 48999999999999999999 999999999999999
+
+
+Q bax             164 YFGTPT  169 (192)
+Q Consensus       164 ~f~~~~  169 (192)
+                      +|.+..
+T Consensus       160 ~~~~~~  165 (170)
+T 1TY4_B          160 LGKQMK  165 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhHH
+Confidence            998643
+
+
+No 49
+>4OYD_A Bcl-2, HBRF1; Inhibitor, complex, apoptosis, Viral Protein-Inhibitor; 1.8A {Epstein-Barr virus}
+Probab=99.90  E-value=2.7e-28  Score=194.47  Aligned_cols=140  Identities=19%  Similarity=0.205  Sum_probs=113.0  Template_Neff=7.500
+
+Q bax              24 ALLLQGFIQDRAGRMGGEAPELAL---DPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVA   96 (192)
+Q Consensus        24 ~~Ll~~fi~~r~~~~g~~~p~~~~---~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va   96 (192)
+                      ..||-.|  .++++.|...|....   ++.++.+...+++..|+++++++++++  .|++++++++  .++..+.|.+++
+T Consensus        10 ~~~~~~~--~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~L~~l~~ele~~~~~~f~~~~~~l~~~~~~~~~~f~~v~   87 (158)
+T 4OYD_A           10 LALCIRD--SRVHGNGTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLDFNSVF   87 (158)
+T ss_dssp             HHHHHHH--HTTSTTCCCCHHHHHHHHHTTCCSCTTSHHHHHHHHHHHHHHHHTHHHHHHHHHHHHTCCTTHHHHHHHHH
+T ss_pred             HHHHhhc--chhcccCcccHHHHHhhcCCCCCCCCCCHHHHHHHHHHHHHHHHCHHHHHHHHHhhCCCCchHHHHHHHHH
+Confidence            3556666  667777654443221   111233445688999999999999987  4888888765  356788999999
+
+
+Q bax              97 ADMFSDGNFNWGRVVALFYFASKLVLK-ALCTKVP-ELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        97 ~elF~dG~inWGRIVaLf~F~~~La~~-~~~~~~~-~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +++|+||++||||||+||+||+.++++ |.+++++ +.+..|++|+++|+. ++.+||.+||||+++++|+.
+T Consensus        88 ~elF~dg~inWGRIValfaF~~~la~~~~~~~~~~~~~v~~I~~~~~~~l~-~l~~WI~~~GGW~gl~~~~~  158 (158)
+T 4OYD_A           88 LEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASE-GLDGWIHQQGGWSTLIEDNI  158 (158)
+T ss_dssp             HHHHTTSCCCHHHHHHHHHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHHHG-GGHHHHHHTTHHHHHTTC--
+T ss_pred             HHHhhcCCCCHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHH-ccHHHHHHcCcHHHHhccCC
+Confidence            999999889999999999999999999 9988776 889999999999998 99999999999999999863
+
+
+No 50
+>4OYD_C Bcl-2, HBRF1; Inhibitor, complex, apoptosis, Viral Protein-Inhibitor; 1.8A {Epstein-Barr virus}
+Probab=99.90  E-value=2.7e-28  Score=194.47  Aligned_cols=140  Identities=19%  Similarity=0.205  Sum_probs=114.1  Template_Neff=7.500
+
+Q bax              24 ALLLQGFIQDRAGRMGGEAPELAL---DPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVA   96 (192)
+Q Consensus        24 ~~Ll~~fi~~r~~~~g~~~p~~~~---~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va   96 (192)
+                      ..||-.|  .++++.|...|....   ++.++.+...+++..|+++++++++++  .|++++++++  .++..+.|.+++
+T Consensus        10 ~~~~~~~--~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~L~~l~~ele~~~~~~f~~~~~~l~~~~~~~~~~f~~v~   87 (158)
+T 4OYD_C           10 LALCIRD--SRVHGNGTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLDFNSVF   87 (158)
+T ss_dssp             HHHHHHH--HHTSTTCCCCHHHHHHHHHTTCCSCTTSHHHHHHHHHHHHHHHHTHHHHHHHHHHHHTCCTTHHHHHHHHH
+T ss_pred             HHHHhhc--chhcccCcccHHHHHhhcCCCCCCCCCCHHHHHHHHHHHHHHHHCHHHHHHHHHhhCCCCchHHHHHHHHH
+Confidence            3556666  667777654443221   111233445688999999999999987  4888888765  356788999999
+
+
+Q bax              97 ADMFSDGNFNWGRVVALFYFASKLVLK-ALCTKVP-ELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        97 ~elF~dG~inWGRIVaLf~F~~~La~~-~~~~~~~-~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      +++|+||++||||||+||+||+.++++ |.+++++ +.+..|++|+++|+. ++.+||.+||||+++++|+.
+T Consensus        88 ~elF~dg~inWGRIValfaF~~~la~~~~~~~~~~~~~v~~I~~~~~~~l~-~l~~WI~~~GGW~gl~~~~~  158 (158)
+T 4OYD_C           88 LEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASE-GLDGWIHQQGGWSTLIEDNI  158 (158)
+T ss_dssp             HHHHTTSCCCHHHHHHHHHHHHHHHHHHHHTSCSCHHHHHHHHHHHHHHHG-GGHHHHHHTTHHHHHTGGGC
+T ss_pred             HHHhhcCCCCHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHH-ccHHHHHHcCcHHHHhccCC
+Confidence            999999889999999999999999999 9988776 889999999999998 99999999999999999863
+
+
+No 51
+>2WH6_A EARLY ANTIGEN PROTEIN R, BCL-2-LIKE; MITOCHONDRION, EARLY PROTEIN, TRANSMEMBRANE, VIRAL; HET: GOL; 1.5A {HUMAN HERPESVIRUS 4}
+Probab=99.90  E-value=3.3e-28  Score=196.86  Aligned_cols=142  Identities=18%  Similarity=0.192  Sum_probs=114.3  Template_Neff=7.100
+
+Q bax              23 GALLLQGFIQDRAGRMGGEAPELAL---DPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRV   95 (192)
+Q Consensus        23 ~~~Ll~~fi~~r~~~~g~~~p~~~~---~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~V   95 (192)
+                      -+.||..|  .++++.|...|....   .+.+...+..+++..||++|+++++++  .|++++++++  +++..+.|.+|
+T Consensus        22 ~~~~c~~~--~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~Lr~l~~ele~~~~~~f~~~~~~l~~~~~~~~~~f~~V   99 (173)
+T 2WH6_A           22 LLALCIRD--SRVHGNGTLHPVLELAARETPLRLSPEDTVVLRYHVLLEEIIERNSETFTETWNRFITHTEHVDLDFNSV   99 (173)
+T ss_dssp             HHHHHHHH--HHTSTTCCCCHHHHHHHHHTTCCSCTTSHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHCSSHHHHHHHH
+T ss_pred             HHHHHhhc--chhcccCccchhHhhhccCCCCCCCCCcHHHHHHHHHHHHHHHHCHHHHHHHHHhhCCCChhHHHHHHHH
+Confidence            34556666  566666654443322   111222334678899999999999987  4888888765  35678899999
+
+
+Q bax              96 AADMFSDGNFNWGRVVALFYFASKLVLK-ALCTKVP-ELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGT  167 (192)
+Q Consensus        96 a~elF~dG~inWGRIVaLf~F~~~La~~-~~~~~~~-~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~  167 (192)
+                      ++++|+||.+||||||+||+||+.+|++ |.+++.+ +.++.|++|+++|+. ++.+||.+||||++|+++|..
+T Consensus       100 ~~elF~dg~inWGRIVaLfaF~g~la~~~~~~~~~~~~~v~~I~~~~~~fl~-~l~~WI~~~GGW~g~~~~f~~  172 (173)
+T 2WH6_A          100 FLEIFHRGDPSLGRALAWMAWCMHACRTLCCNQSTPYYVVDLSVRGMLEASE-GLDGWIHQQGGWSTLIEDNIP  172 (173)
+T ss_dssp             HHHHHSSSCCCHHHHHHHHHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHHHG-GGHHHHHHTTHHHHCCCCCC-
+T ss_pred             HHHHHhcCCCCHHHHHHHHHHHHHHHHHHHHhCCCChHHHHHHHHHHHHHHH-ccHHHHHHcCcHHHHHhhcCC
+Confidence            9999999889999999999999999999 9988877 889999999999998 999999999999999999864
+
+
+No 52
+>4B4S_A BCL-2-LIKE PROTEIN 10, BCL-2-LIKE PROTEIN; APOPTOSIS; HET: PG4; 1.9A {HOMO SAPIENS}
+Probab=99.89  E-value=3.9e-28  Score=196.45  Aligned_cols=144  Identities=25%  Similarity=0.402  Sum_probs=122.7  Template_Neff=7.500
+
+Q bax              14 TSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDTDSPREV   91 (192)
+Q Consensus        14 ~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~~~~~~~   91 (192)
+                      .++|++.++++.|+.+||.++++++|...+          +....++..||++||++++++  .|++++++  +++.++.
+T Consensus         2 ~~~~~~~~~~~~l~~dyI~~~l~~~~~~~~----------~~~~~~~~~Lr~i~d~l~~~~~~~f~~~~~~--~~~~~~~   69 (175)
+T 4B4S_A            2 GSADPLRERTELLLADYLGYSAREPGTPEP----------APSTPEAAVLRSAAARLRQIHRSFFSAYLGY--PGNRFEL   69 (175)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHTSCTTSCCC----------CCSSHHHHHHHHHHHHHHHHTHHHHHTTTTC--CSCHHHH
+T ss_pred             CChhHHHHHHHHHHHHHHHHHhhCCCCCCC----------CCCCHHHHHHHHHHHHHHHHHHHHHHHHhCC--CCCHHHH
+Confidence            367999999999999999999999886431          124578888999999999987  47777766  5678889
+
+
+Q bax              92 FFRVAADMFSDG-NFNWGRVVALFYFASKLVLKA------------------LCTKVPELIRTIMGWTLDFLRERLLGWI  152 (192)
+Q Consensus        92 f~~Va~elF~dG-~inWGRIVaLf~F~~~La~~~------------------~~~~~~~~v~~I~~w~~~fi~~~l~~WI  152 (192)
+                      |..+++++|+|+ ++|||||++||+||+.||++|                  .+++.++.+..|++|+++|+.+++.+||
+T Consensus        70 f~~v~~~lf~d~~~inWgRIval~aF~~~la~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~i~~~~~~fl~~~l~~WI  149 (175)
+T 4B4S_A           70 VALMADSVLSDSPGPTWGRVVTLVTFAGTLLERGPLVTARWKKWGFQPRLKEQEGDVARDSQRLVALLSSRLMGQHRAWL  149 (175)
+T ss_dssp             HHHHHHHHHHSTTCCCHHHHHHHHHHHHHHHCCCHHHHC---------------CHHHHHHHHHHHHHHHHHHHTSHHHH
+T ss_pred             HHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHhCchHHHHHHhcCCCchHHHhcCCcHHHHHHHHHHHHHHHhHchHHHH
+Confidence            999999999994 499999999999999999998                  2334577899999999999999999999
+
+
+Q bax             153 QDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       153 ~~~GGW~~~~~~f~~~~  169 (192)
+                      .+||||++++++|.++.
+T Consensus       150 ~~~GGW~~~~~~~~~~~  166 (175)
+T 4B4S_A          150 QAQGGWDGFSHFFRTPF  166 (175)
+T ss_dssp             HHTTHHHHHHHHHTCCC
+T ss_pred             HHCCChHHHHHhccCCc
+Confidence            99999999999999855
+
+
+No 53
+>1OHU_A APOPTOSIS REGULATOR CED-9; APOPTOSIS, CED-9, BCL-2 FAMILY; HET: MSE; 2.03A {CAENORHABDITIS ELEGANS} SCOP: f.1.4.1
+Probab=99.89  E-value=4.9e-28  Score=195.50  Aligned_cols=151  Identities=13%  Similarity=0.234  Sum_probs=126.2  Template_Neff=7.900
+
+Q bax              14 TSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPR   89 (192)
+Q Consensus        14 ~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~   89 (192)
+                      .+.|+..++++.|+.|||+++++++|..+...   |.++ +.+..++..||++|+++++++  .|++++++++  ++..+
+T Consensus         4 ~~~e~~~~~~~~l~~dyI~~~l~~~g~~~~~~---~~~~-~~~~~v~~~Lr~igd~le~~~~~~~~~~~~~l~~~~~~~~   79 (175)
+T 1OHU_A            4 NDWEEPRLDIEGFVVDYFTHRIRQNGMEWFGA---PGLP-SGVQPEHEMMRVMGTIFEKKHAENFETFSEQLLAVPRISF   79 (175)
+T ss_dssp             CCTTSGGGCHHHHHHHHHHHHHHHTTCCCTTC---CCCT-TCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSSSCCH
+T ss_pred             CcccCcHHHHHHHHHHHHHHHHHHCCCCcCCC---CCCC-CCChHHHHHHHHHHHHHHHHcHHHHHHHHHhhcCCCcchH
+Confidence            45677888999999999999999999876442   2211 456789999999999999886  4888888765  34677
+
+
+Q bax              90 EVF----FRVAADMF-SDGNFNWGRVVALFYFASKLVLKALCTK-VPELIRTIMGWTLDFLRERL-LGWIQDQGGWDGLL  162 (192)
+Q Consensus        90 ~~f----~~Va~elF-~dG~inWGRIVaLf~F~~~La~~~~~~~-~~~~v~~I~~w~~~fi~~~l-~~WI~~~GGW~~~~  162 (192)
+                      +.|    ..+++++| .|| +|||||++||+||+.+|++|.+++ +++.+..|++|+++|+.+++ .+||++||||++++
+T Consensus        80 ~~f~~~~~~v~~~if~~dg-inWgRIvalf~F~~~la~~~~~~~~~~~~i~~I~~~~~~~i~~~l~~~WI~~~GGW~~~~  158 (175)
+T 1OHU_A           80 SLYQDVVRTVGNAQTDQSP-MSYGRLIGLISFGGFVAAKMMESVELQGQVRNLFVYTSLFIKTRIRNNWKEHNRSWDDFM  158 (175)
+T ss_dssp             HHHHHHHTTSCC------C-CCHHHHHHHHHHHHHHHHHHTTCTTTGGGHHHHHHHHHHHHHHHHHTTHHHHTCCHHHHH
+T ss_pred             HHHHHHHHHHHHhccCCCC-CCHHHHHHHHHHHHHHHHHHHHccchhHHHHHHHHHHHHHHHHccccchHHhCCCHHHHH
+Confidence            788    99999999 888 999999999999999999999984 48899999999999999999 99999999999999
+
+
+Q bax             163 SYFGTPT  169 (192)
+Q Consensus       163 ~~f~~~~  169 (192)
+                      ++|.+..
+T Consensus       159 ~~~~~~~  165 (175)
+T 1OHU_A          159 TLGKQMK  165 (175)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            9998754
+
+
+No 54
+>5TWA_A Bcl-x homologous protein, BHP2, BAK-2; BHP2, LB-Bak-2, apoptosis, sponge, Bcl-2; HET: B3P, EDO; 1.85A {Geodia cydonium}
+Probab=99.88  E-value=1.4e-27  Score=195.46  Aligned_cols=147  Identities=24%  Similarity=0.385  Sum_probs=103.1  Template_Neff=6.500
+
+Q bax              21 KTGALLLQGFIQDRAGRM-GGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIA-------------A--   82 (192)
+Q Consensus        21 ~~~~~Ll~~fi~~r~~~~-g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~-------------~--   82 (192)
+                      -..+.|+.|||+++++.. |.++......|  ........+..||+++++|++++.  +..++.             .  
+T Consensus        19 ~~~~~l~~Dyi~~r~~~~~~~~~~~~p~~~--~~~~~~~~~~~lR~~~~~fe~k~~~~l~~~v~~~~~r~~~~F~~~~l~   96 (187)
+T 5TWA_A           19 LYRRNLSEDLVRDNGLSCGGREYWREPAST--VGAASDGLSEEERRTAADAAERMTAVIAGTPGIAVERNVRDFRRGGWD   96 (187)
+T ss_dssp             HHHHHC---------------CTTCC-----------CCCCHHHHHHHHHHHHHHHHHHHTCGGGCHHHHHHHHHHTTCC
+T ss_pred             HHHHHHHHHHHHHHHHhcCCcccccCCccC--CCCccccCCHHHHHHHHHHHHHHHHHHcCCchHHHHHHHHHHHhCCCC
+Confidence            345889999999999877 44442211111  122234667789999999998862  222221             1  
+
+
+Q bax              83 VDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLL  162 (192)
+Q Consensus        83 ~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~  162 (192)
+                      ++.++.++.|..|++++|+|| +|||||++||+||+.+|++|.++++.+.+..|++|+++||.+++.+||.+||||++|+
+T Consensus        97 vt~~~~~~~f~~V~~elF~dg-inWGRIvaLf~Fag~la~~~~~~~~~~~v~~I~~~~~~fi~~~i~~WI~~~GGW~gf~  175 (187)
+T 5TWA_A           97 VTPDNVESEFREVERRTFSDG-VHWGRVIAFLAFSMSFAAYVNSRGIDGGAYSVFNWTLRVLNDSLADFIQRENGWRGFI  175 (187)
+T ss_dssp             CCTTTHHHHHHHHHHHHTTTC-CCHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHHHHTSHHHHHHTTHHHHHH
+T ss_pred             CCcchHHHHHHHHHHHHcCCC-CCHHHHHHHHHHHHHHHHHHHHcCCChHHHHHHHHHHHHHHHccHHHHHHCCcHHHHH
+Confidence            123467788999999999998 9999999999999999999999999999999999999999999999999999999999
+
+
+Q bax             163 SYFGTPTW  170 (192)
+Q Consensus       163 ~~f~~~~~  170 (192)
+                      ++|..+.+
+T Consensus       176 ~~~~~~~~  183 (187)
+T 5TWA_A          176 VYADTLLR  183 (187)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHhhHHHH
+Confidence            99988654
+
+
+No 55
+>5TWA_B Bcl-x homologous protein, BHP2, BAK-2; BHP2, LB-Bak-2, apoptosis, sponge, Bcl-2; HET: B3P, EDO; 1.85A {Geodia cydonium}
+Probab=99.88  E-value=1.4e-27  Score=195.46  Aligned_cols=147  Identities=24%  Similarity=0.385  Sum_probs=117.2  Template_Neff=6.500
+
+Q bax              21 KTGALLLQGFIQDRAGRM-GGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIA-------------A--   82 (192)
+Q Consensus        21 ~~~~~Ll~~fi~~r~~~~-g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~-------------~--   82 (192)
+                      -..+.|+.|||+++++.. |.++......|  ........+..||+++++|++++.  +..++.             .  
+T Consensus        19 ~~~~~l~~Dyi~~r~~~~~~~~~~~~p~~~--~~~~~~~~~~~lR~~~~~fe~k~~~~l~~~v~~~~~r~~~~F~~~~l~   96 (187)
+T 5TWA_B           19 LYRRNLSEDLVRDNGLSCGGREYWREPAST--VGAASDGLSEEERRTAADAAERMTAVIAGTPGIAVERNVRDFRRGGWD   96 (187)
+T ss_pred             HHHHHHHHHHHHHHHHhcCCcccccCCccC--CCCccccCCHHHHHHHHHHHHHHHHHHcCCchHHHHHHHHHHHhCCCC
+Confidence            345889999999999877 44442211111  122234667789999999998862  222221             1  
+
+
+Q bax              83 VDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLL  162 (192)
+Q Consensus        83 ~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~  162 (192)
+                      ++.++.++.|..|++++|+|| +|||||++||+||+.+|++|.++++.+.+..|++|+++||.+++.+||.+||||++|+
+T Consensus        97 vt~~~~~~~f~~V~~elF~dg-inWGRIvaLf~Fag~la~~~~~~~~~~~v~~I~~~~~~fi~~~i~~WI~~~GGW~gf~  175 (187)
+T 5TWA_B           97 VTPDNVESEFREVERRTFSDG-VHWGRVIAFLAFSMSFAAYVNSRGIDGGAYSVFNWTLRVLNDSLADFIQRENGWRGFI  175 (187)
+T ss_pred             CCcchHHHHHHHHHHHHcCCC-CCHHHHHHHHHHHHHHHHHHHHcCCChHHHHHHHHHHHHHHHccHHHHHHCCcHHHHH
+Confidence            123467788999999999998 9999999999999999999999999999999999999999999999999999999999
+
+
+Q bax             163 SYFGTPTW  170 (192)
+Q Consensus       163 ~~f~~~~~  170 (192)
+                      ++|..+.+
+T Consensus       176 ~~~~~~~~  183 (187)
+T 5TWA_B          176 VYADTLLR  183 (187)
+T ss_pred             HHhhHHHH
+Confidence            99988654
+
+
+No 56
+>5TZP_A Bcl-2-like protein FPV039, Bik; Bcl-2, apoptosis, fowlpox, poxvirus, BH3-only; HET: EDO, SO4; 1.35A {Fowlpox virus (strain NVSL)}
+Probab=99.88  E-value=1.9e-27  Score=187.37  Aligned_cols=141  Identities=18%  Similarity=0.286  Sum_probs=115.7  Template_Neff=7.800
+
+Q bax              12 GPTSSEQIMKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNM--ELQRMIAAVDTDSPR   89 (192)
+Q Consensus        12 gp~~~e~i~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~~~~~   89 (192)
+                      +...+|.+.+++++++.|||++++++.+...      |.++.+..+++++.||++|+++++++  +++.++..      .
+T Consensus         4 ~~~~~~~~~~~~~~~~~d~i~~~~~~~~~~~------~~~~~~~~~~~~~~Lr~~gdel~~~~~~~~~~~~~~------~   71 (148)
+T 5TZP_A            4 GSMASSNMKDETYYIALNMIQNYIIEYNTNK------PRKSFVIDSISYDVLKAACKSVIKTNYNEFDIIISR------N   71 (148)
+T ss_dssp             -------CCSHHHHHHHHHHHHHHHHHHHCC------CCGGGSSCHHHHHHHHHHHHHHHHHHHHHHHHHHTS------S
+T ss_pred             cccccccchHHHHHHHHHHHHHHHHHhcCCC------CCCCcccChHHHHHHHHHHHHHHHHcHHHHHHHHhc------C
+Confidence            3456789999999999999999999986431      22223356788999999999999987  46666543      1
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIR-TIMGWTLDFLRERLLGWIQDQGGWDGLLSYF  165 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~-~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f  165 (192)
+                      ..|.+|++++|+|+ +|||||++||+||+.+|.+|.++++++.+. .|++|+++|+.+++.+||.+||||++++.++
+T Consensus        72 ~~f~~v~~~lf~dg-inWgRIval~~f~~~la~~~~~~~~~~~v~~~i~~~~~~fl~~~l~~WI~~~GGW~~~~~~~  147 (148)
+T 5TZP_A           72 IDFNVIVTQVLEDK-INWGRIITIIAFCAYYSKKVKQDTSPQYYDGIISEAITDAILSKYRSWFIDQDYWNGIRIYK  147 (148)
+T ss_dssp             CCHHHHHHHHTSSC-CCHHHHHHHHHHHHHHHHHHCCSSSCCCCHHHHHHHHHHHHHHHHHHHHHHTTGGGGGGGGC
+T ss_pred             HHHHHHHHHHHCCC-CCHHHHHHHHHHHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHccHHHHHHCCCchhhhhhc
+Confidence            37999999999998 999999999999999999999988888887 5999999999999999999999999999875
+
+
+No 57
+>6TZC_B Maltose/maltodextrin-binding periplasmic protein, Bcl-2-like protein; Apoptosis, Autophagy, Bcl-2 virus, STRUCTURAL; HET: MAL; 2.41A {Escherichia coli (strain K12)}
+Probab=99.87  E-value=1e-26  Score=184.71  Aligned_cols=136  Identities=18%  Similarity=0.360  Sum_probs=114.2  Template_Neff=7.500
+
+Q bax              22 TGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVAADMFS  101 (192)
+Q Consensus        22 ~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~~~f~~Va~elF~  101 (192)
+                      .-..|+.|||.+|+++.|..         +.++..+++++.||++||+|+++++.+.  ...+.+.+++.|.++++++|+
+T Consensus        11 ~i~~~~~dy~~yr~~~~~~~---------~~~p~~~~ia~~Lr~igDel~~~~~~~~--~~~~~~~~~~~f~~v~~~lf~   79 (154)
+T 6TZC_B           11 IINEILVGYIKYYINDISEH---------ELSPYQQQIKKILTYYDECLNKQVTITF--SLTSVQEIKTQFTGVVTELFK   79 (154)
+T ss_dssp             HHCCCCCHHHHHHTTSSCGG---------GSCHHHHHHHHHHHHHHHHHHHHCCCCC--CCCSHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhhcCCcC---------CCCHHHHHHHHHHHHHHHHHHHHhhccc--cCCCHHHHHHHHHHHHHHHHc
+Confidence            34568999999999877532         1123456789999999999999875332  112345788999999999999
+
+
+Q bax             102 DGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus       102 dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                      ++ +|||||+++|+||+.+|++|.+++. +.+..|++|+++|+.+++.+||.+||||++++++|.+.+.
+T Consensus        80 ~~-inWgRIval~~f~~~la~~~~~~~~-~~~~~I~~~~~~fi~~~l~~WI~~~GGW~~~~~~~~~~~~  146 (154)
+T 6TZC_B           80 DL-INWGRICGFIVFSAKMAKYCKDANN-HLESTVITTAYNFMKHNLLPWMISHGGQEEFLAFSLHSDM  146 (154)
+T ss_dssp             SC-CCHHHHHHHHHHHHHHHHHHHHHTC-SCHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHHHHTC
+T ss_pred             cC-CCHHHHHHHHHHHHHHHHHHHHcCC-cHHHHHHHHHHHHHHhccHHHHHHCCcHHHHHHhhcCccc
+Confidence            98 9999999999999999999998775 7899999999999999999999999999999999988654
+
+
+No 58
+>5UA5_A 5-HL, Uncharacterized protein; Apoptosis, Bcl-2; 2.5A {African swine fever virus}
+Probab=99.86  E-value=1.6e-26  Score=183.37  Aligned_cols=146  Identities=18%  Similarity=0.374  Sum_probs=118.4  Template_Neff=7.500
+
+Q bax              12 GPTSSEQIMKT--GALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNMELQRMIAAVDTDSPR   89 (192)
+Q Consensus        12 gp~~~e~i~~~--~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~   89 (192)
+                      |.+.+++...-  .+.++.|||++++++.+..         +.++..+++++.||++||+++++++...  +..+.+.++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~dy~~~~~~~~~~~---------~~~p~~~~ia~~Lr~iGDel~~~~~~~~--~~~~~~~~~   72 (153)
+T 5UA5_A            4 GSMEGEELIYHNIINEILVGYIKYYINDISEH---------ELSPYQQQIKKILTYYDECLNKQVTITF--SLTSVQEIK   72 (153)
+T ss_dssp             ---CCHHHHHHHHHCCCCCHHHHHHTTTSCGG---------GSCHHHHHHHHHHHHHHHHHHHHCCCCC---CCSHHHHH
+T ss_pred             ccccchHHHHHHHHHHHHHHHHHHHHhcCccc---------CCCHHHHHHHHHHHHHHHHHHHHhhhhc--cCCCHHHHH
+Confidence            44555665554  6778999999999876531         1122346889999999999999874322  112345688
+
+
+Q bax              90 EVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus        90 ~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      +.|.++++++|+++ +|||||+++|+||+.+|++|.+++ ++.+.+|++|+++|+.+++.+||.+||||++++++|...+
+T Consensus        73 ~~f~~v~~~lf~~~-inWgrival~~f~~~la~~~~~~~-~~~~~~I~~~~~~fl~~~l~~WI~~~GGW~~~~~~~~~~~  150 (153)
+T 5UA5_A           73 TQFTGVVTELFKDL-INWGRICGFIVFSAKMAKYCKDAN-NHLESTVITTAYNFMKHNLLPWMISHGGQEEFLAFSLHSD  150 (153)
+T ss_dssp             HHHHHHHHHHHSSC-CCHHHHHHHHHHHHHHHHHHHHHT-CSCHHHHHHHHHHHCCCCCHHHHHHTTHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHHHhC-chHHHHHHHHHHHHHHhcCHHHHHHCCcHHHHHHhccCcc
+Confidence            99999999999998 999999999999999999999876 4889999999999999999999999999999999998866
+
+
+Q bax             170 W  170 (192)
+Q Consensus       170 ~  170 (192)
+                      .
+T Consensus       151 ~  151 (153)
+T 5UA5_A          151 M  151 (153)
+T ss_dssp             C
+T ss_pred             C
+Confidence            4
+
+
+No 59
+>4WMU_A MBP-MCL1; Apoptosis, protein-protein interaction; HET: 19H, EDO, FMT, MAL; 1.55A {Escherichia coli}
+Probab=99.85  E-value=1e-25  Score=203.62  Aligned_cols=142  Identities=26%  Similarity=0.483  Sum_probs=123.2  Template_Neff=10.600
+
+Q bax              20 MKTGALLLQGFIQDRAGRMGGEAPELALDPVPQDASTKKLSECLKRIGDELDSNME--LQRMIAAVDT--DSPREVFFRV   95 (192)
+Q Consensus        20 ~~~~~~Ll~~fi~~r~~~~g~~~p~~~~~~~p~~~~~~~v~~~Lr~i~del~~~~~--l~~~i~~~~~--~~~~~~f~~V   95 (192)
+                      ..+++.|+.+||++++++.+...     .+.++++..+++++.||++|++++++++  +++++++++.  +..++.|.++
+T Consensus       372 ~~~~~~~~~~y~~~~~~~~~~~~-----~~~~~~~~~~~~~~~lr~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~v  446 (518)
+T 4WMU_A          372 YRQSLEIISRYLREQATGAADTA-----PMGASGATSRKALETLRRVGDGVQRNHETAFQGMLRKLDIKNEDDVKSLSRV  446 (518)
+T ss_dssp             HHHHHHHHHHHHHHHHHSSCCCS-----CCCTTHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHCCCSHHHHHTHHHH
+T ss_pred             HHHHHHHHHHHHHHHhcccccCC-----CCCCCChhhHHHHHHHHHHHHHHHHHcHHHHHHHHHcCCCCChHHHHHHHHH
+Confidence            45678899999999998873221     2233455677899999999999999874  8888888753  4678889999
+
+
+Q bax              96 AADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus        96 a~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      ++++|+||.+||||||+||+|++.+|++|.+++.++.+.+|+.|+++|+.+++.+||++||||++|+++|.
+T Consensus       447 ~~~~f~~~~~~wgriv~l~~f~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~Wi~~~GGW~~~~~~~~  517 (518)
+T 4WMU_A          447 MIHVFSDGVTNWGRIVTLISFGAFVAKHLKTINQESCIEPLAESITDVLVRTKRDWLVKQRGWDGFVEFFH  517 (518)
+T ss_dssp             HHHHHHSSCCCHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHTHHHHHHTTTHHHHHHHTC
+T ss_pred             HHHHHhcCCCCHHHHHHHHHHHHHHHHHHHHcCChHhHHHHHHHHHHHHHHccHHHHHHCCChHHHHHhhc
+Confidence            99999998789999999999999999999988888899999999999999999999999999999999985
+
+
+No 60
+>1K3K_A functional anti-apoptotic factor vBCL-2 homolog; Bcl-2, herpesvirus, solution structure, APOPTOSIS; NMR {Human herpesvirus 8} SCOP: f.1.4.1
+Probab=99.83  E-value=4.5e-25  Score=175.91  Aligned_cols=114  Identities=23%  Similarity=0.317  Sum_probs=102.2  Template_Neff=7.600
+
+Q bax              55 STKKLSECLKRIGDELDSNM--ELQRMIAAVD--TDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVP  130 (192)
+Q Consensus        55 ~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~--~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~  130 (192)
+                      ...++++.||++|+++++++  .|++++++++  .++.++.|..+++++|+|+.+|||||+++|+||+.+|++|.+++. 
+T Consensus        28 ~~~~v~~~Lr~igd~le~~~~~~f~~~~~~l~~~~~~~~~~f~~V~~~lf~dg~inWGRIvalfaF~~~la~~~~~~~~-  106 (158)
+T 1K3K_A           28 LYHPLLSPIKLYITGLMRDKESLFEAMLANVRFHSTTGIDQLGLSMLQVSGDGNMNWGRALAILTFGSFVAQKLSNEPH-  106 (158)
+T ss_dssp             CCCSSCSHHHHHHHHHHHHHHHHHHHHTTTSCCCHHHHHCCCCCHHHHHCSSCSCCHHHHHHHHHHHHHHHHHTTTCTH-
+T ss_pred             ccchhHHHHHHHHHHHHHHcHHHHHHHHHhcCCCCccHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHHHHHHcCcH-
+Confidence            45678889999999999987  4888888765  356788999999999999889999999999999999999998754 
+
+
+Q bax             131 ELIRTIMGWTLDFLRERL-LGWIQDQGGWDGLLSYFGTPTW  170 (192)
+Q Consensus       131 ~~v~~I~~w~~~fi~~~l-~~WI~~~GGW~~~~~~f~~~~~  170 (192)
+                       .+..|++|+++|+.+++ .+||.+||||++++++|.+...
+T Consensus       107 -~~~~I~~~~~~fl~~~l~~~WI~~~GGW~~~~~~~~~~~~  146 (158)
+T 1K3K_A          107 -LRDFALAVLPAYAYEAIGPQWFRARGGWRGLKAYCTQVLT  146 (158)
+T ss_dssp             -HHHHHHHTHHHHHHHHHCHHHHHHTCSSHHHHHHHHHTCC
+T ss_pred             -HHHHHHHHHHHHHHHhchhHHHHHCCcHHHHHHHhccCCC
+Confidence             88999999999999999 9999999999999999987654
+
+
+No 61
+>5VMN_A Bak protein; Apoptosis, Bcl-2, iridovirus, grouper, VIRAL; HET: NO3, EDO; 1.65A {Grouper iridovirus}
+Probab=99.81  E-value=2.7e-24  Score=167.25  Aligned_cols=111  Identities=21%  Similarity=0.333  Sum_probs=95.9  Template_Neff=6.800
+
+Q bax              56 TKKLSECLKRIGDELDSNME--LQ--RMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPE  131 (192)
+Q Consensus        56 ~~~v~~~Lr~i~del~~~~~--l~--~~i~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~  131 (192)
+                      +..++..|++++++++++++  +.  +++++++.+..++.|.++++++|+||.+|||||++||+||+.+|.++   ++++
+T Consensus        13 ~~~~~~~m~~~~~e~~~~~~~~~~s~~~~~~l~~~~~~~~f~~v~~~lf~dg~inWGRIval~~F~~~la~~~---~~~~   89 (132)
+T 5VMN_A           13 ALLRGERMCPLTREIHSQMLIVTKSYSLVETFRAFPRLPNILEIGNNIVSDGNLNWGRILILLGISQLYFTKS---ESES   89 (132)
+T ss_dssp             HHHHTSSCCHHHHHHHHHHHHHHHHTTHHHHHTTSCSSCCHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHHHC---CSHH
+T ss_pred             hhHHHHHHHHHHHHHHHhHhhhhcchhHHHhhccCCcHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHC---CChH
+Confidence            34678889999999999873  44  77887876666889999999999998899999999999999999863   5678
+
+
+Q bax             132 LIRTIMGWTLDFLRE-RLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       132 ~v~~I~~w~~~fi~~-~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      .+..|.+|+++|+.+ ++.+||.+||||+++++++..+.
+T Consensus        90 ~v~~i~~~l~~fi~~~~l~~WI~~~GGW~g~~~~~~~~~  128 (132)
+T 5VMN_A           90 ERTQITEQLERFFRQDAISNWIASNGGWVTCASLDLRNY  128 (132)
+T ss_dssp             HHHHHHHHHHHHHHSHHHHHHHHHTTHHHHHHHCCC---
+T ss_pred             HHHHHHHHHHHHHhhcchHHHHHHCCChHHHhhhhcccc
+Confidence            899999999999999 99999999999999999987643
+
+
+No 62
+>5VMO_A Bak protein, Bcl-2 interacting mediator; Apoptosis, Bcl-2, iridovirus, grouper, VIRAL; HET: 1PE, EDO; 1.7A {Grouper iridovirus}
+Probab=99.81  E-value=2.7e-24  Score=167.25  Aligned_cols=111  Identities=21%  Similarity=0.333  Sum_probs=94.2  Template_Neff=6.800
+
+Q bax              56 TKKLSECLKRIGDELDSNME--LQ--RMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPE  131 (192)
+Q Consensus        56 ~~~v~~~Lr~i~del~~~~~--l~--~~i~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~  131 (192)
+                      +..++..|++++++++++++  +.  +++++++.+..++.|.++++++|+||.+|||||++||+||+.+|.++   ++++
+T Consensus        13 ~~~~~~~m~~~~~e~~~~~~~~~~s~~~~~~l~~~~~~~~f~~v~~~lf~dg~inWGRIval~~F~~~la~~~---~~~~   89 (132)
+T 5VMO_A           13 ALLRGERMCPLTREIHSQMLIVTKSYSLVETFRAFPRLPNILEIGNNIVSDGNLNWGRILILLGISQLYFTKS---ESES   89 (132)
+T ss_dssp             HHHHTCSCCHHHHHHHHHHHHHTTCHHHHHHHHHCCSCCCHHHHHHHHGGGSCCCHHHHHHHHHHHHHHHHTC---CSHH
+T ss_pred             hhHHHHHHHHHHHHHHHhHhhhhcchhHHHhhccCCcHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHC---CChH
+Confidence            34678889999999999873  44  77887876666889999999999998899999999999999999863   5678
+
+
+Q bax             132 LIRTIMGWTLDFLRE-RLLGWIQDQGGWDGLLSYFGTPT  169 (192)
+Q Consensus       132 ~v~~I~~w~~~fi~~-~l~~WI~~~GGW~~~~~~f~~~~  169 (192)
+                      .+..|.+|+++|+.+ ++.+||.+||||+++++++..+.
+T Consensus        90 ~v~~i~~~l~~fi~~~~l~~WI~~~GGW~g~~~~~~~~~  128 (132)
+T 5VMO_A           90 ERTQITEQLERFFRQDAISNWIASNGGWVTCASLDLRNY  128 (132)
+T ss_dssp             HHHHHHHHHHHHHHSHHHHHHHHHTTHHHHHHTC-----
+T ss_pred             HHHHHHHHHHHHHhhcchHHHHHHCCChHHHhhhhcccc
+Confidence            899999999999999 99999999999999999987643
+
+
+No 63
+>2M5I_A BH3-interacting domain death agonist; tBid, apoptosis, membrane protein, LPPG; NMR {Homo sapiens}
+Probab=99.74  E-value=3.9e-22  Score=155.75  Aligned_cols=105  Identities=13%  Similarity=0.280  Sum_probs=77.4  Template_Neff=6.700
+
+Q bax              52 QDASTKKLSECLKRIGDELDSN-ME--LQRMIAAVDT-----DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLK  123 (192)
+Q Consensus        52 ~~~~~~~v~~~Lr~i~del~~~-~~--l~~~i~~~~~-----~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~  123 (192)
+                      .++.++.++..||++||+|+++ ++  ++++++++..     +...+.|..+++++|.++.+||||+++||+|++.|+++
+T Consensus        19 ~~~~~~~ia~~Lr~iGDele~~~~~~~~~~l~~~l~~~~~~~e~a~~~f~~~v~~l~~~~~~~wgrevalf~fa~~L~~~   98 (135)
+T 2M5I_A           19 QEDIIRNIARHLAQVGDSMDRSIPPGLVNGLALQLRNTSRSEEDRNRDLATALEQLLQAYPRDMEKEKTMLVLALLLAKK   98 (135)
+T ss_dssp             HHHHHHHHHHHHHHHHHGGGSSSSSSSHHHHHHHHHHHTTTSSHHH-------HHHHHTCC----CHHHHH-----HHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHhccCCCCHHHHHHHHHHHHHHHHHhCCCChHHHHHHHHHHHHHHHH
+Confidence            4556788999999999999998 42  7778777642     34577899999999999879999999999999999999
+
+
+Q bax             124 ALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGG  157 (192)
+Q Consensus       124 ~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GG  157 (192)
+                      |.++ .+++++.|++|+++||.+++.+||++|++
+T Consensus        99 ~~~~-~p~lv~~I~~~~~~fI~~~l~~WI~~~~~  131 (135)
+T 2M5I_A           99 VASH-TPSLLRDVFHTTVNFINQNLRTYVRSLAR  131 (135)
+T ss_dssp             HHCC-CCTTHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHh-CHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9877 89999999999999999999999999985
+
+
+No 64
+>5KTG_B Green fluorescent protein,Bcl-2 homologous antagonist/killer; BCL-2 family proteins, mitochondrial outer; HET: CR2; 2.802A {Aequorea victoria}
+Probab=99.18  E-value=1.7e-14  Score=127.10  Aligned_cols=74  Identities=28%  Similarity=0.542  Sum_probs=65.8  Template_Neff=6.100
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM--ELQRMIAAVDT--DSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTK  128 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~--~l~~~i~~~~~--~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~  128 (192)
+                      +.+.+++..||++|+++++++  .+++++++++.  ++.++.|.+|++++|+|| |||||||+||+||+.||++|.+++
+T Consensus       232 ~~~~~v~~~Lr~igdele~~~~~~f~~m~~~L~~~~~~~~~~f~~Va~eiF~dg-INWGRIVaLfaFag~Lav~~~~~G  309 (309)
+T 5KTG_B          232 SILGQVGRQLALIGDDICRRYDTEFQNLLEQLQPTAGNAYELFTKIASSLFKSG-ISWGRVVALLGFGYRLALYVYQRG  309 (309)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSCCCHHHHHHHHHHHHHHHHTTC-CSHHHHHHHHHHHHHHHHHHHHCC
+T ss_pred             chHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhCCCCccHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHHHHcC
+Confidence            446789999999999999987  58999988763  567889999999999999 999999999999999999998753
+
+
+No 65
+>2BID_A HUMAN PRO-APOPTOTIC PROTEIN BID; PROGRAMMED CELL DEATH, APOPTOSIS REGULATION; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=98.99  E-value=4.3e-13  Score=111.08  Aligned_cols=101  Identities=14%  Similarity=0.282  Sum_probs=74.0  Template_Neff=5.000
+
+Q bax              50 VPQDASTKKLSECLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVA------ADMFSDGNFN----WG----RVVALFY  115 (192)
+Q Consensus        50 ~p~~~~~~~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~~~f~~Va------~elF~dG~in----WG----RIVaLf~  115 (192)
+                      .++++..+.+++.|+++||+++++.+. .+++.     ..+.|..+.      .+.|+++..+    |+    +..++|+
+T Consensus        79 e~~ee~i~~IA~~Lr~IGDqln~~i~~-~lv~~-----l~e~f~~~als~E~~~~~fs~aVe~L~qtw~~dm~~EkalL~  152 (197)
+T 2BID_A           79 ESQEDIIRNIARHLAQVGDSMDRSIPP-GLVNG-----LALQLRNTSRSEEDRNRDLATALEQLLQAYPRDMEKEKTMLV  152 (197)
+T ss_dssp             CSHHHHHHHHHHHHHHHHHHHHTTCCT-TCHHH-----HHHHHHSGGGCCCCCH----HHHHHHHTTSCCSSCSHHHHHH
+T ss_pred             ccchHHHHHHHHHHHHHHHHhcccCCH-HHHHH-----HHHHHHHhcCCHHHHHHHHHHHHHHHHHhCCCccHHHHHHHH
+Confidence            345667889999999999999887543 22221     122233222      3445554344    88    9999999
+
+
+Q bax             116 FASKLVLKALCTKVPELIRTIMGWTLDFLRERLLGWIQDQGG  157 (192)
+Q Consensus       116 F~~~La~~~~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GG  157 (192)
+                      ++..|+++.. +..|++++.|+.|+++||+.++.+||+++++
+T Consensus       153 la~~L~kkVa-~~~PsLlr~Vf~~tv~fIn~~l~~wI~~~~~  193 (197)
+T 2BID_A          153 LALLLAKKVA-SHTPSLLRDVFHTTVNFINQNLRTYVRSLAR  193 (197)
+T ss_dssp             HHHHHHHHHH-HHCTTCHHHHHHHHHHHCCCCCHHHHHHHHH
+T ss_pred             HHHHHHHHHH-HHCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999954 6789999999999999999999999999874
+
+
+No 66
+>3PK1_B Induced myeloid leukemia cell differentiation; Bcl-2 family fold, Regulation of; HET: CD; 2.486A {Homo sapiens}
+Probab=96.99  E-value=8.6e-06  Score=49.54  Aligned_cols=30  Identities=100%  Similarity=1.363  Sum_probs=24.4  Template_Neff=4.300
+
+Q bax              51 PQDASTKKLSECLKRIGDELDSNMELQRMI   80 (192)
+Q Consensus        51 p~~~~~~~v~~~Lr~i~del~~~~~l~~~i   80 (192)
+                      ++++..+++++.|+++||+|+...++++++
+T Consensus         4 ~~dp~~k~l~~~L~~IgDeLd~n~eLQ~li   33 (34)
+T 3PK1_B            4 PQDASTKKLSECLKRIGDELDSNMELQRMI   33 (34)
+T ss_dssp             ---CTHHHHHHHHHHHHHHHHHHHHHHHCC
+T ss_pred             CCCHHHHHHHHHHHHHHHHhhhHHHHHHHh
+Confidence            346677899999999999999999988875
+
+
+No 67
+>2XA0_D APOPTOSIS REGULATOR BCL-2, APOPTOSIS REGULATOR; APOPTOSIS, CELL DEATH; 2.7A {HOMO SAPIENS}
+Probab=96.69  E-value=3.3e-05  Score=46.07  Aligned_cols=28  Identities=96%  Similarity=1.305  Sum_probs=22.8  Template_Neff=4.200
+
+Q bax              54 ASTKKLSECLKRIGDELDSNMELQRMIA   81 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~~l~~~i~   81 (192)
+                      +..+++++.|+++||+|+...+++++++
+T Consensus         3 p~~k~l~~~L~~IgDeLd~n~elQ~li~   30 (31)
+T 2XA0_D            3 ASTKKLSECLRRIGDELDSNMELQRMIA   30 (31)
+T ss_dssp             ---CCHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHHHhhHHHHHHHHh
+Confidence            4567899999999999999999988865
+
+
+No 68
+>1DDB_A PRO-APOPTOTIC MOLECULE BID; APOPTOSIS, PROGRAMMED CELL DEATH, BCL-2; NMR {Mus musculus} SCOP: f.1.4.1
+Probab=96.03  E-value=0.00032  Score=58.94  Aligned_cols=104  Identities=19%  Similarity=0.364  Sum_probs=75.1  Template_Neff=4.700
+
+Q bax              53 DASTKKLSECLKRIGDELDSNME--LQR-MIAAV-----DTDSPREVFFRVAADMFSDGNFNWGRVVALFYFASKLVLKA  124 (192)
+Q Consensus        53 ~~~~~~v~~~Lr~i~del~~~~~--l~~-~i~~~-----~~~~~~~~f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~  124 (192)
+                      +..+..++..||++||+++.+.+  +.+ +...+     +.+.....|...++++...-...-..--++++.+..|+++.
+T Consensus        80 ee~~~iIA~rLr~IGDqln~~i~~~~~~~Lae~l~~~~lS~E~~~~~ls~aVesL~qt~p~dm~~Eka~L~lsv~L~k~V  159 (195)
+T 1DDB_A           80 EEIIHNIARHLAQIGDEMDHNIQPTLVRQLAAQFMNGSLSEEDKRNCLAKALDEVKTAFPRDMENDKAMLIMTMLLAKKV  159 (195)
+T ss_dssp             CCSHHHHHHHHHHHHHHHGGGCCSSSHHHHHHHHCCSSSSSSSTTHHHHHHHHHHHHHSCSCCCCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhccccccHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHHCCCChHHHHHHHHHHHHHHHHH
+Confidence            45678999999999999987753  322 22222     22333445777777775431122235568899999999888
+
+
+Q bax             125 LCTKVPELIRTIMGWTLDFLRERLLGWIQDQGG  157 (192)
+Q Consensus       125 ~~~~~~~~v~~I~~w~~~fi~~~l~~WI~~~GG  157 (192)
+                      .+ ..|+++++|...+++||+.++.+||++.++
+T Consensus       160 a~-~~PsLlr~Vf~t~v~fIN~~l~~yI~~l~~  191 (195)
+T 1DDB_A          160 AS-HAPSLLRDVFHTTVNFINQNLFSYVRNLVR  191 (195)
+T ss_dssp             HH-HCTTCHHHHHHHHHHHHHHTTSCHHHHHHH
+T ss_pred             HH-hCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            75 578899999999999999999999998763
+
+
+No 69
+>4MI8_B Bcl-2 homolog (Gene 16?), Beclin-1; BH3D, Bcl-2 family, anti-apoptotic and; HET: SO4; 2.1A {Murid herpesvirus 4}
+Probab=85.58  E-value=0.45  Score=37.28  Aligned_cols=54  Identities=20%  Similarity=0.292  Sum_probs=38.7  Template_Neff=1.500
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPE-LIRTIMGWTLDFLRE  146 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~-~v~~I~~w~~~fi~~  146 (192)
+                      +......+|.|. ||.||||.+|..+..+|.+++-.+... .-+-+.++++.|..+
+T Consensus        72 l~~Lf~slf~D~-IN~GR~vGfFdVGryVCeElL~~~sWt~~HdLL~~~mt~ffie  126 (143)
+T 4MI8_B           72 LSKLFTSLFVDV-INSGRIVGFFDVGRYVCEEVLCPGSWTEDHELLNDCMTHFFIE  126 (143)
+T ss_dssp             HHHHHHHHTSSC-CCHHHHHHHHHHHHHCCCCCSCTTCCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-hhcCceeehhhhhhhhhhhccCCCCCchhHHHHHHHHHHHHHH
+Confidence            455566778887 999999999999999999888654332 224455667776443
+
+
+No 70
+>5FMK_B BCL-XL, BCL-2 HOMOLOGOUS ANTAGONIST/KILLER; BCL-XL, BAK, BH3 DOMAIN, APOPTOSIS; HET: GOL; 1.731A {HOMO SAPIENS}
+Probab=85.32  E-value=0.48  Score=29.13  Aligned_cols=26  Identities=27%  Similarity=0.502  Sum_probs=20.6  Template_Neff=4.500
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM--ELQRM   79 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~--~l~~~   79 (192)
+                      +...+++..|+.+||++++++  +|+.|
+T Consensus         7 s~~~qvg~~La~IGDdin~ry~~~f~~M   34 (34)
+T 5FMK_B            7 STMGQVGRQLAIIGDDINRRYDSEFQTM   34 (34)
+T ss_pred             chHHHHHHHHHHHhHHHHHHchHHhhcC
+Confidence            345689999999999999987  46543
+
+
+No 71
+>3BL2_B V-bcl-2, Beclin-1; protein-protein complex, viral BCL-2, Beclin1; 2.3A {Murid herpesvirus 4} SCOP: f.1.4.1
+Probab=85.00  E-value=0.51  Score=36.61  Aligned_cols=54  Identities=20%  Similarity=0.292  Sum_probs=38.5  Template_Neff=1.600
+
+Q bax              92 FFRVAADMFSDGNFNWGRVVALFYFASKLVLKALCTKVPE-LIRTIMGWTLDFLRE  146 (192)
+Q Consensus        92 f~~Va~elF~dG~inWGRIVaLf~F~~~La~~~~~~~~~~-~v~~I~~w~~~fi~~  146 (192)
+                      +......+|.|. ||.||||.+|..+..+|.+++-.+... .-+-+.++++.|..+
+T Consensus        67 l~~L~~s~~~D~-IN~GR~vG~F~VGryVCeElL~~~sWt~~HdLL~~~mt~ffie  121 (131)
+T 3BL2_B           67 LSKLFTSLFVDV-INSGRIVGFFDVGRYVCEEVLCPGSWTEDHELLNDCMTHFFIE  121 (131)
+T ss_dssp             HHHHHHHHTSSC-CCHHHHHHHHHHHHHCCCCCSCSSCCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-hhcCceeehhhhhhhhhhhccCCCCCchhHHHHHHHHHHHHHH
+Confidence            445566678887 999999999999999998887654332 223455667776443
+
+
+No 72
+>5FMJ_B BCL-2-LIKE PROTEIN 1, BAK1 PROTEIN; BCL-XL, BAK, BH3 DOMAIN, APOPTOSIS; HET: EDO; 2.43A {HOMO SAPIENS}
+Probab=83.42  E-value=0.68  Score=28.46  Aligned_cols=26  Identities=23%  Similarity=0.452  Sum_probs=17.4  Template_Neff=4.500
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM--ELQRM   79 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~--~l~~~   79 (192)
+                      +...+++..|+.+||++++++  +|+.|
+T Consensus         7 s~~~qvGr~La~IGDdin~ry~~~f~~m   34 (34)
+T 5FMJ_B            7 SILGQVGRLLALIGDDINRRYDTEFQNL   34 (34)
+T ss_dssp             CHHHHHHHHHHHHHHHHHCC--------
+T ss_pred             chHHHHHHHHHHHhHHHHHHhhHHHhcC
+Confidence            345689999999999999987  46543
+
+
+No 73
+>1PQ1_B Apoptosis regulator Bcl-X, BCL2-like protein; Bcl-xl/Bim, APOPTOSIS; 1.65A {Mus musculus}
+Probab=73.14  E-value=2.5  Score=25.55  Aligned_cols=18  Identities=33%  Similarity=0.744  Sum_probs=14.9  Template_Neff=1.700
+
+Q bax              58 KLSECLKRIGDELDSNME   75 (192)
+Q Consensus        58 ~v~~~Lr~i~del~~~~~   75 (192)
+                      -++..||++||+|+..+.
+T Consensus         7 ~IaqELrRIGDEFN~~y~   24 (33)
+T 1PQ1_B            7 RIAQELRRIGDEFNETYT   24 (33)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhH
+Confidence            567789999999998663
+
+
+No 74
+>2JZ2_A Ssl0352 protein; SH3-like, Synechocystis sp. PCC 6803; NMR {Synechocystis sp.}
+Probab=53.71  E-value=11  Score=26.75  Aligned_cols=13  Identities=38%  Similarity=1.214  Sum_probs=9.0  Template_Neff=2.400
+
+Q bax              99 MFSDGNFNWGRVVAL  113 (192)
+Q Consensus        99 lF~dG~inWGRIVaL  113 (192)
+                      +|+.|  ||-++|++
+T Consensus        35 LFEGG--NWDKLvTF   47 (66)
+T 2JZ2_A           35 LFENG--NWDKLVTF   47 (66)
+T ss_dssp             EEESS--SCEEEEEE
+T ss_pred             EEccC--CccEEEEE
+Confidence            45544  89998764
+
+
+No 75
+>3C4S_B Ssl0352 protein; P74795_SYNY3, Ssl0352, NESG, SgR42, Structural; 1.7A {Synechocystis sp.}
+Probab=53.71  E-value=11  Score=26.75  Aligned_cols=13  Identities=38%  Similarity=1.214  Sum_probs=9.0  Template_Neff=2.400
+
+Q bax              99 MFSDGNFNWGRVVAL  113 (192)
+Q Consensus        99 lF~dG~inWGRIVaL  113 (192)
+                      +|+.|  ||-++|++
+T Consensus        35 LFEGG--NWDKLvTF   47 (66)
+T 3C4S_B           35 LFENG--NWDKLVTF   47 (66)
+T ss_dssp             EEEET--TEEEEEEE
+T ss_pred             EEccC--CccEEEEE
+Confidence            45544  89998764
+
+
+No 76
+>6A7K_A Tlr0636 protein; NADH dehydrogenase-like complex, NDH-1, cyclic; 1.9A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=49.67  E-value=14  Score=26.81  Aligned_cols=13  Identities=38%  Similarity=1.160  Sum_probs=9.0  Template_Neff=2.400
+
+Q bax              99 MFSDGNFNWGRVVAL  113 (192)
+Q Consensus        99 lF~dG~inWGRIVaL  113 (192)
+                      +|+.|  ||-++|++
+T Consensus        42 LFEGG--NWDKLvTF   54 (74)
+T 6A7K_A           42 LFEGG--NWDKLVTF   54 (74)
+T ss_dssp             EEEET--TEEEEEEE
+T ss_pred             EEcCC--ccceEEEE
+Confidence            45544  89998764
+
+
+No 77
+>6L7O_S NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); photosystem I, cyclic electron transfer; HET: BCR, LHG, E7U, DGD, PQN, SF4, SQD; 3.2A {Thermosynechococcus elongatus BP-1}
+Probab=37.65  E-value=28  Score=27.01  Aligned_cols=13  Identities=38%  Similarity=1.160  Sum_probs=8.9  Template_Neff=2.100
+
+Q bax              99 MFSDGNFNWGRVVAL  113 (192)
+Q Consensus        99 lF~dG~inWGRIVaL  113 (192)
+                      +|+.|  ||-++|++
+T Consensus        78 LFEGG--NWDKLVTF   90 (110)
+T 6L7O_S           78 LFEGG--NWDKLVTF   90 (110)
+T ss_dssp             EEEET--TEEEEEEE
+T ss_pred             EEcCC--ccceEEEE
+Confidence            45544  89998764
+
+
+No 78
+>6NBQ_S PROTEIN; photosynthesis, bioenergetics, membrane protein complex; HET: SF4; 3.1A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=37.65  E-value=28  Score=27.01  Aligned_cols=13  Identities=38%  Similarity=1.160  Sum_probs=8.9  Template_Neff=2.100
+
+Q bax              99 MFSDGNFNWGRVVAL  113 (192)
+Q Consensus        99 lF~dG~inWGRIVaL  113 (192)
+                      +|+.|  ||-++|++
+T Consensus        78 LFEGG--NWDKLVTF   90 (110)
+T 6NBQ_S           78 LFEGG--NWDKLVTF   90 (110)
+T ss_pred             EEcCC--ccceEEEE
+Confidence            45544  89998764
+
+
+No 79
+>3C9P_A Uncharacterized protein SP1917; Streptococcus pneumoniae, SP_1917, Structural Genomics; 1.96A {Streptococcus pneumoniae}
+Probab=36.99  E-value=29  Score=27.80  Aligned_cols=53  Identities=9%  Similarity=0.241  Sum_probs=36.8  Template_Neff=3.300
+
+Q bax             129 VPELIRTIMGWTLDFLRERLLGWIQDQGGWDGLLSYFGTPTWQTVTIFVAGVLTA  183 (192)
+Q Consensus       129 ~~~~v~~I~~w~~~fi~~~l~~WI~~~GGW~~~~~~f~~~~~~~~~~~~~gvl~~  183 (192)
+                      ..+.+++|+.|++-|-.+.+...|.+.--.+.|+..-.  ........+.|++|+
+T Consensus        30 tk~Evd~vi~WLTGY~~~~l~~~~~~~~t~~~FF~~AP--~lnp~~~lItG~ICG   82 (123)
+T 3C9P_A           30 KAESVHQVTSWLTGYEVSDVLACLDRDVTYGDFFRQAP--YYVPERIAITGKICG   82 (123)
+T ss_dssp             CHHHHHHHHHHHHCCCHHHHHHHTTSCCBHHHHHHTCS--CCCGGGGGCCSEETT
+T ss_pred             CHHHHHHHHHHHHCCCHHHHHHHHhcCCCHHHHHHhCc--cCCCChhhceeeecC
+Confidence            34689999999999999999999988887776665432  222222345555554
+
+
+No 80
+>3ZPV_Z PROTEIN BCL9 HOMOLOG, PROTEIN PYGOPUS; TRANSCRIPTION, WNT SIGNALING PATHWAY, ZN; HET: ZN; 2.68A {DROSOPHILA MELANOGASTER}
+Probab=33.05  E-value=37  Score=21.54  Aligned_cols=26  Identities=23%  Similarity=0.411  Sum_probs=14.0  Template_Neff=3.400
+
+Q bax             113 LFYFASKLVLKALCTKVPELIRTIMG  138 (192)
+Q Consensus       113 Lf~F~~~La~~~~~~~~~~~v~~I~~  138 (192)
+                      +|.|...||-+..+.-.....++|+.
+T Consensus         7 i~VFsT~mANkAAeaV~~g~~~SII~   32 (37)
+T 3ZPV_Z            7 IFVFSTQLANKGAESVLSGQFQTIIA   32 (37)
+T ss_dssp             CEEECHHHHHHHHHHHHTTSCSSHHH
+T ss_pred             EEEEehHhHHHHHHHHHcCCCccHHH
+Confidence            46677777766665433334444443
+
+
+No 81
+>2XOL_B CHAPERONE PROTEIN TTRD; CHAPERONE, TAT SYSTEM; 1.35A {ARCHAEOGLOBUS FULGIDUS}
+Probab=32.58  E-value=38  Score=27.87  Aligned_cols=47  Identities=19%  Similarity=0.263  Sum_probs=31.8  Template_Neff=8.300
+
+Q bax             108 GRVVALFYFASKLVLKALCT---KVPELIRTIMGWTLDFLRERLLGWIQD  154 (192)
+Q Consensus       108 GRIVaLf~F~~~La~~~~~~---~~~~~v~~I~~w~~~fi~~~l~~WI~~  154 (192)
+                      -.|...+.|.+.|+.+..+.   +..+....+.....+|+.+++.+|+..
+T Consensus        91 DHi~~eL~fma~L~~~~~~~~~~~~~~~~~~~~~~~~~Fl~~hl~~W~~~  140 (176)
+T 2XOL_B           91 DHIAVELAFMSKLVEREISLAQQMKEEELYKIRAAQHRFIKAHLQPLVKN  140 (176)
+T ss_dssp             TBHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHCCCCCHHHHTT
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHccHHHHHh
+Confidence            34667788888888766543   222233455667788999999999854
+
+
+No 82
+>2VPG_B PYGOPUS HOMOLOG 1, B-CELL CLL/LYMPHOMA; GENE REGULATION, WNT SIGNALING PATHWAY; HET: MLY, DA2; 1.6A {HOMO SAPIENS}
+Probab=31.43  E-value=41  Score=20.66  Aligned_cols=25  Identities=20%  Similarity=0.364  Sum_probs=12.5  Template_Neff=3.300
+
+Q bax             113 LFYFASKLVLKALCTKVPELIRTIM  137 (192)
+Q Consensus       113 Lf~F~~~La~~~~~~~~~~~v~~I~  137 (192)
+                      +|.|...||-+..+.-.....++|+
+T Consensus         4 i~VFsT~lAN~AAeaV~~g~~~SII   28 (32)
+T 2VPG_B            4 VYVFSTEMANKAAEAVLKGQVETIV   28 (32)
+T ss_dssp             CEEECHHHHHHHHHHHHTTCCCCCC
+T ss_pred             EEEEeHHHHHHHHHHHHcCCCcchh
+Confidence            4566666666555443333334443
+
+
+No 83
+>2KBW_B Induced myeloid leukemia cell differentiation; Mcl-1, Bid_BH3, complex, Apoptosis, Developmental; NMR {Homo sapiens}
+Probab=30.65  E-value=43  Score=20.95  Aligned_cols=21  Identities=19%  Similarity=0.547  Sum_probs=16.9  Template_Neff=3.900
+
+Q bax              53 DASTKKLSECLKRIGDELDSN   73 (192)
+Q Consensus        53 ~~~~~~v~~~Lr~i~del~~~   73 (192)
+                      +...+.++..|.++||+++.+
+T Consensus         9 ee~ir~ia~qLA~IGD~~d~~   29 (35)
+T 2KBW_B            9 EDIIRNIARHLAQVGDSMDRS   29 (35)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHHHhhccccC
+Confidence            446778899999999998765
+
+
+No 84
+>5UA4_B 5-HL, BH3-interacting domain death agonist; Apoptosis, Bcl-2; 2.6A {African swine fever virus}
+Probab=28.87  E-value=48  Score=20.52  Aligned_cols=21  Identities=29%  Similarity=0.596  Sum_probs=16.7  Template_Neff=4.400
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM   74 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~   74 (192)
+                      ...+.+++.|.++||+++.+.
+T Consensus         6 e~ir~ia~qLA~IGD~~d~~i   26 (34)
+T 5UA4_B            6 AVIRDIARHLARIGDRMEYGI   26 (34)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHHHhhhccccC
+Confidence            356788899999999998763
+
+
+No 85
+>4BD2_C APOPTOSIS REGULATOR BAX, BH3-INTERACTING DOMAIN; APOPTOSIS, PROGRAMMED CELL DEATH, BCL-2; 2.206A {HOMO SAPIENS}
+Probab=28.63  E-value=49  Score=20.49  Aligned_cols=21  Identities=19%  Similarity=0.544  Sum_probs=16.7  Template_Neff=4.400
+
+Q bax              54 ASTKKLSECLKRIGDELDSNM   74 (192)
+Q Consensus        54 ~~~~~v~~~Lr~i~del~~~~   74 (192)
+                      ...+.+++.|.++||+++.+.
+T Consensus         6 e~ir~ia~qLA~IGD~~d~~i   26 (34)
+T 4BD2_C            6 DIIRNIARHLAQVGDSMDRSI   26 (34)
+T ss_pred             HHHHHHHHHHHHHhhhcchhc
+Confidence            356788889999999998763
+
+
+No 86
+>3A8E_C The structure of AxCesD octamer; COMPLEX, OCTAMER, TETRAMER OF DIMERS; HET: CE5; 3.0A {Acetobacter xylinus}
+Probab=28.48  E-value=49  Score=27.80  Aligned_cols=92  Identities=14%  Similarity=0.240  Sum_probs=52.0  Template_Neff=4.800
+
+Q bax              57 KKLSECLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALF-YFASKLVLKALCTKVPEL--I  133 (192)
+Q Consensus        57 ~~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf-~F~~~La~~~~~~~~~~~--v  133 (192)
+                      .+....|+++|..|-.++++...       .+.+.+..-++.+..  .++||.+-.-. .-...|.+..  ...|..  .
+T Consensus        28 ~e~~~FL~~vG~rlA~~~PLp~~-------~Tl~eLE~~iN~~w~--~~~WG~V~L~~~~~~~~L~I~H--~a~P~~~~~   96 (162)
+T 3A8E_C           28 EVRNELLREVGRGMGTRIMPPPC-------QTVDKLQIELNALLA--LIGWGTVTLELLSEDQSLRIVH--ENLPQVGSA   96 (162)
+T ss_dssp             HHHHHHHHHHHHHHHHHBCCCCC-------SSHHHHHHHHHHHHH--HTTCCEEEEEEETTTTEEEEEE--ECCCCCSSC
+T ss_pred             HHHHHHHHHHHHHHHhhcCCCCC-------CcHHHHHHHHHHHHH--HhCCeEEEEEEecCCCeEEEEE--ecCCCCCCC
+Confidence            35556788888887776655332       222334455566665  38999642211 1222222211  122211  1
+
+
+Q bax             134 -RTIMGWTLDFLRERLLGWIQDQGGWD  159 (192)
+Q Consensus       134 -~~I~~w~~~fi~~~l~~WI~~~GGW~  159 (192)
+                       ..-..|+..+|..-+..|++++||=.
+T Consensus        97 g~~~~~w~~avLEGlY~~Wl~~qGg~~  123 (162)
+T 3A8E_C           97 GEPSGTWLAPVLEGLYGRWVTSQAGAF  123 (162)
+T ss_dssp             TTTTTCTTHHHHHHHHHHHHHSSSSTT
+T ss_pred             CCCcccchHHHHHHHHHHHHHHccCcc
+Confidence             23346888888888899999999873
+
+
+No 87
+>3AJ1_H Cellulose synthase operon protein D; ALPHA AND BETA FOLD, OCTAMER; HET: MSE; 2.5A {ACETOBACTER XYLINUS}
+Probab=27.73  E-value=52  Score=27.81  Aligned_cols=91  Identities=14%  Similarity=0.249  Sum_probs=50.3  Template_Neff=4.800
+
+Q bax              58 KLSECLKRIGDELDSNMELQRMIAAVDTDSPREVFFRVAADMFSDGNFNWGRVVALF-YFASKLVLKALCTKVPEL--I-  133 (192)
+Q Consensus        58 ~v~~~Lr~i~del~~~~~l~~~i~~~~~~~~~~~f~~Va~elF~dG~inWGRIVaLf-~F~~~La~~~~~~~~~~~--v-  133 (192)
+                      +....|+++|..|-..+++...       .+.+.+..-++.+..  .++||.+-.-. .=...|.+  .....|..  . 
+T Consensus        40 e~~~FLr~vG~rlA~~~PLp~~-------~Tl~eLE~~iN~~wa--~~~WG~V~L~~~~~~~~L~I--~H~a~P~~~~~g  108 (167)
+T 3AJ1_H           40 VRNELLREVGRGMGTRIMPPPC-------QTVDKLQIELNALLA--LIGWGTVTLELLSEDQSLRI--VHENLPQVGSAG  108 (167)
+T ss_dssp             HHHHHHHHHHHHHTTTBCCCCC-------SSHHHHHHHHHHHHH--HHTCCEEEEEEETTTTEEEE--EEECCCCCSSCT
+T ss_pred             HHHHHHHHHHHHHHhhcCCCCC-------CcHHHHHHHHHHHHH--HhCCeEEEEEEecCCCeEEE--EEecCCCCCCCC
+Confidence            4555677777777666554322       223334455566665  38999642211 12222222  11122211  1 
+
+
+Q bax             134 RTIMGWTLDFLRERLLGWIQDQGGWD  159 (192)
+Q Consensus       134 ~~I~~w~~~fi~~~l~~WI~~~GGW~  159 (192)
+                      ..-..|+..+|.--+..|++++||=.
+T Consensus       109 ~~~~~W~~avLEGlY~~WL~aqGg~~  134 (167)
+T 3AJ1_H          109 EPSGTWLAPVLEGLYGRWVTSQAGAF  134 (167)
+T ss_dssp             TTTTCTTHHHHHHHHHHHHHTTCTTT
+T ss_pred             CCcchhhHHHHHHHHHHHHHHccCcc
+Confidence            23346888888888899999999873
+
+
+No 88
+>5J0J_B designed protein 2L6HC3_6; rosetta, de novo design, DE; 2.256A {synthetic construct}
+Probab=26.15  E-value=58  Score=23.15  Aligned_cols=8  Identities=25%  Similarity=0.592  Sum_probs=3.3  Template_Neff=1.000
+
+Q bax              76 LQRMIAAV   83 (192)
+Q Consensus        76 l~~~i~~~   83 (192)
+                      ++.|+.++
+T Consensus        31 lkemlerl   38 (79)
+T 5J0J_B           31 LKEMLERL   38 (79)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            34444444
+
+
+No 89
+>5J0J_C designed protein 2L6HC3_6; rosetta, de novo design, DE; 2.256A {synthetic construct}
+Probab=26.15  E-value=58  Score=23.15  Aligned_cols=8  Identities=25%  Similarity=0.592  Sum_probs=3.3  Template_Neff=1.000
+
+Q bax              76 LQRMIAAV   83 (192)
+Q Consensus        76 l~~~i~~~   83 (192)
+                      ++.|+.++
+T Consensus        31 lkemlerl   38 (79)
+T 5J0J_C           31 LKEMLERL   38 (79)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            34444444
+
+
+No 90
+>2VPB_B PYGOPUS HOMOLOG 1, B-CELL CLL/LYMPHOMA; GENE REGULATION, WNT SIGNALING PATHWAY; 1.59A {HOMO SAPIENS}
+Probab=24.56  E-value=65  Score=20.23  Aligned_cols=15  Identities=20%  Similarity=0.412  Sum_probs=8.1  Template_Neff=3.100
+
+Q bax             113 LFYFASKLVLKALCT  127 (192)
+Q Consensus       113 Lf~F~~~La~~~~~~  127 (192)
+                      +|.|...+|-+..+.
+T Consensus         7 iyVFsT~lAN~AAea   21 (35)
+T 2VPB_B            7 VYVFSTEMANKAAEA   21 (35)
+T ss_dssp             CEEECHHHHHHHHHH
+T ss_pred             EEEEeHHHHHHHHHH
+Confidence            355666666555543
+
+
+No 91
+>2V4I_B GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; CYTOPLASM, ACYL ENZYME, TRANSFERASE, NTN; HET: AYA; 2.2A {STREPTOMYCES CLAVULIGERUS}
+Probab=23.00  E-value=72  Score=27.99  Aligned_cols=18  Identities=33%  Similarity=0.423  Sum_probs=13.7  Template_Neff=5.300
+
+Q bax             100 FSDGNFNWGRVVALFYFAS  118 (192)
+Q Consensus       100 F~dG~inWGRIVaLf~F~~  118 (192)
+                      |.. .+|||||++-...++
+T Consensus       117 ~G~-DpNWGRI~aA~G~sg  134 (213)
+T 2V4I_B          117 HGC-DPNWGRVAMAIGKCS  134 (213)
+T ss_dssp             HTT-CCCHHHHHHHHHTCT
+T ss_pred             cCC-CCCccccchhhcccC
+Confidence            443 499999998877765
+
+
+No 92
+>2YEP_H GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; ACYL ENZYME, TRANSFERASE, NTN HYDROLASE; HET: GLU, TH5; 2.7A {STREPTOMYCES CLAVULIGERUS}
+Probab=23.00  E-value=72  Score=27.99  Aligned_cols=18  Identities=33%  Similarity=0.423  Sum_probs=13.7  Template_Neff=5.300
+
+Q bax             100 FSDGNFNWGRVVALFYFAS  118 (192)
+Q Consensus       100 F~dG~inWGRIVaLf~F~~  118 (192)
+                      |.. .+|||||++-...++
+T Consensus       117 ~G~-DpNWGRI~aA~G~sg  134 (213)
+T 2YEP_H          117 HGC-DPNWGRVAMAIGKCS  134 (213)
+T ss_dssp             HTT-CCCHHHHHHHHHTCT
+T ss_pred             cCC-CCCccccchhhcccC
+Confidence            443 499999998877765
+
+
+No 93
+>2VZK_B GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; ACYL ENZYME, TRANSFERASE, NTN HYDROLASE; HET: TH5, TRS; 2.33A {STREPTOMYCES CLAVULIGERUS}
+Probab=22.45  E-value=76  Score=27.87  Aligned_cols=15  Identities=40%  Similarity=0.572  Sum_probs=12.4  Template_Neff=5.400
+
+Q bax             104 NFNWGRVVALFYFAS  118 (192)
+Q Consensus       104 ~inWGRIVaLf~F~~  118 (192)
+                      .+|||||++-+..++
+T Consensus       120 DpNWGRI~aA~G~~g  134 (213)
+T 2VZK_B          120 DPNWGRVAMAIGKCS  134 (213)
+T ss_dssp             CCCTHHHHHHHHTCT
+T ss_pred             CCCccccchhhcccC
+Confidence            599999998877665
+
+
+No 94
+>2MPK_A Chitin synthase 1 (E.C.2.4.1.16); MIT domain, three-helix bundle, Saprolegnia; NMR {Saprolegnia monoica}
+Probab=21.71  E-value=80  Score=23.14  Aligned_cols=10  Identities=40%  Similarity=0.890  Sum_probs=6.7  Template_Neff=2.800
+
+Q bax             146 ERLLGWIQDQ  155 (192)
+Q Consensus       146 ~~l~~WI~~~  155 (192)
+                      +++++||.+|
+T Consensus        65 ~~l~~wie~~   74 (74)
+T 2MPK_A           65 EHLAEWILEH   74 (74)
+T ss_dssp             HHHHHHHHHC
+T ss_pred             HHHHHHHHhC
+Confidence            4677777764
+
+
+No 95
+>2V0E_A CHROMODOMAIN-HELICASE-DNA-BINDING PROTEIN 7 (E.C.3.6.1.-); NUCLEOTIDE-BINDING, CHROMATIN REGULATOR, CHARGE SYNDROME; NMR {HOMO SAPIENS} SCOP: d.76.2.1
+Probab=21.63  E-value=80  Score=21.43  Aligned_cols=22  Identities=9%  Similarity=0.291  Sum_probs=16.8  Template_Neff=5.900
+
+Q bax             145 RERLLGWIQDQGGWDGLLSYFG  166 (192)
+Q Consensus       145 ~~~l~~WI~~~GGW~~~~~~f~  166 (192)
+                      ...|.+|+++|=||+-....|.
+T Consensus        29 ~~~L~~WL~~hP~yev~~~~~~   50 (55)
+T 2V0E_A           29 NKDLVEWLKLHPTYTVDMPSYV   50 (55)
+T ss_dssp             HHHHHHHHHHCTTEEECCSSCC
+T ss_pred             hhhHHHHHHHCCCcEeCCcccC
+Confidence            3578899999999986665554
+
+
+No 96
+>3IT4_B Arginine biosynthesis bifunctional protein argJ; Mycobacterium tuberculosis, Ornithine acetyltransferase, structural; HET: GOL; 1.7A {Mycobacterium tuberculosis}
+Probab=21.37  E-value=82  Score=27.50  Aligned_cols=15  Identities=47%  Similarity=0.769  Sum_probs=12.4  Template_Neff=5.300
+
+Q bax             104 NFNWGRVVALFYFAS  118 (192)
+Q Consensus       104 ~inWGRIVaLf~F~~  118 (192)
+                      .+|||||++-...++
+T Consensus       121 DpNWGRI~aA~G~sg  135 (205)
+T 3IT4_B          121 DPNWGRVLAAVGMAP  135 (205)
+T ss_dssp             CCCHHHHHHHHTTSS
+T ss_pred             CCccccccceeccCC
+Confidence            599999998877665
+
+
+No 97
+>3IT6_B Arginine biosynthesis bifunctional protein argJ; Mycobacterium tuberculosis, Ornithine acetyltransferase, Structural; HET: ORN; 2.4A {Mycobacterium tuberculosis}
+Probab=21.37  E-value=82  Score=27.50  Aligned_cols=15  Identities=47%  Similarity=0.769  Sum_probs=12.4  Template_Neff=5.300
+
+Q bax             104 NFNWGRVVALFYFAS  118 (192)
+Q Consensus       104 ~inWGRIVaLf~F~~  118 (192)
+                      .+|||||++-...++
+T Consensus       121 DpNWGRI~aA~G~sg  135 (205)
+T 3IT6_B          121 DPNWGRVLAAVGMAP  135 (205)
+T ss_dssp             CCCHHHHHHHHTTSS
+T ss_pred             CCccccccceeccCC
+Confidence            599999998877665
+
+
+No 98
+>1VRA_B Arginine biosynthesis bifunctional protein argJ; 10175521, arginine biosynthesis bifunctional protein; HET: UNL, SO4, EDO; 2.0A {Bacillus halodurans}
+Probab=20.23  E-value=90  Score=27.46  Aligned_cols=18  Identities=22%  Similarity=0.805  Sum_probs=13.5  Template_Neff=5.400
+
+Q bax             100 FSDGNFNWGRVVALFYFAS  118 (192)
+Q Consensus       100 F~dG~inWGRIVaLf~F~~  118 (192)
+                      |.. .+|||||++-+..++
+T Consensus       124 ~G~-DpNWGRIlaA~G~sg  141 (215)
+T 1VRA_B          124 YGA-DANWGRIICAIGYSG  141 (215)
+T ss_dssp             HTT-CCCHHHHHHHHHHSS
+T ss_pred             hcC-CCCcchhccccccCC
+Confidence            443 499999998777665
+
+

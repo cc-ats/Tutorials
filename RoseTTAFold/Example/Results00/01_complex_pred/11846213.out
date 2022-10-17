@@ -1,0 +1,46 @@
+Wed Sep 14 10:26:08 CDT 2022
+Finished MSA for Subunit1 & Subunit2!
+Wed Sep 14 10:56:51 CDT 2022
+pairs found:  211 211
+Finished Preparing Pair Alignments!
+Wed Sep 14 10:57:12 CDT 2022
+Finished Filtering Pair Alignments!
+Wed Sep 14 10:57:12 CDT 2022
+Finished Templated Prediction for Subunit1!
+Wed Sep 14 11:00:33 CDT 2022
+SE(3) iteration 0 [0.438 0.446]
+SE(3) iteration 1 [0.566 0.573]
+SE(3) iteration 2 [0.641 0.662]
+SE(3) iteration 3 [0.675  0.6978]
+SE(3) iteration 4 [0.672 0.715]
+SE(3) iteration 5 [0.6772 0.7183]
+SE(3) iteration 6 [0.6777 0.7236]
+SE(3) iteration 7 [0.679 0.725]
+SE(3) iteration 8 [0.6797 0.725 ]
+SE(3) iteration 9 [0.6807 0.725 ]
+SE(3) iteration 10 [0.6807 0.7246]
+SE(3) iteration 11 [0.6816 0.7246]
+SE(3) iteration 12 [0.6816 0.724 ]
+SE(3) iteration 13 [0.6816 0.725 ]
+SE(3) iteration 14 [0.682  0.7256]
+SE(3) iteration 15 [0.6826 0.7256]
+SE(3) iteration 16 [0.6836 0.7246]
+SE(3) iteration 17 [0.6846 0.724 ]
+SE(3) iteration 18 [0.684 0.724]
+SE(3) iteration 19 [0.684  0.7236]
+SE(3) iteration 20 [0.6846 0.724 ]
+SE(3) iteration 21 [0.685 0.724]
+SE(3) iteration 22 [0.685 0.724]
+SE(3) iteration 23 [0.685 0.724]
+SE(3) iteration 24 [0.6855 0.724 ]
+SE(3) iteration 25 [0.685 0.724]
+SE(3) iteration 26 [0.6846 0.7236]
+SE(3) iteration 27 [0.6846 0.7236]
+SE(3) iteration 28 [0.6855 0.7236]
+SE(3) iteration 29 [0.6846 0.7236]
+SE(3) iteration 30 [0.6846 0.7236]
+SE(3) iteration 31 [0.6836 0.7236]
+tensor(0.7256, device='cuda:0', dtype=torch.float16)
+torch.Size([176, 3, 3]) torch.Size([176]) torch.Size([176])
+Finished Predicting Complex!
+Wed Sep 14 11:05:09 CDT 2022

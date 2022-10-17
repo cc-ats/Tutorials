@@ -1,0 +1,6 @@
+hhblits -o /dev/null -mact 0.35 -maxfilt 100000000 -neffmax 20 -cov 25 -cpu 8 -nodiff -realign_max 100000000 -maxseq 1000000 -maxmem 15 -n 4
+db:0 e:1e-30
+ -- cov75 results: 1
+ -- cov50 results: 1
+db:0 e:1e-10
+ -- cov75 results: 5091

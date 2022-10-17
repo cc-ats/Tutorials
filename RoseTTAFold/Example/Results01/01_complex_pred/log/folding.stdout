@@ -1,0 +1,22 @@
+Namespace(FASTA='paparde.fa', NPZ='complex.npz', OUT='pdb-3track/model0_0_0.05.pdb', bb='', fastrelax=True, mode=0, nrestarts=3, pcut=0.05, roll=True, save_chk=False, sg='7,3', steps=1000, use_orient=True)
+PyRosetta-4 2022 [Rosetta PyRosetta4.Release.python37.linux 2022.35+release.6079c70fa16855c06a9c2070a7085bf619df3065 2022-08-31T18:05:32] retrieved from: http://www.pyrosetta.org
+(C) Copyright Rosetta Commons Member Institutions. Created in JHU by Sergey Lyskov and PyRosetta Team.
+Apply circular shift...
+Savitzky-Golay:     7,3
+dist restraints:    8333
+omega restraints:   5738
+theta restraints:   11405
+phi restraints:     10982
+mutation: G1A
+mutation: G29A
+mutation: G54A
+mutation: G56A
+mutation: G63A
+mutation: G82A
+setting random (phi,psi,omega)...
+short
+Number of applied pair restraints: 7894
+ - Distance restraints: 1442
+ - Omega restraints: 1298
+ - Theta restraints: 2590
+ - Phi restraints:   2564
