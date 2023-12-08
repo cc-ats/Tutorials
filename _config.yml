@@ -4,9 +4,25 @@
 title: Tutorials
 author: CCATS Group
 copyright: "2023"
-logo: logo.png
+logo: "assets/img/schrodinger_cat2_black.png"
 
-exclude_patterns: ['.ipynb_checkpoints', '.DS_STORE',
+html:
+  baseurl: https//cc-ats.github.io/Tutorials
+  use_repository_button: true
+  use_multitoc_numbering: True
+
+html_theme_options:
+  logo:
+    text: "CCATS Group"
+    image_dark: "assets/img/schrodinger_cat2_white.png"
+
+exclude_patterns: [
+  'assets/',
+  'assets/*',
+  '.ipynb_checkpoints', 
+  '*/.ipynb_checkpoints', 
+  '.DS_STORE', 
+  'build.sh']
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -16,8 +32,8 @@ execute:
   timeout: 300
   exclude_patterns:
     - 'ColabFold/AlphaFold2.ipynb'
-    - 'ColabFold/Tutorial_Monomer.ipynb'
-    - 'ColabFold/Tutorial_Multimer.ipynb'
+    - 'ColabFold/Tutorial-Monomer.ipynb'
+    - 'ColabFold/Tutorial-Multimer.ipynb'
 
 parse:
   myst_enable_extensions:  
@@ -32,6 +48,7 @@ parse:
     - smartquotes
     - substitution
     - tasklist
+  myst_url_schemes: [mailto, http, https]
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -44,11 +61,13 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/cc-ats/Tutorials  # Online location of your book
+  path_to_book: ./  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
 html:
   use_issues_button: true
   use_repository_button: true
