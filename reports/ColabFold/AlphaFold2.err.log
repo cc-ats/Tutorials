@@ -1,0 +1,99 @@
+Traceback (most recent call last):
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/nbclient/client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+  File "/Users/van/Programs/miniforge3/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/nbclient/client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/nbclient/client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/Users/van/Programs/miniforge3/lib/python3.10/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# @title Input protein sequence(s), then hit `Runtime` -> `Run all` { display-mode: "form" }
+from google.colab import files
+import os
+import re
+import hashlib
+import random
+
+from sys import version_info
+python_version = f"{version_info.major}.{version_info.minor}"
+
+def add_hash(x,y):
+  return x+"_"+hashlib.sha1(y.encode()).hexdigest()[:5]
+
+query_sequence = 'PIAQIHILEGRSDEQKETLIREVSEAISRSLDAPLTSVRVIITEMAKGHFGIGGELASK' #@param {type:"string"}
+#@markdown  - Use `:` to specify inter-protein chainbreaks for **modeling complexes** (supports homo- and hetro-oligomers). For example **PI...SK:PI...SK** for a homodimer
+jobname = 'test' #@param {type:"string"}
+# number of models to use
+num_relax = 0 #@param [0, 1, 5] {type:"raw"}
+#@markdown - specify how many of the top ranked structures to relax using amber
+template_mode = "none" #@param ["none", "pdb100","custom"]
+#@markdown - `none` = no template information is used. `pdb100` = detect templates in pdb100 (see [notes](#pdb100)). `custom` - upload and search own templates (PDB or mmCIF format, see [notes](#custom_templates))
+
+use_amber = num_relax > 0
+
+# remove whitespaces
+query_sequence = "".join(query_sequence.split())
+
+basejobname = "".join(jobname.split())
+basejobname = re.sub(r'\W+', '', basejobname)
+jobname = add_hash(basejobname, query_sequence)
+
+# check if directory with jobname exists
+def check(folder):
+  if os.path.exists(folder):
+    return False
+  else:
+    return True
+if not check(jobname):
+  n = 0
+  while not check(f"{jobname}_{n}"): n += 1
+  jobname = f"{jobname}_{n}"
+
+# make directory to save results
+os.makedirs(jobname, exist_ok=True)
+
+# save queries
+queries_path = os.path.join(jobname, f"{jobname}.csv")
+with open(queries_path, "w") as text_file:
+  text_file.write(f"id,sequence\n{jobname},{query_sequence}")
+
+if template_mode == "pdb100":
+  use_templates = True
+  custom_template_path = None
+elif template_mode == "custom":
+  custom_template_path = os.path.join(jobname,f"template")
+  os.makedirs(custom_template_path, exist_ok=True)
+  uploaded = files.upload()
+  use_templates = True
+  for fn in uploaded.keys():
+    os.rename(fn,os.path.join(custom_template_path,fn))
+else:
+  custom_template_path = None
+  use_templates = False
+
+print("jobname",jobname)
+print("sequence",query_sequence)
+print("length",len(query_sequence.replace(":","")))
+
+
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 2[0m
+[1;32m      1[0m [38;5;66;03m# @title Input protein sequence(s), then hit `Runtime` -> `Run all` { display-mode: "form" }[39;00m
+[0;32m----> 2[0m [38;5;28;01mfrom[39;00m [38;5;21;01mgoogle[39;00m[38;5;21;01m.[39;00m[38;5;21;01mcolab[39;00m [38;5;28;01mimport[39;00m files
+[1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mos[39;00m
+[1;32m      4[0m [38;5;28;01mimport[39;00m [38;5;21;01mre[39;00m
+
+[0;31mModuleNotFoundError[0m: No module named 'google'
+
