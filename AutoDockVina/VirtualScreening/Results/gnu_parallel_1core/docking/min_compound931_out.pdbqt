@@ -1,0 +1,270 @@
+MODEL 1
+REMARK VINA RESULT:      -5.6      0.000      0.000
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -13.443   6.987 -18.541  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -12.248   7.286 -18.090  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -11.667   6.215 -17.441  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -12.435   5.147 -17.414  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -12.154   3.905 -16.853  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -10.917   3.731 -16.224  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -10.714   2.312 -15.735  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -12.023   1.307 -16.444  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -10.045   4.574 -16.040  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -13.026   2.752 -16.848  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -13.941   5.384 -18.216  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -14.178   2.891 -15.878  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -14.197   4.078 -14.632  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -15.726   3.569 -14.068  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -16.223   2.516 -14.801  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -15.331   2.123 -15.839  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.6      2.401      4.092
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.329   0.978 -15.877  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -10.422   0.431 -17.066  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -11.368   1.068 -17.846  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -11.962   2.066 -17.228  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -12.947   2.914 -17.724  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -13.393   2.711 -19.033  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -14.401   3.755 -19.468  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -14.394   5.056 -18.229  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -13.066   1.815 -19.805  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -13.574   4.006 -17.012  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -11.376   2.307 -15.626  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -14.557   3.535 -15.963  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -14.942   4.473 -14.572  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -16.031   3.295 -13.988  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -16.107   2.204 -14.821  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -15.257   2.339 -15.956  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.6     11.868     13.911
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -15.591  -3.210  -2.265  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -14.375  -2.847  -1.931  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -14.107  -1.550  -2.321  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -15.117  -0.976  -2.940  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -15.184   0.317  -3.450  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -14.059   1.137  -3.318  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -14.302   2.537  -3.841  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -16.066   2.701  -4.141  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -12.965   0.837  -2.852  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -16.317   0.913  -4.122  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -16.495  -2.001  -3.068  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -16.513   0.386  -5.525  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -18.062  -0.040  -6.144  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -17.415  -0.493  -7.657  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -16.050  -0.333  -7.705  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -15.530   0.168  -6.478  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.2      4.713      5.830
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.056   8.878 -15.509  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -17.008   9.328 -14.727  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -17.187   8.518 -13.623  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -16.375   7.482 -13.605  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -16.285   6.483 -12.641  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -17.150   6.545 -11.544  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -16.885   5.445 -10.537  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -15.331   4.666 -10.990  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -18.050   7.355 -11.346  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -15.374   5.360 -12.655  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -15.305   7.444 -14.955  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -15.760   4.303 -13.665  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -14.688   3.777 -14.906  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -15.832   2.671 -15.527  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -17.010   2.694 -14.817  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -16.971   3.635 -13.749  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.1      2.266      4.566
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.304   3.660 -15.193  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -16.199   2.366 -15.382  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -14.925   2.012 -15.782  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -14.112   3.041 -15.890  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -12.770   3.035 -16.258  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -12.176   1.808 -16.568  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -10.698   1.942 -16.869  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -10.201   3.601 -16.393  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -12.716   0.707 -16.620  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -11.907   4.191 -16.361  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -14.863   4.536 -15.480  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -12.202   5.038 -17.579  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -12.961   4.399 -18.986  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -12.913   5.906 -19.786  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -12.331   6.884 -19.013  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -11.918   6.384 -17.745  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.1     12.303     12.960
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.601   4.920  -4.466  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -16.477   5.237  -3.870  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -15.586   4.181  -3.870  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -16.061   3.103  -4.456  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -15.427   1.878  -4.636  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -14.128   1.729  -4.142  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -13.533   0.378  -4.481  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -14.620  -0.402  -5.679  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -13.476   2.541  -3.494  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -15.983   0.715  -5.291  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -17.654   3.323  -5.076  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -17.028   0.012  -4.454  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -18.437  -0.700  -5.141  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -19.006  -1.223  -3.619  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -18.154  -0.868  -2.599  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -17.019  -0.154  -3.078  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.0      2.424      3.973
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.119   5.997 -19.918  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -13.271   5.723 -20.485  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -14.118   5.059 -19.620  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -13.585   4.845 -18.436  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -14.165   4.218 -17.338  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -15.470   3.732 -17.469  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -16.001   3.150 -16.176  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -14.854   3.603 -14.871  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -16.170   3.730 -18.477  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -13.547   4.006 -16.048  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -11.988   5.475 -18.295  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -12.496   2.918 -16.073  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -12.745   1.412 -16.869  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -11.195   0.842 -16.437  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -10.492   1.766 -15.698  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -11.241   2.959 -15.485  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.9      2.547      4.743
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.150   3.948 -13.882  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -16.281   5.250 -13.782  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -15.625   5.907 -14.804  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -15.015   5.091 -15.638  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -14.278   5.419 -16.771  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -14.135   6.772 -17.095  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -13.382   6.977 -18.393  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -13.240   5.374 -19.191  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -14.533   7.741 -16.457  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -13.626   4.490 -17.666  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -15.229   3.431 -15.227  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -12.376   3.880 -17.071  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -12.048   2.191 -17.146  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -10.570   2.367 -16.309  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -10.320   3.676 -15.970  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -11.360   4.546 -16.405  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.9      2.578      4.983
+REMARK  Name = min_compound931.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _9  and  _13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.945   0.100 -16.621  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1     -10.040   0.938 -16.174  0.00  0.00    -0.148 NA
+ATOM      3  N   UNL     1     -10.412   2.251 -16.389  0.00  0.00    -0.126 NA
+ATOM      4  C   UNL     1     -11.575   2.367 -16.994  0.00  0.00    +0.191 A 
+ATOM      5  N   UNL     1     -12.241   3.536 -17.348  0.00  0.00    -0.231 N 
+ATOM      6  C   UNL     1     -11.632   4.758 -17.050  0.00  0.00    +0.232 C 
+ATOM      7  C   UNL     1     -12.504   5.941 -17.415  0.00  0.00    +0.167 C 
+ATOM      8  S   UNL     1     -14.139   5.306 -17.799  0.00  0.00    -0.123 S 
+ATOM      9  O   UNL     1     -10.523   4.942 -16.559  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1     -13.524   3.622 -18.009  0.00  0.00    +0.178 C 
+ATOM     11  S   UNL     1     -12.313   0.846 -17.326  0.00  0.00    -0.038 S 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C   UNL     1     -13.454   3.257 -19.476  0.00  0.00    +0.021 A 
+ATOM     13  S   UNL     1     -13.355   4.445 -20.718  0.00  0.00    -0.099 S 
+ATOM     14  C   UNL     1     -13.318   3.262 -21.948  0.00  0.00    +0.045 A 
+ATOM     15  C   UNL     1     -13.382   1.986 -21.440  0.00  0.00    +0.008 A 
+ATOM     16  C   UNL     1     -13.465   1.982 -20.018  0.00  0.00    +0.014 A 
+ENDBRANCH  10  12
+TORSDOF 1
+ENDMDL

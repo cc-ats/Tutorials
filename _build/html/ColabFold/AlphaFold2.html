@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>*Original ColabFold Notebook &#8212; Tutorials</title>
+    <title>ColabFold/AlphaFold2 Notebook &#8212; Tutorials</title>
   
   
   
@@ -142,8 +142,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../_static/schrodinger_cat_white_bbg.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/schrodinger_cat_white_bbg.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/schrodinger_cat2_black.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/schrodinger_cat2_black.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -158,7 +158,7 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">*Original ColabFold Notebook</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">ColabFold/AlphaFold2 Notebook</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="Tutorial-Monomer.html">1. <strong>ColabFold Tutorial:</strong> Predicting the structure of Bax protein</a></li>
 
@@ -378,7 +378,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>*Original ColabFold Notebook</h1>
+    <h1>ColabFold/AlphaFold2 Notebook</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -388,7 +388,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">*Original ColabFold Notebook</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">ColabFold/AlphaFold2 Notebook</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colabfold-v1-5-3-alphafold2-using-mmseqs2">ColabFold v1.5.3: AlphaFold2 using MMseqs2</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#news">News</a></li>
 </ul>
@@ -409,12 +409,12 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <p><a href="https://colab.research.google.com/github/cc-ats/Tutorials/blob/main/ColabFold/AlphaFold2.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
-<section class="tex2jax_ignore mathjax_ignore" id="original-colabfold-notebook">
-<h1>*Original ColabFold Notebook<a class="headerlink" href="#original-colabfold-notebook" title="Permalink to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="colabfold-alphafold2-notebook">
+<h1>ColabFold/AlphaFold2 Notebook<a class="headerlink" href="#colabfold-alphafold2-notebook" title="Permalink to this heading">#</a></h1>
 <a class="reference internal image-reference" href="https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo_Small.png"><img alt="https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo_Small.png" class="align-right" src="https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo_Small.png" style="height: 200px;" /></a>
 <section id="colabfold-v1-5-3-alphafold2-using-mmseqs2">
 <h2>ColabFold v1.5.3: AlphaFold2 using MMseqs2<a class="headerlink" href="#colabfold-v1-5-3-alphafold2-using-mmseqs2" title="Permalink to this heading">#</a></h2>
-<p>Easy to use protein structure and complex prediction using <a class="reference external" href="https://www.nature.com/articles/s41586-021-03819-2">AlphaFold2</a> and <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1">Alphafold2-multimer</a>. Sequence alignments/templates are generated through <span class="xref myst">MMseqs2</span> and <a class="reference external" href="https://github.com/soedinglab/hh-suite">HHsearch</a>. For more details, see <a href="#Instructions">bottom</a> of the notebook, checkout the <a class="reference external" href="https://github.com/sokrypton/ColabFold">ColabFold GitHub</a> and read our manuscript.
+<p>Easy to use protein structure and complex prediction using <a class="reference external" href="https://www.nature.com/articles/s41586-021-03819-2">AlphaFold2</a> and <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1">Alphafold2-multimer</a>. Sequence alignments/templates are generated through <span class="xref myst">MMseqs2</span> and <a class="reference external" href="https://github.com/soedinglab/hh-suite">HHsearch</a>. For more details, see <a href="## Instructions">bottom</a> of the notebook, checkout the <a class="reference external" href="https://github.com/sokrypton/ColabFold">ColabFold GitHub</a> and read our manuscript.
 Old versions: <a class="reference external" href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.4.0/AlphaFold2.ipynb">v1.4</a>, <a class="reference external" href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.5.1/AlphaFold2.ipynb">v1.5.1</a>, <a class="reference external" href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.5.2/AlphaFold2.ipynb">v1.5.2</a></p>
 <p><a class="reference external" href="https://www.nature.com/articles/s41592-022-01488-1">Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M. ColabFold: Making protein folding accessible to all.
 <em>Nature Methods</em>, 2022</a></p>
@@ -1251,7 +1251,7 @@ Wall time: 42.9 s
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">*Original ColabFold Notebook</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">ColabFold/AlphaFold2 Notebook</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colabfold-v1-5-3-alphafold2-using-mmseqs2">ColabFold v1.5.3: AlphaFold2 using MMseqs2</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#news">News</a></li>
 </ul>

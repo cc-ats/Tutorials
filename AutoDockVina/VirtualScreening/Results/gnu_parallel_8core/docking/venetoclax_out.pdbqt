@@ -1,0 +1,1008 @@
+MODEL 1
+REMARK VINA RESULT:     -12.3      0.000      0.000
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -17.322   3.128 -10.684  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.762   3.329  -9.398  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -16.979   5.577  -9.458  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.549   5.384 -10.757  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.724   4.149 -11.397  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.615   4.552  -8.743  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -18.070   4.803  -7.336  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.227   4.578  -6.961  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.123   5.274  -6.448  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.242   5.620  -6.800  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.399   5.284  -4.866  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -18.804   5.527  -4.611  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.438   6.182  -4.306  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -17.011   3.622  -4.339  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -15.686   3.324  -4.020  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -15.358   2.034  -3.651  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -16.315   0.987  -3.571  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -17.634   1.333  -3.923  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -17.983   2.640  -4.280  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -13.940   1.803  -3.398  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -13.560   0.688  -3.097  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -13.183   2.767  -3.471  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -15.960  -0.282  -3.148  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -15.016  -0.418  -2.815  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -16.851  -1.435  -3.149  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -16.177  -2.615  -2.465  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -14.789  -2.869  -3.041  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -14.134  -4.025  -2.314  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -14.023  -3.760  -0.920  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -15.326  -3.606  -0.352  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -16.047  -2.430  -0.967  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -18.332   2.276  -8.707  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -17.547   1.329  -8.080  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -18.082   0.100  -7.750  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -17.379  -0.888  -7.180  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -16.090  -0.594  -6.864  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -15.470   0.645  -7.132  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -15.166  -1.445  -6.332  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -16.214   1.623  -7.783  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -14.082   0.499  -6.705  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -13.954  -0.773  -6.242  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -15.336  -2.399  -6.052  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.270   3.930 -12.685  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.580   4.967 -13.467  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.769   4.331 -14.603  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.615   3.486 -15.477  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.246   2.442 -14.636  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.092   3.078 -13.547  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.821   2.863 -16.553  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.065   3.833 -17.421  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -14.861   4.914 -18.108  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.072   5.447 -19.294  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -12.650   5.855 -18.894  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -11.933   6.487 -20.086  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.695   6.855 -17.744  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -11.897   4.598 -18.452  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.723   3.643 -17.648  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -11.971   2.467 -17.165  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -11.990   1.277 -17.891  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -11.232   0.203 -17.481  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.481   0.283 -16.317  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -10.485   1.449 -15.567  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.589  -1.094 -15.769  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -11.221   2.530 -15.992  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:     -11.7      1.144      1.616
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -17.178   3.028 -10.626  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.619   3.183  -9.334  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -16.906   5.454  -9.338  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.475   5.309 -10.643  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.615   4.085 -11.314  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.507   4.392  -8.648  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -17.964   4.593  -7.234  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.128   4.378  -6.874  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.012   5.005  -6.322  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.122   5.346  -6.655  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.296   4.953  -4.743  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -18.711   5.131  -4.489  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.375   5.871  -4.148  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -16.844   3.293  -4.265  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -17.850   2.328  -4.206  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -17.530   1.047  -3.798  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -16.210   0.659  -3.440  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -15.235   1.674  -3.495  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -15.544   2.969  -3.925  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -18.656   0.125  -3.707  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -18.815  -0.527  -2.693  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -19.390   0.022  -4.687  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -15.916  -0.646  -3.085  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -16.580  -1.363  -3.340  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -14.715  -1.058  -2.369  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -14.917  -2.442  -1.768  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -16.133  -3.135  -2.370  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -16.282  -4.520  -1.777  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -15.123  -5.311  -2.018  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -13.989  -4.714  -1.383  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -13.712  -3.343  -1.952  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -18.153   2.095  -8.668  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -17.340   1.192  -8.014  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -17.808  -0.075  -7.728  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -17.069  -1.023  -7.135  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -15.822  -0.649  -6.748  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -15.273   0.632  -6.967  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -14.871  -1.446  -6.179  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -16.046   1.569  -7.643  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -13.902   0.572  -6.470  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -13.713  -0.697  -6.017  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -14.990  -2.414  -5.921  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.159   3.914 -12.610  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.309   4.904 -13.286  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.563   4.257 -14.460  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.494   3.618 -15.418  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.289   2.607 -14.682  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.068   3.263 -13.556  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.765   2.981 -16.532  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.006   3.935 -17.415  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -14.794   5.028 -18.093  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.015   5.544 -19.293  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -12.579   5.927 -18.918  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -11.870   6.542 -20.123  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.587   6.931 -17.770  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -11.842   4.657 -18.484  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.671   3.720 -17.663  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -11.933   2.532 -17.190  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -11.881   1.380 -17.973  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -11.134   0.298 -17.566  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.465   0.330 -16.351  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -10.541   1.456 -15.545  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.588  -1.060 -15.812  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -11.266   2.546 -15.966  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:     -10.2      2.017      4.002
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -16.818   5.097 -10.396  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.224   5.245  -9.092  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -17.229   2.881  -8.802  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.806   2.728 -10.108  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.584   3.844 -10.928  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.437   4.154  -8.250  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -17.893   4.277  -6.826  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -18.941   3.764  -6.416  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.068   4.974  -5.964  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.317   5.533  -6.341  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.283   4.910  -4.375  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -18.665   5.199  -4.050  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.261   5.733  -3.807  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -16.952   3.207  -3.951  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -15.638   2.748  -4.044  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -15.367   1.423  -3.762  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -16.371   0.496  -3.369  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -17.685   1.003  -3.312  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -17.968   2.346  -3.577  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -13.978   1.020  -3.946  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -13.708   0.156  -4.757  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -13.129   1.559  -3.240  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -16.056  -0.811  -3.045  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -15.317  -1.259  -3.567  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -16.716  -1.587  -2.002  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -15.980  -2.902  -1.787  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -14.694  -2.956  -2.604  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -13.972  -4.260  -2.339  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -13.658  -4.403  -0.957  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -14.863  -4.441  -0.189  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -15.634  -3.150  -0.333  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -17.474   6.513  -8.603  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -18.651   7.171  -8.900  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -18.801   7.796 -10.121  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -19.924   8.418 -10.504  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -20.918   8.473  -9.579  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -20.840   7.894  -8.295  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -22.164   9.000  -9.751  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -19.683   7.200  -7.958  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -22.141   8.120  -7.674  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -22.897   8.779  -8.592  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -22.497   9.470 -10.580  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.191   3.705 -12.248  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.367   4.708 -12.937  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.683   4.089 -14.162  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.663   3.482 -15.092  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.429   2.456 -14.346  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.149   3.086 -13.167  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.992   2.872 -16.256  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.312   3.850 -17.176  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -15.170   4.913 -17.814  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.470   5.454 -19.052  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -13.032   5.888 -18.748  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -12.406   6.525 -19.987  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -13.019   6.894 -17.601  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -12.230   4.647 -18.350  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.984   3.682 -17.490  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -12.182   2.522 -17.052  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -12.238   1.323 -17.762  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -11.436   0.265 -17.399  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.601   0.368 -16.294  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -10.567   1.543 -15.558  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.652  -0.990 -15.800  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -11.348   2.608 -15.939  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:     -10.2      2.095      3.451
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -17.228   3.629 -10.087  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.628   3.943  -8.810  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -17.020   6.219  -9.155  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.631   5.911 -10.445  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.739   4.602 -10.936  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.546   5.239  -8.302  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -17.960   5.615  -6.909  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.102   6.001  -6.636  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.008   5.482  -5.917  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.042   5.340  -6.173  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.410   5.549  -4.365  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -18.246   6.707  -4.121  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.187   5.425  -3.636  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -18.392   4.082  -4.097  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -17.737   2.851  -4.045  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -18.482   1.699  -3.882  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -19.898   1.707  -3.754  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -20.514   2.972  -3.834  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -19.769   4.146  -3.981  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -17.718   0.457  -3.902  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -18.173  -0.516  -4.470  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -16.643   0.439  -3.308  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -20.607   0.539  -3.540  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -20.341  -0.034  -2.752  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -21.712   0.078  -4.371  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -21.396   0.319  -5.839  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -21.310  -0.993  -6.610  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -21.030  -0.714  -8.071  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -22.047   0.102  -8.644  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -22.078   1.370  -7.984  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -22.416   1.209  -6.521  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -18.088   2.937  -7.980  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -17.264   1.896  -7.601  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -17.597   0.598  -7.935  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -16.833  -0.462  -7.643  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -15.714  -0.207  -6.915  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -15.314   1.080  -6.500  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -14.758  -1.108  -6.545  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -16.100   2.165  -6.877  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -14.034   0.904  -5.822  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -13.745  -0.424  -5.886  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -14.784  -2.101  -6.721  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.324   4.271 -12.214  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.637   5.228 -13.094  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.869   4.486 -14.195  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.753   3.591 -14.976  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.379   2.630 -14.037  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.184   3.369 -12.983  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.999   2.868 -16.018  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.382   3.745 -17.074  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -15.275   4.766 -17.734  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.671   5.180 -19.068  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -13.207   5.608 -18.921  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -12.676   6.119 -20.258  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -13.085   6.711 -17.874  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -12.393   4.390 -18.479  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -13.088   3.522 -17.477  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -12.269   2.388 -17.003  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -12.306   1.167 -17.676  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -11.489   0.132 -17.278  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.658   0.282 -16.177  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -10.642   1.479 -15.478  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.689  -1.046 -15.640  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -11.438   2.521 -15.892  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:     -10.1      1.611      2.600
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -16.850   3.103 -10.272  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.192   3.306  -8.957  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -16.712   5.629  -9.165  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.382   5.433 -10.493  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.456   4.158 -11.072  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.144   4.565  -8.359  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -17.496   4.820  -6.923  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -18.170   5.794  -6.567  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.059   3.893  -5.999  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.368   3.209  -6.271  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.628   3.883  -4.497  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -19.072   3.994  -4.516  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.876   4.870  -3.786  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -17.197   2.268  -3.870  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -15.869   1.854  -3.973  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -15.523   0.590  -3.533  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -16.462  -0.314  -2.967  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -17.793   0.142  -2.906  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -18.152   1.426  -3.331  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -14.126   0.223  -3.738  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -13.679   0.179  -4.868  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -13.459  -0.061  -2.746  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -16.070  -1.552  -2.490  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -15.677  -2.207  -3.151  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -16.184  -1.977  -1.100  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -15.088  -2.980  -0.771  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -15.642  -4.172   0.001  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -14.534  -5.165   0.279  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -13.937  -5.624  -0.930  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -13.337  -4.525  -1.620  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -14.376  -3.498  -2.005  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -17.557   2.222  -8.179  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -18.867   1.789  -8.133  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -19.879   2.605  -8.596  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -21.169   2.245  -8.626  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -21.458   1.028  -8.095  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -20.495   0.143  -7.567  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -22.680   0.423  -8.060  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -19.158   0.525  -7.613  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -21.224  -1.062  -7.185  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -22.527  -0.843  -7.509  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -23.548   0.826  -8.381  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.097   3.940 -12.391  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.394   4.949 -13.196  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.697   4.289 -14.392  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.647   3.518 -15.225  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.289   2.496 -14.365  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.024   3.159 -13.214  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.962   2.871 -16.361  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.272   3.819 -17.304  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -15.122   4.869 -17.976  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.413   5.371 -19.224  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -12.974   5.805 -18.926  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -12.338   6.405 -20.179  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.959   6.842 -17.807  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -12.180   4.571 -18.491  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.944   3.635 -17.607  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -12.151   2.482 -17.135  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -11.381   2.589 -15.976  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -10.699   1.495 -15.495  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.734   0.291 -16.185  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -11.464   0.185 -17.359  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.815  -1.058 -15.615  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -12.168   1.272 -17.824  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:     -10.0      3.524      5.916
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -17.320   3.092 -10.417  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.825   3.278  -9.153  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -17.231   5.582  -9.230  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.737   5.404 -10.508  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.783   4.147 -11.128  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.806   4.520  -8.518  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -18.335   4.757  -7.134  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.239   5.566  -6.897  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.786   4.000  -6.118  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.938   3.480  -6.290  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -18.471   3.932  -4.668  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -17.956   2.797  -3.930  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -19.880   4.016  -4.895  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -17.929   5.425  -3.851  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -18.791   6.024  -2.933  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -18.408   7.203  -2.322  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -17.163   7.837  -2.580  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -16.338   7.205  -3.531  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -16.706   6.002  -4.142  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -19.399   7.787  -1.425  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -19.125   7.942  -0.250  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -20.496   8.074  -1.896  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -16.791   8.990  -1.912  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -16.287   8.886  -1.042  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -17.074  10.343  -2.374  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -16.521  11.358  -1.384  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -15.199  10.888  -0.789  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -14.661  11.935   0.162  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -14.463  13.180  -0.501  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -15.713  13.673  -0.988  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -16.309  12.725  -2.001  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -18.331   2.193  -8.461  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -17.490   1.264  -7.881  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -17.905  -0.044  -7.734  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -17.136  -1.014  -7.222  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -15.915  -0.628  -6.770  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -15.421   0.691  -6.846  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -14.940  -1.436  -6.261  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -16.223   1.658  -7.444  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -14.059   0.640  -6.325  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -13.821  -0.658  -5.997  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -15.020  -2.430  -6.104  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.262   3.945 -12.394  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -15.319   4.883 -13.020  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.544   4.190 -14.148  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.451   3.600 -15.158  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.343   2.638 -14.469  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.149   3.341 -13.392  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.695   2.919 -16.226  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -13.968   3.840 -17.170  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -14.772   4.936 -17.824  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.052   5.413 -19.076  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -12.590   5.772 -18.791  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -11.939   6.350 -20.046  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.512   6.798 -17.664  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -11.855   4.496 -18.374  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.655   3.592 -17.489  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -11.915   2.398 -17.035  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -12.042   1.191 -17.721  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -11.297   0.097 -17.342  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.450   0.175 -16.245  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -10.346   1.359 -15.532  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1      -9.573  -1.224 -15.730  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -11.069   2.459 -15.928  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -9.9      4.723     13.310
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -16.938   3.419 -11.653  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -16.715   4.387 -12.602  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -16.397   6.018 -10.897  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.605   5.045  -9.938  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.872   3.718 -10.307  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -16.432   5.711 -12.264  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -16.197   6.796 -13.273  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -15.209   7.539 -13.234  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.127   6.918 -14.287  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -18.010   6.434 -14.211  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -16.830   7.818 -15.583  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -16.026   8.965 -15.215  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -18.099   8.044 -16.203  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -15.852   6.762 -16.641  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -14.504   7.075 -16.818  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -13.739   6.297 -17.666  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -14.262   5.176 -18.366  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -15.633   4.915 -18.171  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -16.412   5.684 -17.301  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -12.359   6.737 -17.837  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -12.128   7.748 -18.470  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -11.473   6.038 -17.351  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -13.455   4.388 -19.167  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -13.128   3.511 -18.786  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -13.043   4.733 -20.522  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -13.620   3.733 -21.513  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -13.872   2.382 -20.852  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -14.479   1.424 -21.855  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -15.704   1.929 -22.374  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -15.465   3.154 -23.072  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -14.915   4.208 -22.140  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -16.815   4.057 -13.941  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -15.782   3.417 -14.595  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -16.007   2.209 -15.224  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -15.072   1.545 -15.915  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -13.828   2.093 -15.910  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -13.497   3.304 -15.266  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -12.732   1.635 -16.581  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -14.511   3.998 -14.613  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -12.094   3.555 -15.579  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -11.689   2.529 -16.375  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -12.687   0.792 -17.133  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -17.114   2.739  -9.359  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -18.454   2.487  -8.808  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -18.527   1.081  -8.199  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -17.483   0.873  -7.168  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.162   1.102  -7.799  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -16.076   2.514  -8.351  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -17.550  -0.489  -6.604  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -18.411  -0.621  -5.377  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -19.809  -1.154  -5.565  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -20.670  -0.748  -4.379  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -20.015  -1.124  -3.045  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -20.960  -0.800  -1.889  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -19.683  -2.613  -3.024  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -18.727  -0.309  -2.897  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -17.951  -0.159  -4.167  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -16.675   0.568  -4.002  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -16.634   1.954  -4.144  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -15.462   2.639  -3.919  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -14.302   1.950  -3.595  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -14.322   0.568  -3.489  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1     -12.816   2.811  -3.386  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -15.501  -0.113  -3.687  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -9.8      1.924      3.175
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -17.399   3.883 -10.478  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -17.878   3.864  -9.191  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -17.110   6.092  -8.849  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -16.641   6.121 -10.148  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.788   5.010 -10.991  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.759   4.960  -8.336  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -18.257   4.970  -6.921  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.280   5.575  -6.580  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.535   4.238  -5.999  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.616   3.900  -6.245  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -18.129   3.916  -4.543  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -19.541   3.608  -4.642  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -17.725   5.002  -3.705  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -17.267   2.439  -4.029  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -15.880   2.499  -3.893  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -15.190   1.356  -3.538  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -15.831   0.112  -3.293  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -17.229   0.098  -3.465  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -17.941   1.252  -3.805  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -13.739   1.500  -3.481  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -13.088   0.728  -2.805  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -13.233   2.429  -4.105  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -15.113  -1.000  -2.889  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -14.156  -0.860  -2.599  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -15.642  -2.358  -2.851  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -14.521  -3.345  -2.559  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -13.698  -2.907  -1.353  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -12.618  -3.929  -1.070  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -13.176  -5.214  -0.817  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -13.878  -5.672  -1.975  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -15.028  -4.751  -2.309  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -18.460   2.709  -8.703  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -17.695   1.717  -8.123  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -18.285   0.533  -7.729  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -17.608  -0.494  -7.198  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -16.282  -0.286  -6.988  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -15.601   0.903  -7.327  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -15.379  -1.193  -6.514  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -16.325   1.922  -7.936  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -14.197   0.666  -7.007  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -14.120  -0.606  -6.531  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -15.591  -2.129  -6.205  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.295   5.012 -12.284  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -17.050   5.564 -13.418  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -16.107   5.892 -14.582  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.316   4.711 -14.999  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -14.551   4.232 -13.823  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -15.494   3.857 -12.694  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.397   5.043 -16.104  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -13.456   3.936 -16.496  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -12.509   3.425 -15.439  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -11.337   2.722 -16.105  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -11.805   1.665 -17.111  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -10.601   0.909 -17.673  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.750   0.678 -16.434  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -12.538   2.378 -18.251  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -13.407   3.511 -17.802  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -14.165   4.148 -18.897  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -15.427   3.668 -19.249  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -16.164   4.306 -20.220  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -15.638   5.402 -20.890  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -14.369   5.863 -20.575  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1     -16.540   6.153 -22.159  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -13.644   5.242 -19.585  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -9.8      1.093      1.817
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_3  and  N_18 
+REMARK    2  A    between atoms: C13_3  and  C4_37 
+REMARK    3  A    between atoms: C20_9  and  O6_59 
+REMARK    4  A    between atoms: C21_25  and  C24_12 
+REMARK       I    between atoms: C24_12  and  N2_49 
+REMARK    5  A    between atoms: C25_13  and  S_60 
+REMARK    6  A    between atoms: C28_15  and  N3_50 
+REMARK    7  A    between atoms: C31_17  and  C32_29 
+REMARK    8  A    between atoms: C31_17  and  N3_50 
+REMARK    9  A    between atoms: C18_23  and  N1_48 
+REMARK   10  A    between atoms: C27_26  and  N4_51 
+REMARK   11  A    between atoms: C37_34  and  O6_59 
+REMARK   12  A    between atoms: C5_43  and  C7_45 
+REMARK   13  A    between atoms: N2_49  and  S_60 
+ROOT
+HETATM    1  C19 LBM A   1     -16.207   3.837 -10.260  1.00  0.00     0.067 A 
+HETATM    2  C20 LBM A   1     -16.653   4.033  -8.976  1.00  0.00     0.094 A 
+HETATM    3  C22 LBM A   1     -18.003   5.856  -9.699  1.00  0.00     0.022 A 
+HETATM    4  C23 LBM A   1     -17.569   5.653 -10.995  1.00  0.00     0.030 A 
+HETATM    5  C18 LBM A   1     -16.664   4.625 -11.298  1.00  0.00     0.033 A 
+HETATM    6  C21 LBM A   1     -17.565   5.036  -8.649  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C24 LBM A   1     -18.064   5.288  -7.256  1.00  0.00     0.268 C 
+HETATM    8  O   LBM A   1     -19.265   5.261  -6.964  1.00  0.00    -0.267 OA
+HETATM    9  N2  LBM A   1     -17.110   5.525  -6.285  1.00  0.00    -0.246 N 
+HETATM   10  HN2 LBM A   1     -16.159   5.721  -6.562  1.00  0.00     0.182 HD
+BRANCH   9  11
+HETATM   11  S   LBM A   1     -17.488   5.497  -4.725  1.00  0.00     0.265 S 
+HETATM   12  O1  LBM A   1     -18.911   5.706  -4.557  1.00  0.00    -0.200 OA
+HETATM   13  O2  LBM A   1     -16.585   6.402  -4.086  1.00  0.00    -0.200 OA
+BRANCH  11  14
+HETATM   14  C25 LBM A   1     -17.100   3.833  -4.206  1.00  0.00     0.082 A 
+HETATM   15  C26 LBM A   1     -15.761   3.442  -4.193  1.00  0.00     0.063 A 
+HETATM   16  C27 LBM A   1     -15.443   2.146  -3.836  1.00  0.00     0.130 A 
+HETATM   17  C28 LBM A   1     -16.422   1.184  -3.468  1.00  0.00     0.061 A 
+HETATM   18  C29 LBM A   1     -17.761   1.621  -3.517  1.00  0.00     0.033 A 
+HETATM   19  C30 LBM A   1     -18.094   2.936  -3.859  1.00  0.00     0.028 A 
+BRANCH  16  20
+HETATM   20  N4  LBM A   1     -14.025   1.811  -3.912  1.00  0.00    -0.113 N 
+HETATM   21  O4  LBM A   1     -13.203   2.583  -3.460  1.00  0.00    -0.532 OA
+HETATM   22  O5  LBM A   1     -13.717   0.759  -4.467  1.00  0.00    -0.532 OA
+ENDBRANCH  16  20
+BRANCH  17  23
+HETATM   23  N3  LBM A   1     -16.064  -0.090  -3.066  1.00  0.00    -0.388 N 
+HETATM   24  HN3 LBM A   1     -15.185  -0.199  -2.580  1.00  0.00     0.159 HD
+BRANCH  23  25
+HETATM   25  C31 LBM A   1     -16.865  -1.286  -3.293  1.00  0.00     0.124 C 
+BRANCH  25  26
+HETATM   26  C32 LBM A   1     -16.989  -2.083  -2.002  1.00  0.00     0.007 C 
+HETATM   27  C33 LBM A   1     -17.235  -3.561  -2.286  1.00  0.00     0.032 C 
+HETATM   28  C34 LBM A   1     -17.316  -4.328  -0.983  1.00  0.00     0.168 C 
+HETATM   29  O3  LBM A   1     -16.118  -4.188  -0.227  1.00  0.00    -0.391 OA
+HETATM   30  C35 LBM A   1     -15.923  -2.814   0.119  1.00  0.00     0.168 C 
+HETATM   31  C36 LBM A   1     -15.763  -1.963  -1.119  1.00  0.00     0.032 C 
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH  17  23
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   2  32
+HETATM   32  O6  LBM A   1     -16.153   3.241  -7.958  1.00  0.00    -0.308 OA
+BRANCH  32  33
+HETATM   33  C37 LBM A   1     -16.829   2.113  -7.538  1.00  0.00     0.094 A 
+HETATM   34  C38 LBM A   1     -16.126   0.971  -7.211  1.00  0.00     0.156 A 
+HETATM   35  N5  LBM A   1     -16.701  -0.150  -6.755  1.00  0.00    -0.240 NA
+HETATM   36  C39 LBM A   1     -18.058  -0.140  -6.695  1.00  0.00     0.137 A 
+HETATM   37  C40 LBM A   1     -18.859   0.968  -7.041  1.00  0.00     0.014 A 
+HETATM   38  N6  LBM A   1     -18.861  -1.134  -6.217  1.00  0.00    -0.350 N 
+HETATM   39  C41 LBM A   1     -18.223   2.136  -7.449  1.00  0.00     0.054 A 
+HETATM   40  C42 LBM A   1     -20.235   0.574  -6.754  1.00  0.00     0.032 A 
+HETATM   41  C43 LBM A   1     -20.177  -0.690  -6.256  1.00  0.00     0.090 A 
+HETATM   42  HN6 LBM A   1     -18.551  -2.037  -5.891  1.00  0.00     0.166 HD
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+BRANCH   5  43
+HETATM   43  N1  LBM A   1     -16.195   4.430 -12.585  1.00  0.00    -0.377 N 
+HETATM   44  C15 LBM A   1     -14.907   4.967 -13.047  1.00  0.00     0.153 C 
+HETATM   45  C14 LBM A   1     -14.422   4.204 -14.286  1.00  0.00     0.292 C 
+HETATM   46  N   LBM A   1     -15.425   4.227 -15.375  1.00  0.00     0.095 N 
+HETATM   47  C17 LBM A   1     -16.681   3.637 -14.855  1.00  0.00     0.292 C 
+HETATM   48  C16 LBM A   1     -17.186   4.430 -13.663  1.00  0.00     0.153 C 
+BRANCH  46  49
+HETATM   49  C13 LBM A   1     -14.956   3.473 -16.553  1.00  0.00     0.307 C 
+BRANCH  49  50
+HETATM   50  C4  LBM A   1     -14.199   4.290 -17.565  1.00  0.00    -0.045 C 
+HETATM   51  C3  LBM A   1     -14.962   5.366 -18.296  1.00  0.00     0.037 C 
+HETATM   52  C2  LBM A   1     -14.232   5.719 -19.583  1.00  0.00     0.013 C 
+HETATM   53  C1  LBM A   1     -12.755   6.040 -19.330  1.00  0.00    -0.043 C 
+HETATM   54  C   LBM A   1     -12.090   6.495 -20.627  1.00  0.00     0.015 C 
+HETATM   55  C44 LBM A   1     -12.629   7.142 -18.283  1.00  0.00     0.015 C 
+HETATM   56  C6  LBM A   1     -12.069   4.769 -18.822  1.00  0.00     0.048 C 
+HETATM   57  C5  LBM A   1     -12.899   3.967 -17.869  1.00  0.00    -0.043 C 
+BRANCH  57  58
+HETATM   58  C7  LBM A   1     -12.204   2.781 -17.329  1.00  0.00    -0.029 A 
+HETATM   59  C12 LBM A   1     -11.360   2.905 -16.226  1.00  0.00     0.013 A 
+HETATM   60  C11 LBM A   1     -10.769   1.789 -15.677  1.00  0.00     0.024 A 
+HETATM   61  C10 LBM A   1     -10.971   0.540 -16.247  1.00  0.00     0.034 A 
+HETATM   62  C9  LBM A   1     -11.777   0.411 -17.368  1.00  0.00     0.024 A 
+HETATM   63 CL   LBM A   1     -10.167  -0.846 -15.598  1.00  0.00    -0.084 Cl
+HETATM   64  C8  LBM A   1     -12.389   1.523 -17.899  1.00  0.00     0.013 A 
+ENDBRANCH  57  58
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   5  43
+TORSDOF 13
+ENDMDL

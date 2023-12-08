@@ -8,8 +8,9 @@ logo: "assets/img/schrodinger_cat2_black.png"
 
 html:
   baseurl: https//cc-ats.github.io/Tutorials
+  use_issues_button: true
   use_repository_button: true
-  use_multitoc_numbering: True
+  use_multitoc_numbering: false
 
 html_theme_options:
   logo:
@@ -66,6 +67,7 @@ repository:
   branch: master  # Which branch of the repository should be used when creating links (optional
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+
 launch_buttons:
   colab_url: "https://colab.research.google.com"
 html:
